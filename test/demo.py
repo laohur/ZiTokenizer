@@ -18,16 +18,20 @@ def test_lang(dir):
 
     import logzero
     from logzero import logger
-    logzero.logfile(os.path.join(dir, "ZiTokenizerBuild.log"), mode='w')
+    # logzero.logfile(os.path.join(dir, "ZiTokenizerBuild.log"), mode='w')
 
-    tokenizer = ZiTokenizer(dir)
+    # tokenizer = ZiTokenizer(dir)
     # tokenizer.build(min_ratio=1.5e-6, min_freq=0)
-    tokenizer.build(min_ratio=2e-6, min_freq=0)
+    # tokenizer.build(min_ratio=2e-6, min_freq=0)
 
     tokenizer = ZiTokenizer(dir)
     line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)😀熇'\x0000𧭏"
     tokens = tokenizer.tokenize(line)
-    logger.info(tokens)
+    logger.info(' '.join(tokens))
+
+    indexs = tokenizer.encode(line)
+    words = tokenizer.decode(indexs)
+    logger.info(' '.join(words))
 
     # from ZiTokenizer.glance import load_frequency
     # shuf C:/data/languages/en/word_frequency.tsv | head -n 10
@@ -47,16 +51,16 @@ if __name__ == "__main__":
 
     lang = args.lang
 
-    langs = ['aa', 'sr', 'om', 'tk', 'xh', 'zh', 'ja', 'th', 'ar', 'en', 'fr',
-             'ru',   'global'][-1:]
-    langs = get_langs()
+    langs = ['aa', 'sr', 'om', 'tk', 'xh', 'zh', 'ja', 'th', 'ar', 'en', 'fr','ru',   'global'][:]
+    # langs = get_langs()
 
     for lang in langs:
         dir = f"C:/data/languages/{lang}"
         test_lang(dir)
 
-    """
-    构建：按照频率选入词根，其次前缀后缀
-    切字：词根最长匹配，其次前缀后缀最长匹配
+"""
+[I 220705 23:16:13 demo:30] ' 〇 #sq ed [ ค ณ- จะ- จ ด- พ #th ng แ- ต ง- ง- า -น -เม อไ- ร -ค -ะ ] #sm ht pays - g [ ran ] d - blanc - eleve » ( 白 高 大 夏 國 ) #gr ce 
+⿰ 火 高 ' 00 ⿰ 言 臺
+[I 220705 23:16:13 demo:34] ' 〇 #sq ed [ ค ณจะจ ดพ #th ng แต งงานเม อไรคะ ] #sm ht pays - g [ ran ] d - blanc - eleve » ( 白 高 大 夏 國 ) #gr ce ⿰ 火 高 ' 00 ⿰ 言 臺
 
 """

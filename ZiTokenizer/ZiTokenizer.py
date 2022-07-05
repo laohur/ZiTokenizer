@@ -1,6 +1,6 @@
 
 import unicodedata
-from collections import Counter
+import collections
 import os
 import math
 import random
@@ -14,14 +14,17 @@ from ZiTokenizer.trie import Trie
 
 
 class ZiTokenizer:
-    def __init__(self, dir, max_split=3) -> None:
+    def __init__(self, dir, max_split=3, never_split=set(["[UNK]", "[SEP]", "[PAD]", "[CLS]", "[MASK]"])) -> None:
         self.max_split = max_split
         self.dir = dir
         self.vocab_path = f"{self.dir}/vocab.txt"
-        if os.path.exists(self.vocab_path):
-            self.load()
         self.ZiCutter = ZiCutter(dir)
         self.UnicodeTokenizer = UnicodeTokenizer()
+        self.vocab = []
+        self.never_split = never_split
+        self.token2index = collections.OrderedDict()
+        if os.path.exists(self.vocab_path):
+            self.load()
 
     def load(self):
         self.root_words = set()
@@ -29,6 +32,8 @@ class ZiTokenizer:
         self.suffixs = set()
         vocab = open(self.vocab_path).read().splitlines()
         self.vocab = vocab
+        for i, x in enumerate(vocab):
+            self.token2index[x] = i
         for x in vocab:
             if len(x) > 1:
                 if x[0] == '-':
@@ -38,7 +43,8 @@ class ZiTokenizer:
                     self.prefixs.add(x[:-1])
                     continue
             self.root_words.add(x)
-        self.UnicodeTokenizer = UnicodeTokenizer(never_split=self.root_words)
+        self.never_split|=self.root_words
+        self.UnicodeTokenizer = UnicodeTokenizer(never_split=self.never_split)
 
         self.rootAC = Trie().create_trie_from_list(self.root_words)
         logger.info(
@@ -121,9 +127,9 @@ class ZiTokenizer:
         word_freq = load_frequency(p)
         cover_pos_ration, total, word_len = describe(word_freq, min_ratio)
         show(cover_pos_ration, total, word_len)
-        pair=cover_pos_ration[5][2]
-        if pair[1]>=2:
-            min_freq = max(min_freq,2)
+        pair = cover_pos_ration[5][2]
+        if pair[1] >= 2:
+            min_freq = max(min_freq, 2)
         botton = max(min_freq, int(total*min_ratio))
 
         # root
@@ -145,8 +151,8 @@ class ZiTokenizer:
             logger.info((row))
 
         # prefix,suffix
-        prefix_counter = Counter()
-        suffix_counter = Counter()
+        prefix_counter = collections.Counter()
+        suffix_counter = collections.Counter()
         for k, v in word_freq:
             if k in root_words:
                 continue
@@ -193,6 +199,36 @@ class ZiTokenizer:
         tokens = [x for x in tokens if x]
         return tokens
 
+    def tokens2indexs(self,tokens):
+        idxs = [self.token2index[x] for x in tokens]
+        return idxs
+
+    def indexs2tokens(self,indexs):
+        indexs = [self.vocab[x] for x in indexs]
+        return indexs
+
+    def encode(self,line):
+        tokens=self.tokenize(line)
+        indexs = self.tokens2indexs(tokens)
+        return indexs
+
+    def tokens2words(self,tokens):
+        ts=tokens[:1]
+        for i in range(1,len(tokens)):
+            x=tokens[i]
+            if len(ts[-1])>1 and ts[-1][-1]=='-':  # prefix
+                ts[-1]=ts[-1][:-1]+x
+                continue
+            if len(x)>1 and x[0]=='-': # suffix
+                ts[-1]+=x[1:]
+                continue
+            ts.append(x)
+        return ts
+    
+    def decode(self,indexs):
+        tokens=self.indexs2tokens(indexs)
+        words=self.tokens2words(tokens)
+        return words
 
 def get_langs():
     alphabet = ''.join(chr(x) for x in range(ord('a'), ord('z')+1))
