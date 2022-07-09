@@ -9,20 +9,18 @@ from logzero import logger
 
 def load_frequency(p, max_len=20):
     doc = open(p).read().splitlines()
-    for i in range(len(doc)):
+    for i in range(len(doc)-1, -1, -1):
         k, v = doc[i].split('\t')[:2]
-        if len(k)>=20 or not k:
-            continue
-        doc[i] = (k, int(v))
-    # doc = [x.split('\t') for x in doc]
-    # doc = [(x[0], int(x[1])) for x in doc]
-    # doc = [x for x in doc if x[1]!=1 or len(x[0])<20 ]
+        if len(k) >= max_len or not k:
+            del doc[i]
+        else:
+            doc[i] = (k, int(v))
     logger.info(f" {p} load {len(doc)} words")
     return doc
 
 
 def describe(doc, min_ratio=1.5e-6):
-    total = sum(b for a, b in doc)
+    total = sum(x[1] for x in doc)
     word_len = sum(len(a)*b for a, b in doc)/total
 
     ratios = [b/total for a, b in doc]

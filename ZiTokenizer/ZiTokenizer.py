@@ -56,12 +56,12 @@ class ZiTokenizer:
         self.never_split |= root_words
         self.UnicodeTokenizer = UnicodeTokenizer(never_split=self.never_split)
         self.ZiSegmenter = ZiSegmenter(root_words)
-        # if not os.path.exists(self.dir):
-        #     os.makedirs(self.dir)
-        # HeZiPath = os.path.join(self.dir, "HeZi.txt")
-        # if not os.path.exists(HeZiPath):
-        #     logger.warning(f" {HeZiPath} not exist, building ZiCutter... ")
-        #     self.ZiCutter.build(roots=root_words)
+        if not os.path.exists(self.dir):
+            os.makedirs(self.dir)
+        HeZiPath = os.path.join(self.dir, "HeZi.txt")
+        if not os.path.exists(HeZiPath):
+            logger.warning(f" {HeZiPath} not exist, building ZiCutter... ")
+            self.ZiCutter.build(roots=root_words)
 
         logger.info(
             f" {self.vocab_path} load vocab:{len(vocab)}  root:{len(root_words)} prefix:{len(prefixs)} suffix:{len(suffixs)} ")

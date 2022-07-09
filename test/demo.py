@@ -50,7 +50,7 @@ def test_build(dir):
     doc = [x.split('\t') for x in doc]
     doc = [(k, int(v)) for k, v in doc]
     for k, v in doc:
-        row = [k, v, tokenizer.cut(k)]
+        row = [k, v, tokenizer.token_word(k)]
         logger.info((row))
 
 
