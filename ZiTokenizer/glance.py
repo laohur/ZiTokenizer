@@ -9,8 +9,13 @@ from logzero import logger
 
 def load_frequency(p, max_len=20):
     doc = open(p).read().splitlines()
-    doc = [x.split('\t') for x in doc]
-    doc = [(x[0], int(x[1])) for x in doc]
+    for i in range(len(doc)):
+        k, v = doc[i].split('\t')[:2]
+        if len(k)>=20 or not k:
+            continue
+        doc[i] = (k, int(v))
+    # doc = [x.split('\t') for x in doc]
+    # doc = [(x[0], int(x[1])) for x in doc]
     # doc = [x for x in doc if x[1]!=1 or len(x[0])<20 ]
     logger.info(f" {p} load {len(doc)} words")
     return doc
@@ -43,8 +48,7 @@ def describe(doc, min_ratio=1.5e-6):
 
 
 def show(cover_pos_ration, total, word_len):
-    logger.info((total, word_len))
-    doc = []
+    logger.info((f"total:{total} word_len:{word_len}"))
     l = '\t'.join("x,pos,doc[pos],ratio,cover[pos]".split(','))
     logger.info(l)
     for row in cover_pos_ration:

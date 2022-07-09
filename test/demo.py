@@ -2,6 +2,8 @@ import os
 
 from logzero import logger
 
+from UnicodeTokenizer.UnicodeTokenizer import UnicodeTokenizer
+from ZiTokenizer.ZiSegmenter import ZiSegmenter
 from ZiTokenizer.ZiTokenizer import ZiTokenizer
 
 
@@ -11,18 +13,29 @@ def get_langs():
     return langs
 
 
-def test_lang(dir):
-    freq_path = f"C:/data/languages/{lang}/word_frequency.tsv"
+def test_segmenter():
+    line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)😀熇'\x0000𧭏"
+    roots = ['la', 'a', 'ay', 'le']
+    prefixs = ['e', 'l']
+    suffixs = ['n', 'e', 'v']
+    words = UnicodeTokenizer().tokenize(line)
+    cutter = ZiSegmenter(roots, prefixs, suffixs)
+    for word in words:
+        tokens = cutter.token_word(word)
+        print(word, tokens)
+
+
+def test_build(dir):
+    freq_path = f"{dir}/word_frequency.tsv"
     if not os.path.exists(freq_path):
+        logger.warning("no "+freq_path)
         return
 
     import logzero
-    from logzero import logger
-    # logzero.logfile(os.path.join(dir, "ZiTokenizerBuild.log"), mode='w')
+    logzero.logfile(os.path.join(dir, "ZiTokenizerBuild.log"), mode='w')
 
-    # tokenizer = ZiTokenizer(dir)
-    # tokenizer.build(min_ratio=1.5e-6, min_freq=0)
-    # tokenizer.build(min_ratio=2e-6, min_freq=0)
+    tokenizer = ZiTokenizer(dir)
+    tokenizer.build(min_ratio=2e-6, min_freq=0)
 
     tokenizer = ZiTokenizer(dir)
     line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)😀熇'\x0000𧭏"
@@ -33,8 +46,6 @@ def test_lang(dir):
     words = tokenizer.decode(indexs)
     logger.info(' '.join(words))
 
-    # from ZiTokenizer.glance import load_frequency
-    # shuf C:/data/languages/en/word_frequency.tsv | head -n 10
     doc = os.popen(f" shuf {freq_path} -n 10").read().splitlines()
     doc = [x.split('\t') for x in doc]
     doc = [(k, int(v)) for k, v in doc]
@@ -43,20 +54,30 @@ def test_lang(dir):
         logger.info((row))
 
 
+def test_lang(lang):
+
+    tokenizer = ZiTokenizer(lang=lang)
+
+    line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)😀熇'\x0000𧭏"
+    tokens = tokenizer.tokenize(line)
+    logger.info(' '.join(tokens))
+
+    indexs = tokenizer.encode(line)
+    words = tokenizer.decode(indexs)
+    logger.info(' '.join(words))
+
+
 if __name__ == "__main__":
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--lang', default="global",  type=str)
-    args = parser.parse_args()
+    test_segmenter()
+    langs0 = ['ho', 'ff', 'aa', 'kj', 'kl', 'mh', 'xh', 'zh', 'ja',
+              'th', 'ar', 'en', 'fr', 'ru',   'global'][:]
+    langs = get_langs()
+    langs = [x for x in langs if x not in langs0]
+    langs = langs0
 
-    lang = args.lang
-
-    langs = ['aa', 'sr', 'om', 'tk', 'xh', 'zh', 'ja', 'th', 'ar', 'en', 'fr','ru',   'global'][:]
-    # langs = get_langs()
-
-    for lang in langs:
-        dir = f"C:/data/languages/{lang}"
-        test_lang(dir)
+    for lang in langs[:3]:
+        test_build(dir=f"C:/data/languages/{lang}")
+        # test_lang(lang)
 
 """
 [I 220705 23:16:13 demo:30] ' 〇 #sq ed [ ค ณ- จะ- จ ด- พ #th ng แ- ต ง- ง- า -น -เม อไ- ร -ค -ะ ] #sm ht pays - g [ ran ] d - blanc - eleve » ( 白 高 大 夏 國 ) #gr ce 
