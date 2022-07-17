@@ -7,17 +7,13 @@ import logzero
 from logzero import logger
 
 
-def load_frequency(p, max_len=20):
+def load_frequency(p):
     doc = open(p).read().splitlines()
-    for i in range(len(doc)-1, -1, -1):
-        k, v = doc[i].split('\t')[:2]
-        if len(k) >= max_len or not k:
-            del doc[i]
-        else:
-            doc[i] = (k, int(v))
+    for i in range(len(doc)):
+        k,v=doc[i].split('\t')
+        doc[i]=(k,int(v))
     logger.info(f" {p} load {len(doc)} words")
     return doc
-
 
 def describe(doc, min_ratio=1.5e-6):
     total = sum(x[1] for x in doc)

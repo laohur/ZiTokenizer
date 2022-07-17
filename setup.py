@@ -32,7 +32,7 @@ setup(
         # 引入任何包下面的 *.txt、*.rst 文件
         "": ["*.txt", "*.rst"],
         # 引入 hello 包下面的 *.msg 文件
-        "ZiTokenizer": ["languages/*/vocab.txt"],
+        "ZiTokenizer": ["languages/*/*.txt"],
     },
     # data_files=[('data', ['data/ChaiZi.txt'])],
 
