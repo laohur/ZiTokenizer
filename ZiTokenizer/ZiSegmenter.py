@@ -8,7 +8,6 @@ import random
 
 from logzero import logger
 
-from ZiTokenizer.trie import Trie
 import ahocorasick
 
 class ZiSegmenter:
@@ -22,7 +21,6 @@ class ZiSegmenter:
         self.root_words = set(x for x in root_words)
         self.prefixs = set(x for x in prefixs)
         self.suffixs = set(x for x in suffixs)
-        # self.rootAC = Trie().create_trie_from_list(self.root_words)
         self.rootAC = ahocorasick.Automaton()
         for i,x in enumerate(self.root_words):
             self.rootAC.add_word(x, x)

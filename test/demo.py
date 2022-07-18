@@ -133,7 +133,7 @@ if __name__ == "__main__":
 [I 220718 00:19:49 ZiCutter:49]   C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global\HeZi.txt JiZi:9572 --> loadHeZi 93812  values:9572
 [I 220718 00:19:49 ZiCutter:103] C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global\HeZi.txt HeZi:93812 values:9572
 [I 220718 00:19:49 ZiCutter:106] C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global loaded vocab:10931
-[I 220718 00:19:51 demo:58] ' 〇 ㎡ [ ค ณ-- จ-- ะ --จ ด-- พ ธ แต ง-- งา-- นเม อไ-- ร --ค --ะ ] ##s ht pays - g [ ran ] d - blanc - eleve » ( 白 高 大 夏 國 ) ⿰ 火 商 ##g ce ' 00 ⿰ 火 高 卿
-[I 220718 00:19:51 demo:62] ' 〇 ㎡ [ ค ณจะ-จ ดพ ธ แต งงานเม อไร-ค-ะ ] ##s ht pays - g [ ran ] d - blanc - eleve » ( 白 高 大 夏 國 ) ⿰ 火 商 ##g ce ' 00 ⿰ 火 高 卿
+[I 220718 00:19:51 demo:58] ' 〇 ㎡ [ ค ณ-- จ-- ะ --จ ด-- พ ธ แต ง-- งา-- นเม อไ-- ร --ค --ะ ] ##s ht pays - g [ ran ] d - blanc - eleve » ( 白 高 大 夏 國 ) ⿰ 火 商 ##g ce ' 00 ⿰ 火 高
+[I 220718 00:19:51 demo:62] ' 〇 ㎡ [ ค ณจะ-จ ดพ ธ แต งงานเม อไร-ค-ะ ] ##s ht pays - g [ ran ] d - blanc - eleve » ( 白 高 大 夏 國 ) ⿰ 火 商 ##g ce ' 00 ⿰ 火 高
 
 """
