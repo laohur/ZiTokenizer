@@ -11,7 +11,6 @@ from logzero import logger
 from UnicodeTokenizer import UnicodeTokenizer
 from ZiCutter import ZiCutter
 from ZiTokenizer.glance import load_frequency, describe, show
-from ZiTokenizer.trie import Trie
 from ZiTokenizer import ZiSegmenter
 
 

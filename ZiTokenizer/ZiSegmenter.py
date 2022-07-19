@@ -16,7 +16,7 @@ class ZiSegmenter:
     prefixs=set()
     suffixs=set()
 
-    def __init__(self, root_words, prefixs=set(), suffixs=set(),max_split=20):
+    def __init__(self, root_words, prefixs=set(), suffixs=set(),max_split=3):
         self.max_split = max_split
         self.root_words = set(x for x in root_words)
         self.prefixs = set(x for x in prefixs)
@@ -35,20 +35,6 @@ class ZiSegmenter:
             end,root = longest_match
             prefix = word[:end-len(root)+1]
             suffix = word[end+1:]
-            return [prefix, root, suffix]
-        else:
-            return [word, None, None]
-
-    def token_root0(self, word):
-        matchs = self.rootAC.parse_text(word)
-        if matchs:
-            length = max(len(match.keyword) for match in matchs)
-            matchs = [match for match in matchs if len(
-                match.keyword) == length]
-            longest_match = matchs[len(matchs)//2]
-            root = longest_match.keyword
-            prefix = word[:longest_match.start]
-            suffix = word[longest_match.end:]
             return [prefix, root, suffix]
         else:
             return [word, None, None]

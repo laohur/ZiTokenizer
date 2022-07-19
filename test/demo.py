@@ -50,7 +50,6 @@ def test_build(dir):
 
 
 def test_lang(lang):
-
     tokenizer = ZiTokenizer(lang=lang)
 
     line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)熵😀'\x0000熇"
@@ -99,28 +98,43 @@ def common_vocabs(lang, global_vocab, global_tokenizer):
         f" {lang} vocab:{len(vocab)}  common:{len(common )} share:{len(common)/len(vocab)} cover:{cover/total} ")
 
 
+def test_share(max_split=3):
+    import time
+    time.sleep((3-max_split)*100)
+    import logzero
+    logzero.logfile(f"common_vocabs_Split{max_split}.log", mode='w')
+    global_tokenizer = ZiTokenizer(
+        "C:/data/languages/global", max_split=max_split)
+    global_vocab = set(global_tokenizer.vocab)
+
+    for lang in get_langs():
+        common_vocabs(lang, global_vocab, global_tokenizer)
+
+def demo():
+    tokenizer = ZiTokenizer(lang="global")
+    line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)😀熇'\x0000𧭏"
+    tokens = tokenizer.tokenize(line)
+    print(tokens)
+
 if __name__ == "__main__":
     # test_segmenter()
     # tokenizer = ZiTokenizer(lang='global')
     # re = tokenizer.token_word("3882253")
+    # import multiprocessing
+    # with multiprocessing.Pool() as p:
+    #     for x in p.imap_unordered(test_share, [1, 2, 3]):
+    #         print(x)
 
     langs0 = ['ho', 'ff', 'aa', 'kj', 'kl', 'mh', 'xh', 'zh', 'ja',
               'th', 'ar', 'en', 'fr', 'ru',   'global'][:]
     langs = get_langs()
     # langs = [x for x in langs if x not in langs0]
     langs = ['global']+langs
-    langs = ['bn']
-
-    # import logzero
-    # logzero.logfile("common_vocabs.log", mode='w')
-    # global_tokenizer = ZiTokenizer("C:/data/languages/global", max_split=1)
-    # global_vocab = set(global_tokenizer.vocab)
+    # langs = ['bn']
 
     for lang in langs:
-        test_build(dir=f"C:/data/languages/{lang}")
-        # test_lang(lang)
-        # break
-        # common_vocabs(lang, global_vocab, global_tokenizer)
+        # test_build(dir=f"C:/data/languages/{lang}")
+        test_lang(lang)
 
 """
 [I 220718 00:19:43 ZiTokenizer:58]  C:/data/languages/global/vocab.txt load vocab:116710 root:77271 prefix:23034 suffix:16405

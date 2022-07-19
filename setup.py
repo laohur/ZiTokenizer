@@ -16,15 +16,15 @@ with open(path.join(here, 'readme.md')) as f:
 setup(
     name="ZiTokenizer",
     packages=find_packages(),
-    version='0.0.0',
-    description='ZiTokenizer: tokenize word as Zi',
+    version='0.0.1',
+    description='ZiTokenizer: tokenize world text as Zi',
     long_description=long_description,
     long_description_content_type="text/markdown",
     python_requires='>=3.0',
     install_requires=[
         "logzero",
         "UnicodeTokenizer",
-        "ahocorasick",
+        "pyahocorasick",
         "ZiCutter"
     ],
 
@@ -44,3 +44,9 @@ setup(
     author_email='laohur@gmail.com',
     license='[Anti-996 License](https: // github.com/996icu/996.ICU/blob/master/LICENSE)',
 )
+
+"""
+python setup.py sdist
+python setup.py bdist_wheel
+twine upload dist/*
+"""
