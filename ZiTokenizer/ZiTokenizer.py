@@ -10,8 +10,8 @@ from logzero import logger
 
 from UnicodeTokenizer import UnicodeTokenizer
 from ZiCutter import ZiCutter
-from ZiTokenizer.glance import load_frequency, describe, show
-from ZiTokenizer import ZiSegmenter
+from .glance import load_frequency, describe, show
+from .ZiSegmenter import ZiSegmenter
 
 
 class ZiTokenizer:
@@ -72,10 +72,10 @@ class ZiTokenizer:
         suffixs = set(suffixs)
 
         never_split = self.never_split | root_words
-        self.unicodeTokenizer = UnicodeTokenizer.UnicodeTokenizer(
+        self.unicodeTokenizer = UnicodeTokenizer(
             never_split=never_split)
         self.ziCutter = ZiCutter.ZiCutter(self.dir)
-        self.ziSegmenter = ZiSegmenter.ZiSegmenter(
+        self.ziSegmenter = ZiSegmenter(
             root_words=root_words, prefixs=prefixs, suffixs=suffixs, max_split=self.max_split)
 
         # build local for languages
@@ -88,18 +88,30 @@ class ZiTokenizer:
 
     def token_word(self, word):
         [heads, root, tails] = self.ziSegmenter.token_word(word)
-        if not root:
-            chars = []
-            for x in word[:self.max_split*2]:
-                t = self.ziCutter.cutChar(x)
-                chars += t
-            return chars
-        for i in range(len(heads)):
-            heads[i] += '--'
-        for i in range(len(tails)):
-            tails[i] = '--' + tails[i]
-        tokens = heads+[root]+tails
+        if root:
+            for i in range(len(heads)):
+                heads[i] += '--'
+            for i in range(len(tails)):
+                tails[i] = '--' + tails[i]
+            tokens = heads+[root]+tails
+            return tokens
+
+        pairs = [(x,) for x in word]
+        left=[]
+        right=[]
+        for i in range(self.max_split):
+            start=i
+            end=len(word)-1-i
+            if 0<=start<=end:
+                pair = self.ziCutter.cutChar(word[start])
+                pairs[start] = pair
+                start+=1
+            if 0<=start<end:
+                pair = self.ziCutter.cutChar(word[end])
+                pairs[end] = pair
+        tokens= pairs[0] + [ x[1] for x in pairs[1:] if len(x)==2 ]
         return tokens
+
 
     def build(self, min_ratio=2e-6, min_freq=0):
         p = f"{self.dir}/word_frequency.tsv"
@@ -136,7 +148,7 @@ class ZiTokenizer:
         self.ziCutter.build(roots=root_words)
         root_words |= self.ziCutter.vocab
         root_words |= self.never_split
-        self.ziSegmenter = ZiSegmenter.ZiSegmenter(root_words=root_words)
+        self.ziSegmenter = ZiSegmenter(root_words=root_words)
 
         logger.info("  === token_root ===  ")
         sample = random.choices(word_freq, k=5)

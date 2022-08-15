@@ -3,7 +3,7 @@ import unicodedata
 
 from logzero import logger
 
-from UnicodeTokenizer.UnicodeTokenizer import UnicodeTokenizer
+from UnicodeTokenizer import UnicodeTokenizer
 from ZiTokenizer.ZiSegmenter import ZiSegmenter
 from ZiTokenizer.ZiTokenizer import ZiTokenizer
 from ZiTokenizer.glance import load_frequency
@@ -110,11 +110,49 @@ def test_share(max_split=3):
     for lang in get_langs():
         common_vocabs(lang, global_vocab, global_tokenizer)
 
+
 def demo():
     tokenizer = ZiTokenizer(lang="global")
-    line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)😀熇'\x0000𧭏"
+    line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)😀熇'\x0000𧭏２０１９"
     tokens = tokenizer.tokenize(line)
     print(tokens)
+
+
+def char_name_first(x):
+    try:
+        name = unicodedata.name(x)
+        words = name.split(' ')
+        return words[0]
+    except Exception as e:
+        logger.error(x)
+        catg = unicodedata.category(x)
+        return catg
+
+
+def test_rare(dir):
+    p = dir+'/word_frequency.tsv'
+    if not os.path.exists(p):
+        return
+    logger.info(p)
+    tokenizer = ZiTokenizer(dir)
+    doc = []
+    for l in open(p):
+        t = l.split('\t')[0]
+        if not t:
+            continue
+        [heads, root, tails] = tokenizer.ziSegmenter.token_word(t)
+        if not root:
+            # chars = [tokenizer.ziCutter.cutChar(x) for x in t]
+            if len(t) > 1:
+                names = set([char_name_first(x) for x in t])
+                row = [l.strip(), str(names)]
+                logger.info(row)
+                doc.append(row)
+    if doc:
+        with open(dir+'/rare_word.txt', 'w') as f:
+            for row in doc:
+                f.write('\t'.join(row)+'\n')
+
 
 if __name__ == "__main__":
     # test_segmenter()
@@ -124,30 +162,25 @@ if __name__ == "__main__":
     # with multiprocessing.Pool() as p:
     #     for x in p.imap_unordered(test_share, [1, 2, 3]):
     #         print(x)
-
+    demo()
     langs0 = ['ho', 'ff', 'aa', 'kj', 'kl', 'mh', 'xh', 'zh', 'ja',
               'th', 'ar', 'en', 'fr', 'ru',   'global'][:]
     langs = get_langs()
     # langs = [x for x in langs if x not in langs0]
-    langs = ['global']+langs
+    # langs = ['global']+langs
     # langs = ['bn']
 
     for lang in langs:
-        # test_build(dir=f"C:/data/languages/{lang}")
+        # dir = f"C:/data/languages/{lang}"
+        # test_build(dir)
         test_lang(lang)
+        # test_rare(dir)
 
 """
-[I 220718 00:19:43 ZiTokenizer:58]  C:/data/languages/global/vocab.txt load vocab:116710 root:77271 prefix:23034 suffix:16405
-[I 220718 00:19:45 ZiCutter:98] C:/data/languages/global\JiZi.txt load  JiZi:9572
-[I 220718 00:19:45 ZiCutter:49]   C:/data/languages/global\HeZi.txt JiZi:9572 --> loadHeZi 93812  values:9572
-[I 220718 00:19:45 ZiCutter:103] C:/data/languages/global\HeZi.txt HeZi:93812 values:9572
-[I 220718 00:19:45 ZiCutter:106] C:/data/languages/global loaded vocab:10931
-[I 220718 00:19:47 ZiTokenizer:58]  C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global/vocab.txt load vocab:116710 root:77271 prefix:23034 suffix:16405
-[I 220718 00:19:49 ZiCutter:98] C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global\JiZi.txt load  JiZi:9572
-[I 220718 00:19:49 ZiCutter:49]   C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global\HeZi.txt JiZi:9572 --> loadHeZi 93812  values:9572
-[I 220718 00:19:49 ZiCutter:103] C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global\HeZi.txt HeZi:93812 values:9572
-[I 220718 00:19:49 ZiCutter:106] C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global loaded vocab:10931
-[I 220718 00:19:51 demo:58] ' 〇 ㎡ [ ค ณ-- จ-- ะ --จ ด-- พ ธ แต ง-- งา-- นเม อไ-- ร --ค --ะ ] ##s ht pays - g [ ran ] d - blanc - eleve » ( 白 高 大 夏 國 ) ⿰ 火 商 ##g ce ' 00 ⿰ 火 高
-[I 220718 00:19:51 demo:62] ' 〇 ㎡ [ ค ณจะ-จ ดพ ธ แต งงานเม อไร-ค-ะ ] ##s ht pays - g [ ran ] d - blanc - eleve » ( 白 高 大 夏 國 ) ⿰ 火 商 ##g ce ' 00 ⿰ 火 高
-
+[I 220804 23:48:57 ZiTokenizer:57]  C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global/vocab.txt load vocab:118690 root:77739 prefix:21538 suffix:19413
+[I 220804 23:49:04 ZiCutter:98] C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global\JiZi.txt load  JiZi:9593
+[I 220804 23:49:04 ZiCutter:49]   C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global\HeZi.txt JiZi:9593 --> loadHeZi 93847  values:9593
+[I 220804 23:49:04 ZiCutter:103] C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global\HeZi.txt HeZi:93847 values:9593
+[I 220804 23:49:04 ZiCutter:106] C:\ProgramData\Miniconda3\lib\site-packages\ZiTokenizer\languages/global loaded vocab:10951
+["'", '〇', '㎡', '[', 'ค', 'ณ--', 'จ--', 'ะ', '--จ', 'ด--', 'พ', 'ธ', 'แต', 'งง--', 'าน--', 'เม', 'อไ--', 'ร', '--ค', '--ะ', ']', '##s', 'ht', 'pays', '-', 'g', '[', 'ran', ']', 'd', '-', 'blanc', '-', 'eleve', '»', '(', '白', '高', '大', '夏', '國', ')', '##g', 'ce', '⿰', '火', '高', "'", '00', '⿰', '言', '臺', '2019']
 """
