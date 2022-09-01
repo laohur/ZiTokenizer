@@ -1,0 +1,15 @@
+ނޑ	1	{'THAANA'}
+ওড	1	{'BENGALI'}
+ਗੜ	1	{'GURMUKHI'}
+ਨਵ	1	{'GURMUKHI'}
+ଓଡ	1	{'ORIYA'}
+രള	1	{'MALAYALAM'}
+ഷദ	1	{'MALAYALAM'}
+ළඹ	1	{'SINHALA'}
+ແມ	1	{'LAO'}
+അറബ	1	{'MALAYALAM'}
+ධනප	1	{'SINHALA'}
+ܦܠܫܬ	1	{'SYRIAC'}
+ⲭⲏⲙⲓ	1	{'COPTIC'}
+さいたま	1	{'HIRAGANA'}
+ﺍﺳﻼﻣ	1	{'ARABIC'}

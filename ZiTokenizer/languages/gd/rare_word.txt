@@ -1,0 +1,5 @@
+બલ	1	{'GUJARATI'}
+ಗಳ	1	{'KANNADA'}
+대	1	{'HANGUL'}
+さし	1	{'HIRAGANA'}
+ວຽງຈ	1	{'LAO'}

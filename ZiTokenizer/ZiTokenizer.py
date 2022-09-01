@@ -96,20 +96,23 @@ class ZiTokenizer:
             tokens = heads+[root]+tails
             return tokens
 
-        pairs = [(x,) for x in word]
-        left=[]
-        right=[]
+        points = [None]*len(word)
+        lang=''
+        # points=[]
         for i in range(self.max_split):
             start=i
             end=len(word)-1-i
             if 0<=start<=end:
                 pair = self.ziCutter.cutChar(word[start])
-                pairs[start] = pair
+                if len(pair)==3: # hanzi
+                    return pair
+                lang=pair[0]
+                points[start] = pair[1]
                 start+=1
             if 0<=start<end:
                 pair = self.ziCutter.cutChar(word[end])
-                pairs[end] = pair
-        tokens= pairs[0] + [ x[1] for x in pairs[1:] if len(x)==2 ]
+                points[end] = pair[1]
+        tokens = [lang] + [x for x in points if x ]
         return tokens
 
 

@@ -4,8 +4,8 @@ from setuptools import setup, find_packages
 from os import path
 import os
 
-packages = find_packages()
-print(packages)
+# packages = find_packages()
+# print(packages)
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -16,7 +16,7 @@ with open(path.join(here, 'readme.md')) as f:
 setup(
     name="ZiTokenizer",
     packages=find_packages(),
-    version='0.0.2',
+    version='0.0.3',
     description='ZiTokenizer: tokenize world text as Zi',
     long_description=long_description,
     long_description_content_type="text/markdown",

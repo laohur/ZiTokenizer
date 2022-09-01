@@ -1,0 +1,6 @@
+शङ	1	{'DEVANAGARI'}
+འབ	1	{'TIBETAN'}
+𐰴𐰣	1	{'OLD'}
+𐤌𐤋𐤈	1	{'PHOENICIAN'}
+۱۳۵۶	1	{'EXTENDED'}
+𐱅𐰭𐰼𐰃	1	{'OLD'}

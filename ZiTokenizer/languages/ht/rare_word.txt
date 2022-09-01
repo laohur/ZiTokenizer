@@ -1,0 +1,14 @@
+চট	1	{'BENGALI'}
+টগ	1	{'BENGALI'}
+ஜன	1	{'TAMIL'}
+ウィ	1	{'KATAKANA'}
+ハリ	1	{'KATAKANA'}
+すすき	1	{'HIRAGANA'}
+なおみ	1	{'HIRAGANA'}
+サイト	1	{'KATAKANA'}
+ງຊາດ	1	{'LAO'}
+მეფე	1	{'GEORGIAN'}
+いちろう	1	{'HIRAGANA'}
+マックス	1	{'KATAKANA'}
+ມະຫາວ	1	{'LAO'}
+ທະຍາໄລແຫ	1	{'LAO'}

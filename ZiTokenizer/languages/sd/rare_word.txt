@@ -1,0 +1,12 @@
+ចក	2	{'KHMER'}
+ܟܟ	1	{'SYRIAC'}
+ܡܡ	1	{'SYRIAC'}
+ଅୟ	1	{'ORIYA'}
+అర	1	{'TELUGU'}
+കല	1	{'MALAYALAM'}
+ยว	1	{'THAI'}
+สถ	1	{'THAI'}
+យប	1	{'KHMER'}
+ⲭⲏⲙⲓ	1	{'COPTIC'}
+𐭬𐭦𐭣𐭪	1	{'INSCRIPTIONAL'}
+𐌽𐌰𐌷𐍄𐍃	1	{'GOTHIC'}

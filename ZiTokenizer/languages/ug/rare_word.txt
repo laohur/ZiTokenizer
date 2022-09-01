@@ -1,0 +1,4 @@
+ܗܪ	1	{'SYRIAC'}
+এই	1	{'BENGALI'}
+পড	1	{'BENGALI'}
+ܐܕܘܡ	1	{'SYRIAC'}
