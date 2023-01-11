@@ -1,10 +1,7 @@
 
-import unicodedata
 import collections
 import os
-import math
 import random
-import bisect
 
 from logzero import logger
 
@@ -15,18 +12,9 @@ from .ZiSegmenter import ZiSegmenter
 
 
 class ZiTokenizer:
-    max_split = 3
-    dir = ''
-    lang = ''
-    vocab_path = ''
-    never_split = set()
-    vocab = []
-    unicodeTokenizer = None
-    ziCutter = None
-    ziSegmenter = None
-    token2index = []
-
-    def __init__(self, dir="", lang="global", max_split=3, never_split=[]) -> None:
+    def __init__(self, dir="", lang="global", do_lower_case=True, max_split=3, never_split=[], remove_blank=True) -> None:
+        self.do_lower_case = do_lower_case
+        self.remove_blank = remove_blank
         self.max_split = max_split
         self.dir = dir
         self.lang = lang
@@ -72,8 +60,8 @@ class ZiTokenizer:
         suffixs = set(suffixs)
 
         never_split = self.never_split | root_words
-        self.unicodeTokenizer = UnicodeTokenizer(
-            never_split=never_split)
+        self.unicodeTokenizer = UnicodeTokenizer(do_lower_case=self.do_lower_case, remove_blank=self.remove_blank,
+                                                 never_split=never_split)
         self.ziCutter = ZiCutter.ZiCutter(self.dir)
         self.ziSegmenter = ZiSegmenter(
             root_words=root_words, prefixs=prefixs, suffixs=suffixs, max_split=self.max_split)
@@ -95,58 +83,33 @@ class ZiTokenizer:
                 tails[i] = '--' + tails[i]
             tokens = heads+[root]+tails
             return tokens
-
-        points = [None]*len(word)
-        lang=''
-        # points=[]
-        for i in range(self.max_split):
-            start=i
-            end=len(word)-1-i
-            if 0<=start<=end:
-                pair = self.ziCutter.cutChar(word[start])
-                if len(pair)==3: # hanzi
-                    return pair
-                lang=pair[0]
-                points[start] = pair[1]
-                start+=1
-            if 0<=start<end:
-                pair = self.ziCutter.cutChar(word[end])
-                points[end] = pair[1]
-        tokens = [lang] + [x for x in points if x ]
+        tokens = []
+        for x in word:
+            tokens += self.ziCutter.cutChar(x)
         return tokens
 
-
-    def build(self, min_ratio=2e-6, min_freq=0):
+    def build(self, min_ratio=1.5e-6, min_freq=3):
         p = f"{self.dir}/word_frequency.tsv"
         if not os.path.exists(p):
             logger.warning(f" no {p}")
             return
         logger.warning(f" building from {p}")
-        word_freq = load_frequency(p)
+        word_freq = load_frequency(
+            p, do_lower_case=self.do_lower_case, remove_blank=self.remove_blank)
         if not word_freq:
             logger.error(f"no word_freq")
             return
         cover_pos_ration, total, word_len = describe(word_freq, min_ratio)
         show(cover_pos_ration, total, word_len)
-        conver_half = cover_pos_ration[6]
-        logger.info(f"conver_half {conver_half}")
-        min_ratio = min(min_ratio, conver_half[-2])
-        if conver_half[2][1] >= 2:
-            min_freq = max(min_freq, 2)
         bottom = max(min_freq, (total*min_ratio))
         logger.info(
             f"min_ratio:{min_ratio} min_freq:{min_freq} bottom:{bottom:.2f}")
 
-        char_counter = collections.Counter()
-        for i in range(len(word_freq)):
-            k, v = word_freq[i]
-            for x in k:
-                char_counter[x] += v
         hot = [k for k, v in word_freq if v >= bottom]
-        chars = [k for k, v in char_counter.items() if v > bottom/5]
+        chars = [k for k, v in word_freq if len(k)==1 and v >= bottom/5]
         root_words = set(hot) | set(chars)
         logger.info(
-            f" words:{len(word_freq)} chars:{len(char_counter)} hot:{len(hot)} root_words:{len(root_words)}")
+            f" words:{len(word_freq)} chars:{len(chars)} hot:{len(hot)} root_words:{len(root_words)}")
 
         self.ziCutter.build(roots=root_words)
         root_words |= self.ziCutter.vocab
@@ -174,13 +137,12 @@ class ZiTokenizer:
             if suffix:
                 suffix_counter[suffix] += v
         del word_freq
-        prefixs = [k for k, v in prefix_counter.items() if v >= bottom] + \
-            list(ZiCutter.Nums)
+        prefixs = [k for k, v in prefix_counter.items() if v >= bottom]
         del prefix_counter
-        suffixs = [k for k, v in suffix_counter.items() if v >= bottom] + \
-            list(ZiCutter.Nums)
+        suffixs = [k for k, v in suffix_counter.items() if v >= bottom]
         del suffix_counter
-        logger.info(f"prefixs:{len(prefixs)} suffixs:{len(suffixs)}")
+        logger.info(
+            f"root_words:{len(root_words)} prefixs:{len(prefixs)} suffixs:{len(suffixs)}")
 
         prefixs = [x+'--' for x in prefixs]
         root_words = [x for x in root_words]

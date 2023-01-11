@@ -1,9 +1,0 @@
-आख	1	{'DEVANAGARI'}
-কর	1	{'BENGALI'}
-ধন	1	{'BENGALI'}
-ਆਲ	1	{'GURMUKHI'}
-தம	1	{'TAMIL'}
-ເມ	1	{'LAO'}
-ꮳꮃꭹ	1	{'CHEROKEE'}
-ﺍﺯﻞ	1	{'ARABIC'}
-ﺼﺑﺢ	1	{'ARABIC'}

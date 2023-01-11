@@ -1,13 +1,4 @@
 
-import enum
-import unicodedata
-import collections
-import os
-import math
-import random
-
-from logzero import logger
-
 import ahocorasick
 
 class ZiSegmenter:

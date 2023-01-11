@@ -1,3 +1,0 @@
-બલ	1	{'GUJARATI'}
-ಐಶ	1	{'KANNADA'}
-ܐܫܘܪ	1	{'SYRIAC'}

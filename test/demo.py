@@ -9,12 +9,6 @@ from ZiTokenizer.ZiTokenizer import ZiTokenizer
 from ZiTokenizer.glance import load_frequency
 
 
-def get_langs():
-    alphabet = ''.join(chr(x) for x in range(ord('a'), ord('z')+1))
-    langs = [x+y for x in alphabet for y in alphabet]
-    return langs
-
-
 def test_segmenter():
     line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)😀'\x0000熵"
     roots = ['la', 'a', 'ay', 'le']
@@ -37,9 +31,8 @@ def test_build(dir):
     import logzero
     logzero.logfile(os.path.join(dir, "ZiTokenizerBuild.log"), mode='w')
 
-    tokenizer = ZiTokenizer(dir, max_split=3, never_split=[
-                            "[UNK]", "[SEP]", "[PAD]", "[CLS]", "[MASK]"])
-    tokenizer.build(min_ratio=2e-6, min_freq=0)
+    tokenizer = ZiTokenizer(dir)
+    tokenizer.build(min_ratio=1.5e-6, min_freq=5)
 
     doc = os.popen(f" shuf {freq_path} -n 10").read().splitlines()
     doc = [x.split('\t') for x in doc]
@@ -49,8 +42,11 @@ def test_build(dir):
         logger.info((row))
 
 
-def test_lang(lang):
-    tokenizer = ZiTokenizer(lang=lang)
+def test_lang(lang=None, dir=None):
+    if dir:
+        tokenizer = ZiTokenizer(dir=dir)
+    else:
+        tokenizer = ZiTokenizer(lang=lang)
 
     line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)熵😀'\x0000熇"
     tokens = tokenizer.tokenize(line)
@@ -158,24 +154,23 @@ if __name__ == "__main__":
     # test_segmenter()
     # tokenizer = ZiTokenizer(lang='global')
     # re = tokenizer.token_word("3882253")
-    import multiprocessing
-    with multiprocessing.Pool() as p:
-        for x in p.imap_unordered(test_share, [1, 2, 3]):
-            print(x)
-    # demo()
-    langs0 = ['ho', 'ff', 'aa', 'kj', 'kl', 'mh', 'xh', 'zh', 'ja',
-              'th', 'ar', 'en', 'fr', 'ru',   'global'][:]
-    langs = get_langs()
-    # langs = [x for x in langs if x not in langs0]
-    # langs = ['global']+langs
-    # langs = ['bn']
+    # import multiprocessing
+    # with multiprocessing.Pool() as p:
+    #     for x in p.imap_unordered(test_share, [1, 2, 3]):
+    #         print(x)
+    demo()
+    langs = os.listdir("C:/data/languages")  # 344
+    # langs=['ar','en','fr','ja','ru','zh','th','ur','zu','global']
 
     for lang in langs:
         dir = f"C:/data/languages/{lang}"
         if not os.path.exists(dir):
             continue
+        if not os.path.isdir(dir):
+            continue
         # test_build(dir)
-        # test_lang(lang)
+        test_lang(lang)
+        # test_lang(dir=dir)
         # test_rare(dir)
 
 """

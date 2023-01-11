@@ -1,19 +1,28 @@
 
-from collections import Counter
-import os
-import math
 import bisect
+from collections import Counter
 import logzero
 from logzero import logger
 
 
-def load_frequency(p):
+def load_frequency(p, do_lower_case=True, remove_blank=True):
     doc = open(p).read().splitlines()
+    freq = Counter()
     for i in range(len(doc)):
-        k,v=doc[i].split('\t')
-        doc[i]=(k,int(v))
-    logger.info(f" {p} load {len(doc)} words")
-    return doc
+        k, v = doc[i].split('\t ')
+        if do_lower_case:
+            k = k.lower()
+        if remove_blank and not k.strip():
+            continue
+        freq[k] += int(v)
+    logger.info(f" {p} --> doc:{len(doc)}")
+    del doc
+    words = [(k, v) for k, v in freq.items() if v > 1]
+    del freq
+    words.sort(key=lambda x: (-x[1], len(x[0]), x[0]))
+    logger.info(f" words:{len(words)}")
+    return words
+
 
 def describe(doc, min_ratio=1.5e-6):
     total = sum(x[1] for x in doc)

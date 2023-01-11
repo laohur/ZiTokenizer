@@ -1,7 +1,0 @@
-ਨਵ	1	{'GURMUKHI'}
-레	1	{'HANGUL'}
-화	1	{'HANGUL'}
-ධනප	1	{'SINHALA'}
-ꮤꮎꮟ	1	{'CHEROKEE'}
-ວຽງຈ	1	{'LAO'}
-ꭳꭶꮃꮀꮉ	1	{'CHEROKEE'}

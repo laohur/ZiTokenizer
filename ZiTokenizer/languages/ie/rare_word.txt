@@ -1,6 +1,0 @@
-उब	1	{'DEVANAGARI'}
-ਉਬ	1	{'GURMUKHI'}
-ತಕ	1	{'KANNADA'}
-ใจ	1	{'THAI'}
-ইউস	1	{'BENGALI'}
-ᠪᡳᡨᡥᡝ	1	{'MONGOLIAN'}
