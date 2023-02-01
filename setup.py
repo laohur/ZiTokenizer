@@ -16,7 +16,7 @@ with open(path.join(here, 'readme.md')) as f:
 setup(
     name="ZiTokenizer",
     packages=find_packages(),
-    version='0.0.4',
+    version='0.0.5',
     description='ZiTokenizer: tokenize world text as Zi',
     long_description=long_description,
     long_description_content_type="text/markdown",

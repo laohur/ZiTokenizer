@@ -2,11 +2,9 @@
 
 ZiTokenizer: tokenize word as Zi
 
-read word as Zi
+word => prefix + root + suffix
 
-word = prefix + root + suffix
-
-support 175 languages + global 
+support 316 languages, including global 
 ## use
 * pip install ZiTokenizer
 * toeknize language frequency and count word frequency (https://github.com/laohur/UnicodeTokenizer/blob/master/test/count_lang/count_word.py)
@@ -21,7 +19,7 @@ print(' '.join(tokens)) # ' 〇 ㎡ [ ค ณ-- จ-- ะ --จ ด-- พ ธ �
 
 # build 
 tokenizer = ZiTokenizer(mydir) # mydir include "word_frequency.tsv"
-tokenizer.build(min_ratio=2e-6, min_freq=1)
+tokenizer.build(min_ratio=1.5e-6, min_freq=3)
 tokenizer = ZiTokenizer(dir=mydir)
 
 ```

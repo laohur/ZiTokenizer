@@ -7,7 +7,7 @@ from logzero import logger
 
 from UnicodeTokenizer import UnicodeTokenizer
 from ZiCutter import ZiCutter
-from .glance import load_frequency, describe, show
+from .glance import load_frequency, describe
 from .ZiSegmenter import ZiSegmenter
 
 
@@ -99,8 +99,7 @@ class ZiTokenizer:
         if not word_freq:
             logger.error(f"no word_freq")
             return
-        cover_pos_ration, total, word_len = describe(word_freq, min_ratio)
-        show(cover_pos_ration, total, word_len)
+        total = describe(word_freq)
         bottom = max(min_freq, (total*min_ratio))
         logger.info(
             f"min_ratio:{min_ratio} min_freq:{min_freq} bottom:{bottom:.2f}")
