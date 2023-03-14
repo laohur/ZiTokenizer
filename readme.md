@@ -4,7 +4,7 @@ ZiTokenizer: tokenize word as Zi
 
 word => prefix + root + suffix
 
-support 316 languages, including global 
+support 325 languages + global, including global 
 ## use
 * pip install ZiTokenizer
 * toeknize language frequency and count word frequency (https://github.com/laohur/UnicodeTokenizer/blob/master/test/count_lang/count_word.py)

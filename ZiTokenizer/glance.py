@@ -1,11 +1,12 @@
 
 from collections import Counter
+import math
 import os
 import logzero
 from logzero import logger
 
 
-def load_frequency(p, do_lower_case=True, remove_blank=True, tgt=''):
+def load_frequency(p, do_lower_case=True,length_hat=50, remove_blank=True, tgt=''):
     freq = Counter()
     n_src = 0
     if '/' in p.strip().split()[0]:
@@ -13,15 +14,15 @@ def load_frequency(p, do_lower_case=True, remove_blank=True, tgt=''):
     for l in os.popen(p):
         n_src += 1
         k, v = l.split('\t ')
-        if len(k) > 50:
+        if len(k) > length_hat:
             continue
         if do_lower_case:
             k = k.lower()
         if remove_blank:
             k = k.strip()
-        if not k:
+        if not k or len(k)==0:
             continue
-        freq[k] += int(v)
+        freq[k] += float(v)
     # words = [(k, v) for k, v in freq.items() if v > 1]
     words = list(freq.items())
     logger.info(f" {p} n_src:{n_src}--> freq:{len(freq)}")

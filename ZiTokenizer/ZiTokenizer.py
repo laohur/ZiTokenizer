@@ -2,19 +2,19 @@
 import collections
 import os
 import random
+import math
 
 from logzero import logger
 
 from UnicodeTokenizer import UnicodeTokenizer
-from ZiCutter import ZiCutter
+from ZiCutter import ZiCutter 
 from .glance import load_frequency, describe
 from .ZiSegmenter import ZiSegmenter
 
 
 class ZiTokenizer:
-    def __init__(self, dir="", lang="global", do_lower_case=True, max_split=3, never_split=[], remove_blank=True) -> None:
+    def __init__(self, dir="", lang="global", do_lower_case=True, max_split=3, never_split=[]) -> None:
         self.do_lower_case = do_lower_case
-        self.remove_blank = remove_blank
         self.max_split = max_split
         self.dir = dir
         self.lang = lang
@@ -60,8 +60,7 @@ class ZiTokenizer:
         suffixs = set(suffixs)
 
         never_split = self.never_split | root_words
-        self.unicodeTokenizer = UnicodeTokenizer(do_lower_case=self.do_lower_case, remove_blank=self.remove_blank,
-                                                 never_split=never_split)
+        self.unicodeTokenizer = UnicodeTokenizer(do_lower_case=self.do_lower_case,never_split=never_split)
         self.ziCutter = ZiCutter.ZiCutter(self.dir)
         self.ziSegmenter = ZiSegmenter(
             root_words=root_words, prefixs=prefixs, suffixs=suffixs, max_split=self.max_split)
@@ -83,9 +82,11 @@ class ZiTokenizer:
                 tails[i] = '--' + tails[i]
             tokens = heads+[root]+tails
             return tokens
-        tokens = []
-        for x in word:
-            tokens += self.ziCutter.cutChar(x)
+        token=self.ziCutter.cutWord(word)
+        if token.startswith('##'):
+            tokens = [token ]
+        else:
+            tokens=list(token)
         return tokens
 
     def build(self, min_ratio=1.5e-6, min_freq=3):
@@ -95,20 +96,23 @@ class ZiTokenizer:
             return
         logger.warning(f" building from {p}")
         word_freq = load_frequency(
-            p, do_lower_case=self.do_lower_case, remove_blank=self.remove_blank)
+            p, do_lower_case=self.do_lower_case)
         if not word_freq:
             logger.error(f"no word_freq")
             return
         total = describe(word_freq)
         bottom = max(min_freq, (total*min_ratio))
+        bottom_char=max(min_freq, bottom/4)
         logger.info(
-            f"min_ratio:{min_ratio} min_freq:{min_freq} bottom:{bottom:.2f}")
-
+            f"min_ratio:{min_ratio} min_freq:{min_freq} bottom:{bottom:.2f} bottom_char:{bottom_char:.2f}")
         hot = [k for k, v in word_freq if v >= bottom]
-        chars = [k for k, v in word_freq if len(k)==1 and v >= bottom/5]
-        root_words = set(hot) | set(chars)
+        hot=set(hot)
+        # hot = [k for k, v in word_freq if v/math.sqrt(len(k)) >= bottom]
+        chars = [k for k, v in word_freq if v/len(k) >= bottom_char and k not in hot]
+        # chars = [k for k, v in word_freq if v/math.sqrt(len(k)) >= bottom_char and k not in hot]
+        root_words = hot | set(chars)
         logger.info(
-            f" words:{len(word_freq)} chars:{len(chars)} hot:{len(hot)} root_words:{len(root_words)}")
+            f" words:{len(word_freq)} hot:{len(hot)} chars:{len(chars)} root_words:{len(root_words)}")
 
         self.ziCutter.build(roots=root_words)
         root_words |= self.ziCutter.vocab
@@ -136,9 +140,9 @@ class ZiTokenizer:
             if suffix:
                 suffix_counter[suffix] += v
         del word_freq
-        prefixs = [k for k, v in prefix_counter.items() if v >= bottom]
+        prefixs = [k for k, v in prefix_counter.items() if v  >= bottom ]
         del prefix_counter
-        suffixs = [k for k, v in suffix_counter.items() if v >= bottom]
+        suffixs = [k for k, v in suffix_counter.items() if v  >= bottom ]
         del suffix_counter
         logger.info(
             f"root_words:{len(root_words)} prefixs:{len(prefixs)} suffixs:{len(suffixs)}")
@@ -195,5 +199,6 @@ class ZiTokenizer:
 
     def decode(self, indexs):
         tokens = self.indexs2tokens(indexs)
-        words = self.tokens2words(tokens)
+        ts = self.tokens2words(tokens)
+        words=self.ziCutter.combineWord(ts)
         return words
