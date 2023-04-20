@@ -4,8 +4,9 @@ from setuptools import setup, find_packages
 from os import path
 import os
 
-# packages = find_packages()
-# print(packages)
+# packages = find_packages(exclude=['test'],include=['ZiTokenizer'])
+packages = find_packages(exclude=['test'])
+print(packages)
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -16,16 +17,17 @@ with open(path.join(here, 'readme.md')) as f:
 setup(
     name="ZiTokenizer",
     packages=find_packages(),
-    version='0.0.6',
+    # py_modules = ['ZiTokenizer.UnicodeTokenizer', 'ZiTokenizer.ZiCutter', 'ZiTokenizer.ZiTokenizer', 'ZiTokenizer.ZiSegmenter'],
+    version='0.0.8',
     description='ZiTokenizer: tokenize world text as Zi',
     long_description=long_description,
     long_description_content_type="text/markdown",
     python_requires='>=3.0',
     install_requires=[
         "logzero",
-        "UnicodeTokenizer",
+        # "UnicodeTokenizer",
         "pyahocorasick",
-        "ZiCutter"
+        # "ZiCutter"
     ],
 
     # include_package_data=True,
@@ -33,6 +35,7 @@ setup(
         # 引入任何包下面的 *.txt、*.rst 文件
         "": ["*.txt", "*.rst"],
         # 引入 hello 包下面的 *.msg 文件
+        "ZiTokenizer": ["*.txt"],
         "ZiTokenizer": ["languages/*/*.txt"],
     },
     # data_files=[('data', ['data/ChaiZi.txt'])],

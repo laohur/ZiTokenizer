@@ -2,14 +2,9 @@
 import ahocorasick
 
 class ZiSegmenter:
-    max_split=3
-    root_words=set()
-    prefixs=set()
-    suffixs=set()
-
-    def __init__(self, root_words, prefixs=set(), suffixs=set(),max_split=3):
+    def __init__(self, root_words, prefixs=[], suffixs=[],max_split=3):
         self.max_split = max_split
-        self.root_words = set(x for x in root_words)
+        self.root_words = root_words
         self.prefixs = set(x for x in prefixs)
         self.suffixs = set(x for x in suffixs)
         self.rootAC = ahocorasick.Automaton()
@@ -18,17 +13,16 @@ class ZiSegmenter:
         self.rootAC.make_automaton()
 
     def token_root(self, word):
-        matchs = list(self.rootAC.iter_long(word))
-        if matchs:
-            length = max(len(x[1]) for x in matchs)
-            long_match = [x for x in matchs if len(x[1]) == length]
-            longest_match = long_match[len(long_match)//2]
-            end,root = longest_match
-            prefix = word[:end-len(root)+1]
-            suffix = word[end+1:]
-            return [prefix, root, suffix]
-        else:
+        matchs = list(self.rootAC.iter(word))
+        if not matchs:
             return [word, None, None]
+        length = max(len(x[1]) for x in matchs)
+        long_match = [x for x in matchs if len(x[1]) == length]
+        longest_match = long_match[(len(long_match)-1)//2]
+        end,root = longest_match
+        prefix = word[:end-len(root)+1]
+        suffix = word[end+1:]
+        return [prefix, root, suffix]
 
     def token_prefix(self, grams):
         tokens = []
@@ -68,3 +62,21 @@ class ZiSegmenter:
             tails = self.token_suffix(suffix)
         return [heads, root, tails]
 
+
+def test_segmenter():
+    line = "'〇㎡[คุณจะจัดพิธีแต่งงานเมื่อไรคะัีิ์ื็ํึ]Ⅷpays-g[ran]d-blanc-élevé » (白高大夏國)😀'\x0000熵"
+    roots = ['la', 'a', 'ay', 'le']
+    prefixs = ['e', 'l']
+    suffixs = ['n', 'e', 'v']
+    # from ZiTokenizer.UnicodeTokenizer import UnicodeTokenizer
+    from UnicodeTokenizer import UnicodeTokenizer
+
+    words = UnicodeTokenizer().tokenize(line)
+    cutter = ZiSegmenter(roots, prefixs, suffixs)
+    for word in words:
+        tokens = cutter.token_word(word)
+        print(word, tokens)
+
+if __name__ == "__main__":
+
+    test_segmenter()
