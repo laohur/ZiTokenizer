@@ -8,21 +8,493 @@
 ##7
 ##8
 ##9
+ 
+ A
+ Africa
+ American
+ An
+ Asia
+ Association
+ Astronomy
+ B
+ BBC
+ Bank
+ Books
+ Britannica
+ Bruno
+ C
+ CH
+ CO
+ Ca
+ California
+ Cambridge
+ Capital
+ Chaplin
+ Charles
+ Charlie
+ Chemical
+ Chemistry
+ China
+ Chinese
+ Cicero
+ City
+ Cl
+ Company
+ Conference
+ Console
+ Constitution
+ Culture
+ D
+ David
+ Disappearance
+ Districts
+ E
+ Early
+ Edition
+ Encyclopedia
+ End
+ Ephemeris
+ F
+ Film
+ G
+ Gdybym
+ George
+ Giordano
+ Great
+ Green
+ H
+ HCl
+ Haruhi
+ History
+ Hong
+ Horizons
+ I
+ II
+ ISBN
+ In
+ International
+ Is
+ Island
+ Islands
+ It
+ J
+ Jakiego
+ James
+ Japan
+ John
+ Journal
+ June
+ Junior
+ K
+ Kong
+ Korea
+ L
+ La
+ Language
+ Latin
+ Let
+ Library
+ Life
+ London
+ Louis
+ Love
+ Lu
+ Lua
+ M
+ Maland
+ Marriot
+ Mars
+ May
+ Michael
+ Microsoft
+ Middle
+ Minor
+ Modern
+ Music
+ My
+ N
+ NH
+ Na
+ Nam
+ National
+ Nature
+ New
+ News
+ Ninh
+ No
+ Numbered
+ O
+ OH
+ On
+ Online
+ Oxford
+ P
+ PMID
+ Paris
+ Park
+ Paul
+ Phonetic
+ Physics
+ Planet
+ Press
+ Q
+ Quảng
+ R
+ RCOOH
+ Region
+ Republic
+ Review
+ River
+ Robinson
+ S
+ SO
+ School
+ Science
+ Selatan
+ September
+ Short
+ Smith
+ Society
+ South
+ Story
+ Studies
+ Super
+ Suzumiya
+ System
+ T
+ Territory
+ The
+ Times
+ Triệu
+ U
+ University
+ Urodo
+ V
+ Việt
+ Vol
+ W
+ We
+ What
+ William
+ Windows
+ World
+ X
+ Y
+ York
+ You
+ YouTube
+ Z
+ a
+ al
+ algebra
+ all
+ an
+ and
+ aq
+ arctan
+ are
+ as
+ at
+ ax
+ b
+ be
+ buffalo
+ but
+ by
+ bym
+ c
+ chciała
+ chłopca
+ cię
+ compare
+ cos
+ cosh
+ cot
+ csc
+ d
+ de
+ der
+ di
+ do
+ doi
+ du
+ e
+ edition
+ en
+ et
+ f
+ for
+ from
+ g
+ go
+ h
+ his
+ http
+ https
+ i
+ in
+ is
+ it
+ its
+ j
+ ja
+ k
+ kraj
+ l
+ la
+ le
+ let
+ lim
+ ln
+ log
+ là
+ m
+ me
+ miała
+ more
+ my
+ n
+ new
+ nie
+ nil
+ no
+ not
+ number
+ o
+ of
+ on
+ or
+ out
+ p
+ pp
+ q
+ r
+ s
+ sec
+ see
+ sin
+ sk
+ t
+ tan
+ that
+ the
+ to
+ u
+ urodo
+ v
+ von
+ w
+ was
+ what
+ with
+ world
+ www
+ x
+ y
+ you
+ z
+ Δ
+ Λ
+ α
+ β
+ γ
+ δ
+ ε
+ η
+ θ
+ κ
+ λ
+ μ
+ ν
+ π
+ τ
+ φ
+ ϕ
+ ϵ
+ А
+ Армия
+ Артиллеристы
+ Будь
+ В
+ Ведь
+ Врагу
+ Все
+ Да
+ Если
+ За
+ И
+ Идти
+ Красная
+ Маруся
+ Мы
+ На
+ Наша
+ Не
+ Нерушимой
+ Неудержимо
+ Ой
+ От
+ По
+ Прощай
+ Пусть
+ Разведчик
+ Разгромим
+ Родины
+ С
+ Так
+ Ты
+ Хай
+ Эх
+ Я
+ б
+ берег
+ бой
+ британских
+ в
+ вечера
+ война
+ волна
+ врага
+ все
+ всех
+ город
+ готов
+ да
+ два
+ до
+ должны
+ доля
+ дорога
+ дівчина
+ если
+ ж
+ же
+ живе
+ живуть
+ за
+ завтра
+ зелёный
+ земле
+ зорок
+ и
+ как
+ калина
+ калинка
+ клён
+ люли
+ малинка
+ меня
+ море
+ морей
+ моя
+ мы
+ на
+ наводчик
+ навсегда
+ нас
+ наш
+ не
+ обороной
+ огонь
+ от
+ откроем
+ поход
+ походу
+ прицел
+ раз
+ рвала
+ резной
+ родной
+ рябина
+ рябинушка
+ с
+ саду
+ свою
+ сегодня
+ сильней
+ скажем
+ смел
+ сокрушительный
+ стальной
+ стеной
+ тайги
+ так
+ тачанка
+ то
+ точней
+ три
+ тронь
+ ты
+ у
+ уничтожим
+ цвіте
+ чорнявая
+ я
+ ягода
+ ягоди
 !
+!!
+!"
+!(
+!,
+!\
+!}}
 "
+");
+",
+".
 #
 $
 %
 &
+&\
 '
+'(
+',
+'\
+'}
 (
+("
+(-
+(\
+({\
 )
+)!}}}
+)(
+),
+)-
+).
+):
+)\
+)_{\
+)}
+)}{
+)}{\
+)}}
+)}}}
 *
+*-
 +
 ,
+,\
 -
+--
+----
+-----
+-\
+-{\
 .
+."
+.,
+..
+...
+.;
+.{\
 /
+/%
+/-
+//
+/[
 0
 00
 000
@@ -154,643 +626,383 @@ $
 978
 98
 :
+:(
+://
 ;
 <
 =
+=|
 >
 ?
 @
+A
+AB
+AC
+AKB
+ASIN
+As
+B
+BC
+BD
+C
+CE
+CGTN
+CH
+CO
+COOH
+CS
+Carl
+Chaplin
+Charles
+Chinese
+Citation
+Cl
+Clannad
+Cr
+D
+Date
+Delta
+Dr
+E
+EA
+F
+Fe
+G
+Green
+H
+HCl
+He
+Hello
+I
+ISBN
+In
+J
+JPL
+JR
+Jean
+John
+K
+L
+LINE
+La
+Lambda
+Line
+Louis
+M
+MP
+N
+NH
+Na
+O
+OH
+Orange
+Ord
+P
+PDF
+Pax
+Q
+R
+RCOOH
+Red
+S
+SET
+SIBYL
+SO
+SS
+Super
+T
+The
+Triệu
+U
+US
+University
+V
+W
+What
+William
+Windows
+World
+X
+Y
+Z
 [
+[{
+[{\
 \
+\!
+\,
+\,\!}
+\,}}}
+\\
+\\\
+\{
+\}}
 ]
+].
+]\
+]]
+]_{
+]}
+]·[
 ^
 _
+_{
+_{(
+_{-\
+_{\
 `
 a
 ab
-abc
-about
-abu
 ac
 access
-ad
-adp
-africa
-after
-ai
-akb
-al
-algebra
-all
 alpha
-am
-amazon
-american
 an
-and
-andrew
 angle
-animation
-anime
-answer
-apartheid
 approx
 aq
 archive
 arctan
-arctanh
-are
-art
 article
-as
-asia
-asin
 aspx
-association
-astronomy
 at
-atp
 attempt
-august
 ax
 b
-ba
-bank
 bar
-basic
-bb
-bbc
 bc
-bd
-be
 begin
-benjamin
 beta
 bi
-bibcode
-big
-black
-blue
 bmatrix
-bo
-body
 boldsymbol
-book
-books
-britannica
-british
-bruno
-buffalo
-business
-but
 bx
 by
-bym
 c
-ca
-california
-call
-cambridge
-can
-cao
 cap
-capital
-carl
 cases
 cdot
 cdots
 ce
-cgtn
-ch
-chaplin
-charles
-charlie
-chciała
-che
-chemical
-chemistry
-china
-chinese
-cho
-chu
-chłopca
-cicero
-cie
 circ
-citation
-city
-cl
-clannad
 cmn
 cn
-co
-code
 col
 color
 com
-company
-compare
-conference
-console
-constitution
-cooh
-coronavirus
 cos
 cosh
 cot
-covid
-cr
-cs
 csc
-cu
-cucl
-culture
 cup
 d
-da
 date
-david
-day
-dc
-de
 delta
-der
-des
-di
-dictionary
-die
 dimension
-disappearance
 displaystyle
-districts
 div
-do
-doi
-don
 dot
 dots
-dr
 dt
-du
-dwarf
-dx
 e
-ea
-early
-east
-ed
-edition
-edwin
-el
-elements
 en
-encyclopedia
 end
-english
-ephemeris
 epsilon
 equiv
-er
-et
 eta
 etc
-evidence
-exo
 f
-fe
-film
-for
-fr
 frac
-fred
-free
-from
 g
-ga
 gamma
 gd
-gdybym
-george
 geq
 geqslant
-giordano
-glass
-global
-go
-god
-good
-google
 gov
-great
-green
-group
-guide
 h
-ha
-handbook
 hans
-hant
-happy
-haruhi
-has
-have
 hbar
-hcl
-he
-health
-hello
-hi
-high
-his
-history
-ho
-hong
-horizons
-how
 htm
 html
 http
-https
-hu
 i
 if
-ii
 ij
 implies
 in
 index
-infinite
 infty
 int
-international
-internet
-into
-introduction
-io
-ios
-ip
-is
-isbn
-island
-islands
-it
-its
-ivs
 j
 ja
-jakiego
-james
-japan
-javascript
-jean
-ji
-john
-journal
-jpl
-jr
-june
-junior
 k
-ka
 kappa
-khao
-kie
-kim
-ko
-kong
-korea
-kraj
-kuala
 l
 la
 lambda
-land
-language
-latin
 ldots
-le
-lee
 left
 leq
-let
-li
-library
-life
-like
 lim
-line
-linguistics
-linux
-live
-ll
 ln
-lo
 log
-london
-los
-louis
-love
-lu
-lua
 m
-ma
-maland
-man
-marriot
-mars
 mathbb
 mathbf
 mathfrak
 mathrm
 matrix
-may
 mbox
-me
-mene
-mg
-mi
-miała
-michael
-microsoft
 mid
-middle
-minor
-mn
-mo
-modern
-mol
-moon
-more
-most
-mp
 mu
-music
-mv
-my
 n
-na
-nacl
-nam
-naoh
-national
-nature
-ne
 neq
 net
-new
 news
-nh
-ni
-nicholas
-nie
-nil
-ninh
-no
-north
-northern
-not
-now
 nu
-number
-numbered
 nx
 o
 of
-oh
-old
-omega
 on
-one
-online
 oplus
-or
-orange
-ord
 org
-organic
-organization
-os
 otimes
-out
 over
 overline
-oxford
 p
-pa
-page
-paris
-park
-part
 partial
-paul
-pax
-pdf
-people
-peter
-ph
 phi
-phonetic
-physics
 pi
-planet
-planets
 pm
 pmatrix
-pmid
-politics
-population
-pp
-press
 prime
-print
-project
-psi
 q
 qquad
-qua
 quad
-quantum
-queen
 r
-ra
-radio
-ray
-rcooh
-re
-red
-region
-republic
-review
-richard
 right
 rightarrow
-river
 rm
-robert
-robinson
-routledge
 s
-sa
-say
-school
-science
-sea
-search
-season
 sec
-see
-selatan
-september
-service
-set
-short
-si
-sibyl
-sigma
 sin
-sinh
-sk
-sm
-smith
-so
-society
-sos
-south
 sp
-spanish
-special
 sqrt
-ss
-st
-state
-story
-studies
-study
-su
-sub
 subset
 sum
-super
-suzumiya
-system
 t
-ta
-table
 tan
-tanh
 tau
-tea
-team
-territory
 text
 th
-than
-that
 the
-their
-them
-theory
-there
 theta
-they
-this
-thought
-ti
 tilde
-time
 times
-title
 to
-toadtm
-top
 triangle
-trie
-tu
-tv
 tw
+t͡
 u
-uk
-und
 underline
-united
-universe
-university
-up
 uparrow
-url
-urodo
-us
 v
-va
 validation
-van
 varepsilon
-vatican
-ve
 vec
-vie
-vol
-volume
-von
-vs
 vt
-vu
 w
-war
-was
-water
-we
-web
 webarchive
-weight
-what
-when
-white
-who
 wiki
-wikipedia
-william
 windows
-with
-world
 www
 x
-xi
 xy
 y
-york
-you
-youtube
-yu
 z
 zh
-zun
 {
+{(
+{(\
+{*},
+{*}\
+{*}}
+{-
+{[
+{\
+{{
+{{\
 |
+|=
+|^
 }
+}&\
+}(
+}({\
+})
+})\
+})}
+},
+},...,
+},\
+}-
+}-\
+}-{\
+}.
+}:
+}\
+}\\
+}\\\
+}]}
+}{
+}{\
+}{}
+}}
+}}(
+}}(\
+}})
+}})}
+}},
+}}-{\
+}}\
+}}_{
+}}{
+}}{\
+}}}
+}}})
+}}}-{\
+}}}\
+}}}{
+}}}{\
+}}}}
+}}}}}
+}}}}}}
 ~
+~~
+ 
 «
 ­
 ¯
 °
 ±
+³
 ·
 º
-»
 ½
 ×
+Ú
 ÷
-đa
-đe
-đi
-đie
-đo
-ı
+ü
+ĝ
+ĥ
+ĵ
 ŋ
+ŝ
+ū
+ŭ
+Ɛ
 ȵ
 ȶ
 ɑ
-ɔ
 ɕ
 ɛ
 ɡ
@@ -801,7 +1013,6 @@ zun
 ʂ
 ʃ
 ʈ
-ʊ
 ʑ
 ʒ
 ʔ
@@ -814,266 +1025,61 @@ zun
 ˋ
 ː
 ˙
-˥
-˦
 ˧
-˨
-˩
 ˭
+Γ
+Δ
+Ε
+Π
+Σ
+Φ
+Ω
 α
 β
 γ
 δ
 ε
-η
-θ
-ι
-κ
-λ
 μ
-ν
-ο
 π
-ρ
-ς
 σ
 τ
 φ
 χ
-ψ
 ω
-ϕ
-ϵ
-а
-армия
-артиллеристы
-б
-берег
-бои
-британских
-будь
-в
-ведь
-вечера
-вои
-волна
-врага
-врагу
-все
-всех
-г
-город
-готов
-д
-да
-два
-до
-должны
-доля
-дорога
-дроля
-дівчина
-е
-если
-ж
-же
-живе
-живуть
-з
-за
-завтра
-зеле
-земле
-зорок
-и
-иде
-идти
-к
-как
-калина
-калинка
-катюша
-кле
-красная
-л
-люли
-м
-малинка
-маруся
-меня
-мне
-море
-мореи
-москва
-моя
-мы
+Нашей
+Т
 н
-на
-наводчик
-навсегда
-над
-нам
-нас
-наш
-наша
-нашеи
-не
-нерушимои
-неудержимо
-ныи
-о
-оборонои
-огонь
-ои
-от
-откроем
-ох
-п
-по
-под
-полюблю
-поход
-походу
-припев
-прицел
-прощаи
-пулеме
-пусть
-р
-раз
-разведчик
-разгромим
-раскудрявыи
-рвала
-резнои
-родины
-роднои
-рябина
-рябинушка
-с
-саду
-свою
-сегодня
-сильнеи
-скажем
-смел
-сокрушительныи
-стальнои
-стенои
-т
-таи
-так
-такая
-тачанка
-то
-точнеи
-три
-тронь
-ты
-у
-украі
-уничтожим
-ф
-х
-хаи
-ц
-цвіте
-ч
-чорнявая
-что
-ш
-щ
-ъ
-ы
-ыи
-ь
-э
-эх
-ю
-я
-ягода
-ягоди
-і
-җ
-ң
-ү
-ә
-ا
-ب
 ة
-ر
-س
-ل
-و
-ي
 क
 ण
-त
-द
 ध
 न
-प
 ब
 भ
-म
 र
 व
-श
-ष
-स
 ा
 ि
 ी
 ो
 র
 া
-ਕ
-ਤ
-ਨ
 ட
 ா
 ி
-ก
-ข
-ค
 ง
-จ
-ช
-ญ
-ฐ
 ด
 ต
-ท
-ธ
 น
 นาย
-บ
-ป
-พ
-ฟ
-ภ
-ม
-ย
-ร
-ล
 ว
-ศ
-ษ
 ส
-ห
-อ
-ะ
 า
-เ
-แ
 ་
-ཆ
 ར
-တ
-မ
-ဝ
-း
 ᘔ
+ 
+ 
 ​
 ‎
 ‐
@@ -1092,6 +1098,7 @@ zun
 ‰
 ′
 ⁡
+⁵
 ℃
 ℏ
 ℓ
@@ -1107,6 +1114,7 @@ zun
 ∂
 ∅
 ∈
+∉
 ∏
 ∑
 −
@@ -1123,6 +1131,7 @@ zun
 ∫
 ∶
 ≈
+≠
 ≡
 ≤
 ≥
@@ -1139,7 +1148,7 @@ zun
 ⋱
 ⏟
 ①
-ⓐ
+Ⓐ
 ─
 │
 ╬
@@ -1183,6 +1192,7 @@ zun
 ⿹
 ⿺
 ⿻
+　
 、
 。
 々
@@ -1211,31 +1221,52 @@ zun
 え
 お
 か
+が
 き
+ぎ
 く
+ぐ
 け
+げ
 こ
+ご
 さ
+ざ
 し
+じ
 す
+ず
 せ
+ぜ
 そ
+ぞ
 た
+だ
 ち
 っ
 つ
+づ
 て
+で
 と
+ど
 な
 に
 ぬ
 ね
 の
 は
+ば
+ぱ
 ひ
+び
 ふ
+ぶ
 へ
+べ
 ほ
+ぼ
+ぽ
 ま
 み
 む
@@ -1257,8 +1288,7 @@ zun
 ゑ
 を
 ん
-゙
-゚
+ゔ
 ァ
 ア
 ィ
@@ -1270,30 +1300,52 @@ zun
 ォ
 オ
 カ
+ガ
 キ
+ギ
 ク
+グ
 ケ
+ゲ
 コ
+ゴ
 サ
+ザ
 シ
+ジ
 ス
+ズ
 セ
+ゼ
 ソ
 タ
+ダ
 チ
 ッ
 ツ
 テ
+デ
 ト
+ド
 ナ
 ニ
 ネ
 ノ
 ハ
+バ
+パ
 ヒ
+ビ
+ピ
 フ
+ブ
+プ
 ヘ
+ベ
+ペ
 ホ
+ボ
+ポ
 マ
 ミ
 ム
@@ -1315,6 +1367,7 @@ zun
 ヱ
 ヲ
 ン
+ヴ
 ヶ
 ・
 ー
@@ -9952,6 +10005,175 @@ zun
 龻
 鿫
 鿬
+가
+강
+거
+건
+겠
+격
+경
+계
+고
+곡
+공
+과
+관
+광
+구
+국
+군
+규
+그
+글
+금
+기
+김
+나
+날
+남
+내
+년
+노
+는
+니
+다
+단
+달
+담
+당
+대
+덕
+덟
+데
+도
+동
+딸
+라
+랑
+러
+렸
+령
+로
+록
+릉
+리
+마
+만
+망
+면
+무
+문
+미
+민
+바
+방
+배
+백
+버
+별
+보
+봉
+부
+북
+비
+빠
+사
+산
+삼
+상
+서
+석
+선
+설
+성
+세
+속
+송
+수
+스
+승
+시
+식
+신
+심
+씨
+아
+안
+양
+어
+없
+에
+여
+역
+연
+열
+영
+예
+왕
+요
+용
+우
+운
+울
+원
+월
+위
+유
+으
+은
+을
+읍
+의
+이
+인
+일
+자
+장
+재
+전
+정
+제
+조
+족
+종
+좋
+주
+중
+지
+진
+창
+천
+철
+청
+초
+최
+춘
+충
+치
+크
+태
+택
+통
+투
+특
+파
+평
+포
+풀
+하
+한
+함
+합
+항
+해
+허
+헌
+호
+홍
+화
+황
+회
+흥
 
 
 
@@ -9990,17 +10212,17 @@ zun
 ＝
 ＞
 ？
+Ａ
+Ｂ
+Ｄ
+Ｆ
+Ｇ
+Ｊ
+Ｐ
+Ｒ
+Ｘ
 ［
 ］
-ａ
-ｂ
-ｄ
-ｆ
-ｇ
-ｊ
-ｐ
-ｒ
-ｘ
 ｜
 ～
 ｢
@@ -10105,333 +10327,329 @@ zun
 𪃸
 𪗇
 𪟂
+ --
+ A--
+ Al--
+ Amaz--
+ Au--
+ B--
+ Be--
+ Ben--
+ C--
+ Ch--
+ D--
+ De--
+ E--
+ F--
+ Fr--
+ G--
+ Ge--
+ H--
+ I--
+ J--
+ K--
+ L--
+ M--
+ Ma--
+ McD--
+ Mo--
+ Organiz--
+ P--
+ Per--
+ Pr--
+ Pro--
+ Qu--
+ R--
+ Rom--
+ S--
+ Sh--
+ Sp--
+ St--
+ T--
+ Th--
+ Tr--
+ Trans--
+ V--
+ Vic--
+ W--
+ Y--
+ b--
+ c--
+ ch--
+ d--
+ f--
+ g--
+ m--
+ o--
+ p--
+ pr--
+ s--
+ sci--
+ st--
+ t--
+ v--
+ w--
+ З--
+ Украї--
+ з--
+ ко--
+ м--
+ ра--
+ род--
+ роди--
+ тума--
+!--
+"--
+&--
+'--
+(--
+)--
+*--
+,--
+---
+.--
+/--
 0--
+00--
 1--
+11--
 15--
+17--
+18--
+19--
 2--
 3--
 4--
-41--
+414--
 5--
 6--
 7--
 8--
 9--
+:--
+?--
+A--
+Al--
+An--
+B--
+BA--
+Ba--
+Bl--
+C--
+CLA--
+Ca--
+Camb--
+Ch--
+Ci--
+Co--
+Cu--
+D--
+Da--
+E--
+F--
+Fi--
+Fr--
+Fu--
+G--
+Ge--
+H--
+Ha--
+I--
+J--
+Ja--
+Ju--
+K--
+Ka--
+Kh--
+L--
+Li--
+Lu--
+M--
+Ma--
+Mar--
+Mi--
+Mo--
+N--
+Na--
+Ni--
+O--
+P--
+Pa--
+Pr--
+Q--
+R--
+Rob--
+S--
+Sa--
+Se--
+Sh--
+Si--
+St--
+T--
+Th--
+Ti--
+Tr--
+U--
+Uni--
+V--
+W--
+X--
+Y--
+Z--
+[--
+\--
+]--
+_--
 a--
-ab--
-ac--
-ad--
-ag--
-ak--
-al--
-an--
-ap--
-applic--
 ar--
-arc--
-as--
-astro--
-at--
-au--
-aust--
 b--
-ba--
-be--
-bl--
 bo--
-br--
-bri--
-bu--
 c--
-ca--
 ch--
-cha--
-ci--
-civi--
-cl--
 co--
-con--
-cons--
-cor--
-cr--
 d--
-de--
-di--
-dis--
-disc--
-do--
+da--
 e--
-ec--
-ed--
-em--
-en--
-es--
-eu--
 f--
-fa--
-fe--
-fi--
-fo--
-fr--
-fri--
-fu--
-fur--
+for--
 g--
-ga--
-ge--
-ger--
-gi--
 gr--
-gu--
 h--
-ha--
 he--
-her--
-hi--
-ho--
-hu--
-hy--
-hyper--
 i--
-in--
-ins--
-is--
-it--
 j--
-ja--
-je--
-jo--
-ju--
 k--
-ka--
-ke--
-ki--
-kin--
-kr--
 l--
-la--
 le--
 li--
-lo--
 m--
 ma--
-mar--
-mc--
-me--
-mi--
 mo--
-mu--
 n--
-na--
-ne--
-ng--
-ni--
-no--
-nu--
 o--
-oc--
-or--
 p--
 pa--
-pe--
-pen--
-per--
-ph--
-pic--
-pl--
-po--
-por--
 pr--
-pre--
-pri--
-princ--
-pro--
-publ--
 q--
-ques--
 r--
-re--
-ri--
 ro--
-rog--
-ru--
 s--
-sa--
-sc--
-se--
-sh--
-si--
-so--
-sp--
 st--
-ste--
-su--
-syn--
 t--
-ta--
 te--
-tech--
-ter--
 ti--
-to--
 tr--
-trans--
-tri--
 u--
-un--
-uni--
-univ--
-univer--
-ur--
 v--
-ve--
-vi--
-vic--
-vo--
 w--
-wan--
-we--
 wh--
-wi--
-wil--
-wo--
-wr--
-wz--
 x--
 y--
-z--
-б--
-бе--
-бла--
-бо--
-бу--
-в--
-ве--
-вз--
-во--
-выс--
-ві--
-г--
-го--
-гор--
-гр--
-д--
-з--
-к--
-ка--
-ко--
-кр--
-куд--
-л--
-ле--
-лю--
-люби--
-м--
-ми--
-мо--
-мол--
-н--
-не--
-о--
-п--
-па--
-пе--
-пр--
-про--
-р--
-ре--
-ро--
-с--
-са--
-священ--
-се--
-сл--
-см--
-со--
-сп--
-стра--
-т--
-у--
-ух--
-х--
-хо--
-ч--
-че--
-э--
-ا--
-เ--
+zh--
+{*--
+{--
+|--
+})--
+}--
+}}--
+--(
+---
 --0
 --1
 --2
 --3
---36
 --4
 --5
---52
---57
---58
 --6
---66
---68
 --7
---70
 --74
---77
 --79
 --8
---83
---86
 --9
---96
---99
+--A
+--B
+--C
+--D
+--E
+--ER
+--F
+--G
+--H
+--I
+--J
+--K
+--L
+--M
+--N
+--O
+--P
+--R
+--S
+--T
+--TVS
+--U
+--V
+--VS
+--X
+--Y
+--\
 --a
 --ad
 --age
---ah
 --ai
 --al
 --ald
 --all
 --am
+--ame
+--ames
 --an
---ang
 --ar
---ars
+--ard
+--are
+--art
 --ary
---at
---ation
+--as
+--ass
+--ast
+--ave
+--avirus
+--ay
 --b
---ba
---be
+--ber
 --c
---ca
 --cal
 --ce
+--ces
 --ch
---ci
 --ck
---co
---ct
 --cy
 --d
---da
+--day
+--dbook
 --de
+--der
 --do
---ds
+--dom
 --dy
 --e
+--ea
+--eam
+--ears
 --ed
+--edia
+--ee
 --el
---em
 --en
---ence
---ent
---eq
+--eo
+--eople
 --er
---ern
+--ere
 --ers
 --es
 --ese
+--ess
+--est
 --et
 --ey
 --f
@@ -10439,219 +10657,165 @@ z--
 --ga
 --ge
 --ger
---ght
 --go
---gon
 --gs
+--guistics
 --h
---ha
---hing
+--ho
+--ht
 --i
 --ia
 --ial
 --ian
 --ic
+--ica
 --ical
---ice
---ich
+--ics
 --id
 --ie
---ies
+--ight
+--ike
 --il
 --ile
+--ill
+--im
+--ime
 --in
---ine
 --ing
 --io
 --ion
+--ional
 --ions
+--ir
+--ire
 --is
---ism
+--ish
 --it
---ited
+--ite
 --ium
---ius
 --ive
 --ix
---j
---ja
---ji
 --k
+--ka
 --ke
---ker
---king
 --l
---la
---lar
 --ld
 --le
---ler
---les
---lia
---lian
 --ll
---lo
---ls
---lt
+--lobal
+--lus
 --ly
 --m
 --ma
---man
---mar
 --me
 --ment
---mer
---mi
 --mic
---ms
+--min
 --n
 --na
---nce
+--nd
 --ne
---ney
 --ng
---nge
 --ning
---nk
---nment
---nn
 --no
---ns
---nt
---nts
---ny
---nz
 --o
 --od
---ok
+--ode
+--ol
 --om
 --ome
---on
---ons
+--omic
+--ood
+--ook
 --or
+--ork
+--ory
 --os
---ot
+--ost
+--ou
+--out
 --ow
+--ower
 --p
---pe
---po
---port
---q
 --r
 --ra
---ral
---rch
 --rd
 --re
---res
---ri
---ria
---rich
---ring
---rk
---rl
+--red
+--ree
 --rm
 --rn
 --ro
---rry
+--roup
 --rs
 --rt
 --ry
 --s
 --se
---ses
---sh
---so
+--sole
 --son
 --ss
 --st
 --t
---ta
 --te
 --ted
---ten
 --ter
---th
---tic
---tica
---ties
+--ti
 --tion
---tions
---tive
---tle
 --to
---ton
---tor
---tro
+--tre
 --ts
---ty
+--tudy
+--tum
 --u
 --ue
+--uide
+--um
 --un
 --ur
---urn
+--ure
 --us
---use
---ution
+--ust
 --ux
 --v
---va
---ve
---ving
---vs
 --w
---wa
+--warf
 --wn
 --x
 --y
---ye
---ys
 --z
---ŋ
---ς
+--{
+--{\
+--}
+--à
+--ình
+--ơn
 --а
---в
---ва
---ве
---го
---гу
+--ам
+--ая
 --д
---дим
---ду
+--дёт
 --е
---ет
---з
+--ей
 --и
---ич
+--й
 --к
 --ка
---кая
---ки
---кии
---л
---ла
---ли
---лю
 --м
---н
---но
---ня
+--могу
+--мой
 --о
---ов
---овь
---ра
---ре
---са
---сть
+--ой
+--ою
+--ская
 --т
---тся
---ть
---у
---х
+--хай
 --ы
---ые
+--ый
+--ь
 --ю
---ют
 --я
---น
---ร
+--्
+--ั
+--ิ
+--ử

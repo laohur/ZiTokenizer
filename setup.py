@@ -18,7 +18,7 @@ setup(
     name="ZiTokenizer",
     packages=find_packages(),
     # py_modules = ['ZiTokenizer.UnicodeTokenizer', 'ZiTokenizer.ZiCutter', 'ZiTokenizer.ZiTokenizer', 'ZiTokenizer.ZiSegmenter'],
-    version='0.0.8',
+    version='0.0.9',
     description='ZiTokenizer: tokenize world text as Zi',
     long_description=long_description,
     long_description_content_type="text/markdown",

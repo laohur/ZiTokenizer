@@ -1,4 +1,5 @@
 import collections
+import glob
 import os
 import gc
 import multiprocessing
@@ -20,18 +21,6 @@ doc = ["'〇㎡[คุณจะจัดพิธีแต่งงานเ�
        'ສົມເດັດພະເຈົ້າຢູ່ຫົວບໍຣົມໂກດຊົງທຳນຸບຳລຸງບ້ານເມືອງແລະພະສາດສະໜາຈົນກ່າວໄດ້ວ່າກຸງສີອະຍຸທະຢາໃນສະໄໝພະອົງນັ້ນເປັນຍຸກທີ່ບ້ານເມືອງດີ ມີຂຸນນາງຄົນສຳຄັນທີ່ເຕີບໂຕໃນເວລາຕໍ່ມາ ໃນລາຊະການຂອງພະອົງຫຼາຍຄົນ ເຊັ່ນ ສົມເດັດພະເຈົ້າກຸງທົນບຸລີ, ພະບາດສົມເດັດພະພຸດທະຍອດຟ້າຈຸລາໂລກມະຫາລາດ ເປັນຕົ້ນ ໃນທາງດ້ານວັນນະຄະດີກໍມີກະວີຄົນສຳຄັນ ເຊັ່ນ ເຈົ້າຟ້າທຳມາທິເບດໄຊຍະເຊດສຸລິຍະວົງ ກົມມະຂຸນເສນາພິທັກ ຫຼືເຈົ້າຟ້າກຸ້ງ ເຊິ່ງເປັນພະໂອລົດ ເປັນຕົ້ນ'
        ]
 
-
-def test_UnicodeTokenizer():
-    tokenizer = UnicodeTokenizer(never_split=["[UNK]", "[SEP]", "[PAD]", "[CLS]", "[MASK]"])
-    for l in doc:
-        t = tokenizer.tokenize(l)
-        logger.info((len(l), l))
-        logger.info((len(t), ' '.join(t)))
-    tokenizer = UnicodeTokenizer(split_digit=True)
-    for l in doc:
-        t = tokenizer.tokenize(l)
-        logger.info((len(l), l))
-        logger.info((len(t), ' '.join(t)))
 
 def test_ZiCutter(dir):
     cutter = ZiCutter(dir=dir)
@@ -72,27 +61,29 @@ def test_build(freq_path, dir, alpha=1):
 
     tokenizer = ZiTokenizer(dir)
     doc = os.popen(f" tail {freq_path} -n 1000000 | shuf -n 10 ").read().splitlines()
-    doc = [x.split('\t') for x in doc]
-    doc = [(k, float(v)) for k, v in doc]
-    for k, v in doc:
-        tokens = tokenizer.tokenize(k)
-        indexs = tokenizer.encode(k)
-        words = tokenizer.decode(indexs)
-        row = [k, v, ' '.join(tokens), tokenizer.token_word(k), ' '.join(words)]
-        logger.info((row))
+    test_line(tokenizer, test_encode=True, doc=doc)
+    # doc = [x.split('\t') for x in doc]
+    # doc = [(k, float(v)) for k, v in doc]
+    # for k, v in doc:
+    #     tokens = tokenizer.tokenize(k)
+    #     indexs = tokenizer.encode(k)
+    #     words = tokenizer.decode(indexs)
+    #     row = [k, v, ' '.join(tokens), tokenizer.token_word(k), ' '.join(words)]
+    #     logger.info((row))
     return tokenizer
 
 
-def test_line(tokenizer):
+def test_line(tokenizer, test_encode=False, doc=doc):
     for line in doc:
-        logger.info(line)
         tokens = tokenizer.tokenize(line)
-        logger.info(' '.join(tokens))
+        logger.info(tokens)
+        logger.info(line)
 
-        indexs = tokenizer.encode(line)
-        tokens = tokenizer.decode(indexs)
-        line2=tokenizer.tokens2line(tokens)
-        logger.info(' '.join(tokens))
+        if test_encode:
+            indexs = tokenizer.encode(line)
+            tokens = tokenizer.decode(indexs)
+
+        line2 = tokenizer.detokenize(tokens)
         if line2 == line:
             logger.info(line2)
         else:
@@ -100,34 +91,39 @@ def test_line(tokenizer):
 
 
 def get_langs():
-    langs = os.listdir('C:/data/languages')
-    langs = [x for x in langs if not x.startswith('global')]
-    langs1 = []
-    for lang in langs:
-        freq_path = f"C:/data/languages/{lang}/word_frequency.tsv"
-        if not os.path.exists(freq_path):
+    freq_paths = glob.glob(rf"C:/data/word_frequency/*-word_frequency.tsv")
+    langs = []
+    for freq_path in freq_paths:
+        name = os.path.basename(freq_path)
+        lang = name.split('-')[0]
+        if name.startswith('global'):
             continue
-        langs1.append((lang, freq_path))
-    return langs1
+        langs.append((lang, freq_path))
+    return langs
 
 
 if __name__ == "__main__":
-
-    test_UnicodeTokenizer()
-
-    tokenizer = ZiTokenizer()
+    langs = get_langs()
+    tokenizer = UnicodeTokenizer()
     test_line(tokenizer)
-
-    tokenizer = ZiTokenizer(split_digit=True)
+    tokenizer = UnicodeTokenizer(never_split=["[UNK]", "[SEP]", "[PAD]", "[CLS]", "[MASK]"])
+    test_line(tokenizer)
+    tokenizer = UnicodeTokenizer(split_digit=True)
+    test_line(tokenizer)
+    tokenizer = UnicodeTokenizer(do_lower_case=True)
+    test_line(tokenizer)
+    tokenizer = UnicodeTokenizer(strip=True)
+    test_line(tokenizer)
+    tokenizer = UnicodeTokenizer(do_lower_case=True, strip=True)
     test_line(tokenizer)
 
     folder = "./demo"
-    freq_path = f"{folder}/word_frequency.tsv"  # lang="zh_classical"
-    test_ZiCutter(folder)
+    freq_path = f"{folder}/zh_classical-word_frequency.tsv"  # lang="zh_classical"
     test_build(freq_path, folder)
+    test_ZiCutter(folder)
 
     tokenizer = ZiTokenizer(folder)
-    test_line(tokenizer)
+    test_line(tokenizer, test_encode=True)
 
 
 """

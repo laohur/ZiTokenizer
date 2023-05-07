@@ -1,659 +1,1017 @@
-[I 230420 21:07:47 ZiTokenizer:42]  languages/global-70\vocab.txt load vocab:101350 root:62404 prefix:17338 suffix:21608 
-[I 230420 21:07:47 ZiCutter:60] languages/global-70\JiZi.txt load  JiZi:5566
-[I 230420 21:07:48 ZiCutter:32]   languages/global-70\HeZi.txt 87191  JiZi:5566 --> loadHeZi 87191  values:5566 slim2Zi:79496 jieGou:⿰〾⿻⿸⿹⿱⿺⿴⿳⿷⿶⿲⿵ max_len:10
-[I 230420 21:07:48 ZiCutter:68] languages/global-70 loaded vocab:5566
-[I 230420 21:07:48 glance:29]  cat C:/data/languages/ab/word_frequency.tsv n_src:41368--> freq:41368 total:98576.92837986066
-[I 230420 21:07:49 glance:29]  cat C:/data/languages/ace/word_frequency.tsv n_src:35893--> freq:35893 total:151252.51992623642
-[I 230420 21:07:49 glance:29]  cat C:/data/languages/ady/word_frequency.tsv n_src:13369--> freq:13369 total:25773.433484720445
-[I 230420 21:07:51 glance:29]  cat C:/data/languages/af/word_frequency.tsv n_src:813481--> freq:813473 total:4412388.310584092
-[I 230420 21:08:05 glance:29]  cat C:/data/languages/ak/word_frequency.tsv n_src:18172--> freq:18171 total:56427.41007167827
-[I 230420 21:08:07 glance:29]  cat C:/data/languages/als/word_frequency.tsv n_src:708110--> freq:708103 total:2588710.5435447977
-[I 230420 21:08:21 glance:29]  cat C:/data/languages/alt/word_frequency.tsv n_src:52260--> freq:52260 total:201201.16877976444
-[I 230420 21:08:22 glance:29]  cat C:/data/languages/am/word_frequency.tsv n_src:224953--> freq:224949 total:631780.4940397217
-[I 230420 21:08:29 glance:29]  cat C:/data/languages/ami/word_frequency.tsv n_src:43480--> freq:43480 total:153640.62281370565
-[I 230420 21:08:30 glance:29]  cat C:/data/languages/an/word_frequency.tsv n_src:289698--> freq:289694 total:1405864.0379538613
-[I 230420 21:08:35 glance:29]  cat C:/data/languages/ang/word_frequency.tsv n_src:59077--> freq:59077 total:153752.70233954373
-[I 230420 21:08:48 glance:29]  cat C:/data/languages/ar/word_frequency.tsv n_src:4730395--> freq:4730141 total:37245619.39529538
-[I 230420 21:10:03 glance:29]  cat C:/data/languages/arc/word_frequency.tsv n_src:14272--> freq:14272 total:31712.033679073968
-[I 230420 21:10:04 glance:29]  cat C:/data/languages/ary/word_frequency.tsv n_src:98216--> freq:98215 total:317159.2853749234
-[I 230420 21:10:13 glance:29]  cat C:/data/languages/arz/word_frequency.tsv n_src:2662883--> freq:2662748 total:16375437.567838397
-[I 230420 21:10:56 glance:29]  cat C:/data/languages/as/word_frequency.tsv n_src:204005--> freq:203993 total:1651679.414284063
-[I 230420 21:11:02 glance:29]  cat C:/data/languages/ast/word_frequency.tsv n_src:1132486--> freq:1132447 total:8262968.972070754
-[I 230420 21:11:21 glance:29]  cat C:/data/languages/atj/word_frequency.tsv n_src:18148--> freq:18148 total:43156.507076992406
-[I 230420 21:11:22 glance:29]  cat C:/data/languages/av/word_frequency.tsv n_src:92282--> freq:92282 total:252319.1439689987
-[I 230420 21:11:23 glance:29]  cat C:/data/languages/avk/word_frequency.tsv n_src:40440--> freq:40440 total:365802.54709523846
-[I 230420 21:11:24 glance:29]  cat C:/data/languages/awa/word_frequency.tsv n_src:10627--> freq:10627 total:69294.64927739912
-[I 230420 21:11:24 glance:29]  cat C:/data/languages/ay/word_frequency.tsv n_src:51081--> freq:51081 total:158825.11245038224
-[I 230420 21:11:30 glance:29]  cat C:/data/languages/az/word_frequency.tsv n_src:1601645--> freq:1601622 total:9023724.23118861
-[I 230420 21:12:03 glance:29]  cat C:/data/languages/azb/word_frequency.tsv n_src:610580--> freq:610576 total:2557831.035848672
-[I 230420 21:12:15 glance:29]  cat C:/data/languages/ba/word_frequency.tsv n_src:912857--> freq:912853 total:4281154.337448068
-[I 230420 21:12:36 glance:29]  cat C:/data/languages/ban/word_frequency.tsv n_src:925999--> freq:925914 total:1904739.5806321239
-[I 230420 21:13:01 glance:29]  cat C:/data/languages/bar/word_frequency.tsv n_src:483952--> freq:483950 total:1447378.851936578
-[I 230420 21:13:11 glance:29]  cat C:/data/languages/bat_smg/word_frequency.tsv n_src:78585--> freq:78585 total:255898.17816339835
-[I 230420 21:13:13 glance:29]  cat C:/data/languages/bcl/word_frequency.tsv n_src:208768--> freq:208765 total:801867.8398991495
-[I 230420 21:13:22 glance:29]  cat C:/data/languages/be/word_frequency.tsv n_src:1726827--> freq:1726812 total:9190455.508985443
-[I 230420 21:13:54 glance:29]  cat C:/data/languages/be_x_old/word_frequency.tsv n_src:774782--> freq:774775 total:3735483.557899339
-[I 230420 21:14:15 glance:29]  cat C:/data/languages/bg/word_frequency.tsv n_src:1757558--> freq:1757542 total:11640159.046123344
-[I 230420 21:14:47 glance:29]  cat C:/data/languages/bh/word_frequency.tsv n_src:48008--> freq:48008 total:277547.7894137937
-[I 230420 21:14:48 glance:29]  cat C:/data/languages/bi/word_frequency.tsv n_src:7814--> freq:7813 total:18140.760560752868
-[I 230420 21:14:48 glance:29]  cat C:/data/languages/bjn/word_frequency.tsv n_src:88043--> freq:88043 total:271295.71272729186
-[I 230420 21:14:50 glance:29]  cat C:/data/languages/blk/word_frequency.tsv n_src:14924--> freq:14924 total:207493.82344209158
-[I 230420 21:14:50 glance:29]  cat C:/data/languages/bm/word_frequency.tsv n_src:10647--> freq:10647 total:27846.571411986886
-[I 230420 21:14:52 glance:29]  cat C:/data/languages/bn/word_frequency.tsv n_src:651956--> freq:651948 total:6210648.655654312
-[I 230420 21:15:03 glance:29]  cat C:/data/languages/bo/word_frequency.tsv n_src:21172--> freq:21170 total:549539.2487333152
-[I 230420 21:15:03 glance:29]  cat C:/data/languages/bpy/word_frequency.tsv n_src:42935--> freq:42929 total:409893.2566862757
-[I 230420 21:15:06 glance:29]  cat C:/data/languages/br/word_frequency.tsv n_src:543074--> freq:543072 total:3279246.9636291172
-[I 230420 21:15:19 glance:29]  cat C:/data/languages/bs/word_frequency.tsv n_src:1082616--> freq:1082337 total:5539933.12907524
-[I 230420 21:15:40 glance:29]  cat C:/data/languages/bug/word_frequency.tsv n_src:19769--> freq:19769 total:65070.5290999386
-[I 230420 21:15:41 glance:29]  cat C:/data/languages/bxr/word_frequency.tsv n_src:95872--> freq:95872 total:269383.78119754966
-[I 230420 21:15:50 glance:29]  cat C:/data/languages/ca/word_frequency.tsv n_src:2765876--> freq:2765385 total:23696055.556784738
-[I 230420 21:16:42 glance:29]  cat C:/data/languages/cbk_zam/word_frequency.tsv n_src:46755--> freq:46754 total:158166.71022725652
-[I 230420 21:16:43 glance:29]  cat C:/data/languages/cdo/word_frequency.tsv n_src:15902--> freq:15902 total:149613.38121157294
-[I 230420 21:16:45 glance:29]  cat C:/data/languages/ce/word_frequency.tsv n_src:737101--> freq:737099 total:5530154.994411686
-[I 230420 21:17:09 glance:29]  cat C:/data/languages/ceb/word_frequency.tsv n_src:4268912--> freq:4268904 total:37525316.952403955
-[I 230420 21:18:27 glance:29]  cat C:/data/languages/ch/word_frequency.tsv n_src:5736--> freq:5735 total:12864.635346493358
-[I 230420 21:18:27 glance:29]  cat C:/data/languages/cho/word_frequency.tsv n_src:246--> freq:246 total:351.60578898033447
-[I 230420 21:18:27 glance:29]  cat C:/data/languages/chr/word_frequency.tsv n_src:7214--> freq:7214 total:30492.131758100037
-[I 230420 21:18:27 glance:29]  cat C:/data/languages/chy/word_frequency.tsv n_src:2409--> freq:2409 total:6395.4723891267395
-[I 230420 21:18:29 glance:29]  cat C:/data/languages/ckb/word_frequency.tsv n_src:531928--> freq:531922 total:1970679.235400643
-[I 230420 21:18:41 glance:29]  cat C:/data/languages/co/word_frequency.tsv n_src:98887--> freq:98886 total:325704.4910327678
-[I 230420 21:18:42 glance:29]  cat C:/data/languages/cr/word_frequency.tsv n_src:1270--> freq:1270 total:2321.7393164041277
-[I 230420 21:18:43 glance:29]  cat C:/data/languages/crh/word_frequency.tsv n_src:113411--> freq:113410 total:320832.4089116467
-[I 230420 21:18:52 glance:29]  cat C:/data/languages/cs/word_frequency.tsv n_src:2733074--> freq:2733025 total:22767920.480827834
-[I 230420 21:19:44 glance:29]  cat C:/data/languages/csb/word_frequency.tsv n_src:51202--> freq:51202 total:168117.47539628844
-[I 230420 21:19:45 glance:29]  cat C:/data/languages/cu/word_frequency.tsv n_src:16963--> freq:16963 total:40286.37239019808
-[I 230420 21:19:46 glance:29]  cat C:/data/languages/cv/word_frequency.tsv n_src:349388--> freq:349382 total:1418376.9236716204
-[I 230420 21:19:55 glance:29]  cat C:/data/languages/cy/word_frequency.tsv n_src:768530--> freq:768521 total:5381387.421037666
-[I 230420 21:20:12 glance:29]  cat C:/data/languages/da/word_frequency.tsv n_src:1838947--> freq:1838918 total:10517254.533355584
-[I 230420 21:20:56 glance:29]  cat C:/data/languages/dag/word_frequency.tsv n_src:50178--> freq:50178 total:210772.05864706097
-[I 230420 21:21:34 glance:29]  cat C:/data/languages/de/word_frequency.tsv n_src:13295076--> freq:13294775 total:99173308.30972436
-[I 230420 21:26:50 glance:29]  cat C:/data/languages/din/word_frequency.tsv n_src:11078--> freq:11078 total:35533.048495803
-[I 230420 21:26:51 glance:29]  cat C:/data/languages/diq/word_frequency.tsv n_src:205026--> freq:205023 total:696685.0444448023
-[I 230420 21:26:54 glance:29]  cat C:/data/languages/dsb/word_frequency.tsv n_src:61710--> freq:61710 total:188538.38017031
-[I 230420 21:26:55 glance:29]  cat C:/data/languages/dty/word_frequency.tsv n_src:20274--> freq:20274 total:131206.10108750968
-[I 230420 21:26:56 glance:29]  cat C:/data/languages/dv/word_frequency.tsv n_src:14141--> freq:14138 total:124618.16330443292
-[I 230420 21:26:56 glance:29]  cat C:/data/languages/dz/word_frequency.tsv n_src:5714--> freq:5714 total:88464.4136657625
-[I 230420 21:26:56 glance:29]  cat C:/data/languages/ee/word_frequency.tsv n_src:13237--> freq:13237 total:39953.83486789014
-[I 230420 21:27:01 glance:29]  cat C:/data/languages/el/word_frequency.tsv n_src:1786014--> freq:1785846 total:14133537.310389472
-[I 230420 21:27:35 glance:29]  cat C:/data/languages/eml/word_frequency.tsv n_src:123600--> freq:123600 total:634879.0798418155
-[I 230420 21:28:26 glance:29]  cat C:/data/languages/en/word_frequency.tsv n_src:16977095--> freq:16976154 total:168662441.28498268
-[I 230420 21:34:18 glance:29]  cat C:/data/languages/eo/word_frequency.tsv n_src:1873889--> freq:1873872 total:9790618.531669665
-[I 230420 21:35:15 glance:29]  cat C:/data/languages/es/word_frequency.tsv n_src:6926510--> freq:6925978 total:57906074.57428418
-[I 230420 21:37:32 glance:29]  cat C:/data/languages/et/word_frequency.tsv n_src:2132258--> freq:2132246 total:10033812.247717386
-[I 230420 21:38:26 glance:29]  cat C:/data/languages/eu/word_frequency.tsv n_src:2182942--> freq:2182925 total:10222365.560733907
-[I 230420 21:39:10 glance:29]  cat C:/data/languages/ext/word_frequency.tsv n_src:70507--> freq:70505 total:208057.806583793
-[I 230420 21:39:17 glance:29]  cat C:/data/languages/fa/word_frequency.tsv n_src:2185933--> freq:2185870 total:15718412.157992149
-[I 230420 21:39:56 glance:29]  cat C:/data/languages/ff/word_frequency.tsv n_src:32935--> freq:32935 total:78149.82806949214
-[I 230420 21:40:07 glance:29]  cat C:/data/languages/fi/word_frequency.tsv n_src:4250470--> freq:4250433 total:21931613.74998115
-[I 230420 21:41:56 glance:29]  cat C:/data/languages/fiu_vro/word_frequency.tsv n_src:63233--> freq:63233 total:192226.5367546565
-[I 230420 21:41:57 glance:29]  cat C:/data/languages/fj/word_frequency.tsv n_src:10004--> freq:10004 total:29022.888875377597
-[I 230420 21:41:58 glance:29]  cat C:/data/languages/fo/word_frequency.tsv n_src:148210--> freq:148209 total:561845.4497491103
-[I 230420 21:42:23 glance:29]  cat C:/data/languages/fr/word_frequency.tsv n_src:8049449--> freq:8048274 total:95774502.55979423
-[I 230420 21:46:45 glance:29]  cat C:/data/languages/frp/word_frequency.tsv n_src:42859--> freq:42858 total:167397.759256684
-[I 230420 21:46:47 glance:29]  cat C:/data/languages/frr/word_frequency.tsv n_src:130830--> freq:130830 total:487330.05794180627
-[I 230420 21:46:51 glance:29]  cat C:/data/languages/fur/word_frequency.tsv n_src:54681--> freq:54681 total:179601.3360287895
-[I 230420 21:46:55 glance:29]  cat C:/data/languages/fy/word_frequency.tsv n_src:456244--> freq:456243 total:2417029.9485359606
-[I 230420 21:47:09 glance:29]  cat C:/data/languages/ga/word_frequency.tsv n_src:261384--> freq:261382 total:1403015.4381674617
-[I 230420 21:47:14 glance:29]  cat C:/data/languages/gag/word_frequency.tsv n_src:54970--> freq:54970 total:133078.80691441073
-[I 230420 21:47:15 glance:29]  cat C:/data/languages/gan/word_frequency.tsv n_src:18227--> freq:18226 total:112720.1327912681
-[I 230420 21:47:16 glance:29]  cat C:/data/languages/gcr/word_frequency.tsv n_src:25463--> freq:25463 total:100987.54109295164
-[I 230420 21:47:16 glance:29]  cat C:/data/languages/gd/word_frequency.tsv n_src:101743--> freq:101741 total:488170.35875321913
-[I 230420 21:47:21 glance:29]  cat C:/data/languages/gl/word_frequency.tsv n_src:1207926--> freq:1207912 total:8446288.626378858
-[I 230420 21:47:46 glance:29]  cat C:/data/languages/glk/word_frequency.tsv n_src:56793--> freq:56793 total:201039.63671906252
-[I 230420 21:47:47 glance:29]  cat C:/data/languages/gn/word_frequency.tsv n_src:73821--> freq:73821 total:279993.53604582546
-[I 230420 21:47:49 glance:29]  cat C:/data/languages/gom/word_frequency.tsv n_src:109273--> freq:109273 total:491163.42000161204
-[I 230420 21:47:51 glance:29]  cat C:/data/languages/gor/word_frequency.tsv n_src:46254--> freq:46254 total:165496.9354937383
-[I 230420 21:47:52 glance:29]  cat C:/data/languages/got/word_frequency.tsv n_src:14288--> freq:14288 total:46456.7057682782
-[I 230420 21:47:53 glance:29]  cat C:/data/languages/gu/word_frequency.tsv n_src:135732--> freq:135731 total:1594121.2748284566
-[I 230420 21:47:56 glance:29]  cat C:/data/languages/guw/word_frequency.tsv n_src:20145--> freq:20145 total:76623.06167574885
-[I 230420 21:47:56 glance:29]  cat C:/data/languages/gv/word_frequency.tsv n_src:67623--> freq:67622 total:247515.41220031484
-[I 230420 21:47:58 glance:29]  cat C:/data/languages/ha/word_frequency.tsv n_src:254252--> freq:254251 total:1414836.7820796627
-[I 230420 21:48:03 glance:29]  cat C:/data/languages/hak/word_frequency.tsv n_src:22661--> freq:22661 total:136929.40747297817
-[I 230420 21:48:03 glance:29]  cat C:/data/languages/haw/word_frequency.tsv n_src:16504--> freq:16504 total:59877.12699996787
-[I 230420 21:48:13 glance:29]  cat C:/data/languages/he/word_frequency.tsv n_src:2910490--> freq:2910423 total:33433024.672974292
-[I 230420 21:49:08 glance:29]  cat C:/data/languages/hi/word_frequency.tsv n_src:434234--> freq:434215 total:4078989.360885246
-[I 230420 21:49:16 glance:29]  cat C:/data/languages/hif/word_frequency.tsv n_src:65179--> freq:65179 total:216323.73583551293
-[I 230420 21:49:17 glance:29]  cat C:/data/languages/ho/word_frequency.tsv n_src:92--> freq:92 total:158.18670847477676
-[I 230420 21:49:22 glance:29]  cat C:/data/languages/hr/word_frequency.tsv n_src:1671380--> freq:1671356 total:9980597.822680619
-[I 230420 21:49:57 glance:29]  cat C:/data/languages/hsb/word_frequency.tsv n_src:143780--> freq:143778 total:626464.4601682338
-[I 230420 21:50:00 glance:29]  cat C:/data/languages/ht/word_frequency.tsv n_src:211475--> freq:211474 total:1175496.0376205235
-[I 230420 21:50:11 glance:29]  cat C:/data/languages/hu/word_frequency.tsv n_src:2772482--> freq:2772395 total:20902977.564093936
-[I 230420 21:51:20 glance:29]  cat C:/data/languages/hy/word_frequency.tsv n_src:2954327--> freq:2954291 total:14149874.672204439
-[I 230420 21:52:38 glance:29]  cat C:/data/languages/hyw/word_frequency.tsv n_src:368570--> freq:368568 total:1269518.894249603
-[I 230420 21:52:47 glance:29]  cat C:/data/languages/ia/word_frequency.tsv n_src:127370--> freq:127370 total:496700.36639885046
-[I 230420 21:52:55 glance:29]  cat C:/data/languages/id/word_frequency.tsv n_src:2268268--> freq:2266741 total:16302626.867962487
-[I 230420 21:53:39 glance:29]  cat C:/data/languages/ie/word_frequency.tsv n_src:60354--> freq:60354 total:557432.9656308051
-[I 230420 21:53:41 glance:29]  cat C:/data/languages/ig/word_frequency.tsv n_src:201108--> freq:201108 total:1110137.3399468577
-[I 230420 21:53:44 glance:29]  cat C:/data/languages/ii/word_frequency.tsv n_src:30--> freq:30 total:55.849749373039785
-[I 230420 21:53:44 glance:29]  cat C:/data/languages/ik/word_frequency.tsv n_src:6259--> freq:6259 total:11070.172478782453
-[I 230420 21:53:45 glance:29]  cat C:/data/languages/ilo/word_frequency.tsv n_src:170453--> freq:170452 total:634540.357189441
-[I 230420 21:53:48 glance:29]  cat C:/data/languages/inh/word_frequency.tsv n_src:48310--> freq:48310 total:124229.21545410727
-[I 230420 21:53:49 glance:29]  cat C:/data/languages/io/word_frequency.tsv n_src:155375--> freq:155375 total:853799.6482250422
-[I 230420 21:53:53 glance:29]  cat C:/data/languages/is/word_frequency.tsv n_src:516549--> freq:516545 total:2605065.409242108
-[I 230420 21:54:20 glance:29]  cat C:/data/languages/it/word_frequency.tsv n_src:5594191--> freq:5592866 total:55785768.10208261
-[I 230420 21:56:18 glance:29]  cat C:/data/languages/iu/word_frequency.tsv n_src:7883--> freq:7883 total:12374.726926810428
-[I 230420 21:56:27 glance:29]  cat C:/data/languages/ja/word_frequency.tsv n_src:3343269--> freq:3343029 total:42166153.8857684
-[I 230420 21:57:36 glance:29]  cat C:/data/languages/jam/word_frequency.tsv n_src:24074--> freq:24074 total:69515.8655698627
-[I 230420 21:57:37 glance:29]  cat C:/data/languages/jbo/word_frequency.tsv n_src:25626--> freq:25626 total:93244.64298547816
-[I 230420 21:57:38 glance:29]  cat C:/data/languages/jv/word_frequency.tsv n_src:466163--> freq:466157 total:2349874.2445726837
-[I 230420 21:57:52 glance:29]  cat C:/data/languages/ka/word_frequency.tsv n_src:1528314--> freq:1528296 total:6661926.112816742
-[I 230420 21:58:48 glance:29]  cat C:/data/languages/kaa/word_frequency.tsv n_src:83634--> freq:83633 total:231563.63298308788
-[I 230420 21:58:50 glance:29]  cat C:/data/languages/kab/word_frequency.tsv n_src:73681--> freq:73681 total:220821.81532814947
-[I 230420 21:58:51 glance:29]  cat C:/data/languages/kbd/word_frequency.tsv n_src:54530--> freq:54530 total:116566.65326065556
-[I 230420 21:58:52 glance:29]  cat C:/data/languages/kbp/word_frequency.tsv n_src:40693--> freq:40693 total:132490.05449402472
-[I 230420 21:58:53 glance:29]  cat C:/data/languages/kcg/word_frequency.tsv n_src:11991--> freq:11991 total:39313.72636828713
-[I 230420 21:58:53 glance:29]  cat C:/data/languages/kg/word_frequency.tsv n_src:7785--> freq:7785 total:17934.701840134738
-[I 230420 21:58:53 glance:29]  cat C:/data/languages/ki/word_frequency.tsv n_src:9292--> freq:9292 total:23424.056273097678
-[I 230420 21:58:54 glance:29]  cat C:/data/languages/kj/word_frequency.tsv n_src:91--> freq:91 total:105.209466172485
-[I 230420 21:58:57 glance:29]  cat C:/data/languages/kk/word_frequency.tsv n_src:1167302--> freq:1167276 total:5391480.229874674
-[I 230420 21:59:22 glance:29]  cat C:/data/languages/kl/word_frequency.tsv n_src:13120--> freq:13120 total:19675.769754520625
-[I 230420 21:59:23 glance:29]  cat C:/data/languages/km/word_frequency.tsv n_src:117458--> freq:117456 total:956278.1029578657
-[I 230420 21:59:25 glance:29]  cat C:/data/languages/kn/word_frequency.tsv n_src:250921--> freq:250905 total:3138086.4490423873
-[I 230420 21:59:59 glance:29]  cat C:/data/languages/ko/word_frequency.tsv n_src:8317031--> freq:8295263 total:35413560.201764695
-[I 230420 22:05:04 glance:29]  cat C:/data/languages/koi/word_frequency.tsv n_src:56191--> freq:56191 total:170116.18702417627
-[I 230420 22:05:05 glance:29]  cat C:/data/languages/krc/word_frequency.tsv n_src:59694--> freq:59694 total:150016.56401955886
-[I 230420 22:05:07 glance:29]  cat C:/data/languages/ks/word_frequency.tsv n_src:16131--> freq:16131 total:54419.749408375676
-[I 230420 22:05:07 glance:29]  cat C:/data/languages/ksh/word_frequency.tsv n_src:59290--> freq:59290 total:174079.29270892384
-[I 230420 22:05:09 glance:29]  cat C:/data/languages/ku/word_frequency.tsv n_src:300371--> freq:300369 total:1238149.5544017046
-[I 230420 22:05:14 glance:29]  cat C:/data/languages/kv/word_frequency.tsv n_src:82538--> freq:82538 total:281736.90395508736
-[I 230420 22:05:16 glance:29]  cat C:/data/languages/kw/word_frequency.tsv n_src:61585--> freq:61583 total:203588.00350951892
-[I 230420 22:05:19 glance:29]  cat C:/data/languages/ky/word_frequency.tsv n_src:513905--> freq:513891 total:2265460.5583951967
-[I 230420 22:05:32 glance:29]  cat C:/data/languages/la/word_frequency.tsv n_src:1762514--> freq:1762501 total:11095780.604163345
-[I 230420 22:06:08 glance:29]  cat C:/data/languages/lad/word_frequency.tsv n_src:70985--> freq:70985 total:216913.55712239168
-[I 230420 22:06:10 glance:29]  cat C:/data/languages/lb/word_frequency.tsv n_src:408986--> freq:408983 total:2055587.797954177
-[I 230420 22:06:18 glance:29]  cat C:/data/languages/lbe/word_frequency.tsv n_src:14599--> freq:14597 total:29417.28274987271
-[I 230420 22:06:19 glance:29]  cat C:/data/languages/lez/word_frequency.tsv n_src:89039--> freq:89039 total:271497.45494854846
-[I 230420 22:06:21 glance:29]  cat C:/data/languages/lfn/word_frequency.tsv n_src:77553--> freq:77553 total:306285.68123153213
-[I 230420 22:06:22 glance:29]  cat C:/data/languages/lg/word_frequency.tsv n_src:84338--> freq:84337 total:301497.1597931873
-[I 230420 22:06:25 glance:29]  cat C:/data/languages/li/word_frequency.tsv n_src:274569--> freq:274565 total:1047941.4417604185
-[I 230420 22:06:30 glance:29]  cat C:/data/languages/lij/word_frequency.tsv n_src:197854--> freq:197854 total:809190.8958129167
-[I 230420 22:06:34 glance:29]  cat C:/data/languages/lld/word_frequency.tsv n_src:127811--> freq:127811 total:559730.068832456
-[I 230420 22:06:37 glance:29]  cat C:/data/languages/lmo/word_frequency.tsv n_src:243398--> freq:243395 total:1109779.5003010407
-[I 230420 22:06:41 glance:29]  cat C:/data/languages/ln/word_frequency.tsv n_src:33146--> freq:33146 total:102724.47496315671
-[I 230420 22:06:42 glance:29]  cat C:/data/languages/lo/word_frequency.tsv n_src:124800--> freq:124798 total:347423.1324617841
-[I 230420 22:06:49 glance:29]  cat C:/data/languages/lt/word_frequency.tsv n_src:1170166--> freq:1170149 total:6809419.710843139
-[I 230420 22:07:11 glance:29]  cat C:/data/languages/ltg/word_frequency.tsv n_src:22344--> freq:22344 total:58216.4922818149
-[I 230420 22:07:13 glance:29]  cat C:/data/languages/lv/word_frequency.tsv n_src:662373--> freq:662364 total:4375152.192707984
-[I 230420 22:07:26 glance:29]  cat C:/data/languages/mad/word_frequency.tsv n_src:24881--> freq:24881 total:70809.50808908552
-[I 230420 22:07:26 glance:29]  cat C:/data/languages/mai/word_frequency.tsv n_src:45325--> freq:45325 total:304584.8176856797
-[I 230420 22:07:27 glance:29]  cat C:/data/languages/map_bms/word_frequency.tsv n_src:56094--> freq:56094 total:195058.22064135183
-[I 230420 22:07:28 glance:29]  cat C:/data/languages/mdf/word_frequency.tsv n_src:67199--> freq:67198 total:202057.84440967586
-[I 230420 22:07:30 glance:29]  cat C:/data/languages/mg/word_frequency.tsv n_src:315266--> freq:315266 total:1332691.5117519717
-[I 230420 22:07:35 glance:29]  cat C:/data/languages/mh/word_frequency.tsv n_src:289--> freq:289 total:508.09777892035277
-[I 230420 22:07:35 glance:29]  cat C:/data/languages/mhr/word_frequency.tsv n_src:101807--> freq:101807 total:590715.7527984903
-[I 230420 22:07:37 glance:29]  cat C:/data/languages/mi/word_frequency.tsv n_src:22958--> freq:22958 total:124411.9329810891
-[I 230420 22:07:38 glance:29]  cat C:/data/languages/min/word_frequency.tsv n_src:279758--> freq:279758 total:1673371.4419766427
-[I 230420 22:07:47 glance:29]  cat C:/data/languages/mk/word_frequency.tsv n_src:1322674--> freq:1322646 total:7414183.769300884
-[I 230420 22:08:14 glance:29]  cat C:/data/languages/ml/word_frequency.tsv n_src:548228--> freq:548216 total:4491509.044462077
-[I 230420 22:08:26 glance:29]  cat C:/data/languages/mn/word_frequency.tsv n_src:329967--> freq:329967 total:1527774.8889609743
-[I 230420 22:08:33 glance:29]  cat C:/data/languages/mni/word_frequency.tsv n_src:19061--> freq:19059 total:121799.88981356379
-[I 230420 22:08:33 glance:29]  cat C:/data/languages/mnw/word_frequency.tsv n_src:53264--> freq:53263 total:381427.2130495784
-[I 230420 22:08:35 glance:29]  cat C:/data/languages/mr/word_frequency.tsv n_src:238965--> freq:238958 total:2283543.2588732936
-[I 230420 22:08:39 glance:29]  cat C:/data/languages/mrj/word_frequency.tsv n_src:88390--> freq:88390 total:258609.79227429852
-[I 230420 22:08:44 glance:29]  cat C:/data/languages/ms/word_frequency.tsv n_src:1112686--> freq:1112662 total:7044813.690083355
-[I 230420 22:09:05 glance:29]  cat C:/data/languages/mt/word_frequency.tsv n_src:169480--> freq:169480 total:836194.6492665893
-[I 230420 22:09:08 glance:29]  cat C:/data/languages/mus/word_frequency.tsv n_src:84--> freq:84 total:111.34591622845153
-[I 230420 22:09:09 glance:29]  cat C:/data/languages/mwl/word_frequency.tsv n_src:139872--> freq:139871 total:667687.7976676662
-[I 230420 22:09:12 glance:29]  cat C:/data/languages/my/word_frequency.tsv n_src:266942--> freq:266940 total:1664903.5423970814
-[I 230420 22:09:19 glance:29]  cat C:/data/languages/myv/word_frequency.tsv n_src:137963--> freq:137961 total:432378.68874171714
-[I 230420 22:09:21 glance:29]  cat C:/data/languages/mzn/word_frequency.tsv n_src:94659--> freq:94659 total:364612.8798835408
-[I 230420 22:09:23 glance:29]  cat C:/data/languages/na/word_frequency.tsv n_src:10092--> freq:10092 total:19697.169794465168
-[I 230420 22:09:23 glance:29]  cat C:/data/languages/nah/word_frequency.tsv n_src:49900--> freq:49900 total:162496.02038330655
-[I 230420 22:09:25 glance:29]  cat C:/data/languages/nap/word_frequency.tsv n_src:167721--> freq:167720 total:568232.9126970223
-[I 230420 22:09:29 glance:29]  cat C:/data/languages/nds/word_frequency.tsv n_src:451567--> freq:451567 total:2299193.8659872953
-[I 230420 22:09:38 glance:29]  cat C:/data/languages/nds_nl/word_frequency.tsv n_src:177692--> freq:177690 total:538642.5255998776
-[I 230420 22:09:42 glance:29]  cat C:/data/languages/ne/word_frequency.tsv n_src:117904--> freq:117902 total:1006362.7188868487
-[I 230420 22:09:45 glance:29]  cat C:/data/languages/new/word_frequency.tsv n_src:102732--> freq:102731 total:855438.3649263975
-[I 230420 22:09:47 glance:29]  cat C:/data/languages/ng/word_frequency.tsv n_src:1102--> freq:1102 total:1929.1958844845515
-[I 230420 22:09:47 glance:29]  cat C:/data/languages/nia/word_frequency.tsv n_src:24439--> freq:24439 total:95645.07446405658
-[I 230420 22:09:58 glance:29]  cat C:/data/languages/nl/word_frequency.tsv n_src:4018772--> freq:4018146 total:29183531.815048825
-[I 230420 22:11:35 glance:29]  cat C:/data/languages/nn/word_frequency.tsv n_src:1000952--> freq:1000945 total:4944391.262587115
-[I 230420 22:12:06 glance:29]  cat C:/data/languages/no/word_frequency.tsv n_src:3102223--> freq:3102184 total:18501268.20353222
-[I 230420 22:13:23 glance:29]  cat C:/data/languages/nov/word_frequency.tsv n_src:19960--> freq:19960 total:52869.59713661631
-[I 230420 22:13:23 glance:29]  cat C:/data/languages/nqo/word_frequency.tsv n_src:23563--> freq:23563 total:141966.8407043742
-[I 230420 22:13:24 glance:29]  cat C:/data/languages/nrm/word_frequency.tsv n_src:33912--> freq:33912 total:133444.03835455282
-[I 230420 22:13:25 glance:29]  cat C:/data/languages/nso/word_frequency.tsv n_src:22386--> freq:22386 total:87514.96067498924
-[I 230420 22:13:25 glance:29]  cat C:/data/languages/nv/word_frequency.tsv n_src:27921--> freq:27921 total:248205.98060037117
-[I 230420 22:13:26 glance:29]  cat C:/data/languages/ny/word_frequency.tsv n_src:36174--> freq:36174 total:105408.1853902533
-[I 230420 22:13:28 glance:29]  cat C:/data/languages/oc/word_frequency.tsv n_src:498483--> freq:498478 total:2772228.7586148973
-[I 230420 22:13:38 glance:29]  cat C:/data/languages/olo/word_frequency.tsv n_src:61308--> freq:61308 total:162178.13541514787
-[I 230420 22:13:39 glance:29]  cat C:/data/languages/om/word_frequency.tsv n_src:57169--> freq:57169 total:141938.1212580868
-[I 230420 22:13:41 glance:29]  cat C:/data/languages/or/word_frequency.tsv n_src:140532--> freq:140530 total:1062383.8473479599
-[I 230420 22:13:44 glance:29]  cat C:/data/languages/os/word_frequency.tsv n_src:101148--> freq:101147 total:406026.46177122416
-[I 230420 22:13:46 glance:29]  cat C:/data/languages/pa/word_frequency.tsv n_src:228211--> freq:228210 total:1802034.4691122
-[I 230420 22:13:50 glance:29]  cat C:/data/languages/pag/word_frequency.tsv n_src:41920--> freq:41920 total:123953.35340872317
-[I 230420 22:13:51 glance:29]  cat C:/data/languages/pam/word_frequency.tsv n_src:100826--> freq:100823 total:384946.33993423
-[I 230420 22:13:53 glance:29]  cat C:/data/languages/pap/word_frequency.tsv n_src:37017--> freq:37017 total:145746.05346743864
-[I 230420 22:13:54 glance:29]  cat C:/data/languages/pcd/word_frequency.tsv n_src:74759--> freq:74755 total:247367.75788034665
-[I 230420 22:13:56 glance:29]  cat C:/data/languages/pcm/word_frequency.tsv n_src:19513--> freq:19513 total:65667.61826022033
-[I 230420 22:13:56 glance:29]  cat C:/data/languages/pdc/word_frequency.tsv n_src:23804--> freq:23803 total:61274.81734568819
-[I 230420 22:13:57 glance:29]  cat C:/data/languages/pfl/word_frequency.tsv n_src:80028--> freq:80028 total:201007.34536396913
-[I 230420 22:13:58 glance:29]  cat C:/data/languages/pi/word_frequency.tsv n_src:6661--> freq:6661 total:21703.02597179973
-[I 230420 22:13:58 glance:29]  cat C:/data/languages/pih/word_frequency.tsv n_src:8974--> freq:8974 total:20838.561465680355
-[I 230420 22:14:18 glance:29]  cat C:/data/languages/pl/word_frequency.tsv n_src:6955823--> freq:6955436 total:56560163.89650922
-[I 230420 22:16:47 glance:29]  cat C:/data/languages/pms/word_frequency.tsv n_src:102285--> freq:102285 total:530048.6080363335
-[I 230420 22:16:51 glance:29]  cat C:/data/languages/pnb/word_frequency.tsv n_src:757293--> freq:757273 total:4412160.940805696
-[I 230420 22:17:05 glance:29]  cat C:/data/languages/pnt/word_frequency.tsv n_src:9917--> freq:9917 total:29219.351712521056
-[I 230420 22:17:06 glance:29]  cat C:/data/languages/ps/word_frequency.tsv n_src:512989--> freq:512944 total:2264990.721254416
-[I 230420 22:17:26 glance:29]  cat C:/data/languages/pt/word_frequency.tsv n_src:3266605--> freq:3266115 total:31423411.509745855
-[I 230420 22:18:30 glance:29]  cat C:/data/languages/pwn/word_frequency.tsv n_src:16365--> freq:16365 total:46477.38065948123
-[I 230420 22:18:31 glance:29]  cat C:/data/languages/qu/word_frequency.tsv n_src:164742--> freq:164741 total:558758.1902316486
-[I 230420 22:18:34 glance:29]  cat C:/data/languages/rm/word_frequency.tsv n_src:118713--> freq:118713 total:561892.3701405963
-[I 230420 22:18:37 glance:29]  cat C:/data/languages/rmy/word_frequency.tsv n_src:12340--> freq:12340 total:27484.277600931047
-[I 230420 22:18:37 glance:29]  cat C:/data/languages/rn/word_frequency.tsv n_src:13880--> freq:13880 total:30745.88694821938
-[I 230420 22:18:42 glance:29]  cat C:/data/languages/ro/word_frequency.tsv n_src:1832030--> freq:1831995 total:14438075.304325681
-[I 230420 22:19:17 glance:29]  cat C:/data/languages/roa_rup/word_frequency.tsv n_src:42521--> freq:42521 total:99172.11825410741
-[I 230420 22:19:18 glance:29]  cat C:/data/languages/roa_tara/word_frequency.tsv n_src:94788--> freq:91787 total:312331.9493700524
-[I 230420 22:19:57 glance:29]  cat C:/data/languages/ru/word_frequency.tsv n_src:11258063--> freq:11257609 total:111774877.03158952
-[I 230420 22:23:50 glance:29]  cat C:/data/languages/rue/word_frequency.tsv n_src:154298--> freq:154298 total:435207.23417481966
-[I 230420 22:23:53 glance:29]  cat C:/data/languages/rw/word_frequency.tsv n_src:95600--> freq:95599 total:306355.02415271336
-[I 230420 22:23:56 glance:29]  cat C:/data/languages/sa/word_frequency.tsv n_src:326510--> freq:326441 total:4084276.2060583937
-[I 230420 22:24:02 glance:29]  cat C:/data/languages/sah/word_frequency.tsv n_src:271751--> freq:271751 total:1090943.0150885126
-[I 230420 22:24:09 glance:29]  cat C:/data/languages/sat/word_frequency.tsv n_src:176565--> freq:176559 total:617692.7065519751
-[I 230420 22:24:17 glance:29]  cat C:/data/languages/sc/word_frequency.tsv n_src:143879--> freq:143879 total:535612.0680072599
-[I 230420 22:24:20 glance:29]  cat C:/data/languages/scn/word_frequency.tsv n_src:165584--> freq:165583 total:600588.9907218528
-[I 230420 22:24:23 glance:29]  cat C:/data/languages/sco/word_frequency.tsv n_src:297073--> freq:297070 total:1412450.2388896237
-[I 230420 22:24:28 glance:29]  cat C:/data/languages/sd/word_frequency.tsv n_src:165592--> freq:165589 total:863423.7463599037
-[I 230420 22:24:31 glance:29]  cat C:/data/languages/se/word_frequency.tsv n_src:66186--> freq:66186 total:242053.1483505674
-[I 230420 22:24:33 glance:29]  cat C:/data/languages/sg/word_frequency.tsv n_src:2484--> freq:2484 total:10300.887200516185
-[I 230420 22:24:37 glance:29]  cat C:/data/languages/sh/word_frequency.tsv n_src:1651146--> freq:1651132 total:11030058.662008446
-[I 230420 22:25:09 glance:29]  cat C:/data/languages/shi/word_frequency.tsv n_src:42782--> freq:42772 total:115985.66870045131
-[I 230420 22:25:10 glance:29]  cat C:/data/languages/shn/word_frequency.tsv n_src:33677--> freq:33677 total:257533.11163445204
-[I 230420 22:25:11 glance:29]  cat C:/data/languages/si/word_frequency.tsv n_src:153791--> freq:153762 total:1228756.5489981764
-[I 230420 22:25:17 glance:29]  cat C:/data/languages/sk/word_frequency.tsv n_src:1198565--> freq:1198557 total:7893845.79744845
-[I 230420 22:25:40 glance:29]  cat C:/data/languages/skr/word_frequency.tsv n_src:98676--> freq:98673 total:502185.1909126623
-[I 230420 22:25:47 glance:29]  cat C:/data/languages/sl/word_frequency.tsv n_src:1940083--> freq:1939992 total:13302121.909205064
-[I 230420 22:26:25 glance:29]  cat C:/data/languages/sm/word_frequency.tsv n_src:12322--> freq:12322 total:44263.777471233894
-[I 230420 22:26:25 glance:29]  cat C:/data/languages/smn/word_frequency.tsv n_src:78040--> freq:78040 total:269253.40244893
-[I 230420 22:26:27 glance:29]  cat C:/data/languages/sn/word_frequency.tsv n_src:137008--> freq:137006 total:372709.7751220377
-[I 230420 22:26:30 glance:29]  cat C:/data/languages/so/word_frequency.tsv n_src:175954--> freq:175949 total:616509.0292459643
-[I 230420 22:26:35 glance:29]  cat C:/data/languages/sq/word_frequency.tsv n_src:762543--> freq:762537 total:4299178.425575351
-[I 230420 22:27:00 glance:29]  cat C:/data/languages/sr/word_frequency.tsv n_src:3320000--> freq:3319952 total:20304945.74339785
-[I 230420 22:28:04 glance:29]  cat C:/data/languages/srn/word_frequency.tsv n_src:10744--> freq:10744 total:28776.282590865176
-[I 230420 22:28:04 glance:29]  cat C:/data/languages/ss/word_frequency.tsv n_src:27268--> freq:27268 total:53043.82925361373
-[I 230420 22:28:05 glance:29]  cat C:/data/languages/st/word_frequency.tsv n_src:17961--> freq:17961 total:55737.89838033515
-[I 230420 22:28:06 glance:29]  cat C:/data/languages/stq/word_frequency.tsv n_src:69709--> freq:69706 total:213848.4330303978
-[I 230420 22:28:07 glance:29]  cat C:/data/languages/su/word_frequency.tsv n_src:246092--> freq:246087 total:1202794.0545070863
-[I 230420 22:28:25 glance:29]  cat C:/data/languages/sv/word_frequency.tsv n_src:4905168--> freq:4904923 total:34466500.41189156
-[I 230420 22:30:15 glance:29]  cat C:/data/languages/sw/word_frequency.tsv n_src:429570--> freq:429566 total:1892418.537764095
-[I 230420 22:30:23 glance:29]  cat C:/data/languages/szl/word_frequency.tsv n_src:154809--> freq:154807 total:809605.0010125826
-[I 230420 22:30:26 glance:29]  cat C:/data/languages/szy/word_frequency.tsv n_src:75059--> freq:75059 total:365841.8216688858
-[I 230420 22:30:29 glance:29]  cat C:/data/languages/ta/word_frequency.tsv n_src:593041--> freq:593008 total:5582571.128852737
-[I 230420 22:30:41 glance:29]  cat C:/data/languages/tay/word_frequency.tsv n_src:23058--> freq:23058 total:95748.03827316148
-[I 230420 22:30:41 glance:29]  cat C:/data/languages/tcy/word_frequency.tsv n_src:22724--> freq:22724 total:173772.95880743003
-[I 230420 22:30:43 glance:29]  cat C:/data/languages/te/word_frequency.tsv n_src:388076--> freq:388058 total:4000027.02943661
-[I 230420 22:30:50 glance:29]  cat C:/data/languages/ten/word_frequency.tsv n_src:20490--> freq:20490 total:52346.888981358
-[I 230420 22:30:51 glance:29]  cat C:/data/languages/tet/word_frequency.tsv n_src:24644--> freq:24644 total:82272.70445952617
-[I 230420 22:30:52 glance:29]  cat C:/data/languages/tg/word_frequency.tsv n_src:444910--> freq:444904 total:1876667.8797764156
-[I 230420 22:31:12 glance:29]  cat C:/data/languages/th/word_frequency.tsv n_src:3616052--> freq:3616025 total:12108611.463629203
-[I 230420 22:33:24 glance:29]  cat C:/data/languages/ti/word_frequency.tsv n_src:13924--> freq:13924 total:26980.659773629963
-[I 230420 22:33:24 glance:29]  cat C:/data/languages/tk/word_frequency.tsv n_src:122688--> freq:122688 total:472934.74923307955
-[I 230420 22:33:28 glance:29]  cat C:/data/languages/tl/word_frequency.tsv n_src:441426--> freq:441417 total:2214793.407028491
-[I 230420 22:33:37 glance:29]  cat C:/data/languages/tn/word_frequency.tsv n_src:29003--> freq:29003 total:107354.54343452316
-[I 230420 22:33:37 glance:29]  cat C:/data/languages/to/word_frequency.tsv n_src:13639--> freq:13639 total:52903.69049824349
-[I 230420 22:33:37 glance:29]  cat C:/data/languages/tpi/word_frequency.tsv n_src:9246--> freq:9246 total:26736.649687666457
-[I 230420 22:33:44 glance:29]  cat C:/data/languages/tr/word_frequency.tsv n_src:2239979--> freq:2239941 total:16071591.551653948
-[I 230420 22:34:28 glance:29]  cat C:/data/languages/trv/word_frequency.tsv n_src:56749--> freq:56749 total:201387.30413294473
-[I 230420 22:34:29 glance:29]  cat C:/data/languages/ts/word_frequency.tsv n_src:23425--> freq:23425 total:63088.00368743089
-[I 230420 22:34:33 glance:29]  cat C:/data/languages/tt/word_frequency.tsv n_src:1150935--> freq:1150925 total:7651846.749021659
-[I 230420 22:34:55 glance:29]  cat C:/data/languages/tum/word_frequency.tsv n_src:19078--> freq:19078 total:164471.2359403429
-[I 230420 22:34:56 glance:29]  cat C:/data/languages/tw/word_frequency.tsv n_src:51891--> freq:51890 total:216981.04554553604
-[I 230420 22:34:57 glance:29]  cat C:/data/languages/ty/word_frequency.tsv n_src:4748--> freq:4748 total:11330.116274899252
-[I 230420 22:34:57 glance:29]  cat C:/data/languages/tyv/word_frequency.tsv n_src:130777--> freq:130777 total:391473.6909604398
-[I 230420 22:35:00 glance:29]  cat C:/data/languages/udm/word_frequency.tsv n_src:76680--> freq:76679 total:218382.76362378165
-[I 230420 22:35:02 glance:29]  cat C:/data/languages/ug/word_frequency.tsv n_src:252303--> freq:252302 total:878426.8431407309
-[I 230420 22:35:28 glance:29]  cat C:/data/languages/uk/word_frequency.tsv n_src:6128277--> freq:6127555 total:41926576.16467169
-[I 230420 22:37:31 glance:29]  cat C:/data/languages/ur/word_frequency.tsv n_src:772674--> freq:772659 total:4771222.423302606
-[I 230420 22:37:49 glance:29]  cat C:/data/languages/uz/word_frequency.tsv n_src:1584934--> freq:1584910 total:7947052.859504051
-[I 230420 22:38:22 glance:29]  cat C:/data/languages/ve/word_frequency.tsv n_src:6710--> freq:6710 total:17456.46377259483
-[I 230420 22:38:23 glance:29]  cat C:/data/languages/vec/word_frequency.tsv n_src:328224--> freq:328219 total:1571216.8017152091
-[I 230420 22:38:29 glance:29]  cat C:/data/languages/vep/word_frequency.tsv n_src:127978--> freq:127977 total:458728.26551815314
-[I 230420 22:38:37 glance:29]  cat C:/data/languages/vi/word_frequency.tsv n_src:2057010--> freq:2056923 total:16445048.525844857
-[I 230420 22:39:17 glance:29]  cat C:/data/languages/vls/word_frequency.tsv n_src:137403--> freq:137396 total:446670.39033573755
-[I 230420 22:39:20 glance:29]  cat C:/data/languages/vo/word_frequency.tsv n_src:88720--> freq:88719 total:474554.6717624696
-[I 230420 22:39:22 glance:29]  cat C:/data/languages/wa/word_frequency.tsv n_src:110794--> freq:110794 total:558283.2796453452
-[I 230420 22:39:26 glance:29]  cat C:/data/languages/war/word_frequency.tsv n_src:751362--> freq:751360 total:7695851.847957473
-[I 230420 22:39:41 glance:29]  cat C:/data/languages/wo/word_frequency.tsv n_src:33801--> freq:33801 total:161171.55683939235
-[I 230420 22:39:42 glance:29]  cat C:/data/languages/wuu/word_frequency.tsv n_src:75232--> freq:75229 total:656037.4976789389
-[I 230420 22:39:43 glance:29]  cat C:/data/languages/xal/word_frequency.tsv n_src:25162--> freq:25162 total:59501.18536700441
-[I 230420 22:39:44 glance:29]  cat C:/data/languages/xh/word_frequency.tsv n_src:76740--> freq:76740 total:150263.58489377162
-[I 230420 22:39:46 glance:29]  cat C:/data/languages/xmf/word_frequency.tsv n_src:242907--> freq:242907 total:660849.9214165835
-[I 230420 22:39:56 glance:29]  cat C:/data/languages/yi/word_frequency.tsv n_src:186469--> freq:186467 total:1007711.861731588
-[I 230420 22:39:59 glance:29]  cat C:/data/languages/yo/word_frequency.tsv n_src:113598--> freq:113597 total:503229.7724995364
-[I 230420 22:40:01 glance:29]  cat C:/data/languages/za/word_frequency.tsv n_src:21666--> freq:21666 total:70745.85026795727
-[I 230420 22:40:02 glance:29]  cat C:/data/languages/zea/word_frequency.tsv n_src:69025--> freq:67748 total:223366.1282575237
-[I 230420 22:40:11 glance:29]  cat C:/data/languages/zh/word_frequency.tsv n_src:2626232--> freq:2625778 total:62959630.32406823
-[I 230420 22:41:02 glance:29]  cat C:/data/languages/zh_classical/word_frequency.tsv n_src:23443--> freq:23442 total:422869.73693483736
-[I 230420 22:41:04 glance:29]  cat C:/data/languages/zh_min_nan/word_frequency.tsv n_src:406415--> freq:406413 total:2336447.5304453424
-[I 230420 22:41:10 glance:29]  cat C:/data/languages/zh_yue/word_frequency.tsv n_src:211371--> freq:211362 total:2268383.4666027725
-[I 230420 22:41:13 glance:29]  cat C:/data/languages/zu/word_frequency.tsv n_src:133355--> freq:133355 total:326791.59159293835
-[I 230420 22:41:15 build:62] 
+[I 230507 17:20:11 ZiTokenizer:48]  languages/global-70\vocab.txt load vocab:106426 root:57166 prefix:17701 suffix:31559 
+[I 230507 17:20:11 ZiCutter:58] languages/global-70\JiZi.txt load  JiZi:5374
+[I 230507 17:20:12 ZiCutter:32]   languages/global-70\HeZi.txt 85611  JiZi:5374 --> loadHeZi 85611  values:5374 slim2Zi:78031 jieGou:⿳⿷⿰⿺⿵⿹⿻⿱⿲⿴⿸⿶〾 max_len:7
+[I 230507 17:20:12 ZiCutter:66] languages/global-70 loaded vocab:5374
+[I 230507 17:20:12 build:38] lang	vocab	total	common	share	cover
+[I 230507 17:20:13 glance:35]  cat C:/data/word_frequency\ab-word_frequency.tsv n_src:46184--> freq:46184 total:106068.64901156248
+[I 230507 17:20:15 build:55] ab	20228	106068.64901156248	5787	0.2860885900731659	0.9960274978448684
+[I 230507 17:20:15 glance:35]  cat C:/data/word_frequency\ace-word_frequency.tsv n_src:45558--> freq:45558 total:159548.07650406766
+[I 230507 17:20:16 build:55] ace	21789	159548.07650406766	9416	0.4321446601496168	0.998336135528505
+[I 230507 17:20:16 glance:35]  cat C:/data/word_frequency\ady-word_frequency.tsv n_src:14556--> freq:14556 total:26971.228092564488
+[I 230507 17:20:16 build:55] ady	6778	26971.228092564488	1754	0.2587784007081735	0.9979542887933508
+[I 230507 17:20:20 glance:35]  cat C:/data/word_frequency\af-word_frequency.tsv n_src:1065148--> freq:1065138 total:4982842.722813477
+[I 230507 17:20:50 build:55] af	37759	4982842.722813477	18340	0.4857120156783813	0.9997643699774286
+[I 230507 17:20:50 glance:35]  cat C:/data/word_frequency\ak-word_frequency.tsv n_src:22465--> freq:22464 total:61860.17231484085
+[I 230507 17:20:50 build:55] ak	11265	61860.17231484085	4852	0.4307146027518864	0.9988704303897781
+[I 230507 17:20:54 glance:35]  cat C:/data/word_frequency\als-word_frequency.tsv n_src:951342--> freq:951331 total:2905866.149727435
+[I 230507 17:21:24 build:55] als	47676	2905866.149727435	17857	0.3745490393489387	0.9998127297973651
+[I 230507 17:21:25 glance:35]  cat C:/data/word_frequency\alt-word_frequency.tsv n_src:67517--> freq:67517 total:215899.46571724914
+[I 230507 17:21:27 build:55] alt	31906	215899.46571724914	7380	0.2313044568419733	0.999550563283127
+[I 230507 17:21:28 glance:35]  cat C:/data/word_frequency\am-word_frequency.tsv n_src:251271--> freq:251267 total:668764.557827997
+[I 230507 17:21:44 build:55] am	61225	668764.557827997	8228	0.13438954675377704	0.9169876345753258
+[I 230507 17:21:44 glance:35]  cat C:/data/word_frequency\ami-word_frequency.tsv n_src:51157--> freq:51157 total:165713.5821943792
+[I 230507 17:21:45 build:55] ami	25015	165713.5821943792	9071	0.36262242654407356	0.9994240150018137
+[I 230507 17:21:47 glance:35]  cat C:/data/word_frequency\an-word_frequency.tsv n_src:394288--> freq:394283 total:1582594.6085190035
+[I 230507 17:21:57 build:55] an	38492	1582594.6085190035	16898	0.43900031175309157	0.9998472700790202
+[I 230507 17:21:57 glance:35]  cat C:/data/word_frequency\ang-word_frequency.tsv n_src:77106--> freq:77106 total:165575.29169208457
+[I 230507 17:21:59 build:55] ang	33303	165575.29169208457	12811	0.3846800588535567	0.9996497466717659
+[I 230507 17:22:27 glance:35]  cat C:/data/word_frequency\ar-word_frequency.tsv n_src:6673473--> freq:6673170 total:43950104.19331408
+[I 230507 17:25:30 build:55] ar	48122	43950104.19331408	13857	0.2879556128174224	0.999599375795648
+[I 230507 17:25:30 glance:35]  cat C:/data/word_frequency\arc-word_frequency.tsv n_src:17097--> freq:17097 total:35088.30332244242
+[I 230507 17:25:31 build:55] arc	7960	35088.30332244242	1309	0.1644472361809045	0.9108784610758838
+[I 230507 17:25:32 glance:35]  cat C:/data/word_frequency\ary-word_frequency.tsv n_src:118998--> freq:118997 total:341083.1052721707
+[I 230507 17:25:34 build:55] ary	38878	341083.1052721707	9687	0.24916405164874736	0.9987961057466195
+[E 230507 17:25:34 glance:19] ('\n', ['\n'])
+[E 230507 17:25:34 glance:19] ('\n', ['\n'])
+[E 230507 17:25:35 glance:19] ('\n', ['\n'])
+[E 230507 17:25:35 glance:19] ('\n', ['\n'])
+[E 230507 17:25:35 glance:19] ('\n', ['\n'])
+[E 230507 17:25:37 glance:19] ('\n', ['\n'])
+[E 230507 17:25:37 glance:19] ('\t\n', ['\t\n'])
+[E 230507 17:25:39 glance:19] ('\t\n', ['\t\n'])
+[I 230507 17:25:44 glance:35]  cat C:/data/word_frequency\arz-word_frequency.tsv n_src:2989930--> freq:2989780 total:17029249.080582492
+[I 230507 17:26:46 build:55] arz	17999	17029249.080582492	7132	0.39624423579087725	0.9999450023019204
+[I 230507 17:26:47 glance:35]  cat C:/data/word_frequency\as-word_frequency.tsv n_src:304655--> freq:304632 total:2131457.341702097
+[I 230507 17:26:54 build:55] as	12808	2131457.341702097	6518	0.5089006870705809	0.9986364463372565
+[I 230507 17:27:00 glance:35]  cat C:/data/word_frequency\ast-word_frequency.tsv n_src:1718171--> freq:1718105 total:9739169.844911586
+[I 230507 17:27:38 build:55] ast	43370	9739169.844911586	19971	0.46047959418953194	0.9997535115860114
+[I 230507 17:27:38 glance:35]  cat C:/data/word_frequency\atj-word_frequency.tsv n_src:20300--> freq:20300 total:45759.6573489275
+[I 230507 17:27:39 build:55] atj	9538	45759.6573489275	2671	0.2800377437617949	1.0
+[I 230507 17:27:39 glance:35]  cat C:/data/word_frequency\av-word_frequency.tsv n_src:110747--> freq:110746 total:275105.59133487154
+[I 230507 17:27:42 build:55] av	48369	275105.59133487154	14043	0.29033058363828074	0.9991337052119589
+[I 230507 17:27:42 glance:35]  cat C:/data/word_frequency\avk-word_frequency.tsv n_src:49362--> freq:49362 total:403428.7797488825
+[I 230507 17:27:43 build:55] avk	17092	403428.7797488825	3363	0.1967587175286684	0.9999744643176067
+[I 230507 17:27:43 glance:35]  cat C:/data/word_frequency\awa-word_frequency.tsv n_src:16868--> freq:16868 total:93610.5692529489
+[I 230507 17:27:44 build:55] awa	9288	93610.5692529489	4096	0.4409991386735573	0.9995121302798529
+[I 230507 17:27:44 glance:35]  cat C:/data/word_frequency\ay-word_frequency.tsv n_src:62142--> freq:62142 total:168665.30303740222
+[I 230507 17:27:45 build:55] ay	28884	168665.30303740222	11841	0.4099501454092231	0.9999370083555933
+[I 230507 17:27:54 glance:35]  cat C:/data/word_frequency\az-word_frequency.tsv n_src:2409924--> freq:2409857 total:10519613.396829369
+[I 230507 17:28:58 build:55] az	48035	10519613.396829369	15207	0.31658165920682835	0.9996816577577415
+[I 230507 17:29:00 glance:35]  cat C:/data/word_frequency\azb-word_frequency.tsv n_src:768606--> freq:768601 total:2739239.43522511
+[I 230507 17:29:19 build:55] azb	28010	2739239.43522511	13000	0.4641199571581578	0.9997508440041101
+[I 230507 17:29:24 glance:35]  cat C:/data/word_frequency\ba-word_frequency.tsv n_src:1224012--> freq:1224006 total:4782640.265051035
+[I 230507 17:30:04 build:55] ba	40199	4782640.265051035	11304	0.2812010249011169	0.9995534001229225
+[I 230507 17:30:08 glance:35]  cat C:/data/word_frequency\ban-word_frequency.tsv n_src:1149404--> freq:1141767 total:1872540.4136396507
+[I 230507 17:31:04 build:55] ban	34857	1872540.4136396507	10889	0.31239062455174	0.9993074145171706
+[I 230507 17:31:06 glance:35]  cat C:/data/word_frequency\bar-word_frequency.tsv n_src:594239--> freq:594237 total:1586000.4382428187
+[I 230507 17:31:20 build:55] bar	45610	1586000.4382428187	19705	0.4320324490243368	0.99978936721267
+[I 230507 17:31:20 glance:35]  cat C:/data/word_frequency\bat_smg-word_frequency.tsv n_src:137372--> freq:137372 total:288358.1130058584
+[I 230507 17:31:24 build:55] bat_smg	57954	288358.1130058584	10261	0.1770542154122235	0.9999019418876433
+[I 230507 17:31:25 glance:35]  cat C:/data/word_frequency\bcl-word_frequency.tsv n_src:276798--> freq:276795 total:919435.1814304012
+[I 230507 17:31:31 build:55] bcl	39290	919435.1814304012	21713	0.5526342580809366	0.9994062324076984
+[I 230507 17:31:40 glance:35]  cat C:/data/word_frequency\be-word_frequency.tsv n_src:2462928--> freq:2462896 total:10560131.70959857
+[I 230507 17:32:54 build:55] be	50488	10560131.70959857	12270	0.24302804626842023	0.9997429640268247
+[I 230507 17:32:58 glance:35]  cat C:/data/word_frequency\be_x_old-word_frequency.tsv n_src:1095165--> freq:1095152 total:4236218.186241071
+[I 230507 17:33:30 build:55] be_x_old	50969	4236218.186241071	11297	0.22164452902744805	0.9997620770137802
+[E 230507 17:33:30 glance:19] ('\n', ['\n'])
+[I 230507 17:33:38 glance:35]  cat C:/data/word_frequency\bg-word_frequency.tsv n_src:2487237--> freq:2487192 total:13306726.247378742
+[I 230507 17:34:45 build:55] bg	46384	13306726.247378742	14074	0.30342359434287686	0.9997503356989722
+[I 230507 17:34:45 glance:35]  cat C:/data/word_frequency\bh-word_frequency.tsv n_src:68957--> freq:68951 total:356893.32574152184
+[I 230507 17:34:46 build:55] bh	15023	356893.32574152184	9679	0.6442787725487585	0.9976844450774992
+[I 230507 17:34:46 glance:35]  cat C:/data/word_frequency\bi-word_frequency.tsv n_src:8913--> freq:8912 total:19353.647806944588
+[I 230507 17:34:46 build:55] bi	4370	19353.647806944588	2955	0.6762013729977117	1.0
+[I 230507 17:34:47 glance:35]  cat C:/data/word_frequency\bjn-word_frequency.tsv n_src:110202--> freq:110202 total:301515.26939839916
+[I 230507 17:34:49 build:55] bjn	52313	301515.26939839916	17843	0.3410815667233766	0.9996935178395753
+[I 230507 17:34:49 glance:35]  cat C:/data/word_frequency\blk-word_frequency.tsv n_src:31192--> freq:31191 total:328003.5327602902
+[I 230507 17:34:50 build:55] blk	9234	328003.5327602902	2143	0.2320771063461122	0.9893511955611413
+[I 230507 17:34:50 glance:35]  cat C:/data/word_frequency\bm-word_frequency.tsv n_src:12729--> freq:12729 total:29804.387197050975
+[I 230507 17:34:50 build:55] bm	6480	29804.387197050975	2686	0.4145061728395062	0.9981297684917478
+[I 230507 17:34:54 glance:35]  cat C:/data/word_frequency\bn-word_frequency.tsv n_src:938560--> freq:938544 total:7957877.0617662715
+[I 230507 17:35:15 build:55] bn	11566	7957877.0617662715	6612	0.5716756008991872	0.9991198342596205
+[I 230507 17:35:15 glance:35]  cat C:/data/word_frequency\bo-word_frequency.tsv n_src:36814--> freq:36772 total:840849.2075952628
+[I 230507 17:35:16 build:55] bo	4655	840849.2075952628	1572	0.3377013963480129	0.9017805534677087
+[I 230507 17:35:16 glance:35]  cat C:/data/word_frequency\bpy-word_frequency.tsv n_src:51864--> freq:51861 total:478504.86744011333
+[I 230507 17:35:17 build:55] bpy	5104	478504.86744011333	2075	0.4065438871473354	0.998965631591604
+[I 230507 17:35:19 glance:35]  cat C:/data/word_frequency\br-word_frequency.tsv n_src:761224--> freq:761209 total:3828953.887114226
+[I 230507 17:35:36 build:55] br	37699	3828953.887114226	14595	0.387145547627258	0.9996552452845736
+[I 230507 17:35:41 glance:35]  cat C:/data/word_frequency\bs-word_frequency.tsv n_src:1508779--> freq:1508433 total:6388370.043167308
+[I 230507 17:36:18 build:55] bs	46168	6388370.043167308	16727	0.36230722578409286	0.9998972823230067
+[I 230507 17:36:18 glance:35]  cat C:/data/word_frequency\bug-word_frequency.tsv n_src:23258--> freq:23258 total:58936.204691731895
+[I 230507 17:36:19 build:55] bug	8208	58936.204691731895	3304	0.40253411306042886	0.9703199475821619
+[I 230507 17:36:19 glance:35]  cat C:/data/word_frequency\bxr-word_frequency.tsv n_src:117765--> freq:117765 total:289963.02033505053
+[I 230507 17:36:23 build:55] bxr	52262	289963.02033505053	15207	0.29097623512303394	0.9983155709735422
+[I 230507 17:36:38 glance:35]  cat C:/data/word_frequency\ca-word_frequency.tsv n_src:4172598--> freq:4172398 total:28049595.002430838
+[I 230507 17:38:11 build:55] ca	39553	28049595.002430838	20267	0.5124010820923823	0.9993694653308279
+[I 230507 17:38:12 glance:35]  cat C:/data/word_frequency\cbk_zam-word_frequency.tsv n_src:57343--> freq:57342 total:169863.69344180194
+[I 230507 17:38:13 build:55] cbk_zam	26359	169863.69344180194	12350	0.46853067263553244	0.9998167794227658
+[I 230507 17:38:13 glance:35]  cat C:/data/word_frequency\cdo-word_frequency.tsv n_src:22835--> freq:22835 total:177955.0291752688
+[I 230507 17:38:13 build:55] cdo	16067	177955.0291752688	9572	0.5957552747868301	0.9965383235208604
+[I 230507 17:38:17 glance:35]  cat C:/data/word_frequency\ce-word_frequency.tsv n_src:863428--> freq:863426 total:5798065.375659139
+[I 230507 17:38:39 build:55] ce	10316	5798065.375659139	5201	0.5041682822799535	0.9999554346756623
+[I 230507 17:38:57 glance:35]  cat C:/data/word_frequency\ceb-word_frequency.tsv n_src:4917545--> freq:4917537 total:40522773.601948045
+[I 230507 17:40:48 build:55] ceb	10211	40522773.601948045	7834	0.7672118303790031	0.9999698723116363
+[I 230507 17:40:48 glance:35]  cat C:/data/word_frequency\ch-word_frequency.tsv n_src:6483--> freq:6482 total:13297.593290958974
+[I 230507 17:40:48 build:55] ch	3014	13297.593290958974	2126	0.7053749170537492	0.9968697715532469
+[I 230507 17:40:48 glance:35]  cat C:/data/word_frequency\cho-word_frequency.tsv n_src:266--> freq:266 total:366.284438561682
+[I 230507 17:40:48 build:55] cho	616	366.284438561682	581	0.9431818181818182	1.0
+[I 230507 17:40:48 glance:35]  cat C:/data/word_frequency\chr-word_frequency.tsv n_src:16126--> freq:16126 total:35349.90462204185
+[I 230507 17:40:49 build:55] chr	7591	35349.90462204185	3649	0.4807008299301805	0.9807562628504732
+[I 230507 17:40:49 glance:35]  cat C:/data/word_frequency\chy-word_frequency.tsv n_src:3436--> freq:3436 total:6357.352126791047
+[I 230507 17:40:49 build:55] chy	2011	6357.352126791047	1323	0.6578816509199403	0.9995281054218537
+[E 230507 17:40:49 glance:19] ('\n', ['\n'])
+[I 230507 17:40:52 glance:35]  cat C:/data/word_frequency\ckb-word_frequency.tsv n_src:624077--> freq:624066 total:2100963.4591988996
+[I 230507 17:41:14 build:55] ckb	43962	2100963.4591988996	13231	0.3009644693144079	0.9988451861012392
+[I 230507 17:41:14 glance:35]  cat C:/data/word_frequency\co-word_frequency.tsv n_src:123679--> freq:123678 total:362554.86604240665
+[I 230507 17:41:17 build:55] co	43130	362554.86604240665	12955	0.30037097148156733	0.999800561869052
+[I 230507 17:41:17 glance:35]  cat C:/data/word_frequency\cr-word_frequency.tsv n_src:1323--> freq:1323 total:2058.837382795463
+[I 230507 17:41:17 build:55] cr	952	2058.837382795463	750	0.7878151260504201	0.9701009073981105
+[I 230507 17:41:17 glance:35]  cat C:/data/word_frequency\crh-word_frequency.tsv n_src:147901--> freq:147900 total:337501.1311965878
+[I 230507 17:41:21 build:55] crh	35456	337501.1311965878	10599	0.2989338898916967	0.9993906870828336
+[I 230507 17:41:39 glance:35]  cat C:/data/word_frequency\cs-word_frequency.tsv n_src:5170085--> freq:5169943 total:30190608.76921685
+[I 230507 17:43:51 build:55] cs	53522	30190608.76921685	16406	0.30652815664586525	0.9998327026730698
+[I 230507 17:43:51 glance:35]  cat C:/data/word_frequency\csb-word_frequency.tsv n_src:87833--> freq:87833 total:186821.5708735879
+[I 230507 17:43:54 build:55] csb	36537	186821.5708735879	8523	0.23327038344691683	0.9992423456108586
+[I 230507 17:43:54 glance:35]  cat C:/data/word_frequency\cu-word_frequency.tsv n_src:19989--> freq:19989 total:43032.75632492684
+[I 230507 17:43:55 build:55] cu	8789	43032.75632492684	2975	0.33849129593810445	0.9588181371030198
+[I 230507 17:43:56 glance:35]  cat C:/data/word_frequency\cv-word_frequency.tsv n_src:468891--> freq:468884 total:1633505.3669097445
+[I 230507 17:44:09 build:55] cv	26872	1633505.3669097445	9800	0.36469187258112534	0.999455864379216
+[I 230507 17:44:12 glance:35]  cat C:/data/word_frequency\cy-word_frequency.tsv n_src:1008996--> freq:1008983 total:6052800.69529071
+[I 230507 17:44:32 build:55] cy	30030	6052800.69529071	14686	0.48904428904428904	0.9998125610620012
+[I 230507 17:44:41 glance:35]  cat C:/data/word_frequency\da-word_frequency.tsv n_src:2491322--> freq:2491274 total:12061276.53037835
+[I 230507 17:45:45 build:55] da	44383	12061276.53037835	19024	0.4286325845481378	0.9998598287805824
+[I 230507 17:45:45 glance:35]  cat C:/data/word_frequency\dag-word_frequency.tsv n_src:65603--> freq:65603 total:237376.22010580622
+[I 230507 17:45:46 build:55] dag	34584	237376.22010580622	12707	0.36742424242424243	0.9991801020631726
+[I 230507 17:46:50 glance:35]  cat C:/data/word_frequency\de-word_frequency.tsv n_src:17751828--> freq:17751424 total:112792419.35654673
+[I 230507 17:54:38 build:55] de	45120	112792419.35654673	20777	0.4604831560283688	0.9998211751320885
+[I 230507 17:54:38 glance:35]  cat C:/data/word_frequency\din-word_frequency.tsv n_src:16840--> freq:16840 total:39154.99517858213
+[I 230507 17:54:38 build:55] din	7822	39154.99517858213	2278	0.2912298644847865	0.9990196313252989
+[I 230507 17:54:39 glance:35]  cat C:/data/word_frequency\diq-word_frequency.tsv n_src:272886--> freq:272879 total:768497.3146988965
+[I 230507 17:54:45 build:55] diq	38780	768497.3146988965	14766	0.38076328004125837	0.9997985037896071
+[I 230507 17:54:45 glance:35]  cat C:/data/word_frequency\dsb-word_frequency.tsv n_src:83933--> freq:83933 total:202144.5234945945
+[I 230507 17:54:47 build:55] dsb	37903	202144.5234945945	10642	0.2807693322428304	0.999409142657293
+[E 230507 17:54:47 glance:19] ('\n', ['\n'])
+[I 230507 17:54:48 glance:35]  cat C:/data/word_frequency\dty-word_frequency.tsv n_src:30864--> freq:30861 total:175824.60592426083
+[I 230507 17:54:48 build:55] dty	11551	175824.60592426083	5387	0.46636654835079216	0.9993110109561427
+[I 230507 17:54:48 glance:35]  cat C:/data/word_frequency\dv-word_frequency.tsv n_src:19147--> freq:19141 total:218347.36312827913
+[I 230507 17:54:48 build:55] dv	4665	218347.36312827913	3171	0.6797427652733119	0.5230741259655594
+[I 230507 17:54:49 glance:35]  cat C:/data/word_frequency\dz-word_frequency.tsv n_src:9815--> freq:9815 total:129939.88573145107
+[I 230507 17:54:49 build:55] dz	5098	129939.88573145107	1900	0.372695174578266	0.8971366915713304
+[I 230507 17:54:49 glance:35]  cat C:/data/word_frequency\ee-word_frequency.tsv n_src:16216--> freq:16216 total:42945.439784826696
+[I 230507 17:54:49 build:55] ee	8352	42945.439784826696	3742	0.44803639846743293	0.9994736740270426
+[I 230507 17:55:03 glance:35]  cat C:/data/word_frequency\el-word_frequency.tsv n_src:3981417--> freq:3981186 total:19175695.53748384
+[I 230507 17:58:03 build:55] el	51065	19175695.53748384	13289	0.2602369529031626	0.999523581048997
+[I 230507 17:58:04 glance:35]  cat C:/data/word_frequency\eml-word_frequency.tsv n_src:205079--> freq:205078 total:757548.2492656284
+[I 230507 17:58:08 build:55] eml	30301	757548.2492656284	13367	0.44114055641727995	0.9997981169832478
+[I 230507 17:59:33 glance:35]  cat C:/data/word_frequency\en-word_frequency.tsv n_src:23818568--> freq:23817129 total:202794771.04552048
+[I 230507 18:09:02 build:55] en	38570	202794771.04552048	28872	0.7485610578169561	0.9994779760967897
+[E 230507 18:09:02 glance:19] ('\n', ['\n'])
+[I 230507 18:09:11 glance:35]  cat C:/data/word_frequency\eo-word_frequency.tsv n_src:2723253--> freq:2723213 total:11370967.453712277
+[I 230507 18:10:16 build:55] eo	44646	11370967.453712277	18615	0.41694664695605427	0.9996900614664885
+[I 230507 18:10:47 glance:35]  cat C:/data/word_frequency\es-word_frequency.tsv n_src:9647017--> freq:9646160 total:68090771.22919935
+[I 230507 18:14:12 build:55] es	40736	68090771.22919935	20656	0.507069913589945	0.9996930361261939
+[I 230507 18:14:22 glance:35]  cat C:/data/word_frequency\et-word_frequency.tsv n_src:3063882--> freq:3063859 total:11502648.845403675
+[I 230507 18:15:48 build:55] et	57127	11502648.845403675	17230	0.30160869641325466	0.9998790653586548
+[I 230507 18:15:57 glance:35]  cat C:/data/word_frequency\eu-word_frequency.tsv n_src:2800577--> freq:2800502 total:11536896.672991991
+[I 230507 18:16:57 build:55] eu	41117	11536896.672991991	16712	0.40644988690809153	0.9998040960617298
+[I 230507 18:16:58 glance:35]  cat C:/data/word_frequency\ext-word_frequency.tsv n_src:94713--> freq:94711 total:228032.25334256378
+[I 230507 18:17:00 build:55] ext	43484	228032.25334256378	13704	0.3151504001471806	0.9996302388962716
+[I 230507 18:17:09 glance:35]  cat C:/data/word_frequency\fa-word_frequency.tsv n_src:2971046--> freq:2970882 total:17716260.05721104
+[I 230507 18:18:20 build:55] fa	34010	17716260.05721104	12781	0.3758012349309027	0.99944066141277
+[I 230507 18:18:20 glance:35]  cat C:/data/word_frequency\ff-word_frequency.tsv n_src:39299--> freq:39299 total:85015.3065024426
+[I 230507 18:18:21 build:55] ff	17229	85015.3065024426	5825	0.33809275059492716	0.9504928813506747
+[I 230507 18:18:43 glance:35]  cat C:/data/word_frequency\fi-word_frequency.tsv n_src:6038852--> freq:6038793 total:25384723.532015547
+[I 230507 18:22:44 build:55] fi	56418	25384723.532015547	17965	0.3184267432379737	0.9998390772643501
+[I 230507 18:22:44 glance:35]  cat C:/data/word_frequency\fiu_vro-word_frequency.tsv n_src:93597--> freq:93597 total:210067.32229253693
+[I 230507 18:22:47 build:55] fiu_vro	40423	210067.32229253693	7616	0.1884075897385152	0.9996764492936708
+[I 230507 18:22:47 glance:35]  cat C:/data/word_frequency\fj-word_frequency.tsv n_src:11557--> freq:11557 total:31085.674414738998
+[I 230507 18:22:48 build:55] fj	6002	31085.674414738998	2860	0.47650783072309233	0.9999034925232769
+[I 230507 18:22:49 glance:35]  cat C:/data/word_frequency\fo-word_frequency.tsv n_src:206437--> freq:206435 total:622697.301784591
+[I 230507 18:22:56 build:55] fo	44712	622697.301784591	15880	0.3551619252102344	0.9998257778369541
+[I 230507 18:23:52 glance:35]  cat C:/data/word_frequency\fr-word_frequency.tsv n_src:12323757--> freq:12322355 total:116320030.33739333
+[I 230507 18:30:08 build:55] fr	37140	116320030.33739333	18526	0.4988152934841142	0.9997187273218092
+[I 230507 18:30:08 glance:35]  cat C:/data/word_frequency\frp-word_frequency.tsv n_src:65612--> freq:65611 total:189965.82990426282
+[I 230507 18:30:10 build:55] frp	32459	189965.82990426282	11633	0.35839058504575	0.9995440221801903
+[I 230507 18:30:11 glance:35]  cat C:/data/word_frequency\frr-word_frequency.tsv n_src:163143--> freq:163142 total:535852.548974805
+[I 230507 18:30:16 build:55] frr	33932	535852.548974805	13389	0.3945832842154898	0.999422219927597
+[I 230507 18:30:16 glance:35]  cat C:/data/word_frequency\fur-word_frequency.tsv n_src:70503--> freq:70503 total:199332.85257287708
+[I 230507 18:30:18 build:55] fur	34433	199332.85257287708	11495	0.3338367263961897	0.9997360863220696
+[I 230507 18:30:21 glance:35]  cat C:/data/word_frequency\fy-word_frequency.tsv n_src:590395--> freq:590393 total:2658645.067866998
+[I 230507 18:30:44 build:55] fy	39788	2658645.067866998	13708	0.3445259877349955	0.9998148441135065
+[I 230507 18:30:46 glance:35]  cat C:/data/word_frequency\ga-word_frequency.tsv n_src:401285--> freq:401261 total:1620924.8184739037
+[I 230507 18:31:00 build:55] ga	40848	1620924.8184739037	15788	0.38650607128868	0.9994829131948646
+[I 230507 18:31:00 glance:35]  cat C:/data/word_frequency\gag-word_frequency.tsv n_src:69012--> freq:69012 total:140386.5923194299
+[I 230507 18:31:02 build:55] gag	29322	140386.5923194299	9803	0.3343223518177478	0.9998174718513401
+[I 230507 18:31:02 glance:35]  cat C:/data/word_frequency\gan-word_frequency.tsv n_src:20283--> freq:20281 total:116370.96308016551
+[I 230507 18:31:03 build:55] gan	11017	116370.96308016551	9380	0.8514114550240537	0.9982608737960714
+[I 230507 18:31:03 glance:35]  cat C:/data/word_frequency\gcr-word_frequency.tsv n_src:36169--> freq:36169 total:108795.31869176027
+[I 230507 18:31:04 build:55] gcr	18705	108795.31869176027	6299	0.3367548783747661	0.9996051528856638
+[I 230507 18:31:05 glance:35]  cat C:/data/word_frequency\gd-word_frequency.tsv n_src:138356--> freq:138353 total:541712.9408599217
+[I 230507 18:31:09 build:55] gd	30002	541712.9408599217	12906	0.4301713219118725	0.9998274482879665
+[I 230507 18:31:17 glance:35]  cat C:/data/word_frequency\gl-word_frequency.tsv n_src:1766250--> freq:1766223 total:9767341.06493483
+[I 230507 18:32:14 build:55] gl	43122	9767341.06493483	20946	0.4857381383052734	0.9998258008940772
+[I 230507 18:32:15 glance:35]  cat C:/data/word_frequency\glk-word_frequency.tsv n_src:72681--> freq:72681 total:216383.90504132188
+[I 230507 18:32:17 build:55] glk	37291	216383.90504132188	6636	0.17795178461290928	0.9996373053684977
+[I 230507 18:32:18 glance:35]  cat C:/data/word_frequency\gn-word_frequency.tsv n_src:115961--> freq:115961 total:321125.56824459066
+[I 230507 18:32:22 build:55] gn	35476	321125.56824459066	13879	0.3912222347502537	0.9977303969123157
+[I 230507 18:32:23 glance:35]  cat C:/data/word_frequency\gom-word_frequency.tsv n_src:144096--> freq:144095 total:633493.3806499625
+[I 230507 18:32:27 build:55] gom	17454	633493.3806499625	5827	0.33384897444711814	0.9987635456210171
+[I 230507 18:32:27 glance:35]  cat C:/data/word_frequency\gor-word_frequency.tsv n_src:55397--> freq:55397 total:180333.36935439985
+[I 230507 18:32:29 build:55] gor	27045	180333.36935439985	10346	0.382547605842115	0.9998620692639018
+[I 230507 18:32:29 glance:35]  cat C:/data/word_frequency\got-word_frequency.tsv n_src:17452--> freq:17452 total:50962.09208686098
+[I 230507 18:32:30 build:55] got	8805	50962.09208686098	4784	0.543327654741624	0.8774546331912076
+[I 230507 18:32:31 glance:35]  cat C:/data/word_frequency\gu-word_frequency.tsv n_src:220793--> freq:220791 total:2235809.1086011813
+[I 230507 18:32:38 build:55] gu	10910	2235809.1086011813	3782	0.3466544454628781	0.9824255772937196
+[I 230507 18:32:38 glance:35]  cat C:/data/word_frequency\guw-word_frequency.tsv n_src:29812--> freq:29812 total:86401.34588829626
+[I 230507 18:32:39 build:55] guw	15208	86401.34588829626	6152	0.40452393477117304	0.9995532023352579
+[I 230507 18:32:39 glance:35]  cat C:/data/word_frequency\gv-word_frequency.tsv n_src:84863--> freq:84862 total:272539.45060092286
+[I 230507 18:32:42 build:55] gv	41613	272539.45060092286	16861	0.4051858794126835	0.9994536477402669
+[E 230507 18:32:42 glance:19] ('\n', ['\n'])
+[I 230507 18:32:43 glance:35]  cat C:/data/word_frequency\ha-word_frequency.tsv n_src:352503--> freq:352500 total:1626685.1450413365
+[I 230507 18:32:53 build:55] ha	32133	1626685.1450413365	17220	0.5358976752870881	0.9996284030890118
+[I 230507 18:32:53 glance:35]  cat C:/data/word_frequency\hak-word_frequency.tsv n_src:30263--> freq:30263 total:167176.52225748898
+[I 230507 18:32:54 build:55] hak	17015	167176.52225748898	10544	0.6196885101381134	0.9968168621159413
+[I 230507 18:32:54 glance:35]  cat C:/data/word_frequency\haw-word_frequency.tsv n_src:20858--> freq:20858 total:65304.89688397233
+[I 230507 18:32:55 build:55] haw	9479	65304.89688397233	5093	0.537292963392763	0.9997452102887306
+[I 230507 18:33:13 glance:35]  cat C:/data/word_frequency\he-word_frequency.tsv n_src:3619486--> freq:3619341 total:37072807.01788479
+[I 230507 18:35:25 build:55] he	51859	37072807.01788479	6693	0.1290614936655161	0.9997624670737629
+[I 230507 18:35:28 glance:35]  cat C:/data/word_frequency\hi-word_frequency.tsv n_src:655344--> freq:655294 total:5638016.203695221
+[I 230507 18:35:47 build:55] hi	11379	5638016.203695221	6157	0.5410844538184375	0.9994478304076025
+[I 230507 18:35:48 glance:35]  cat C:/data/word_frequency\hif-word_frequency.tsv n_src:81539--> freq:81539 total:238030.6395935427
+[I 230507 18:35:50 build:55] hif	39376	238030.6395935427	18877	0.47940369768386837	0.9998503364741046
+[I 230507 18:35:50 glance:35]  cat C:/data/word_frequency\ho-word_frequency.tsv n_src:98--> freq:98 total:166.1795543256423
+[I 230507 18:35:50 build:55] ho	590	166.1795543256423	562	0.9525423728813559	1.0
+[I 230507 18:36:02 glance:35]  cat C:/data/word_frequency\hr-word_frequency.tsv n_src:2488296--> freq:2488253 total:11781206.730323536
+[I 230507 18:37:23 build:55] hr	54942	11781206.730323536	16833	0.30637763459648354	0.999840195032254
+[I 230507 18:37:24 glance:35]  cat C:/data/word_frequency\hsb-word_frequency.tsv n_src:194518--> freq:194516 total:667649.1719511177
+[I 230507 18:37:30 build:55] hsb	38029	667649.1719511177	10837	0.2849667359120671	0.9997003658570104
+[I 230507 18:37:32 glance:35]  cat C:/data/word_frequency\ht-word_frequency.tsv n_src:287822--> freq:287820 total:1319286.2551304859
+[I 230507 18:37:40 build:55] ht	34660	1319286.2551304859	18368	0.5299480669359492	0.9999202743314567
+[I 230507 18:38:10 glance:35]  cat C:/data/word_frequency\hu-word_frequency.tsv n_src:6035170--> freq:6035025 total:28486558.34382576
+[I 230507 18:42:19 build:55] hu	51250	28486558.34382576	17896	0.349190243902439	0.9998015398531528
+[I 230507 18:42:36 glance:35]  cat C:/data/word_frequency\hy-word_frequency.tsv n_src:3812333--> freq:3812294 total:16047648.152455557
+[I 230507 18:47:33 build:55] hy	48645	16047648.152455557	14861	0.30549902353787645	0.9971827494215714
+[I 230507 18:47:36 glance:35]  cat C:/data/word_frequency\hyw-word_frequency.tsv n_src:462882--> freq:462879 total:1410048.380004019
+[I 230507 18:48:16 build:55] hyw	52119	1410048.380004019	11104	0.2130509027418024	0.9957269780205441
+[I 230507 18:48:17 glance:35]  cat C:/data/word_frequency\ia-word_frequency.tsv n_src:164815--> freq:164813 total:552006.4841913402
+[I 230507 18:48:22 build:55] ia	36612	552006.4841913402	18220	0.49765104337375726	0.9996375334221693
+[I 230507 18:48:36 glance:35]  cat C:/data/word_frequency\id-word_frequency.tsv n_src:3163991--> freq:3162334 total:19272985.526778713
+[I 230507 18:50:15 build:55] id	42561	19272985.526778713	24325	0.5715326237635394	0.9991328349442731
+[I 230507 18:50:16 glance:35]  cat C:/data/word_frequency\ie-word_frequency.tsv n_src:72045--> freq:72044 total:576792.1130458087
+[I 230507 18:50:18 build:55] ie	14306	576792.1130458087	6658	0.4653991332308122	0.9999798462833839
+[I 230507 18:50:19 glance:35]  cat C:/data/word_frequency\ig-word_frequency.tsv n_src:292124--> freq:292123 total:1276447.232178687
+[I 230507 18:50:27 build:55] ig	30894	1276447.232178687	17792	0.5759047064154852	0.9995645988085631
+[I 230507 18:50:27 glance:35]  cat C:/data/word_frequency\ii-word_frequency.tsv n_src:32--> freq:32 total:65.14871555945768
+[I 230507 18:50:27 build:55] ii	572	65.14871555945768	571	0.9982517482517482	1.0
+[I 230507 18:50:27 glance:35]  cat C:/data/word_frequency\ik-word_frequency.tsv n_src:6837--> freq:6837 total:10388.13406634711
+[I 230507 18:50:27 build:55] ik	2626	10388.13406634711	1370	0.5217060167555218	0.9995548281565123
+[I 230507 18:50:28 glance:35]  cat C:/data/word_frequency\ilo-word_frequency.tsv n_src:210778--> freq:210776 total:706520.723758653
+[I 230507 18:50:34 build:55] ilo	30758	706520.723758653	15776	0.5129072111320632	0.9995929823933158
+[I 230507 18:50:34 glance:35]  cat C:/data/word_frequency\inh-word_frequency.tsv n_src:60749--> freq:60749 total:135904.34581401892
+[I 230507 18:50:37 build:55] inh	26629	135904.34581401892	7290	0.2737616883848436	0.9995821099580944
+[I 230507 18:50:38 glance:35]  cat C:/data/word_frequency\io-word_frequency.tsv n_src:199564--> freq:199563 total:941213.5818285117
+[I 230507 18:50:43 build:55] io	24602	941213.5818285117	12315	0.5005690594260629	0.9998594953044775
+[I 230507 18:50:47 glance:35]  cat C:/data/word_frequency\is-word_frequency.tsv n_src:809669--> freq:809664 total:2995673.4725370444
+[I 230507 18:51:22 build:55] is	46745	2995673.4725370444	13220	0.28281099582843083	0.9998148193961055
+[I 230507 18:52:02 glance:35]  cat C:/data/word_frequency\it-word_frequency.tsv n_src:8169978--> freq:8168491 total:65715462.80741399
+[I 230507 18:56:38 build:55] it	43348	65715462.80741399	21241	0.490011073175233	0.9997788226851282
+[I 230507 18:56:38 glance:35]  cat C:/data/word_frequency\iu-word_frequency.tsv n_src:8316--> freq:8316 total:12787.621977929062
+[I 230507 18:56:39 build:55] iu	3225	12787.621977929062	1373	0.42573643410852713	0.9552681540552164
+[I 230507 18:57:00 glance:35]  cat C:/data/word_frequency\ja-word_frequency.tsv n_src:4496607--> freq:4496353 total:46109614.56805505
+[I 230507 18:59:26 build:55] ja	10038	46109614.56805505	9303	0.9267782426778243	0.9986655689788159
+[I 230507 18:59:27 glance:35]  cat C:/data/word_frequency\jam-word_frequency.tsv n_src:29822--> freq:29822 total:76283.21397130963
+[I 230507 18:59:27 build:55] jam	14841	76283.21397130963	5822	0.3922916245536015	0.9999606728683308
+[I 230507 18:59:28 glance:35]  cat C:/data/word_frequency\jbo-word_frequency.tsv n_src:27233--> freq:27233 total:96507.82230686577
+[I 230507 18:59:28 build:55] jbo	14231	96507.82230686577	6907	0.4853488862342773	0.9999896381456332
+[I 230507 18:59:31 glance:35]  cat C:/data/word_frequency\jv-word_frequency.tsv n_src:670259--> freq:670240 total:2711598.9899999243
+[I 230507 18:59:51 build:55] jv	41145	2711598.9899999243	18368	0.44642119334062463	0.9967230537891429
+[I 230507 19:00:01 glance:35]  cat C:/data/word_frequency\ka-word_frequency.tsv n_src:1801777--> freq:1801735 total:7171153.096767872
+[I 230507 19:02:56 build:55] ka	49459	7171153.096767872	13571	0.27438888776562403	0.9865634430756423
+[I 230507 19:02:57 glance:35]  cat C:/data/word_frequency\kaa-word_frequency.tsv n_src:107758--> freq:107757 total:251708.1631377349
+[I 230507 19:03:01 build:55] kaa	47756	251708.1631377349	10292	0.21551218695033084	0.9996788287892204
+[I 230507 19:03:01 glance:35]  cat C:/data/word_frequency\kab-word_frequency.tsv n_src:96929--> freq:96929 total:243016.16136680724
+[I 230507 19:03:04 build:55] kab	44156	243016.16136680724	11194	0.25351028172841744	0.9988387461047852
+[I 230507 19:03:04 glance:35]  cat C:/data/word_frequency\kbd-word_frequency.tsv n_src:61333--> freq:61331 total:123189.56355455396
+[I 230507 19:03:08 build:55] kbd	23612	123189.56355455396	4727	0.200194816195155	0.9997073708445424
+[I 230507 19:03:08 glance:35]  cat C:/data/word_frequency\kbp-word_frequency.tsv n_src:49299--> freq:49296 total:143672.5960533108
+[I 230507 19:03:10 build:55] kbp	22957	143672.5960533108	5378	0.23426405889271246	0.9970946812027717
+[I 230507 19:03:10 glance:35]  cat C:/data/word_frequency\kcg-word_frequency.tsv n_src:15304--> freq:15304 total:43006.582516034134
+[I 230507 19:03:11 build:55] kcg	7667	43006.582516034134	4445	0.5797574018520933	0.9976326667691915
+[I 230507 19:03:11 glance:35]  cat C:/data/word_frequency\kg-word_frequency.tsv n_src:9163--> freq:9163 total:18906.483094474013
+[I 230507 19:03:11 build:55] kg	4712	18906.483094474013	2598	0.551358234295416	1.0
+[I 230507 19:03:11 glance:35]  cat C:/data/word_frequency\ki-word_frequency.tsv n_src:13010--> freq:13009 total:24425.091884474386
+[I 230507 19:03:12 build:55] ki	6259	24425.091884474386	2478	0.3959098897587474	0.9999590584958808
+[I 230507 19:03:12 glance:35]  cat C:/data/word_frequency\kj-word_frequency.tsv n_src:92--> freq:92 total:112.4757815748854
+[I 230507 19:03:12 build:55] kj	561	112.4757815748854	555	0.9893048128342246	1.0
+[I 230507 19:03:19 glance:35]  cat C:/data/word_frequency\kk-word_frequency.tsv n_src:1537038--> freq:1536998 total:6025152.171093207
+[I 230507 19:04:25 build:55] kk	41483	6025152.171093207	9177	0.22122315165248416	0.9994806043749205
+[I 230507 19:04:25 glance:35]  cat C:/data/word_frequency\kl-word_frequency.tsv n_src:14104--> freq:14104 total:20530.472186520863
+[I 230507 19:04:26 build:55] kl	5021	20530.472186520863	1692	0.33698466440948016	1.0
+[I 230507 19:04:26 glance:35]  cat C:/data/word_frequency\km-word_frequency.tsv n_src:199559--> freq:199547 total:1415676.7343680526
+[I 230507 19:04:34 build:55] km	15814	1415676.7343680526	6264	0.39610471733906666	0.9816647419351993
+[I 230507 19:04:35 glance:35]  cat C:/data/word_frequency\kn-word_frequency.tsv n_src:391384--> freq:391343 total:4372486.9772840375
+[I 230507 19:04:47 build:55] kn	10499	4372486.9772840375	3959	0.37708353176493	0.9959942310163207
+[I 230507 19:04:54 glance:35]  cat C:/data/word_frequency\ko-word_frequency.tsv n_src:1498896--> freq:1498799 total:16557972.492488058
+[I 230507 19:05:38 build:55] ko	10406	16557972.492488058	9219	0.8859311935421872	0.9833066340275245
+[I 230507 19:05:38 glance:35]  cat C:/data/word_frequency\koi-word_frequency.tsv n_src:67971--> freq:67971 total:181724.551927106
+[I 230507 19:05:41 build:55] koi	30126	181724.551927106	6566	0.21795127132709288	0.9998218457907466
+[I 230507 19:05:41 glance:35]  cat C:/data/word_frequency\krc-word_frequency.tsv n_src:71918--> freq:71918 total:159806.23829836407
+[I 230507 19:05:44 build:55] krc	31146	159806.23829836407	7264	0.2332241700378861	0.9986356451205096
+[I 230507 19:05:44 glance:35]  cat C:/data/word_frequency\ks-word_frequency.tsv n_src:22954--> freq:22954 total:66303.5771342071
+[I 230507 19:05:45 build:55] ks	11107	66303.5771342071	4298	0.38696317637525884	0.9854137254079277
+[I 230507 19:05:45 glance:35]  cat C:/data/word_frequency\ksh-word_frequency.tsv n_src:76097--> freq:76095 total:187422.35479713877
+[I 230507 19:05:47 build:55] ksh	33248	187422.35479713877	9579	0.2881075553416747	0.9999013359521653
+[I 230507 19:05:50 glance:35]  cat C:/data/word_frequency\ku-word_frequency.tsv n_src:501006--> freq:501004 total:1495108.5515285495
+[I 230507 19:06:06 build:55] ku	42597	1495108.5515285495	15318	0.3596027889287978	0.9996992268087119
+[I 230507 19:06:07 glance:35]  cat C:/data/word_frequency\kv-word_frequency.tsv n_src:108035--> freq:108035 total:313089.3449706907
+[I 230507 19:06:11 build:55] kv	31228	313089.3449706907	8469	0.27119892404252594	0.9716800712595455
+[I 230507 19:06:11 glance:35]  cat C:/data/word_frequency\kw-word_frequency.tsv n_src:76565--> freq:76563 total:224929.60748646196
+[I 230507 19:06:13 build:55] kw	37536	224929.60748646196	13043	0.3474797527706735	0.9992248562123205
+[I 230507 19:06:16 glance:35]  cat C:/data/word_frequency\ky-word_frequency.tsv n_src:679655--> freq:679636 total:2520599.9781390443
+[I 230507 19:06:46 build:55] ky	42841	2520599.9781390443	8082	0.18865105856539297	0.9997225826398568
+[I 230507 19:06:56 glance:35]  cat C:/data/word_frequency\la-word_frequency.tsv n_src:2321017--> freq:2320986 total:12426407.53572101
+[I 230507 19:08:12 build:55] la	52643	12426407.53572101	13101	0.2488649962958038	0.9997243188033478
+[I 230507 19:08:13 glance:35]  cat C:/data/word_frequency\lad-word_frequency.tsv n_src:87510--> freq:87510 total:235664.63006089837
+[I 230507 19:08:15 build:55] lad	41025	235664.63006089837	14491	0.35322364411943935	0.9998699181610626
+[I 230507 19:08:18 glance:35]  cat C:/data/word_frequency\lb-word_frequency.tsv n_src:557763--> freq:557760 total:2278127.51082829
+[I 230507 19:08:36 build:55] lb	41927	2278127.51082829	19575	0.46688291554368305	0.9999286847781119
+[I 230507 19:08:36 glance:35]  cat C:/data/word_frequency\lbe-word_frequency.tsv n_src:16874--> freq:16872 total:30547.17300117389
+[I 230507 19:08:37 build:55] lbe	7264	30547.17300117389	2760	0.3799559471365639	0.999541692450576
+[I 230507 19:08:37 glance:35]  cat C:/data/word_frequency\lez-word_frequency.tsv n_src:110911--> freq:110910 total:293283.83105844876
+[I 230507 19:08:41 build:55] lez	48178	293283.83105844876	10909	0.2264311511478268	0.999679198001533
+[I 230507 19:08:42 glance:35]  cat C:/data/word_frequency\lfn-word_frequency.tsv n_src:99117--> freq:99117 total:339955.16785496473
+[I 230507 19:08:44 build:55] lfn	32634	339955.16785496473	13533	0.4146902004044861	0.9992419788106943
+[I 230507 19:08:45 glance:35]  cat C:/data/word_frequency\lg-word_frequency.tsv n_src:110922--> freq:110919 total:344085.17081782623
+[I 230507 19:08:49 build:55] lg	39232	344085.17081782623	9436	0.2405179445350734	0.9995374997149444
+[I 230507 19:08:50 glance:35]  cat C:/data/word_frequency\li-word_frequency.tsv n_src:358451--> freq:358446 total:1164208.1122641212
+[I 230507 19:09:02 build:55] li	41850	1164208.1122641212	13659	0.3263799283154122	0.9996947109301775
+[I 230507 19:09:03 glance:35]  cat C:/data/word_frequency\lij-word_frequency.tsv n_src:319206--> freq:319206 total:989745.545858255
+[I 230507 19:09:13 build:55] lij	47466	989745.545858255	12766	0.2689504066068344	0.9998247636502212
+[I 230507 19:09:14 glance:35]  cat C:/data/word_frequency\lld-word_frequency.tsv n_src:150372--> freq:150372 total:599282.6691852277
+[I 230507 19:09:18 build:55] lld	13048	599282.6691852277	7875	0.6035407725321889	0.9998052339038622
+[I 230507 19:09:19 glance:35]  cat C:/data/word_frequency\lmo-word_frequency.tsv n_src:360761--> freq:360758 total:1279248.6313382585
+[I 230507 19:09:29 build:55] lmo	36099	1279248.6313382585	14843	0.41117482478739026	0.9997113566820494
+[I 230507 19:09:30 glance:35]  cat C:/data/word_frequency\ln-word_frequency.tsv n_src:46986--> freq:46986 total:114729.31761366806
+[I 230507 19:09:31 build:55] ln	23331	114729.31761366806	9536	0.4087265869444087	0.9998307984339696
+[I 230507 19:09:32 glance:35]  cat C:/data/word_frequency\lo-word_frequency.tsv n_src:195687--> freq:195685 total:466547.3879975229
+[I 230507 19:09:47 build:55] lo	51859	466547.3879975229	12190	0.23506045238049325	0.8684327133757791
+[I 230507 19:09:56 glance:35]  cat C:/data/word_frequency\lt-word_frequency.tsv n_src:1927191--> freq:1927164 total:8164033.649972799
+[I 230507 19:11:02 build:55] lt	50327	8164033.649972799	13446	0.2671726906034534	0.9997532644297612
+[I 230507 19:11:02 glance:35]  cat C:/data/word_frequency\ltg-word_frequency.tsv n_src:30458--> freq:30458 total:59940.47839692728
+[I 230507 19:11:03 build:55] ltg	13294	59940.47839692728	3273	0.24620129381675945	0.9999228483836566
+[I 230507 19:11:08 glance:35]  cat C:/data/word_frequency\lv-word_frequency.tsv n_src:1238952--> freq:1238943 total:5501906.283760844
+[I 230507 19:11:56 build:55] lv	50443	5501906.283760844	13573	0.2690759867573301	0.9997127856414241
+[I 230507 19:11:56 glance:35]  cat C:/data/word_frequency\mad-word_frequency.tsv n_src:33492--> freq:33492 total:75595.55975892545
+[I 230507 19:11:57 build:55] mad	15789	75595.55975892545	5362	0.3396035214389765	0.9996485990945753
+[I 230507 19:11:57 glance:35]  cat C:/data/word_frequency\mai-word_frequency.tsv n_src:68773--> freq:68773 total:401937.4276154152
+[I 230507 19:11:59 build:55] mai	13288	401937.4276154152	6808	0.5123419626730885	0.9997292189872027
+[I 230507 19:12:00 glance:35]  cat C:/data/word_frequency\map_bms-word_frequency.tsv n_src:74217--> freq:74216 total:219031.50874102474
+[I 230507 19:12:02 build:55] map_bms	37767	219031.50874102474	11442	0.30296290412264676	0.999890830324914
+[I 230507 19:12:02 glance:35]  cat C:/data/word_frequency\mdf-word_frequency.tsv n_src:78123--> freq:78122 total:215381.10213849746
+[I 230507 19:12:05 build:55] mdf	35294	215381.10213849746	13254	0.37553125177083924	0.9998668861882729
+[I 230507 19:12:07 glance:35]  cat C:/data/word_frequency\mg-word_frequency.tsv n_src:364543--> freq:364543 total:1425408.5806758192
+[I 230507 19:12:18 build:55] mg	23024	1425408.5806758192	10221	0.4439280750521195	0.9998616188834757
+[I 230507 19:12:18 glance:35]  cat C:/data/word_frequency\mh-word_frequency.tsv n_src:321--> freq:321 total:494.5507325208826
+[I 230507 19:12:18 build:55] mh	661	494.5507325208826	588	0.8895612708018155	1.0
+[I 230507 19:12:18 glance:35]  cat C:/data/word_frequency\mhr-word_frequency.tsv n_src:133708--> freq:133707 total:628057.9320124318
+[I 230507 19:12:23 build:55] mhr	22785	628057.9320124318	6957	0.3053324555628703	0.999821817915809
+[I 230507 19:12:24 glance:35]  cat C:/data/word_frequency\mi-word_frequency.tsv n_src:28479--> freq:28479 total:131373.10093734972
+[I 230507 19:12:24 build:55] mi	14223	131373.10093734972	7349	0.5166983055614146	0.9992871874905936
+[I 230507 19:12:26 glance:35]  cat C:/data/word_frequency\min-word_frequency.tsv n_src:339223--> freq:339223 total:1819580.7486565018
+[I 230507 19:12:35 build:55] min	13438	1819580.7486565018	6500	0.48370293198392617	0.9998241058155697
+[E 230507 19:12:36 glance:19] ('\n', ['\n'])
+[I 230507 19:12:44 glance:35]  cat C:/data/word_frequency\mk-word_frequency.tsv n_src:1786888--> freq:1786842 total:8404951.434195206
+[I 230507 19:13:49 build:55] mk	45357	8404951.434195206	14250	0.31417421787155236	0.9996833274813637
+[I 230507 19:13:52 glance:35]  cat C:/data/word_frequency\ml-word_frequency.tsv n_src:827654--> freq:827577 total:5951070.611220958
+[I 230507 19:14:18 build:55] ml	13692	5951070.611220958	6556	0.47881974875839906	0.9966423166912134
+[I 230507 19:14:20 glance:35]  cat C:/data/word_frequency\mn-word_frequency.tsv n_src:450555--> freq:450541 total:1710274.013043551
+[I 230507 19:14:38 build:55] mn	48238	1710274.013043551	13883	0.2878021476843982	0.9993815900251696
+[I 230507 19:14:38 glance:35]  cat C:/data/word_frequency\mni-word_frequency.tsv n_src:24817--> freq:24815 total:135305.00281794887
+[I 230507 19:14:39 build:55] mni	6073	135305.00281794887	4794	0.789395685822493	0.9428562982109187
+[I 230507 19:14:40 glance:35]  cat C:/data/word_frequency\mnw-word_frequency.tsv n_src:91149--> freq:91141 total:632019.1589832492
+[I 230507 19:14:42 build:55] mnw	14249	632019.1589832492	6043	0.42409993683767283	0.9904853788722594
+[E 230507 19:14:42 glance:19] ('\n', ['\n'])
+[I 230507 19:14:44 glance:35]  cat C:/data/word_frequency\mr-word_frequency.tsv n_src:358725--> freq:358665 total:3205090.960702522
+[I 230507 19:14:54 build:55] mr	11265	3205090.960702522	4979	0.441988459831336	0.9987016722841007
+[I 230507 19:14:55 glance:35]  cat C:/data/word_frequency\mrj-word_frequency.tsv n_src:112932--> freq:112932 total:276252.7750595164
+[I 230507 19:14:59 build:55] mrj	54853	276252.7750595164	12770	0.23280403988842907	0.9998937781981883
+[E 230507 19:14:59 glance:19] ('\n', ['\n'])
+[I 230507 19:15:06 glance:35]  cat C:/data/word_frequency\ms-word_frequency.tsv n_src:1508454--> freq:1508394 total:8247041.839324765
+[I 230507 19:15:50 build:55] ms	41050	8247041.839324765	23198	0.565115712545676	0.9993342991985021
+[I 230507 19:15:51 glance:35]  cat C:/data/word_frequency\mt-word_frequency.tsv n_src:240374--> freq:240374 total:945075.0099732848
+[I 230507 19:15:58 build:55] mt	37623	945075.0099732848	14474	0.384711479679983	0.9998096304754889
+[I 230507 19:15:59 glance:35]  cat C:/data/word_frequency\mus-word_frequency.tsv n_src:113--> freq:113 total:125.19756062701188
+[I 230507 19:15:59 build:55] mus	562	125.19756062701188	559	0.994661921708185	1.0
+[I 230507 19:15:59 glance:35]  cat C:/data/word_frequency\mwl-word_frequency.tsv n_src:202390--> freq:202389 total:746795.8131412532
+[I 230507 19:16:06 build:55] mwl	40710	746795.8131412532	13946	0.34256939326946695	0.9999180618550206
+[I 230507 19:16:07 glance:35]  cat C:/data/word_frequency\my-word_frequency.tsv n_src:355547--> freq:355545 total:2383721.400402137
+[I 230507 19:16:20 build:55] my	12749	2383721.400402137	5907	0.4633304572907679	0.9975141687413697
+[I 230507 19:16:21 glance:35]  cat C:/data/word_frequency\myv-word_frequency.tsv n_src:172347--> freq:172345 total:470721.6675445788
+[I 230507 19:16:27 build:55] myv	37854	470721.6675445788	11350	0.29983621281766787	0.9996487275828647
+[I 230507 19:16:28 glance:35]  cat C:/data/word_frequency\mzn-word_frequency.tsv n_src:114841--> freq:114841 total:392688.45981332724
+[I 230507 19:16:31 build:55] mzn	28521	392688.45981332724	8910	0.3124013884506153	0.9996320703086207
+[I 230507 19:16:31 glance:35]  cat C:/data/word_frequency\na-word_frequency.tsv n_src:11191--> freq:11191 total:20643.381631330347
+[I 230507 19:16:32 build:55] na	4656	20643.381631330347	3382	0.7263745704467354	0.9978565038240501
+[I 230507 19:16:32 glance:35]  cat C:/data/word_frequency\nah-word_frequency.tsv n_src:62069--> freq:62067 total:166527.7283839747
+[I 230507 19:16:34 build:55] nah	29280	166527.7283839747	9994	0.34132513661202185	0.9997460200491366
+[I 230507 19:16:35 glance:35]  cat C:/data/word_frequency\nap-word_frequency.tsv n_src:221176--> freq:221173 total:658884.7353913133
+[I 230507 19:16:42 build:55] nap	36315	658884.7353913133	10892	0.299931157923723	0.9998510761738837
+[I 230507 19:16:44 glance:35]  cat C:/data/word_frequency\nds-word_frequency.tsv n_src:569897--> freq:569897 total:2461701.1481098193
+[I 230507 19:17:06 build:55] nds	34199	2461701.1481098193	15892	0.4646919500570192	0.9999389919286977
+[I 230507 19:17:07 glance:35]  cat C:/data/word_frequency\nds_nl-word_frequency.tsv n_src:220456--> freq:220454 total:590031.9372551697
+[I 230507 19:17:15 build:55] nds_nl	52417	590031.9372551697	13285	0.2534483087547933	0.999822502548564
+[I 230507 19:17:15 glance:35]  cat C:/data/word_frequency\ne-word_frequency.tsv n_src:180950--> freq:180943 total:1363571.083790417
+[I 230507 19:17:20 build:55] ne	12019	1363571.083790417	6185	0.5146018803561029	0.9991727545477991
+[I 230507 19:17:21 glance:35]  cat C:/data/word_frequency\new-word_frequency.tsv n_src:131446--> freq:131445 total:1137274.8148889656
+[I 230507 19:17:25 build:55] new	5632	1137274.8148889656	2881	0.5115411931818182	0.9987460385247514
+[I 230507 19:17:25 glance:35]  cat C:/data/word_frequency\ng-word_frequency.tsv n_src:1135--> freq:1135 total:1958.3819183984929
+[I 230507 19:17:25 build:55] ng	1052	1958.3819183984929	604	0.5741444866920152	1.0
+[I 230507 19:17:25 glance:35]  cat C:/data/word_frequency\nia-word_frequency.tsv n_src:33114--> freq:33114 total:105417.710536254
+[I 230507 19:17:26 build:55] nia	17092	105417.710536254	5713	0.33424994149309617	0.9990477121677765
+[I 230507 19:17:50 glance:35]  cat C:/data/word_frequency\nl-word_frequency.tsv n_src:5221599--> freq:5220951 total:32843181.27833311
+[I 230507 19:20:54 build:55] nl	41406	32843181.27833311	19549	0.4721296430469014	0.9998708129563151
+[I 230507 19:21:00 glance:35]  cat C:/data/word_frequency\nn-word_frequency.tsv n_src:1347595--> freq:1347585 total:5602893.111650401
+[I 230507 19:21:51 build:55] nn	40718	5602893.111650401	18762	0.46077901665111254	0.999806477501165
+[I 230507 19:22:10 glance:35]  cat C:/data/word_frequency\no-word_frequency.tsv n_src:4187573--> freq:4187512 total:21239439.55081234
+[I 230507 19:24:43 build:55] no	44820	21239439.55081234	20684	0.4614904060687193	0.9997681991426699
+[I 230507 19:24:44 glance:35]  cat C:/data/word_frequency\nov-word_frequency.tsv n_src:23633--> freq:23633 total:57305.449591521654
+[I 230507 19:24:44 build:55] nov	11624	57305.449591521654	5961	0.5128183069511356	0.9997971483536806
+[I 230507 19:24:44 glance:35]  cat C:/data/word_frequency\nqo-word_frequency.tsv n_src:38149--> freq:38147 total:188123.8126668534
+[I 230507 19:24:47 build:55] nqo	19955	188123.8126668534	1951	0.09776998246053621	0.6709355599397773
+[I 230507 19:24:48 glance:35]  cat C:/data/word_frequency\nrm-word_frequency.tsv n_src:49063--> freq:49063 total:147783.22455078328
+[I 230507 19:24:49 build:55] nrm	24897	147783.22455078328	8765	0.3520504478451219	0.9999796999963351
+[I 230507 19:24:49 glance:35]  cat C:/data/word_frequency\nso-word_frequency.tsv n_src:27035--> freq:27035 total:92892.71396561788
+[I 230507 19:24:50 build:55] nso	15656	92892.71396561788	6833	0.4364460909555442	1.0
+[I 230507 19:24:50 glance:35]  cat C:/data/word_frequency\nv-word_frequency.tsv n_src:36704--> freq:36704 total:243630.16307352288
+[I 230507 19:24:51 build:55] nv	9598	243630.16307352288	3137	0.326838924775995	0.9992722526780525
+[I 230507 19:24:52 glance:35]  cat C:/data/word_frequency\ny-word_frequency.tsv n_src:43470--> freq:43470 total:114953.29390767643
+[I 230507 19:24:53 build:55] ny	21564	114953.29390767643	8594	0.3985345946948618	0.9996149434338976
+[I 230507 19:24:56 glance:35]  cat C:/data/word_frequency\oc-word_frequency.tsv n_src:734626--> freq:734579 total:3219386.284470945
+[I 230507 19:25:18 build:55] oc	41070	3219386.284470945	17262	0.4203067932797663	0.9998015184428516
+[I 230507 19:25:19 glance:35]  cat C:/data/word_frequency\olo-word_frequency.tsv n_src:75848--> freq:75848 total:169385.6373649711
+[I 230507 19:25:22 build:55] olo	33443	169385.6373649711	7745	0.23158807523248512	0.9997296013398432
+[I 230507 19:25:22 glance:35]  cat C:/data/word_frequency\om-word_frequency.tsv n_src:67310--> freq:67309 total:153544.6367579238
+[I 230507 19:25:24 build:55] om	30041	153544.6367579238	6398	0.21297560001331514	0.9993308706022459
+[I 230507 19:25:25 glance:35]  cat C:/data/word_frequency\or-word_frequency.tsv n_src:213180--> freq:213175 total:1430841.0648639929
+[I 230507 19:25:32 build:55] or	14111	1430841.0648639929	6668	0.4725391538516051	0.967760954912936
+[I 230507 19:25:33 glance:35]  cat C:/data/word_frequency\os-word_frequency.tsv n_src:123871--> freq:123870 total:445635.8261086219
+[I 230507 19:25:37 build:55] os	27431	445635.8261086219	7640	0.27851700630673326	0.9995340216057134
+[I 230507 19:25:39 glance:35]  cat C:/data/word_frequency\pa-word_frequency.tsv n_src:353484--> freq:353469 total:2490847.6220080457
+[I 230507 19:25:51 build:55] pa	14409	2490847.6220080457	7683	0.5332084114095357	0.99390860367057
+[I 230507 19:25:51 glance:35]  cat C:/data/word_frequency\pag-word_frequency.tsv n_src:49478--> freq:49478 total:135590.66928802995
+[I 230507 19:25:52 build:55] pag	20567	135590.66928802995	9642	0.4688092575485	0.9999704994449765
+[I 230507 19:25:53 glance:35]  cat C:/data/word_frequency\pam-word_frequency.tsv n_src:133381--> freq:133378 total:435209.6073239034
+[I 230507 19:25:57 build:55] pam	36058	435209.6073239034	20506	0.5686948804703533	0.999793788476557
+[I 230507 19:25:57 glance:35]  cat C:/data/word_frequency\pap-word_frequency.tsv n_src:48163--> freq:48163 total:158480.8535721919
+[I 230507 19:25:58 build:55] pap	25212	158480.8535721919	10528	0.4175789306679359	0.999905280173302
+[E 230507 19:25:58 glance:19] ('\n', ['\n'])
+[I 230507 19:25:59 glance:35]  cat C:/data/word_frequency\pcd-word_frequency.tsv n_src:109073--> freq:109061 total:285748.1381983958
+[I 230507 19:26:02 build:55] pcd	51383	285748.1381983958	16973	0.3303232586653173	0.9988805173290268
+[I 230507 19:26:02 glance:35]  cat C:/data/word_frequency\pcm-word_frequency.tsv n_src:25114--> freq:25114 total:73166.41010077711
+[I 230507 19:26:03 build:55] pcm	13183	73166.41010077711	7624	0.578320564363195	0.9999146761664952
+[I 230507 19:26:03 glance:35]  cat C:/data/word_frequency\pdc-word_frequency.tsv n_src:27949--> freq:27948 total:66341.35940638116
+[I 230507 19:26:04 build:55] pdc	13111	66341.35940638116	6909	0.5269620928990923	0.9999849264469564
+[I 230507 19:26:04 glance:35]  cat C:/data/word_frequency\pfl-word_frequency.tsv n_src:94522--> freq:94522 total:212862.40552873097
+[I 230507 19:26:07 build:55] pfl	39489	212862.40552873097	11344	0.2872698726227557	0.9998445602952969
+[I 230507 19:26:08 glance:35]  cat C:/data/word_frequency\pi-word_frequency.tsv n_src:8022--> freq:8022 total:22341.321350951508
+[I 230507 19:26:08 build:55] pi	3255	22341.321350951508	1911	0.5870967741935483	0.9942881102641157
+[I 230507 19:26:08 glance:35]  cat C:/data/word_frequency\pih-word_frequency.tsv n_src:10224--> freq:10224 total:22324.136251147505
+[I 230507 19:26:08 build:55] pih	4822	22324.136251147505	3007	0.623600165906263	0.9997312326025742
+[I 230507 19:26:53 glance:35]  cat C:/data/word_frequency\pl-word_frequency.tsv n_src:9893701--> freq:9893206 total:68071484.2113789
+[I 230507 19:32:44 build:55] pl	55592	68071484.2113789	15877	0.2855986472873795	0.9998270125196739
+[I 230507 19:32:44 glance:35]  cat C:/data/word_frequency\pms-word_frequency.tsv n_src:161536--> freq:161533 total:631355.3089601552
+[I 230507 19:32:49 build:55] pms	29108	631355.3089601552	7910	0.271746598873162	0.9999211673437879
+[I 230507 19:32:53 glance:35]  cat C:/data/word_frequency\pnb-word_frequency.tsv n_src:986184--> freq:986144 total:4910014.980130358
+[I 230507 19:33:29 build:55] pnb	35617	4910014.980130358	11174	0.31372659123452284	0.9984423938922922
+[I 230507 19:33:29 glance:35]  cat C:/data/word_frequency\pnt-word_frequency.tsv n_src:14422--> freq:14422 total:28600.35903363767
+[I 230507 19:33:30 build:55] pnt	6267	28600.35903363767	1973	0.3148236795915111	0.9974966878055123
+[I 230507 19:33:33 glance:35]  cat C:/data/word_frequency\ps-word_frequency.tsv n_src:616287--> freq:616190 total:2447094.1853335295
+[I 230507 19:33:54 build:55] ps	39069	2447094.1853335295	13570	0.34733420358852285	0.9972524980977071
+[I 230507 19:34:15 glance:35]  cat C:/data/word_frequency\pt-word_frequency.tsv n_src:4929313--> freq:4928975 total:37436061.295107305
+[I 230507 19:36:45 build:55] pt	42322	37436061.295107305	21761	0.5141770237701432	0.9993878160989375
+[I 230507 19:36:45 glance:35]  cat C:/data/word_frequency\pwn-word_frequency.tsv n_src:18041--> freq:18041 total:48561.65647224059
+[I 230507 19:36:45 build:55] pwn	8883	48561.65647224059	3669	0.4130361364403918	0.9997747226073536
+[I 230507 19:36:46 glance:35]  cat C:/data/word_frequency\qu-word_frequency.tsv n_src:208929--> freq:208928 total:615852.3612605119
+[I 230507 19:36:53 build:55] qu	43693	615852.3612605119	19761	0.4522692422127114	0.9997840978750827
+[I 230507 19:36:54 glance:35]  cat C:/data/word_frequency\rm-word_frequency.tsv n_src:148954--> freq:148954 total:616697.203941006
+[I 230507 19:36:59 build:55] rm	34892	616697.203941006	13005	0.3727215407543276	0.999954437097729
+[I 230507 19:36:59 glance:35]  cat C:/data/word_frequency\rmy-word_frequency.tsv n_src:14351--> freq:14351 total:29543.62182052565
+[I 230507 19:36:59 build:55] rmy	6355	29543.62182052565	3135	0.49331235247836347	1.0
+[I 230507 19:37:00 glance:35]  cat C:/data/word_frequency\rn-word_frequency.tsv n_src:16383--> freq:16383 total:32861.36937397343
+[I 230507 19:37:00 build:55] rn	7326	32861.36937397343	2108	0.2877422877422877	0.9999695691318089
+[I 230507 19:37:14 glance:35]  cat C:/data/word_frequency\ro-word_frequency.tsv n_src:2912665--> freq:2912572 total:17508798.255842708
+[I 230507 19:38:51 build:55] ro	44970	17508798.255842708	19121	0.42519457416055145	0.9997233480840133
+[I 230507 19:38:51 glance:35]  cat C:/data/word_frequency\roa_rup-word_frequency.tsv n_src:57504--> freq:57503 total:107792.02011805067
+[I 230507 19:38:53 build:55] roa_rup	24713	107792.02011805067	5442	0.22020798769878203	0.9998110107452607
+[I 230507 19:38:54 glance:35]  cat C:/data/word_frequency\roa_tara-word_frequency.tsv n_src:117349--> freq:114348 total:344890.9816309242
+[I 230507 19:38:57 build:55] roa_tara	34676	344890.9816309242	13181	0.380118814165417	0.9999026541957542
+[I 230507 19:40:22 glance:35]  cat C:/data/word_frequency\ru-word_frequency.tsv n_src:17396630--> freq:17395897 total:136742318.1464383
+[I 230507 19:52:06 build:55] ru	55962	136742318.1464383	14967	0.26744934062399484	0.9997977490373224
+[I 230507 19:52:07 glance:35]  cat C:/data/word_frequency\rue-word_frequency.tsv n_src:187928--> freq:187927 total:468209.8243829732
+[I 230507 19:52:15 build:55] rue	58249	468209.8243829732	13608	0.23361774451063538	0.9994568954519317
+[I 230507 19:52:16 glance:35]  cat C:/data/word_frequency\rw-word_frequency.tsv n_src:125588--> freq:125587 total:349124.2204567265
+[I 230507 19:52:19 build:55] rw	41129	349124.2204567265	11961	0.2908166986797637	0.9998450798706092
+[I 230507 19:52:22 glance:35]  cat C:/data/word_frequency\sa-word_frequency.tsv n_src:645394--> freq:645230 total:6598304.675394799
+[I 230507 19:52:41 build:55] sa	12893	6598304.675394799	3345	0.2594431086636159	0.9985729247502977
+[I 230507 19:52:43 glance:35]  cat C:/data/word_frequency\sah-word_frequency.tsv n_src:358238--> freq:358238 total:1207618.4745669533
+[I 230507 19:53:00 build:55] sah	51638	1207618.4745669533	9632	0.18652930012781285	0.9984290127166269
+[E 230507 19:53:00 glance:19] ('\n', ['\n'])
+[I 230507 19:53:01 glance:35]  cat C:/data/word_frequency\sat-word_frequency.tsv n_src:209166--> freq:209158 total:668847.4676680956
+[I 230507 19:53:15 build:55] sat	36733	668847.4676680956	11709	0.318759698363869	0.927564257201304
+[I 230507 19:53:16 glance:35]  cat C:/data/word_frequency\sc-word_frequency.tsv n_src:195466--> freq:195466 total:590688.9760666066
+[I 230507 19:53:22 build:55] sc	43764	590688.9760666066	15775	0.36045608262498857	0.9998143238793342
+[I 230507 19:53:23 glance:35]  cat C:/data/word_frequency\scn-word_frequency.tsv n_src:225849--> freq:225848 total:678743.9453853996
+[I 230507 19:53:30 build:55] scn	48398	678743.9453853996	16232	0.3353857597421381	0.9998851154366436
+[I 230507 19:53:32 glance:35]  cat C:/data/word_frequency\sco-word_frequency.tsv n_src:396965--> freq:396960 total:1607070.1015664788
+[I 230507 19:53:43 build:55] sco	37803	1607070.1015664788	25232	0.6674602544771578	0.9996244903280638
+[I 230507 19:53:44 glance:35]  cat C:/data/word_frequency\sd-word_frequency.tsv n_src:222335--> freq:222330 total:944873.6214190548
+[I 230507 19:53:52 build:55] sd	33420	944873.6214190548	9816	0.29371633752244164	0.9977606021791428
+[I 230507 19:53:52 glance:35]  cat C:/data/word_frequency\se-word_frequency.tsv n_src:84707--> freq:84707 total:250216.9618641432
+[I 230507 19:53:55 build:55] se	24532	250216.9618641432	8535	0.34791293005054624	0.9996573862704424
+[I 230507 19:53:55 glance:35]  cat C:/data/word_frequency\sg-word_frequency.tsv n_src:3441--> freq:3441 total:9965.388998687416
+[I 230507 19:53:55 build:55] sg	2111	9965.388998687416	1128	0.5343439128375178	0.9992975688153346
+[I 230507 19:54:08 glance:35]  cat C:/data/word_frequency\sh-word_frequency.tsv n_src:2362860--> freq:2362826 total:12632702.368318215
+[I 230507 19:55:25 build:55] sh	33490	12632702.368318215	13753	0.41065989847715734	0.9998877531364495
+[I 230507 19:55:25 glance:35]  cat C:/data/word_frequency\shi-word_frequency.tsv n_src:54992--> freq:54982 total:126749.35189053975
+[I 230507 19:55:27 build:55] shi	24901	126749.35189053975	6746	0.2709128147463957	0.9962017108408078
+[I 230507 19:55:27 glance:35]  cat C:/data/word_frequency\shn-word_frequency.tsv n_src:48627--> freq:48627 total:358282.84319237387
+[I 230507 19:55:28 build:55] shn	10391	358282.84319237387	5823	0.5603887979982677	0.9406370895737535
+[I 230507 19:55:29 glance:35]  cat C:/data/word_frequency\si-word_frequency.tsv n_src:227847--> freq:227828 total:1679556.9991637792
+[I 230507 19:55:37 build:55] si	15139	1679556.9991637792	7966	0.5261906334632407	0.9929358519388498
+[I 230507 19:55:46 glance:35]  cat C:/data/word_frequency\sk-word_frequency.tsv n_src:2091615--> freq:2091600 total:9737658.241475431
+[I 230507 19:56:59 build:55] sk	49839	9737658.241475431	16093	0.3228997371536347	0.9998177534480758
+[I 230507 19:57:00 glance:35]  cat C:/data/word_frequency\skr-word_frequency.tsv n_src:127323--> freq:127265 total:553374.759365828
+[I 230507 19:57:06 build:55] skr	34459	553374.759365828	5207	0.1511071128007197	0.9946041765875132
+[I 230507 19:57:20 glance:35]  cat C:/data/word_frequency\sl-word_frequency.tsv n_src:3032990--> freq:3032874 total:15938504.070463475
+[I 230507 19:58:57 build:55] sl	52228	15938504.070463475	14682	0.28111357892318295	0.9998170454131555
+[I 230507 19:58:57 glance:35]  cat C:/data/word_frequency\sm-word_frequency.tsv n_src:14980--> freq:14980 total:48639.322740672644
+[I 230507 19:58:58 build:55] sm	8141	48639.322740672644	4079	0.5010440977766859	0.9989463461516791
+[I 230507 19:58:58 glance:35]  cat C:/data/word_frequency\smn-word_frequency.tsv n_src:103768--> freq:103768 total:274832.2939307374
+[I 230507 19:59:02 build:55] smn	49816	274832.2939307374	14213	0.28530994058133935	0.9994617862707282
+[I 230507 19:59:03 glance:35]  cat C:/data/word_frequency\sn-word_frequency.tsv n_src:168777--> freq:168775 total:411244.4884734129
+[I 230507 19:59:08 build:55] sn	54053	411244.4884734129	13553	0.25073538934009215	0.9994874346367443
+[I 230507 19:59:09 glance:35]  cat C:/data/word_frequency\so-word_frequency.tsv n_src:227981--> freq:227966 total:698854.8942340707
+[I 230507 19:59:16 build:55] so	48148	698854.8942340707	16203	0.33652488161502037	0.9971950526065969
+[E 230507 19:59:16 glance:19] ('\n', ['\n'])
+[I 230507 19:59:21 glance:35]  cat C:/data/word_frequency\sq-word_frequency.tsv n_src:1141677--> freq:1141629 total:5053909.154904509
+[I 230507 19:59:57 build:55] sq	46367	5053909.154904509	17661	0.38089589578795263	0.9997384320545908
+[I 230507 20:00:20 glance:35]  cat C:/data/word_frequency\sr-word_frequency.tsv n_src:4473615--> freq:4473523 total:23152047.74212893
+[I 230507 20:02:58 build:55] sr	48445	23152047.74212893	16020	0.33068428114356485	0.9996872209472724
+[I 230507 20:02:59 glance:35]  cat C:/data/word_frequency\srn-word_frequency.tsv n_src:12067--> freq:12067 total:30619.965583052173
+[I 230507 20:02:59 build:55] srn	5037	30619.965583052173	3010	0.5975779233670836	0.9964324244713362
+[I 230507 20:02:59 glance:35]  cat C:/data/word_frequency\ss-word_frequency.tsv n_src:31608--> freq:31608 total:56664.896568851276
+[I 230507 20:03:00 build:55] ss	13563	56664.896568851276	5073	0.37403229374032293	0.9996181696528342
+[I 230507 20:03:00 glance:35]  cat C:/data/word_frequency\st-word_frequency.tsv n_src:21855--> freq:21855 total:60405.7089891055
+[I 230507 20:03:01 build:55] st	11198	60405.7089891055	4926	0.4398999821396678	0.9999337810934275
+[I 230507 20:03:01 glance:35]  cat C:/data/word_frequency\stq-word_frequency.tsv n_src:84794--> freq:84790 total:225527.32683003566
+[I 230507 20:03:04 build:55] stq	40844	225527.32683003566	11810	0.28914895700714915	0.9998533106447525
+[I 230507 20:03:06 glance:35]  cat C:/data/word_frequency\su-word_frequency.tsv n_src:345401--> freq:345398 total:1347628.5716879887
+[I 230507 20:03:15 build:55] su	40652	1347628.5716879887	18432	0.4534094263504871	0.9979344202614046
+[I 230507 20:03:51 glance:35]  cat C:/data/word_frequency\sv-word_frequency.tsv n_src:7277792--> freq:7277522 total:40383105.63891097
+[I 230507 20:08:14 build:55] sv	30434	40383105.63891097	15540	0.5106131300519157	0.9998629506681145
+[I 230507 20:08:16 glance:35]  cat C:/data/word_frequency\sw-word_frequency.tsv n_src:549720--> freq:549716 total:2136833.8818445904
+[I 230507 20:08:32 build:55] sw	38945	2136833.8818445904	19413	0.4984722043908075	0.9998594284634011
+[I 230507 20:08:33 glance:35]  cat C:/data/word_frequency\szl-word_frequency.tsv n_src:207988--> freq:207986 total:849694.9371675032
+[I 230507 20:08:41 build:55] szl	17846	849694.9371675032	7832	0.4388658522918301	0.9998717828497738
+[I 230507 20:08:41 glance:35]  cat C:/data/word_frequency\szy-word_frequency.tsv n_src:85256--> freq:85256 total:385152.55648530077
+[I 230507 20:08:43 build:55] szy	24613	385152.55648530077	9793	0.3978791695445496	0.9997949319118562
+[I 230507 20:08:47 glance:35]  cat C:/data/word_frequency\ta-word_frequency.tsv n_src:843296--> freq:843213 total:6938368.777656475
+[I 230507 20:09:11 build:55] ta	8890	6938368.777656475	5464	0.614623172103487	0.9986950614337086
+[I 230507 20:09:12 glance:35]  cat C:/data/word_frequency\tay-word_frequency.tsv n_src:26695--> freq:26695 total:102500.19680163966
+[I 230507 20:09:12 build:55] tay	14819	102500.19680163966	5748	0.3878804237802821	0.9998368787299845
+[E 230507 20:09:12 glance:19] ('\n', ['\n'])
+[E 230507 20:09:12 glance:19] ('\n', ['\n'])
+[E 230507 20:09:12 glance:19] ('\n', ['\n'])
+[E 230507 20:09:12 glance:19] ('\n', ['\n'])
+[E 230507 20:09:12 glance:19] ('\n', ['\n'])
+[E 230507 20:09:12 glance:19] ('\n', ['\n'])
+[E 230507 20:09:12 glance:19] ('\t\n', ['\t\n'])
+[I 230507 20:09:12 glance:35]  cat C:/data/word_frequency\tcy-word_frequency.tsv n_src:35762--> freq:35752 total:238757.28584349155
+[I 230507 20:09:13 build:55] tcy	10993	238757.28584349155	4347	0.39543345765487126	0.9951752097946468
+[I 230507 20:09:16 glance:35]  cat C:/data/word_frequency\te-word_frequency.tsv n_src:649892--> freq:649756 total:6532401.792243862
+[I 230507 20:09:35 build:55] te	11574	6532401.792243862	4052	0.3500950406082599	0.9959096961075679
+[I 230507 20:09:35 glance:35]  cat C:/data/word_frequency\ten-word_frequency.tsv n_src:25137--> freq:25137 total:57094.31935676136
+[I 230507 20:09:36 build:55] ten	11699	57094.31935676136	8171	0.6984357637404907	0.9998662035749334
+[I 230507 20:09:36 glance:35]  cat C:/data/word_frequency\tet-word_frequency.tsv n_src:32213--> freq:32213 total:89293.38523955125
+[I 230507 20:09:37 build:55] tet	15703	89293.38523955125	6963	0.44341845507227917	0.999970445561959
+[I 230507 20:09:40 glance:35]  cat C:/data/word_frequency\tg-word_frequency.tsv n_src:599113--> freq:599106 total:2115458.543513288
+[I 230507 20:10:02 build:55] tg	38942	2115458.543513288	12204	0.3133891428277952	0.999615516158343
+[I 230507 20:10:30 glance:35]  cat C:/data/word_frequency\th-word_frequency.tsv n_src:5463067--> freq:5462978 total:16503531.48190163
+[I 230507 20:17:09 build:55] th	50687	16503531.48190163	15348	0.30279953439738	0.9958986233985266
+[I 230507 20:17:10 glance:35]  cat C:/data/word_frequency\ti-word_frequency.tsv n_src:14640--> freq:14640 total:27799.413018538435
+[I 230507 20:17:11 build:55] ti	6340	27799.413018538435	1135	0.17902208201892744	0.9575512990250215
+[I 230507 20:17:11 glance:35]  cat C:/data/word_frequency\tk-word_frequency.tsv n_src:206834--> freq:206832 total:543438.0728115136
+[I 230507 20:17:20 build:55] tk	62888	543438.0728115136	12115	0.19264406564050376	0.9994720035050842
+[I 230507 20:17:23 glance:35]  cat C:/data/word_frequency\tl-word_frequency.tsv n_src:603439--> freq:603430 total:2558955.874702968
+[I 230507 20:17:41 build:55] tl	40577	2558955.874702968	22604	0.5570643467974469	0.9991297260118013
+[I 230507 20:17:41 glance:35]  cat C:/data/word_frequency\tn-word_frequency.tsv n_src:36026--> freq:36026 total:116890.16983512208
+[I 230507 20:17:42 build:55] tn	18435	116890.16983512208	6983	0.3787903444534852	0.9999743348820159
+[I 230507 20:17:42 glance:35]  cat C:/data/word_frequency\to-word_frequency.tsv n_src:16929--> freq:16929 total:57785.31587225135
+[I 230507 20:17:43 build:55] to	9143	57785.31587225135	4162	0.4552116373181669	0.9999826945654807
+[I 230507 20:17:43 glance:35]  cat C:/data/word_frequency\tpi-word_frequency.tsv n_src:11137--> freq:11137 total:28989.075163608308
+[I 230507 20:17:43 build:55] tpi	5930	28989.075163608308	3834	0.6465430016863406	0.9859553087251048
+[I 230507 20:18:00 glance:35]  cat C:/data/word_frequency\tr-word_frequency.tsv n_src:3521208--> freq:3521124 total:19169121.133682404
+[I 230507 20:20:05 build:55] tr	48479	19169121.133682404	19975	0.41203407661049113	0.9996001977370215
+[I 230507 20:20:05 glance:35]  cat C:/data/word_frequency\trv-word_frequency.tsv n_src:68586--> freq:68586 total:222395.1375884985
+[I 230507 20:20:07 build:55] trv	32825	222395.1375884985	7560	0.2303122619954303	0.9994455729727229
+[I 230507 20:20:07 glance:35]  cat C:/data/word_frequency\ts-word_frequency.tsv n_src:28311--> freq:28311 total:68972.60701325838
+[I 230507 20:20:08 build:55] ts	13426	68972.60701325838	6221	0.4633546849396693	0.9999855014904713
+[I 230507 20:20:14 glance:35]  cat C:/data/word_frequency\tt-word_frequency.tsv n_src:1446658--> freq:1446645 total:8201428.878950409
+[I 230507 20:21:11 build:55] tt	13849	8201428.878950409	6599	0.4764964979420897	0.9995219882151896
+[E 230507 20:21:11 glance:19] ('\n', ['\n'])
+[E 230507 20:21:11 glance:19] ('\n', ['\n'])
+[E 230507 20:21:11 glance:19] ('\n', ['\n'])
+[E 230507 20:21:11 glance:19] ('\n', ['\n'])
+[E 230507 20:21:11 glance:19] ('\n', ['\n'])
+[I 230507 20:21:11 glance:35]  cat C:/data/word_frequency\tum-word_frequency.tsv n_src:21964--> freq:21957 total:173745.52929396002
+[I 230507 20:21:12 build:55] tum	7766	173745.52929396002	4108	0.5289724439866083	0.9998455454412378
+[I 230507 20:21:12 glance:35]  cat C:/data/word_frequency\tw-word_frequency.tsv n_src:69296--> freq:69295 total:244473.29296526173
+[I 230507 20:21:15 build:55] tw	35367	244473.29296526173	13637	0.38558543274804197	0.9996916273464941
+[I 230507 20:21:15 glance:35]  cat C:/data/word_frequency\ty-word_frequency.tsv n_src:5483--> freq:5483 total:11750.922998914994
+[I 230507 20:21:15 build:55] ty	2753	11750.922998914994	1623	0.5895386850708318	0.9956644626151265
+[I 230507 20:21:16 glance:35]  cat C:/data/word_frequency\tyv-word_frequency.tsv n_src:167008--> freq:167008 total:433209.1088627853
+[I 230507 20:21:25 build:55] tyv	51289	433209.1088627853	11055	0.21554329388367877	0.9992830840882256
+[I 230507 20:21:26 glance:35]  cat C:/data/word_frequency\udm-word_frequency.tsv n_src:93309--> freq:93308 total:231306.42554259457
+[I 230507 20:21:31 build:55] udm	41846	231306.42554259457	9165	0.21901734932849018	0.9995630900578673
+[I 230507 20:21:33 glance:35]  cat C:/data/word_frequency\ug-word_frequency.tsv n_src:290146--> freq:290139 total:898853.0057658941
+[I 230507 20:21:53 build:55] ug	46386	898853.0057658941	6315	0.1361402147199586	0.9864815662860547
+[I 230507 20:22:35 glance:35]  cat C:/data/word_frequency\uk-word_frequency.tsv n_src:8666907--> freq:8665280 total:48696376.30977514
+[I 230507 20:28:13 build:55] uk	50846	48696376.30977514	15693	0.3086378476182984	0.9997462242514071
+[I 230507 20:28:17 glance:35]  cat C:/data/word_frequency\ur-word_frequency.tsv n_src:1032765--> freq:1032738 total:5281259.875916102
+[I 230507 20:28:39 build:55] ur	32359	5281259.875916102	12865	0.39757100033993636	0.9982069670549774
+[I 230507 20:28:46 glance:35]  cat C:/data/word_frequency\uz-word_frequency.tsv n_src:2074934--> freq:2074892 total:9008056.91291922
+[I 230507 20:29:39 build:55] uz	41945	9008056.91291922	18741	0.4467993801406604	0.999667029489648
+[I 230507 20:29:39 glance:35]  cat C:/data/word_frequency\ve-word_frequency.tsv n_src:7851--> freq:7851 total:18411.429006605747
+[I 230507 20:29:39 build:55] ve	4017	18411.429006605747	1627	0.4050286283295992	1.0
+[I 230507 20:29:40 glance:35]  cat C:/data/word_frequency\vec-word_frequency.tsv n_src:456472--> freq:456467 total:1793069.226737466
+[I 230507 20:29:49 build:55] vec	31616	1793069.226737466	13979	0.44214954453441296	0.9997737355700617
+[I 230507 20:29:50 glance:35]  cat C:/data/word_frequency\vep-word_frequency.tsv n_src:177785--> freq:177784 total:496478.6919176982
+[I 230507 20:29:54 build:55] vep	41340	496478.6919176982	11907	0.28802612481857764	0.9996019919093132
+[I 230507 20:30:05 glance:35]  cat C:/data/word_frequency\vi-word_frequency.tsv n_src:2769482--> freq:2769390 total:20718401.540734373
+[I 230507 20:31:05 build:55] vi	25596	20718401.540734373	17960	0.7016721362712924	0.9993599252134933
+[I 230507 20:31:05 glance:35]  cat C:/data/word_frequency\vls-word_frequency.tsv n_src:171513--> freq:171506 total:489469.81737932004
+[I 230507 20:31:10 build:55] vls	42970	489469.81737932004	13972	0.3251570863393065	0.9999250116246354
+[I 230507 20:31:10 glance:35]  cat C:/data/word_frequency\vo-word_frequency.tsv n_src:110461--> freq:110460 total:480885.5607387868
+[I 230507 20:31:12 build:55] vo	19985	480885.5607387868	10753	0.5380535401551163	0.9990678021778541
+[I 230507 20:31:13 glance:35]  cat C:/data/word_frequency\wa-word_frequency.tsv n_src:198277--> freq:198270 total:695968.1662161129
+[I 230507 20:31:18 build:55] wa	33984	695968.1662161129	8872	0.2610640301318267	0.9993916242428331
+[I 230507 20:31:20 glance:35]  cat C:/data/word_frequency\war-word_frequency.tsv n_src:867821--> freq:867820 total:8217966.317614623
+[I 230507 20:31:42 build:55] war	15663	8217966.317614623	8206	0.52390985124178	0.9999653140158463
+[I 230507 20:31:43 glance:35]  cat C:/data/word_frequency\wo-word_frequency.tsv n_src:47761--> freq:47761 total:179314.25141164585
+[I 230507 20:31:44 build:55] wo	27695	179314.25141164585	7541	0.2722874165011735	0.9998902222753991
+[I 230507 20:31:44 glance:35]  cat C:/data/word_frequency\wuu-word_frequency.tsv n_src:96149--> freq:96147 total:678178.8931795699
+[I 230507 20:31:46 build:55] wuu	14295	678178.8931795699	12177	0.8518363064008394	0.9979367607118268
+[I 230507 20:31:46 glance:35]  cat C:/data/word_frequency\xal-word_frequency.tsv n_src:29115--> freq:29115 total:62798.47361288565
+[I 230507 20:31:47 build:55] xal	12490	62798.47361288565	4819	0.3858286629303443	0.9995547325681071
+[I 230507 20:31:48 glance:35]  cat C:/data/word_frequency\xh-word_frequency.tsv n_src:89117--> freq:89117 total:162601.5228898973
+[I 230507 20:31:49 build:55] xh	36295	162601.5228898973	9551	0.26314919410387105	0.9997042693097912
+[I 230507 20:31:51 glance:35]  cat C:/data/word_frequency\xmf-word_frequency.tsv n_src:272149--> freq:272148 total:699387.1244536303
+[I 230507 20:32:09 build:55] xmf	50951	699387.1244536303	13839	0.2716139035543954	0.9767001152493007
+[I 230507 20:32:09 glance:35]  cat C:/data/word_frequency\yi-word_frequency.tsv n_src:224271--> freq:224269 total:1143788.730830005
+[I 230507 20:32:16 build:55] yi	30037	1143788.730830005	4413	0.146918800146486	0.999194176222281
+[I 230507 20:32:17 glance:35]  cat C:/data/word_frequency\yo-word_frequency.tsv n_src:199922--> freq:199921 total:657847.0896389821
+[I 230507 20:32:22 build:55] yo	37992	657847.0896389821	18960	0.4990524320909665	0.9986615696379494
+[I 230507 20:32:22 glance:35]  cat C:/data/word_frequency\za-word_frequency.tsv n_src:25326--> freq:25326 total:75175.06659167518
+[I 230507 20:32:22 build:55] za	13555	75175.06659167518	6724	0.4960531169310218	0.9995240416382799
+[I 230507 20:32:23 glance:35]  cat C:/data/word_frequency\zea-word_frequency.tsv n_src:82319--> freq:81042 total:241305.54750657058
+[I 230507 20:32:24 build:55] zea	25811	241305.54750657058	8477	0.3284258649413041	0.999989123727905
+[I 230507 20:32:36 glance:35]  cat C:/data/word_frequency\zh-word_frequency.tsv n_src:3550642--> freq:3550082 total:66122048.29039728
+[I 230507 20:34:04 build:55] zh	14344	66122048.29039728	10362	0.7223926380368099	0.9975034151042014
+[I 230507 20:34:04 glance:35]  cat C:/data/word_frequency\zh_classical-word_frequency.tsv n_src:27134--> freq:27132 total:431367.1752025366
+[I 230507 20:34:05 build:55] zh_classical	10821	431367.1752025366	8318	0.7686905091950836	0.9980758493825858
+[I 230507 20:34:06 glance:35]  cat C:/data/word_frequency\zh_min_nan-word_frequency.tsv n_src:480501--> freq:480498 total:2741273.379342851
+[I 230507 20:34:14 build:55] zh_min_nan	15888	2741273.379342851	8945	0.563003524672709	0.9994859645786118
+[I 230507 20:34:15 glance:35]  cat C:/data/word_frequency\zh_yue-word_frequency.tsv n_src:289207--> freq:289198 total:2435249.159357106
+[I 230507 20:34:19 build:55] zh_yue	15969	2435249.159357106	13892	0.8699355000313107	0.9983004563717632
+[I 230507 20:34:19 glance:35]  cat C:/data/word_frequency\zu-word_frequency.tsv n_src:160341--> freq:160341 total:357470.07892350917
+[I 230507 20:34:22 build:55] zu	71846	357470.07892350917	14757	0.20539765609776467	0.9999279337172424
+[I 230507 20:34:22 build:64] average	28427.163076923076	6085760.128676726	10211.264615384616	0.4099999113752759	0.9928933743600994
+[I 230507 20:34:22 build:69] 
     
     
     lang	vocab	total	common	share	cover
-    ab	19195	98576.92837986066	6202	0.3231049752539724	0.9943838938058418
-    ace	17996	151252.51992623642	9638	0.5355634585463437	0.9985079714109333
-    ady	6500	25773.433484720445	1961	0.3016923076923077	0.9979969876802283
-    af	34849	4412388.310584092	18846	0.540790266578668	0.9997087594748358
-    ak	9579	56427.41007167827	4664	0.486898423635035	0.9986887865312698
-    als	37724	2588710.5435447977	18281	0.4845986639804899	0.9998233472089075
-    alt	26421	201201.16877976444	8020	0.30354642140721394	0.9999900596998907
-    am	56154	631780.4940397217	7758	0.13815578587455926	0.3646497630765271
-    ami	21875	153640.62281370565	9147	0.4181485714285714	0.9994147280699759
-    an	33207	1405864.0379538613	17266	0.5199506128225977	0.9998486207288309
-    ang	27237	153752.70233954373	13019	0.47798949957778025	0.9972337696050049
-    ar	35854	37245619.39529538	12167	0.33934846879009317	0.9993948672932242
-    arc	6740	31712.033679073968	1520	0.22551928783382788	0.7717165169288187
-    ary	33084	317159.2853749234	9596	0.2900495707895055	0.9986034010720243
-    arz	17623	16375437.567838397	8127	0.461158713045452	0.9999402897025839
-    as	9297	1651679.414284063	5949	0.6398838334946757	0.99889625912681
-    ast	33218	8262968.972070754	18912	0.569329881389608	0.9996166489159298
-    atj	9062	43156.507076992406	2923	0.32255572721253584	0.9999536570465161
-    av	42495	252319.1439689987	14127	0.3324391104835863	0.9987773036434981
-    avk	17221	365802.54709523846	4646	0.26978688810173623	0.9999773051629797
-    awa	6064	69294.64927739912	3658	0.6032321899736148	0.9996722737708739
-    ay	25350	158825.11245038224	12414	0.4897041420118343	0.9999307414310603
-    az	34613	9023724.23118861	13609	0.3931759743448993	0.9995615219733167
-    azb	23505	2557831.035848672	12121	0.5156775154222506	0.999734997641671
-    ba	35843	4281154.337448068	11827	0.3299667996540468	0.9996948191163498
-    ban	29088	1904739.5806321239	10663	0.36657728272827284	0.9985665460397677
-    bar	41107	1447378.851936578	20747	0.5047072274795047	0.9997318321364592
-    bat_smg	24487	255898.17816339835	9639	0.3936374402744313	0.9999116033443586
-    bcl	35654	801867.8398991495	20984	0.5885454647444887	0.9976136415430963
-    be	43431	9190455.508985443	12548	0.28891805392461606	0.9996655751058449
-    be_x_old	43226	3735483.557899339	11590	0.2681256651089622	0.9997703532890743
-    bg	43161	11640159.046123344	14895	0.34510321818308193	0.9996662656121142
-    bh	11285	277547.7894137937	8654	0.7668586619406291	0.9970096269888852
-    bi	4136	18140.760560752868	3102	0.75	0.999889751039197
-    bjn	43116	271295.71272729186	17545	0.40692550329344096	0.9996184234878064
-    blk	3394	207493.82344209158	1833	0.5400707130229817	0.9980364203814082
-    bm	5815	27846.571411986886	2817	0.48443680137575235	0.9987794924608345
-    bn	8656	6210648.655654312	6110	0.7058687615526802	0.99884344673638
-    bo	2459	549539.2487333152	1521	0.6185441236274909	0.9726526612009615
-    bpy	4081	409893.2566862757	1921	0.470717961283999	0.9996377511482039
-    br	31887	3279246.9636291172	14896	0.4671496221030514	0.9995930235570073
-    bs	37487	5539933.12907524	16136	0.4304425534185184	0.9999065201478251
-    bug	7604	65070.5290999386	3983	0.5238032614413467	0.964561742042969
-    bxr	45475	269383.78119754966	15126	0.3326223199560198	0.9976492960688929
-    ca	32083	23696055.556784738	19898	0.6202038462737275	0.9996259990298448
-    cbk_zam	22586	158166.71022725652	12686	0.5616753741255646	0.9998135004570275
-    cdo	9119	149613.38121157294	8246	0.9042658186204627	0.9986516747510094
-    ce	10302	5530154.994411686	5879	0.5706658901184236	0.9999590939635807
-    ceb	10654	37525316.952403955	8986	0.8434390839121457	0.999882308672619
-    ch	2922	12864.635346493358	2285	0.7819986310746064	0.9957539018152114
-    cho	640	351.60578898033447	607	0.9484375	1.0
-    chr	4200	30492.131758100037	3634	0.8652380952380953	0.6248860094441703
-    chy	1715	6395.4723891267395	1394	0.8128279883381925	0.999061836306228
-    ckb	40517	1970679.235400643	11989	0.29590048621566256	0.9986891192984634
-    co	37094	325704.4910327678	13361	0.3601930231304254	0.9997413767266792
-    cr	1054	2321.7393164041277	856	0.8121442125237192	0.8170252475909534
-    crh	31359	320832.4089116467	11954	0.38119838005038426	0.9994129212431171
-    cs	28526	22767920.480827834	13992	0.4904998948327841	0.9997499544232867
-    csb	24584	168117.47539628844	10027	0.40786690530426295	0.9991276830296982
-    cu	8043	40286.37239019808	3358	0.4175059057565585	0.9701678624768004
-    cv	21748	1418376.9236716204	10145	0.4664796762920728	0.9998162648100783
-    cy	27607	5381387.421037666	14985	0.5427971166733075	0.9997599611891459
-    da	39575	10517254.533355584	18800	0.4750473783954517	0.9997656159710583
-    dag	27638	210772.05864706097	11782	0.42629712714378754	0.9990852387287205
-    de	38940	99173308.30972436	21506	0.5522855675398048	0.9996982347885531
-    din	5713	35533.048495803	2553	0.4468755469980746	0.9998196980237665
-    diq	28848	696685.0444448023	14462	0.5013172490293955	0.9998179053798214
-    dsb	30001	188538.38017031	11816	0.3938535382153928	0.9997397706652633
-    dty	7941	131206.10108750968	4783	0.6023170885278932	0.9994067330667767
-    dv	3614	124618.16330443292	3195	0.8840619811842834	0.9739202301547102
-    dz	3133	88464.4136657625	1898	0.6058091286307054	0.9628012657278354
-    ee	7335	39953.83486789014	3865	0.5269256987048399	0.9993890138117766
-    el	24977	14133537.310389472	9570	0.38315250030027626	0.9996368034171682
-    eml	19797	634879.0798418155	13120	0.6627266757589534	0.9999018579673609
-    en	32548	168662441.28498268	26903	0.8265638441686125	0.9986232924974757
-    eo	38072	9790618.531669665	18735	0.4920939272956503	0.9996599892138551
-    es	32853	57906074.57428418	19625	0.5973579277387149	0.9991972935699788
-    et	45225	10033812.247717386	16671	0.3686235489220564	0.9998449548831818
-    eu	39664	10222365.560733907	17554	0.44256756756756754	0.9997294635633344
-    ext	34882	208057.806583793	14436	0.4138524167192248	0.9994978112541157
-    fa	29718	15718412.157992149	11790	0.39672925499697154	0.9986627911213658
-    ff	15270	78149.82806949214	5897	0.38618205631958086	0.9495205686347572
-    fi	46274	21931613.74998115	17168	0.37100747720102	0.999692320079605
-    fiu_vro	29918	192226.5367546565	8579	0.28675045123337123	0.9996898216770725
-    fj	5599	29022.888875377597	3093	0.5524200750133953	0.9997717489523129
-    fo	31960	561845.4497491103	14284	0.4469336670838548	0.9998868650655197
-    fr	27232	95774502.55979423	17331	0.6364203877790834	0.9994930590771182
-    frp	23060	167397.759256684	12168	0.5276669557675628	0.9996833936019558
-    frr	29419	487330.05794180627	14374	0.48859580543186376	0.9985830258997147
-    fur	28146	179601.3360287895	12013	0.42681020393661623	0.9997063290150644
-    fy	33528	2417029.9485359606	13908	0.41481746599856834	0.9998114981391536
-    ga	26759	1403015.4381674617	13819	0.516424380582234	0.9993775456174432
-    gag	24807	133078.80691441073	10977	0.4424960696577579	0.999795241554856
-    gan	10424	112720.1327912681	9226	0.8850729086722947	0.9958682753660031
-    gcr	14147	100987.54109295164	6942	0.4907047430550647	0.9997629426056565
-    gd	24828	488170.35875321913	13349	0.5376590945706461	0.9998141215625402
-    gl	34285	8446288.626378858	19972	0.5825288026833892	0.9997413602595625
-    glk	30739	201039.63671906252	6877	0.22372230716679137	0.9996106868098289
-    gn	25153	279993.53604582546	13901	0.5526577346638571	0.9998074607812557
-    gom	13208	491163.42000161204	5466	0.4138400969109631	0.9992730985914627
-    gor	23265	165496.9354937383	10534	0.4527831506554911	0.9998957744472189
-    got	7818	46456.7057682782	5220	0.6676899462778204	0.864811527144217
-    gu	6980	1594121.2748284566	3525	0.5050143266475645	0.9855107036964454
-    guw	10964	76623.06167574885	6138	0.5598321780372127	0.9996464329565887
-    gv	35195	247515.41220031484	16674	0.47376047734053134	0.9995959051243504
-    ha	26605	1414836.7820796627	15867	0.596391655703815	0.9994982352024688
-    hak	12775	136929.40747297817	10373	0.8119765166340509	0.9950260328600393
-    haw	8149	59877.12699996787	5356	0.6572585593324334	0.999550668186931
-    he	45742	33433024.672974292	6881	0.15043067640243102	0.9997038866258109
-    hi	7886	4078989.360885246	5658	0.717474004565052	0.9991785481181845
-    hif	32945	216323.73583551293	17748	0.5387160418879952	0.9998861682713753
-    ho	591	158.18670847477676	563	0.9526226734348562	1.0
-    hr	42566	9980597.822680619	16297	0.3828642578583846	0.9998050259234602
-    hsb	28702	626464.4601682338	11393	0.3969409797226674	0.9998529039050739
-    ht	28771	1175496.0376205235	18329	0.6370651002745821	0.9997499623038122
-    hu	25011	20902977.564093936	13408	0.5360841229858863	0.9994271134322862
-    hy	47390	14149874.672204439	15101	0.3186537244144334	0.9989991363515606
-    hyw	47214	1269518.894249603	11044	0.23391366967424918	0.9994418924409815
-    ia	32022	496700.36639885046	18455	0.57632252826182	0.9995574028896547
-    id	36107	16302626.867962487	22843	0.6326474090896502	0.9970330872947523
-    ie	14197	557432.9656308051	7860	0.553638092554765	0.9999605333710841
-    ig	22193	1110137.3399468577	15228	0.6861623034290092	0.999435885945446
-    ii	570	55.849749373039785	569	0.9982456140350877	1.0
-    ik	2929	11070.172478782453	1681	0.5739160122908843	0.9996386686831062
-    ilo	29654	634540.357189441	16536	0.5576313482160923	0.999462247847751
-    inh	23197	124229.21545410727	7919	0.34138035090744495	0.9997448285736482
-    io	23151	853799.6482250422	12906	0.5574705196319814	0.9996891947517462
-    is	30581	2605065.409242108	11882	0.3885419051044766	0.999871580684673
-    it	38777	55785768.10208261	21039	0.5425638909662944	0.9994409986887403
-    iu	3402	12374.726926810428	1438	0.4226925338036449	0.43570888110948425
-    ja	9227	42166153.8857684	8926	0.9673783461580145	0.9977992278116562
-    jam	12846	69515.8655698627	5767	0.4489335201619181	0.9998561479466878
-    jbo	13841	93244.64298547816	7685	0.5552344483780074	0.9999463776165588
-    jv	33559	2349874.2445726837	17442	0.5197413510533687	0.9963991581555358
-    ka	50508	6661926.112816742	13732	0.27187772234101526	0.9954836099344274
-    kaa	39929	231563.63298308788	10720	0.26847654586891734	0.9996046565128558
-    kab	35838	220821.81532814947	11338	0.31636810089848766	0.9990156549301539
-    kbd	22294	116566.65326065556	5415	0.2428904638019198	0.9999399485204028
-    kbp	19600	132490.05449402472	5938	0.3029591836734694	0.9995903105179702
-    kcg	6422	39313.72636828713	4397	0.6846776705076301	0.9974473778009401
-    kg	4331	17934.701840134738	2747	0.6342646040175479	0.9999442421731394
-    ki	5073	23424.056273097678	2754	0.5428740390301596	0.9998452657067395
-    kj	560	105.209466172485	554	0.9892857142857143	1.0
-    kk	37539	5391480.229874674	9619	0.25624017688270867	0.999679978313672
-    kl	5190	19675.769754520625	1857	0.3578034682080925	1.0
-    km	9043	956278.1029578657	5557	0.6145084595819972	0.986166513275335
-    kn	6603	3138086.4490423873	3615	0.5474784189004998	0.9976756257118977
-    ko	56823	35413560.201764695	14880	0.2618657937806874	0.8796179494326961
-    koi	26525	170116.18702417627	7920	0.29858623939679546	0.9998517788422501
-    krc	27767	150016.56401955886	7933	0.28569885115424787	0.9980947094322111
-    ks	8124	54419.749408375676	4132	0.5086164451009355	0.9829075540529069
-    ksh	27204	174079.29270892384	10457	0.3843920011762976	0.9995719552721735
-    ku	27038	1238149.5544017046	14025	0.5187144019528072	0.9993260964278448
-    kv	26578	281736.90395508736	9682	0.3642862517871924	0.9600715768876638
-    kw	32224	203588.00350951892	13203	0.40972567030784507	0.9985749629351878
-    ky	37451	2265460.5583951967	8467	0.22608208058529813	0.9997400591987725
-    la	48523	11095780.604163345	14104	0.29066628196937533	0.9997028003471267
-    lad	35318	216913.55712239168	14966	0.42374992921456484	0.9997243827734232
-    lb	34087	2055587.797954177	19435	0.5701587115322557	0.9999204161429445
-    lbe	6802	29417.28274987271	3006	0.4419288444575125	0.9993487614256263
-    lez	41625	271497.45494854846	11361	0.27293693693693694	0.9988774250946197
-    lfn	27734	306285.68123153213	13715	0.49451936251532413	0.9991389803018499
-    lg	30297	301497.1597931873	8931	0.29478166155064855	0.9994622188491096
-    li	36375	1047941.4417604185	14405	0.39601374570446735	0.9997874823481933
-    lij	28941	809190.8958129167	12155	0.4199923983276321	0.9998577872098399
-    lld	12857	559730.068832456	8830	0.6867854087267636	0.9998124056272332
-    lmo	27742	1109779.5003010407	14776	0.5326220171580996	0.9995928335585925
-    ln	17511	102724.47496315671	9231	0.5271543601164982	0.9998695490254065
-    lo	25788	347423.1324617841	9189	0.35632852489530015	0.9803677522029306
-    lt	36448	6809419.710843139	13502	0.370445566286216	0.9996656772595062
-    ltg	11181	58216.4922818149	4236	0.3788569895358197	0.9999205636648404
-    lv	26631	4375152.192707984	12291	0.4615297961022868	0.9996701628809005
-    mad	12645	70809.50808908552	5886	0.46548042704626336	0.9995953129851606
-    mai	9688	304584.8176856797	6183	0.6382122213047069	0.9998582282721069
-    map_bms	31295	195058.22064135183	10953	0.34999201150343506	0.9998005129006361
-    mdf	31616	202057.84440967586	13872	0.43876518218623484	0.999595093540917
-    mg	21884	1332691.5117519717	11005	0.5028788155730214	0.9998527980361782
-    mh	691	508.09777892035277	642	0.9290882778581766	1.0
-    mhr	20461	590715.7527984903	7775	0.3799912027760129	0.999863210825283
-    mi	11980	124411.9329810891	7490	0.6252086811352254	0.9992746860472302
-    min	12951	1673371.4419766427	7290	0.5628908964558721	0.9996908379033814
-    mk	42436	7414183.769300884	14433	0.3401121689131869	0.9996542690951137
-    ml	9673	4491509.044462077	6115	0.6321720252248527	0.9956390504822688
-    mn	39452	1527774.8889609743	12764	0.3235323937949914	0.9986244510408135
-    mni	6873	121799.88981356379	5685	0.8271497162811	0.9528924908306793
-    mnw	7552	381427.2130495784	5485	0.7262976694915254	0.9964775409957142
-    mr	7417	2283543.2588732936	4677	0.6305784009707429	0.9987338967201947
-    mrj	47030	258609.79227429852	14320	0.30448649798001276	0.9998930040535732
-    ms	34350	7044813.690083355	21582	0.628296943231441	0.9972409298515534
-    mt	29755	836194.6492665893	14456	0.4858343135607461	0.9998056790995584
-    mus	591	111.34591622845153	590	0.9983079526226735	1.0
-    mwl	32159	667687.7976676662	13956	0.43396871793277153	0.9999041681806136
-    my	7229	1664903.5423970814	4966	0.6869553188546134	0.9978982879943169
-    myv	34067	432378.68874171714	12390	0.36369507147679575	0.9996204179006413
-    mzn	25190	364612.8798835408	8960	0.3556967050416832	0.999743779878346
-    na	4643	19697.169794465168	3748	0.8072367004092181	0.9965288650977562
-    nah	25709	162496.02038330655	10669	0.4149908592321755	0.9997669265112538
-    nap	30018	568232.9126970223	11196	0.3729762142714371	0.9999153348405179
-    nds	28601	2299193.8659872953	16453	0.5752596063074717	0.9998686713678328
-    nds_nl	45490	538642.5255998776	14096	0.30987030116509123	0.999841370990992
-    ne	8541	1006362.7188868487	5688	0.6659641728134879	0.9992846522198485
-    new	4169	855438.3649263975	2614	0.6270088750299833	0.9991199286299854
-    ng	1124	1929.1958844845515	688	0.6120996441281139	1.0
-    nia	13463	95645.07446405658	5874	0.4363069152492015	0.9998443409084012
-    nl	39332	29183531.815048825	20779	0.5282975694091325	0.9998387936074076
-    nn	37777	4944391.262587115	19465	0.5152606083066416	0.9997676277842976
-    no	41177	18501268.20353222	21069	0.5116691356825412	0.9996735278567895
-    nov	10453	52869.59713661631	6021	0.5760068879747441	0.9996926587213547
-    nqo	9001	141966.8407043742	1474	0.16375958226863682	0.9317707801227937
-    nrm	18512	133444.03835455282	9088	0.4909248055315471	0.9999475435539398
-    nso	13816	87514.96067498924	6758	0.489143022582513	0.9999885733822848
-    nv	5757	248205.98060037117	2905	0.5046030918881362	0.9999474985106056
-    ny	18723	105408.1853902533	8436	0.4505688190995033	0.9991543632530778
-    oc	31144	2772228.7586148973	16740	0.5375032108913435	0.9997466980066178
-    olo	28893	162178.13541514787	8759	0.3031530128404804	0.9998980809988504
-    om	26586	141938.1212580868	6395	0.24054013390506282	0.9903529686579918
-    or	9964	1062383.8473479599	6349	0.6371938980329185	0.9637784829429435
-    os	24666	406026.46177122416	8179	0.3315900429741344	0.9996509927986327
-    pa	10094	1802034.4691122	7177	0.7110164454131167	0.9969512957994878
-    pag	18139	123953.35340872317	9285	0.511880478526931	0.9998870542860278
-    pam	29486	384946.33993423	18557	0.6293495218069592	0.9995960789350122
-    pap	20831	145746.05346743864	10916	0.5240266909893908	0.9999151108186506
-    pcd	25971	247367.75788034665	13764	0.5299757421739633	0.998552918248935
-    pcm	10902	65667.61826022033	7012	0.6431847367455513	0.9999201609753412
-    pdc	11841	61274.81734568819	7004	0.591504095937843	0.999967360163822
-    pfl	34735	201007.34536396913	12152	0.34984885562113144	0.9998976704073818
-    pi	2935	21703.02597179973	1946	0.6630323679727428	0.9933295553542346
-    pih	4611	20838.561465680355	3153	0.6837996096291477	0.9998080481703794
-    pl	41703	56560163.89650922	15520	0.3721554804210728	0.9996900326953347
-    pms	19182	530048.6080363335	7744	0.4037118131581691	0.9999724890348669
-    pnb	31017	4412160.940805696	10664	0.34381145823258213	0.998652670510999
-    pnt	5397	29219.351712521056	2371	0.43931813970724476	0.9975022247732337
-    ps	36708	2264990.721254416	12945	0.35264792415822166	0.9970073533786074
-    pt	32326	31423411.509745855	19861	0.6143970797500464	0.9989282973117842
-    pwn	8360	46477.38065948123	3744	0.4478468899521531	0.9994418824171115
-    qu	37964	558758.1902316486	19887	0.5238383731956591	0.999607496250088
-    rm	30778	561892.3701405963	13575	0.4410617973877445	0.9999633263106066
-    rmy	6039	27484.277600931047	3392	0.5616823977479716	1.0
-    rn	6581	30745.88694821938	2354	0.35769639872359826	0.9999349506487366
-    ro	32600	14438075.304325681	17719	0.5435276073619631	0.9995906011312488
-    roa_rup	20110	99172.11825410741	6754	0.3358528095474888	0.9999029515053006
-    roa_tara	29236	312331.9493700524	13541	0.4631618552469558	0.9998759160922494
-    ru	52617	111774877.03158952	16306	0.309899842256305	0.9996276956405232
-    rue	52470	435207.23417481966	14517	0.27667238421955404	0.999475992661456
-    rw	32353	306355.02415271336	12152	0.3756065898062004	0.999429887144515
-    sa	6481	4084276.2060583937	2932	0.45239932109242403	0.9986426251026579
-    sah	41842	1090943.0150885126	9723	0.23237416949476603	0.9983771083399883
-    sat	33351	617692.7065519751	10286	0.30841653923420587	0.8198940455932594
-    sc	36035	535612.0680072599	16335	0.453309282641876	0.9997558643402845
-    scn	34564	600588.9907218528	15002	0.43403541256798983	0.9999465149637108
-    sco	33373	1412450.2388896237	24364	0.7300512390255596	0.9993297944424138
-    sd	28960	863423.7463599037	9314	0.3216160220994475	0.9954409615398815
-    se	21653	242053.1483505674	9475	0.4375837066457304	0.9996081091526897
-    sg	1779	10300.887200516185	1422	0.7993254637436762	0.9992233678668379
-    sh	29197	11030058.662008446	14273	0.48885159434188447	0.9998833955703351
-    shi	20507	115985.66870045131	6871	0.33505632223143317	0.9968769029103582
-    shn	5885	257533.11163445204	4687	0.7964316057774001	0.9881934394195793
-    si	10317	1228756.5489981764	7016	0.6800426480566056	0.992799128854743
-    sk	30173	7893845.79744845	14493	0.4803300964438405	0.9997449644377635
-    skr	28819	502185.1909126623	5173	0.1794996356570318	0.9937409838616243
-    sl	39458	13302121.909205064	14021	0.3553398550357342	0.9997779396802385
-    sm	7118	44263.777471233894	4173	0.5862601854453499	0.9983677622265207
-    smn	27754	269253.40244893	13176	0.4747423794768322	0.9986986941932936
-    sn	43978	372709.7751220377	12938	0.294192550820865	0.9985664873313822
-    so	39727	616509.0292459643	15132	0.3808996400432955	0.9959639422661369
-    sq	35074	4299178.425575351	16423	0.46823858128528256	0.9996538825229758
-    sr	46359	20304945.74339785	16833	0.36310101598395134	0.9997247220709075
-    srn	4921	28776.282590865176	3280	0.6665311928469824	0.9982411023748432
-    ss	12158	53043.82925361373	5259	0.4325546964961342	0.9996298084545309
-    st	9866	55737.89838033515	4920	0.4986823434015812	0.9998923533148117
-    stq	34989	213848.4330303978	13041	0.3727171396724685	0.999827781547961
-    su	31206	1202794.0545070863	16667	0.5340960071781068	0.9970516958902567
-    sv	24463	34466500.41189156	15276	0.6244532559375383	0.999725355377323
-    sw	35121	1892418.537764095	19128	0.5446314171008798	0.999696570945532
-    szl	16979	809605.0010125826	8914	0.5250014724070912	0.9998921209340479
-    szy	22048	365841.8216688858	9767	0.4429880261248186	0.999754796405713
-    ta	6833	5582571.128852737	5126	0.7501829357529636	0.9986045098828242
-    tay	13189	95748.03827316148	5815	0.4408977177951323	0.9998187014751033
-    tcy	7273	173772.95880743003	4125	0.5671662312663275	0.9973825137007206
-    te	5990	4000027.02943661	3744	0.6250417362270451	0.9972709951759379
-    ten	10413	52346.888981358	8062	0.7742245270335159	0.9996893125660238
-    tet	13008	82272.70445952617	7189	0.552659901599016	0.9999679235557057
-    tg	33826	1876667.8797764156	12572	0.3716667652101933	0.9997243335344317
-    th	28604	12108611.463629203	11426	0.3994546217312264	0.9979011395526766
-    ti	6431	26980.659773629963	1177	0.18301974809516405	0.3531440052944516
-    tk	28368	472934.74923307955	9440	0.3327693175408911	0.9996610475909476
-    tl	35298	2214793.407028491	21028	0.5957278032749731	0.9982172235535862
-    tn	15702	107354.54343452316	6576	0.41880015284677113	0.999962740282134
-    to	7823	52903.69049824349	4302	0.5499169116707145	1.0
-    tpi	5220	26736.649687666457	3797	0.7273946360153257	0.9841362842400828
-    tr	33161	16071591.551653948	16590	0.5002864811073249	0.9990323491794052
-    trv	27448	201387.30413294473	7453	0.2715316234334013	0.9993918833730604
-    ts	11708	63088.00368743089	5985	0.5111889306457124	0.9999365965038327
-    tt	13473	7651846.749021659	7234	0.5369257032583686	0.9997150811034533
-    tum	7366	164471.2359403429	4424	0.6005973391257128	0.9999939199094949
-    tw	27538	216981.04554553604	12720	0.4619071828019464	0.9996256259193907
-    ty	2621	11330.116274899252	1845	0.7039297977871042	0.9949707346262247
-    tyv	44229	391473.6909604398	11975	0.27074996043319993	0.9993627460217746
-    udm	37008	218382.76362378165	10375	0.28034479031560744	0.9994972744199312
-    ug	40100	878426.8431407309	6329	0.15783042394014962	0.9889653763465777
-    uk	47617	41926576.16467169	16314	0.34260873217548354	0.9995086635005881
-    ur	28188	4771222.423302606	12192	0.43252447850149	0.9983212474956091
-    uz	39758	7947052.859504051	18653	0.46916343880476885	0.9992455620842314
-    ve	3768	17456.46377259483	1813	0.48115711252653925	0.999885429258408
-    vec	26307	1571216.8017152091	14173	0.538753943817235	0.9998085088741592
-    vep	28247	458728.26551815314	11417	0.40418451516975257	0.999516196035392
-    vi	14288	16445048.525844857	13205	0.9242021276595744	0.9977533362354812
-    vls	37817	446670.39033573755	14614	0.3864399608641616	0.9999249979780322
-    vo	17008	474554.6717624696	10918	0.6419332079021637	0.9990772647902524
-    wa	21360	558283.2796453452	8458	0.39597378277153555	0.9994824595580744
-    war	15723	7695851.847957473	9320	0.5927621955097627	0.9999566519014826
-    wo	20436	161171.55683939235	7562	0.3700332746134273	0.9999401940639491
-    wuu	14023	656037.4976789389	12387	0.8833345218569493	0.9977347076901149
-    xal	11648	59501.18536700441	5031	0.43191964285714285	0.9996008982239628
-    xh	30990	150263.58489377162	9307	0.30032268473701196	0.9996691762317458
-    xmf	59309	660849.9214165835	15489	0.26115766578428234	0.9913111103497687
-    yi	25714	1007711.861731588	4612	0.17935754841720464	0.9984938565249676
-    yo	21502	503229.7724995364	15308	0.7119337736024556	0.9996808339439668
-    za	12624	70745.85026795727	6965	0.5517268694550064	0.9993366289934487
-    zea	23111	223366.1282575237	9274	0.4012807753883432	0.9999524345751274
-    zh	14360	62959630.32406823	10735	0.7475626740947076	0.9968986076052277
-    zh_classical	10657	422869.73693483736	8515	0.7990053485971662	0.9981701503145284
-    zh_min_nan	11534	2336447.5304453424	9132	0.791746141841512	0.9991002409948352
-    zh_yue	14784	2268383.4666027725	13436	0.9088203463203464	0.9977655516459035
-    zu	59254	326791.59159293835	14278	0.24096263543389476	0.9998617383958409
-    average	23255.156923076924	5246973.316539894	10125.596923076922	0.4958363225902523	0.9881981040086043
+    ab	20228	106068.64901156248	5787	0.2860885900731659	0.9960274978448684
+    ace	21789	159548.07650406766	9416	0.4321446601496168	0.998336135528505
+    ady	6778	26971.228092564488	1754	0.2587784007081735	0.9979542887933508
+    af	37759	4982842.722813477	18340	0.4857120156783813	0.9997643699774286
+    ak	11265	61860.17231484085	4852	0.4307146027518864	0.9988704303897781
+    als	47676	2905866.149727435	17857	0.3745490393489387	0.9998127297973651
+    alt	31906	215899.46571724914	7380	0.2313044568419733	0.999550563283127
+    am	61225	668764.557827997	8228	0.13438954675377704	0.9169876345753258
+    ami	25015	165713.5821943792	9071	0.36262242654407356	0.9994240150018137
+    an	38492	1582594.6085190035	16898	0.43900031175309157	0.9998472700790202
+    ang	33303	165575.29169208457	12811	0.3846800588535567	0.9996497466717659
+    ar	48122	43950104.19331408	13857	0.2879556128174224	0.999599375795648
+    arc	7960	35088.30332244242	1309	0.1644472361809045	0.9108784610758838
+    ary	38878	341083.1052721707	9687	0.24916405164874736	0.9987961057466195
+    arz	17999	17029249.080582492	7132	0.39624423579087725	0.9999450023019204
+    as	12808	2131457.341702097	6518	0.5089006870705809	0.9986364463372565
+    ast	43370	9739169.844911586	19971	0.46047959418953194	0.9997535115860114
+    atj	9538	45759.6573489275	2671	0.2800377437617949	1.0
+    av	48369	275105.59133487154	14043	0.29033058363828074	0.9991337052119589
+    avk	17092	403428.7797488825	3363	0.1967587175286684	0.9999744643176067
+    awa	9288	93610.5692529489	4096	0.4409991386735573	0.9995121302798529
+    ay	28884	168665.30303740222	11841	0.4099501454092231	0.9999370083555933
+    az	48035	10519613.396829369	15207	0.31658165920682835	0.9996816577577415
+    azb	28010	2739239.43522511	13000	0.4641199571581578	0.9997508440041101
+    ba	40199	4782640.265051035	11304	0.2812010249011169	0.9995534001229225
+    ban	34857	1872540.4136396507	10889	0.31239062455174	0.9993074145171706
+    bar	45610	1586000.4382428187	19705	0.4320324490243368	0.99978936721267
+    bat_smg	57954	288358.1130058584	10261	0.1770542154122235	0.9999019418876433
+    bcl	39290	919435.1814304012	21713	0.5526342580809366	0.9994062324076984
+    be	50488	10560131.70959857	12270	0.24302804626842023	0.9997429640268247
+    be_x_old	50969	4236218.186241071	11297	0.22164452902744805	0.9997620770137802
+    bg	46384	13306726.247378742	14074	0.30342359434287686	0.9997503356989722
+    bh	15023	356893.32574152184	9679	0.6442787725487585	0.9976844450774992
+    bi	4370	19353.647806944588	2955	0.6762013729977117	1.0
+    bjn	52313	301515.26939839916	17843	0.3410815667233766	0.9996935178395753
+    blk	9234	328003.5327602902	2143	0.2320771063461122	0.9893511955611413
+    bm	6480	29804.387197050975	2686	0.4145061728395062	0.9981297684917478
+    bn	11566	7957877.0617662715	6612	0.5716756008991872	0.9991198342596205
+    bo	4655	840849.2075952628	1572	0.3377013963480129	0.9017805534677087
+    bpy	5104	478504.86744011333	2075	0.4065438871473354	0.998965631591604
+    br	37699	3828953.887114226	14595	0.387145547627258	0.9996552452845736
+    bs	46168	6388370.043167308	16727	0.36230722578409286	0.9998972823230067
+    bug	8208	58936.204691731895	3304	0.40253411306042886	0.9703199475821619
+    bxr	52262	289963.02033505053	15207	0.29097623512303394	0.9983155709735422
+    ca	39553	28049595.002430838	20267	0.5124010820923823	0.9993694653308279
+    cbk_zam	26359	169863.69344180194	12350	0.46853067263553244	0.9998167794227658
+    cdo	16067	177955.0291752688	9572	0.5957552747868301	0.9965383235208604
+    ce	10316	5798065.375659139	5201	0.5041682822799535	0.9999554346756623
+    ceb	10211	40522773.601948045	7834	0.7672118303790031	0.9999698723116363
+    ch	3014	13297.593290958974	2126	0.7053749170537492	0.9968697715532469
+    cho	616	366.284438561682	581	0.9431818181818182	1.0
+    chr	7591	35349.90462204185	3649	0.4807008299301805	0.9807562628504732
+    chy	2011	6357.352126791047	1323	0.6578816509199403	0.9995281054218537
+    ckb	43962	2100963.4591988996	13231	0.3009644693144079	0.9988451861012392
+    co	43130	362554.86604240665	12955	0.30037097148156733	0.999800561869052
+    cr	952	2058.837382795463	750	0.7878151260504201	0.9701009073981105
+    crh	35456	337501.1311965878	10599	0.2989338898916967	0.9993906870828336
+    cs	53522	30190608.76921685	16406	0.30652815664586525	0.9998327026730698
+    csb	36537	186821.5708735879	8523	0.23327038344691683	0.9992423456108586
+    cu	8789	43032.75632492684	2975	0.33849129593810445	0.9588181371030198
+    cv	26872	1633505.3669097445	9800	0.36469187258112534	0.999455864379216
+    cy	30030	6052800.69529071	14686	0.48904428904428904	0.9998125610620012
+    da	44383	12061276.53037835	19024	0.4286325845481378	0.9998598287805824
+    dag	34584	237376.22010580622	12707	0.36742424242424243	0.9991801020631726
+    de	45120	112792419.35654673	20777	0.4604831560283688	0.9998211751320885
+    din	7822	39154.99517858213	2278	0.2912298644847865	0.9990196313252989
+    diq	38780	768497.3146988965	14766	0.38076328004125837	0.9997985037896071
+    dsb	37903	202144.5234945945	10642	0.2807693322428304	0.999409142657293
+    dty	11551	175824.60592426083	5387	0.46636654835079216	0.9993110109561427
+    dv	4665	218347.36312827913	3171	0.6797427652733119	0.5230741259655594
+    dz	5098	129939.88573145107	1900	0.372695174578266	0.8971366915713304
+    ee	8352	42945.439784826696	3742	0.44803639846743293	0.9994736740270426
+    el	51065	19175695.53748384	13289	0.2602369529031626	0.999523581048997
+    eml	30301	757548.2492656284	13367	0.44114055641727995	0.9997981169832478
+    en	38570	202794771.04552048	28872	0.7485610578169561	0.9994779760967897
+    eo	44646	11370967.453712277	18615	0.41694664695605427	0.9996900614664885
+    es	40736	68090771.22919935	20656	0.507069913589945	0.9996930361261939
+    et	57127	11502648.845403675	17230	0.30160869641325466	0.9998790653586548
+    eu	41117	11536896.672991991	16712	0.40644988690809153	0.9998040960617298
+    ext	43484	228032.25334256378	13704	0.3151504001471806	0.9996302388962716
+    fa	34010	17716260.05721104	12781	0.3758012349309027	0.99944066141277
+    ff	17229	85015.3065024426	5825	0.33809275059492716	0.9504928813506747
+    fi	56418	25384723.532015547	17965	0.3184267432379737	0.9998390772643501
+    fiu_vro	40423	210067.32229253693	7616	0.1884075897385152	0.9996764492936708
+    fj	6002	31085.674414738998	2860	0.47650783072309233	0.9999034925232769
+    fo	44712	622697.301784591	15880	0.3551619252102344	0.9998257778369541
+    fr	37140	116320030.33739333	18526	0.4988152934841142	0.9997187273218092
+    frp	32459	189965.82990426282	11633	0.35839058504575	0.9995440221801903
+    frr	33932	535852.548974805	13389	0.3945832842154898	0.999422219927597
+    fur	34433	199332.85257287708	11495	0.3338367263961897	0.9997360863220696
+    fy	39788	2658645.067866998	13708	0.3445259877349955	0.9998148441135065
+    ga	40848	1620924.8184739037	15788	0.38650607128868	0.9994829131948646
+    gag	29322	140386.5923194299	9803	0.3343223518177478	0.9998174718513401
+    gan	11017	116370.96308016551	9380	0.8514114550240537	0.9982608737960714
+    gcr	18705	108795.31869176027	6299	0.3367548783747661	0.9996051528856638
+    gd	30002	541712.9408599217	12906	0.4301713219118725	0.9998274482879665
+    gl	43122	9767341.06493483	20946	0.4857381383052734	0.9998258008940772
+    glk	37291	216383.90504132188	6636	0.17795178461290928	0.9996373053684977
+    gn	35476	321125.56824459066	13879	0.3912222347502537	0.9977303969123157
+    gom	17454	633493.3806499625	5827	0.33384897444711814	0.9987635456210171
+    gor	27045	180333.36935439985	10346	0.382547605842115	0.9998620692639018
+    got	8805	50962.09208686098	4784	0.543327654741624	0.8774546331912076
+    gu	10910	2235809.1086011813	3782	0.3466544454628781	0.9824255772937196
+    guw	15208	86401.34588829626	6152	0.40452393477117304	0.9995532023352579
+    gv	41613	272539.45060092286	16861	0.4051858794126835	0.9994536477402669
+    ha	32133	1626685.1450413365	17220	0.5358976752870881	0.9996284030890118
+    hak	17015	167176.52225748898	10544	0.6196885101381134	0.9968168621159413
+    haw	9479	65304.89688397233	5093	0.537292963392763	0.9997452102887306
+    he	51859	37072807.01788479	6693	0.1290614936655161	0.9997624670737629
+    hi	11379	5638016.203695221	6157	0.5410844538184375	0.9994478304076025
+    hif	39376	238030.6395935427	18877	0.47940369768386837	0.9998503364741046
+    ho	590	166.1795543256423	562	0.9525423728813559	1.0
+    hr	54942	11781206.730323536	16833	0.30637763459648354	0.999840195032254
+    hsb	38029	667649.1719511177	10837	0.2849667359120671	0.9997003658570104
+    ht	34660	1319286.2551304859	18368	0.5299480669359492	0.9999202743314567
+    hu	51250	28486558.34382576	17896	0.349190243902439	0.9998015398531528
+    hy	48645	16047648.152455557	14861	0.30549902353787645	0.9971827494215714
+    hyw	52119	1410048.380004019	11104	0.2130509027418024	0.9957269780205441
+    ia	36612	552006.4841913402	18220	0.49765104337375726	0.9996375334221693
+    id	42561	19272985.526778713	24325	0.5715326237635394	0.9991328349442731
+    ie	14306	576792.1130458087	6658	0.4653991332308122	0.9999798462833839
+    ig	30894	1276447.232178687	17792	0.5759047064154852	0.9995645988085631
+    ii	572	65.14871555945768	571	0.9982517482517482	1.0
+    ik	2626	10388.13406634711	1370	0.5217060167555218	0.9995548281565123
+    ilo	30758	706520.723758653	15776	0.5129072111320632	0.9995929823933158
+    inh	26629	135904.34581401892	7290	0.2737616883848436	0.9995821099580944
+    io	24602	941213.5818285117	12315	0.5005690594260629	0.9998594953044775
+    is	46745	2995673.4725370444	13220	0.28281099582843083	0.9998148193961055
+    it	43348	65715462.80741399	21241	0.490011073175233	0.9997788226851282
+    iu	3225	12787.621977929062	1373	0.42573643410852713	0.9552681540552164
+    ja	10038	46109614.56805505	9303	0.9267782426778243	0.9986655689788159
+    jam	14841	76283.21397130963	5822	0.3922916245536015	0.9999606728683308
+    jbo	14231	96507.82230686577	6907	0.4853488862342773	0.9999896381456332
+    jv	41145	2711598.9899999243	18368	0.44642119334062463	0.9967230537891429
+    ka	49459	7171153.096767872	13571	0.27438888776562403	0.9865634430756423
+    kaa	47756	251708.1631377349	10292	0.21551218695033084	0.9996788287892204
+    kab	44156	243016.16136680724	11194	0.25351028172841744	0.9988387461047852
+    kbd	23612	123189.56355455396	4727	0.200194816195155	0.9997073708445424
+    kbp	22957	143672.5960533108	5378	0.23426405889271246	0.9970946812027717
+    kcg	7667	43006.582516034134	4445	0.5797574018520933	0.9976326667691915
+    kg	4712	18906.483094474013	2598	0.551358234295416	1.0
+    ki	6259	24425.091884474386	2478	0.3959098897587474	0.9999590584958808
+    kj	561	112.4757815748854	555	0.9893048128342246	1.0
+    kk	41483	6025152.171093207	9177	0.22122315165248416	0.9994806043749205
+    kl	5021	20530.472186520863	1692	0.33698466440948016	1.0
+    km	15814	1415676.7343680526	6264	0.39610471733906666	0.9816647419351993
+    kn	10499	4372486.9772840375	3959	0.37708353176493	0.9959942310163207
+    ko	10406	16557972.492488058	9219	0.8859311935421872	0.9833066340275245
+    koi	30126	181724.551927106	6566	0.21795127132709288	0.9998218457907466
+    krc	31146	159806.23829836407	7264	0.2332241700378861	0.9986356451205096
+    ks	11107	66303.5771342071	4298	0.38696317637525884	0.9854137254079277
+    ksh	33248	187422.35479713877	9579	0.2881075553416747	0.9999013359521653
+    ku	42597	1495108.5515285495	15318	0.3596027889287978	0.9996992268087119
+    kv	31228	313089.3449706907	8469	0.27119892404252594	0.9716800712595455
+    kw	37536	224929.60748646196	13043	0.3474797527706735	0.9992248562123205
+    ky	42841	2520599.9781390443	8082	0.18865105856539297	0.9997225826398568
+    la	52643	12426407.53572101	13101	0.2488649962958038	0.9997243188033478
+    lad	41025	235664.63006089837	14491	0.35322364411943935	0.9998699181610626
+    lb	41927	2278127.51082829	19575	0.46688291554368305	0.9999286847781119
+    lbe	7264	30547.17300117389	2760	0.3799559471365639	0.999541692450576
+    lez	48178	293283.83105844876	10909	0.2264311511478268	0.999679198001533
+    lfn	32634	339955.16785496473	13533	0.4146902004044861	0.9992419788106943
+    lg	39232	344085.17081782623	9436	0.2405179445350734	0.9995374997149444
+    li	41850	1164208.1122641212	13659	0.3263799283154122	0.9996947109301775
+    lij	47466	989745.545858255	12766	0.2689504066068344	0.9998247636502212
+    lld	13048	599282.6691852277	7875	0.6035407725321889	0.9998052339038622
+    lmo	36099	1279248.6313382585	14843	0.41117482478739026	0.9997113566820494
+    ln	23331	114729.31761366806	9536	0.4087265869444087	0.9998307984339696
+    lo	51859	466547.3879975229	12190	0.23506045238049325	0.8684327133757791
+    lt	50327	8164033.649972799	13446	0.2671726906034534	0.9997532644297612
+    ltg	13294	59940.47839692728	3273	0.24620129381675945	0.9999228483836566
+    lv	50443	5501906.283760844	13573	0.2690759867573301	0.9997127856414241
+    mad	15789	75595.55975892545	5362	0.3396035214389765	0.9996485990945753
+    mai	13288	401937.4276154152	6808	0.5123419626730885	0.9997292189872027
+    map_bms	37767	219031.50874102474	11442	0.30296290412264676	0.999890830324914
+    mdf	35294	215381.10213849746	13254	0.37553125177083924	0.9998668861882729
+    mg	23024	1425408.5806758192	10221	0.4439280750521195	0.9998616188834757
+    mh	661	494.5507325208826	588	0.8895612708018155	1.0
+    mhr	22785	628057.9320124318	6957	0.3053324555628703	0.999821817915809
+    mi	14223	131373.10093734972	7349	0.5166983055614146	0.9992871874905936
+    min	13438	1819580.7486565018	6500	0.48370293198392617	0.9998241058155697
+    mk	45357	8404951.434195206	14250	0.31417421787155236	0.9996833274813637
+    ml	13692	5951070.611220958	6556	0.47881974875839906	0.9966423166912134
+    mn	48238	1710274.013043551	13883	0.2878021476843982	0.9993815900251696
+    mni	6073	135305.00281794887	4794	0.789395685822493	0.9428562982109187
+    mnw	14249	632019.1589832492	6043	0.42409993683767283	0.9904853788722594
+    mr	11265	3205090.960702522	4979	0.441988459831336	0.9987016722841007
+    mrj	54853	276252.7750595164	12770	0.23280403988842907	0.9998937781981883
+    ms	41050	8247041.839324765	23198	0.565115712545676	0.9993342991985021
+    mt	37623	945075.0099732848	14474	0.384711479679983	0.9998096304754889
+    mus	562	125.19756062701188	559	0.994661921708185	1.0
+    mwl	40710	746795.8131412532	13946	0.34256939326946695	0.9999180618550206
+    my	12749	2383721.400402137	5907	0.4633304572907679	0.9975141687413697
+    myv	37854	470721.6675445788	11350	0.29983621281766787	0.9996487275828647
+    mzn	28521	392688.45981332724	8910	0.3124013884506153	0.9996320703086207
+    na	4656	20643.381631330347	3382	0.7263745704467354	0.9978565038240501
+    nah	29280	166527.7283839747	9994	0.34132513661202185	0.9997460200491366
+    nap	36315	658884.7353913133	10892	0.299931157923723	0.9998510761738837
+    nds	34199	2461701.1481098193	15892	0.4646919500570192	0.9999389919286977
+    nds_nl	52417	590031.9372551697	13285	0.2534483087547933	0.999822502548564
+    ne	12019	1363571.083790417	6185	0.5146018803561029	0.9991727545477991
+    new	5632	1137274.8148889656	2881	0.5115411931818182	0.9987460385247514
+    ng	1052	1958.3819183984929	604	0.5741444866920152	1.0
+    nia	17092	105417.710536254	5713	0.33424994149309617	0.9990477121677765
+    nl	41406	32843181.27833311	19549	0.4721296430469014	0.9998708129563151
+    nn	40718	5602893.111650401	18762	0.46077901665111254	0.999806477501165
+    no	44820	21239439.55081234	20684	0.4614904060687193	0.9997681991426699
+    nov	11624	57305.449591521654	5961	0.5128183069511356	0.9997971483536806
+    nqo	19955	188123.8126668534	1951	0.09776998246053621	0.6709355599397773
+    nrm	24897	147783.22455078328	8765	0.3520504478451219	0.9999796999963351
+    nso	15656	92892.71396561788	6833	0.4364460909555442	1.0
+    nv	9598	243630.16307352288	3137	0.326838924775995	0.9992722526780525
+    ny	21564	114953.29390767643	8594	0.3985345946948618	0.9996149434338976
+    oc	41070	3219386.284470945	17262	0.4203067932797663	0.9998015184428516
+    olo	33443	169385.6373649711	7745	0.23158807523248512	0.9997296013398432
+    om	30041	153544.6367579238	6398	0.21297560001331514	0.9993308706022459
+    or	14111	1430841.0648639929	6668	0.4725391538516051	0.967760954912936
+    os	27431	445635.8261086219	7640	0.27851700630673326	0.9995340216057134
+    pa	14409	2490847.6220080457	7683	0.5332084114095357	0.99390860367057
+    pag	20567	135590.66928802995	9642	0.4688092575485	0.9999704994449765
+    pam	36058	435209.6073239034	20506	0.5686948804703533	0.999793788476557
+    pap	25212	158480.8535721919	10528	0.4175789306679359	0.999905280173302
+    pcd	51383	285748.1381983958	16973	0.3303232586653173	0.9988805173290268
+    pcm	13183	73166.41010077711	7624	0.578320564363195	0.9999146761664952
+    pdc	13111	66341.35940638116	6909	0.5269620928990923	0.9999849264469564
+    pfl	39489	212862.40552873097	11344	0.2872698726227557	0.9998445602952969
+    pi	3255	22341.321350951508	1911	0.5870967741935483	0.9942881102641157
+    pih	4822	22324.136251147505	3007	0.623600165906263	0.9997312326025742
+    pl	55592	68071484.2113789	15877	0.2855986472873795	0.9998270125196739
+    pms	29108	631355.3089601552	7910	0.271746598873162	0.9999211673437879
+    pnb	35617	4910014.980130358	11174	0.31372659123452284	0.9984423938922922
+    pnt	6267	28600.35903363767	1973	0.3148236795915111	0.9974966878055123
+    ps	39069	2447094.1853335295	13570	0.34733420358852285	0.9972524980977071
+    pt	42322	37436061.295107305	21761	0.5141770237701432	0.9993878160989375
+    pwn	8883	48561.65647224059	3669	0.4130361364403918	0.9997747226073536
+    qu	43693	615852.3612605119	19761	0.4522692422127114	0.9997840978750827
+    rm	34892	616697.203941006	13005	0.3727215407543276	0.999954437097729
+    rmy	6355	29543.62182052565	3135	0.49331235247836347	1.0
+    rn	7326	32861.36937397343	2108	0.2877422877422877	0.9999695691318089
+    ro	44970	17508798.255842708	19121	0.42519457416055145	0.9997233480840133
+    roa_rup	24713	107792.02011805067	5442	0.22020798769878203	0.9998110107452607
+    roa_tara	34676	344890.9816309242	13181	0.380118814165417	0.9999026541957542
+    ru	55962	136742318.1464383	14967	0.26744934062399484	0.9997977490373224
+    rue	58249	468209.8243829732	13608	0.23361774451063538	0.9994568954519317
+    rw	41129	349124.2204567265	11961	0.2908166986797637	0.9998450798706092
+    sa	12893	6598304.675394799	3345	0.2594431086636159	0.9985729247502977
+    sah	51638	1207618.4745669533	9632	0.18652930012781285	0.9984290127166269
+    sat	36733	668847.4676680956	11709	0.318759698363869	0.927564257201304
+    sc	43764	590688.9760666066	15775	0.36045608262498857	0.9998143238793342
+    scn	48398	678743.9453853996	16232	0.3353857597421381	0.9998851154366436
+    sco	37803	1607070.1015664788	25232	0.6674602544771578	0.9996244903280638
+    sd	33420	944873.6214190548	9816	0.29371633752244164	0.9977606021791428
+    se	24532	250216.9618641432	8535	0.34791293005054624	0.9996573862704424
+    sg	2111	9965.388998687416	1128	0.5343439128375178	0.9992975688153346
+    sh	33490	12632702.368318215	13753	0.41065989847715734	0.9998877531364495
+    shi	24901	126749.35189053975	6746	0.2709128147463957	0.9962017108408078
+    shn	10391	358282.84319237387	5823	0.5603887979982677	0.9406370895737535
+    si	15139	1679556.9991637792	7966	0.5261906334632407	0.9929358519388498
+    sk	49839	9737658.241475431	16093	0.3228997371536347	0.9998177534480758
+    skr	34459	553374.759365828	5207	0.1511071128007197	0.9946041765875132
+    sl	52228	15938504.070463475	14682	0.28111357892318295	0.9998170454131555
+    sm	8141	48639.322740672644	4079	0.5010440977766859	0.9989463461516791
+    smn	49816	274832.2939307374	14213	0.28530994058133935	0.9994617862707282
+    sn	54053	411244.4884734129	13553	0.25073538934009215	0.9994874346367443
+    so	48148	698854.8942340707	16203	0.33652488161502037	0.9971950526065969
+    sq	46367	5053909.154904509	17661	0.38089589578795263	0.9997384320545908
+    sr	48445	23152047.74212893	16020	0.33068428114356485	0.9996872209472724
+    srn	5037	30619.965583052173	3010	0.5975779233670836	0.9964324244713362
+    ss	13563	56664.896568851276	5073	0.37403229374032293	0.9996181696528342
+    st	11198	60405.7089891055	4926	0.4398999821396678	0.9999337810934275
+    stq	40844	225527.32683003566	11810	0.28914895700714915	0.9998533106447525
+    su	40652	1347628.5716879887	18432	0.4534094263504871	0.9979344202614046
+    sv	30434	40383105.63891097	15540	0.5106131300519157	0.9998629506681145
+    sw	38945	2136833.8818445904	19413	0.4984722043908075	0.9998594284634011
+    szl	17846	849694.9371675032	7832	0.4388658522918301	0.9998717828497738
+    szy	24613	385152.55648530077	9793	0.3978791695445496	0.9997949319118562
+    ta	8890	6938368.777656475	5464	0.614623172103487	0.9986950614337086
+    tay	14819	102500.19680163966	5748	0.3878804237802821	0.9998368787299845
+    tcy	10993	238757.28584349155	4347	0.39543345765487126	0.9951752097946468
+    te	11574	6532401.792243862	4052	0.3500950406082599	0.9959096961075679
+    ten	11699	57094.31935676136	8171	0.6984357637404907	0.9998662035749334
+    tet	15703	89293.38523955125	6963	0.44341845507227917	0.999970445561959
+    tg	38942	2115458.543513288	12204	0.3133891428277952	0.999615516158343
+    th	50687	16503531.48190163	15348	0.30279953439738	0.9958986233985266
+    ti	6340	27799.413018538435	1135	0.17902208201892744	0.9575512990250215
+    tk	62888	543438.0728115136	12115	0.19264406564050376	0.9994720035050842
+    tl	40577	2558955.874702968	22604	0.5570643467974469	0.9991297260118013
+    tn	18435	116890.16983512208	6983	0.3787903444534852	0.9999743348820159
+    to	9143	57785.31587225135	4162	0.4552116373181669	0.9999826945654807
+    tpi	5930	28989.075163608308	3834	0.6465430016863406	0.9859553087251048
+    tr	48479	19169121.133682404	19975	0.41203407661049113	0.9996001977370215
+    trv	32825	222395.1375884985	7560	0.2303122619954303	0.9994455729727229
+    ts	13426	68972.60701325838	6221	0.4633546849396693	0.9999855014904713
+    tt	13849	8201428.878950409	6599	0.4764964979420897	0.9995219882151896
+    tum	7766	173745.52929396002	4108	0.5289724439866083	0.9998455454412378
+    tw	35367	244473.29296526173	13637	0.38558543274804197	0.9996916273464941
+    ty	2753	11750.922998914994	1623	0.5895386850708318	0.9956644626151265
+    tyv	51289	433209.1088627853	11055	0.21554329388367877	0.9992830840882256
+    udm	41846	231306.42554259457	9165	0.21901734932849018	0.9995630900578673
+    ug	46386	898853.0057658941	6315	0.1361402147199586	0.9864815662860547
+    uk	50846	48696376.30977514	15693	0.3086378476182984	0.9997462242514071
+    ur	32359	5281259.875916102	12865	0.39757100033993636	0.9982069670549774
+    uz	41945	9008056.91291922	18741	0.4467993801406604	0.999667029489648
+    ve	4017	18411.429006605747	1627	0.4050286283295992	1.0
+    vec	31616	1793069.226737466	13979	0.44214954453441296	0.9997737355700617
+    vep	41340	496478.6919176982	11907	0.28802612481857764	0.9996019919093132
+    vi	25596	20718401.540734373	17960	0.7016721362712924	0.9993599252134933
+    vls	42970	489469.81737932004	13972	0.3251570863393065	0.9999250116246354
+    vo	19985	480885.5607387868	10753	0.5380535401551163	0.9990678021778541
+    wa	33984	695968.1662161129	8872	0.2610640301318267	0.9993916242428331
+    war	15663	8217966.317614623	8206	0.52390985124178	0.9999653140158463
+    wo	27695	179314.25141164585	7541	0.2722874165011735	0.9998902222753991
+    wuu	14295	678178.8931795699	12177	0.8518363064008394	0.9979367607118268
+    xal	12490	62798.47361288565	4819	0.3858286629303443	0.9995547325681071
+    xh	36295	162601.5228898973	9551	0.26314919410387105	0.9997042693097912
+    xmf	50951	699387.1244536303	13839	0.2716139035543954	0.9767001152493007
+    yi	30037	1143788.730830005	4413	0.146918800146486	0.999194176222281
+    yo	37992	657847.0896389821	18960	0.4990524320909665	0.9986615696379494
+    za	13555	75175.06659167518	6724	0.4960531169310218	0.9995240416382799
+    zea	25811	241305.54750657058	8477	0.3284258649413041	0.999989123727905
+    zh	14344	66122048.29039728	10362	0.7223926380368099	0.9975034151042014
+    zh_classical	10821	431367.1752025366	8318	0.7686905091950836	0.9980758493825858
+    zh_min_nan	15888	2741273.379342851	8945	0.563003524672709	0.9994859645786118
+    zh_yue	15969	2435249.159357106	13892	0.8699355000313107	0.9983004563717632
+    zu	71846	357470.07892350917	14757	0.20539765609776467	0.9999279337172424
+    average	28427.163076923076	6085760.128676726	10211.264615384616	0.4099999113752759	0.9928933743600994

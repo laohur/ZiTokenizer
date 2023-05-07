@@ -120,7 +120,7 @@ if __name__ == "__main__":
     if args.local == 0:
         params = []
         for alpha in [50, 60, 70, 80, 90]:
-            freq_path = f"C:/data/languages/*/word_frequency.tsv"
+            freq_path =f"C:/data/word_frequency/*-word_frequency.tsv"
             folder = f"languages/global-{alpha}"
             if not os.path.exists(folder):
                 os.makedirs(folder)

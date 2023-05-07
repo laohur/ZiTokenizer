@@ -1,0 +1,1986 @@
+[I 230506 21:56:05 ZiTokenizer:48]  ./languages/ab\vocab.txt load vocab:20228 root:16898 prefix:1452 suffix:1878 
+[I 230506 21:56:05 ZiCutter:58] ./languages/ab\JiZi.txt load  JiZi:545
+[I 230506 21:56:05 ZiCutter:32]   ./languages/ab\HeZi.txt 70612  JiZi:545 --> loadHeZi 70612  values:545 slim2Zi:69349 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:05 ZiCutter:66] ./languages/ab loaded vocab:545
+[I 230506 21:56:05 glance:35]  cat C:/data/word_frequency\ab-word_frequency.tsv n_src:46184--> freq:46184 total:376284.0
+[I 230506 21:56:06 ZiTokenizer:48]  ./languages/ace\vocab.txt load vocab:21789 root:18638 prefix:1108 suffix:2043 
+[I 230506 21:56:06 ZiCutter:58] ./languages/ace\JiZi.txt load  JiZi:1046
+[I 230506 21:56:06 ZiCutter:32]   ./languages/ace\HeZi.txt 76992  JiZi:1046 --> loadHeZi 76992  values:1046 slim2Zi:74835 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:06 ZiCutter:66] ./languages/ace loaded vocab:1046
+[I 230506 21:56:06 glance:35]  cat C:/data/word_frequency\ace-word_frequency.tsv n_src:45558--> freq:45558 total:1040751.0
+[I 230506 21:56:06 ZiTokenizer:48]  ./languages/ady\vocab.txt load vocab:6778 root:5648 prefix:573 suffix:557 
+[I 230506 21:56:06 ZiCutter:58] ./languages/ady\JiZi.txt load  JiZi:541
+[I 230506 21:56:07 ZiCutter:32]   ./languages/ady\HeZi.txt 70081  JiZi:541 --> loadHeZi 70081  values:541 slim2Zi:68862 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:07 ZiCutter:66] ./languages/ady loaded vocab:541
+[I 230506 21:56:07 glance:35]  cat C:/data/word_frequency\ady-word_frequency.tsv n_src:14556--> freq:14556 total:63387.0
+[I 230506 21:56:07 ZiTokenizer:48]  ./languages/af\vocab.txt load vocab:37759 root:29406 prefix:2663 suffix:5690 
+[I 230506 21:56:07 ZiCutter:58] ./languages/af\JiZi.txt load  JiZi:642
+[I 230506 21:56:07 ZiCutter:32]   ./languages/af\HeZi.txt 71908  JiZi:642 --> loadHeZi 71908  values:642 slim2Zi:70441 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:07 ZiCutter:66] ./languages/af loaded vocab:642
+[I 230506 21:56:09 glance:35]  cat C:/data/word_frequency\af-word_frequency.tsv n_src:1065148--> freq:1065138 total:50890548.0
+[I 230506 21:56:20 ZiTokenizer:48]  ./languages/ak\vocab.txt load vocab:11265 root:9575 prefix:674 suffix:1016 
+[I 230506 21:56:20 ZiCutter:58] ./languages/ak\JiZi.txt load  JiZi:537
+[I 230506 21:56:20 ZiCutter:32]   ./languages/ak\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:20 ZiCutter:66] ./languages/ak loaded vocab:537
+[I 230506 21:56:20 glance:35]  cat C:/data/word_frequency\ak-word_frequency.tsv n_src:22465--> freq:22464 total:213684.0
+[I 230506 21:56:21 ZiTokenizer:48]  ./languages/als\vocab.txt load vocab:47676 root:35575 prefix:3665 suffix:8436 
+[I 230506 21:56:21 ZiCutter:58] ./languages/als\JiZi.txt load  JiZi:581
+[I 230506 21:56:21 ZiCutter:32]   ./languages/als\HeZi.txt 70732  JiZi:581 --> loadHeZi 70732  values:581 slim2Zi:69401 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:21 ZiCutter:66] ./languages/als loaded vocab:581
+[I 230506 21:56:22 glance:35]  cat C:/data/word_frequency\als-word_frequency.tsv n_src:951342--> freq:951331 total:17819808.0
+[I 230506 21:56:33 ZiTokenizer:48]  ./languages/alt\vocab.txt load vocab:31906 root:27658 prefix:1841 suffix:2407 
+[I 230506 21:56:33 ZiCutter:58] ./languages/alt\JiZi.txt load  JiZi:547
+[I 230506 21:56:34 ZiCutter:32]   ./languages/alt\HeZi.txt 70197  JiZi:547 --> loadHeZi 70197  values:547 slim2Zi:68963 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:34 ZiCutter:66] ./languages/alt loaded vocab:547
+[I 230506 21:56:34 glance:35]  cat C:/data/word_frequency\alt-word_frequency.tsv n_src:67517--> freq:67517 total:1070448.0
+[I 230506 21:56:34 ZiTokenizer:48]  ./languages/am\vocab.txt load vocab:61225 root:50189 prefix:2875 suffix:8161 
+[I 230506 21:56:34 ZiCutter:58] ./languages/am\JiZi.txt load  JiZi:607
+[I 230506 21:56:35 ZiCutter:32]   ./languages/am\HeZi.txt 71538  JiZi:607 --> loadHeZi 71538  values:607 slim2Zi:70150 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:35 ZiCutter:66] ./languages/am loaded vocab:607
+[I 230506 21:56:35 glance:35]  cat C:/data/word_frequency\am-word_frequency.tsv n_src:251271--> freq:251267 total:2503162.0
+[I 230506 21:56:37 ZiTokenizer:48]  ./languages/ami\vocab.txt load vocab:25015 root:21765 prefix:1262 suffix:1988 
+[I 230506 21:56:37 ZiCutter:58] ./languages/ami\JiZi.txt load  JiZi:1977
+[I 230506 21:56:37 ZiCutter:32]   ./languages/ami\HeZi.txt 83677  JiZi:1977 --> loadHeZi 83677  values:1977 slim2Zi:80070 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:37 ZiCutter:66] ./languages/ami loaded vocab:1977
+[I 230506 21:56:38 glance:35]  cat C:/data/word_frequency\ami-word_frequency.tsv n_src:51157--> freq:51157 total:810330.0
+[I 230506 21:56:38 ZiTokenizer:48]  ./languages/an\vocab.txt load vocab:38492 root:31333 prefix:3082 suffix:4077 
+[I 230506 21:56:38 ZiCutter:58] ./languages/an\JiZi.txt load  JiZi:585
+[I 230506 21:56:38 ZiCutter:32]   ./languages/an\HeZi.txt 70554  JiZi:585 --> loadHeZi 70554  values:585 slim2Zi:69215 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:38 ZiCutter:66] ./languages/an loaded vocab:585
+[I 230506 21:56:39 glance:35]  cat C:/data/word_frequency\an-word_frequency.tsv n_src:394288--> freq:394283 total:11629142.0
+[I 230506 21:56:43 ZiTokenizer:48]  ./languages/ang\vocab.txt load vocab:33303 root:27844 prefix:2020 suffix:3439 
+[I 230506 21:56:43 ZiCutter:58] ./languages/ang\JiZi.txt load  JiZi:588
+[I 230506 21:56:43 ZiCutter:32]   ./languages/ang\HeZi.txt 71040  JiZi:588 --> loadHeZi 71040  values:588 slim2Zi:69729 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:43 ZiCutter:66] ./languages/ang loaded vocab:588
+[I 230506 21:56:44 glance:35]  cat C:/data/word_frequency\ang-word_frequency.tsv n_src:77106--> freq:77106 total:498263.0
+[I 230506 21:56:45 ZiTokenizer:48]  ./languages/ar\vocab.txt load vocab:48122 root:38747 prefix:3115 suffix:6260 
+[I 230506 21:56:45 ZiCutter:58] ./languages/ar\JiZi.txt load  JiZi:830
+[I 230506 21:56:45 ZiCutter:32]   ./languages/ar\HeZi.txt 76083  JiZi:830 --> loadHeZi 76083  values:830 slim2Zi:74184 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:56:45 ZiCutter:66] ./languages/ar loaded vocab:830
+[I 230506 21:57:00 glance:35]  cat C:/data/word_frequency\ar-word_frequency.tsv n_src:6673473--> freq:6673170 total:693329232.0
+[I 230506 21:58:07 ZiTokenizer:48]  ./languages/arc\vocab.txt load vocab:7960 root:6665 prefix:674 suffix:621 
+[I 230506 21:58:07 ZiCutter:58] ./languages/arc\JiZi.txt load  JiZi:548
+[I 230506 21:58:07 ZiCutter:32]   ./languages/arc\HeZi.txt 70175  JiZi:548 --> loadHeZi 70175  values:548 slim2Zi:68941 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:58:07 ZiCutter:66] ./languages/arc loaded vocab:548
+[I 230506 21:58:08 glance:35]  cat C:/data/word_frequency\arc-word_frequency.tsv n_src:17097--> freq:17097 total:82871.0
+[I 230506 21:58:08 ZiTokenizer:48]  ./languages/ary\vocab.txt load vocab:38878 root:32732 prefix:2574 suffix:3572 
+[I 230506 21:58:08 ZiCutter:58] ./languages/ary\JiZi.txt load  JiZi:638
+[I 230506 21:58:08 ZiCutter:32]   ./languages/ary\HeZi.txt 71819  JiZi:638 --> loadHeZi 71819  values:638 slim2Zi:70394 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:58:08 ZiCutter:66] ./languages/ary loaded vocab:638
+[I 230506 21:58:08 glance:35]  cat C:/data/word_frequency\ary-word_frequency.tsv n_src:118998--> freq:118997 total:1478467.0
+[I 230506 21:58:09 ZiTokenizer:48]  ./languages/arz\vocab.txt load vocab:17999 root:13429 prefix:1482 suffix:3088 
+[I 230506 21:58:09 ZiCutter:58] ./languages/arz\JiZi.txt load  JiZi:540
+[I 230506 21:58:10 ZiCutter:32]   ./languages/arz\HeZi.txt 70132  JiZi:540 --> loadHeZi 70132  values:540 slim2Zi:68907 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:58:10 ZiCutter:66] ./languages/arz loaded vocab:540
+[E 230506 21:58:10 glance:19] ('\n', ['\n'])
+[E 230506 21:58:10 glance:19] ('\n', ['\n'])
+[E 230506 21:58:10 glance:19] ('\n', ['\n'])
+[E 230506 21:58:10 glance:19] ('\n', ['\n'])
+[E 230506 21:58:10 glance:19] ('\n', ['\n'])
+[E 230506 21:58:11 glance:19] ('\n', ['\n'])
+[E 230506 21:58:11 glance:19] ('\t\n', ['\t\n'])
+[E 230506 21:58:12 glance:19] ('\t\n', ['\t\n'])
+[I 230506 21:58:14 glance:35]  cat C:/data/word_frequency\arz-word_frequency.tsv n_src:2989930--> freq:2989780 total:365750008.0
+[I 230506 21:58:42 ZiTokenizer:48]  ./languages/as\vocab.txt load vocab:12808 root:10306 prefix:1217 suffix:1285 
+[I 230506 21:58:42 ZiCutter:58] ./languages/as\JiZi.txt load  JiZi:541
+[I 230506 21:58:42 ZiCutter:32]   ./languages/as\HeZi.txt 70115  JiZi:541 --> loadHeZi 70115  values:541 slim2Zi:68896 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:58:42 ZiCutter:66] ./languages/as loaded vocab:541
+[I 230506 21:58:42 glance:35]  cat C:/data/word_frequency\as-word_frequency.tsv n_src:304655--> freq:304632 total:42615348.0
+[I 230506 21:58:45 ZiTokenizer:48]  ./languages/ast\vocab.txt load vocab:43370 root:34730 prefix:3442 suffix:5198 
+[I 230506 21:58:45 ZiCutter:58] ./languages/ast\JiZi.txt load  JiZi:830
+[I 230506 21:58:46 ZiCutter:32]   ./languages/ast\HeZi.txt 76465  JiZi:830 --> loadHeZi 76465  values:830 slim2Zi:74527 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:58:46 ZiCutter:66] ./languages/ast loaded vocab:830
+[I 230506 21:58:48 glance:35]  cat C:/data/word_frequency\ast-word_frequency.tsv n_src:1718171--> freq:1718105 total:113763950.0
+[I 230506 21:59:06 ZiTokenizer:48]  ./languages/atj\vocab.txt load vocab:9538 root:8192 prefix:349 suffix:997 
+[I 230506 21:59:06 ZiCutter:58] ./languages/atj\JiZi.txt load  JiZi:537
+[I 230506 21:59:06 ZiCutter:32]   ./languages/atj\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:59:06 ZiCutter:66] ./languages/atj loaded vocab:537
+[I 230506 21:59:06 glance:35]  cat C:/data/word_frequency\atj-word_frequency.tsv n_src:20300--> freq:20300 total:132652.0
+[I 230506 21:59:07 ZiTokenizer:48]  ./languages/av\vocab.txt load vocab:48369 root:40708 prefix:4016 suffix:3645 
+[I 230506 21:59:07 ZiCutter:58] ./languages/av\JiZi.txt load  JiZi:559
+[I 230506 21:59:07 ZiCutter:32]   ./languages/av\HeZi.txt 70446  JiZi:559 --> loadHeZi 70446  values:559 slim2Zi:69190 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:59:07 ZiCutter:66] ./languages/av loaded vocab:559
+[I 230506 21:59:07 glance:35]  cat C:/data/word_frequency\av-word_frequency.tsv n_src:110747--> freq:110746 total:1115224.0
+[I 230506 21:59:08 ZiTokenizer:48]  ./languages/avk\vocab.txt load vocab:17092 root:15873 prefix:474 suffix:745 
+[I 230506 21:59:08 ZiCutter:58] ./languages/avk\JiZi.txt load  JiZi:539
+[I 230506 21:59:09 ZiCutter:32]   ./languages/avk\HeZi.txt 70258  JiZi:539 --> loadHeZi 70258  values:539 slim2Zi:69033 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:59:09 ZiCutter:66] ./languages/avk loaded vocab:539
+[I 230506 21:59:09 glance:35]  cat C:/data/word_frequency\avk-word_frequency.tsv n_src:49362--> freq:49362 total:4897867.0
+[I 230506 21:59:09 ZiTokenizer:48]  ./languages/awa\vocab.txt load vocab:9288 root:8352 prefix:421 suffix:515 
+[I 230506 21:59:09 ZiCutter:58] ./languages/awa\JiZi.txt load  JiZi:541
+[I 230506 21:59:09 ZiCutter:32]   ./languages/awa\HeZi.txt 70079  JiZi:541 --> loadHeZi 70079  values:541 slim2Zi:68851 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:59:09 ZiCutter:66] ./languages/awa loaded vocab:541
+[I 230506 21:59:10 glance:35]  cat C:/data/word_frequency\awa-word_frequency.tsv n_src:16868--> freq:16868 total:665678.0
+[I 230506 21:59:10 ZiTokenizer:48]  ./languages/ay\vocab.txt load vocab:28884 root:24607 prefix:1793 suffix:2484 
+[I 230506 21:59:10 ZiCutter:58] ./languages/ay\JiZi.txt load  JiZi:582
+[I 230506 21:59:10 ZiCutter:32]   ./languages/ay\HeZi.txt 70849  JiZi:582 --> loadHeZi 70849  values:582 slim2Zi:69528 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:59:10 ZiCutter:66] ./languages/ay loaded vocab:582
+[I 230506 21:59:10 glance:35]  cat C:/data/word_frequency\ay-word_frequency.tsv n_src:62142--> freq:62142 total:739855.0
+[I 230506 21:59:11 ZiTokenizer:48]  ./languages/az\vocab.txt load vocab:48035 root:39007 prefix:3581 suffix:5447 
+[I 230506 21:59:11 ZiCutter:58] ./languages/az\JiZi.txt load  JiZi:812
+[I 230506 21:59:11 ZiCutter:32]   ./languages/az\HeZi.txt 74838  JiZi:812 --> loadHeZi 74838  values:812 slim2Zi:73037 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:59:11 ZiCutter:66] ./languages/az loaded vocab:812
+[I 230506 21:59:15 glance:35]  cat C:/data/word_frequency\az-word_frequency.tsv n_src:2409924--> freq:2409857 total:94262993.0
+[I 230506 21:59:43 ZiTokenizer:48]  ./languages/azb\vocab.txt load vocab:28010 root:21030 prefix:2766 suffix:4214 
+[I 230506 21:59:43 ZiCutter:58] ./languages/azb\JiZi.txt load  JiZi:706
+[I 230506 21:59:43 ZiCutter:32]   ./languages/azb\HeZi.txt 73546  JiZi:706 --> loadHeZi 73546  values:706 slim2Zi:71920 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:59:43 ZiCutter:66] ./languages/azb loaded vocab:706
+[I 230506 21:59:44 glance:35]  cat C:/data/word_frequency\azb-word_frequency.tsv n_src:768606--> freq:768601 total:25266334.0
+[I 230506 21:59:52 ZiTokenizer:48]  ./languages/ba\vocab.txt load vocab:40199 root:31127 prefix:4010 suffix:5062 
+[I 230506 21:59:52 ZiCutter:58] ./languages/ba\JiZi.txt load  JiZi:653
+[I 230506 21:59:52 ZiCutter:32]   ./languages/ba\HeZi.txt 71836  JiZi:653 --> loadHeZi 71836  values:653 slim2Zi:70358 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 21:59:52 ZiCutter:66] ./languages/ba loaded vocab:653
+[I 230506 21:59:54 glance:35]  cat C:/data/word_frequency\ba-word_frequency.tsv n_src:1224012--> freq:1224006 total:40195826.0
+[I 230506 22:00:08 ZiTokenizer:48]  ./languages/ban\vocab.txt load vocab:34857 root:21325 prefix:5958 suffix:7574 
+[I 230506 22:00:08 ZiCutter:58] ./languages/ban\JiZi.txt load  JiZi:649
+[I 230506 22:00:08 ZiCutter:32]   ./languages/ban\HeZi.txt 71569  JiZi:649 --> loadHeZi 71569  values:649 slim2Zi:70142 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:00:08 ZiCutter:66] ./languages/ban loaded vocab:649
+[I 230506 22:00:10 glance:35]  cat C:/data/word_frequency\ban-word_frequency.tsv n_src:1149404--> freq:1141767 total:8107019.0
+[I 230506 22:00:29 ZiTokenizer:48]  ./languages/bar\vocab.txt load vocab:45610 root:34271 prefix:3423 suffix:7916 
+[I 230506 22:00:29 ZiCutter:58] ./languages/bar\JiZi.txt load  JiZi:715
+[I 230506 22:00:30 ZiCutter:32]   ./languages/bar\HeZi.txt 72967  JiZi:715 --> loadHeZi 72967  values:715 slim2Zi:71389 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:00:30 ZiCutter:66] ./languages/bar loaded vocab:715
+[I 230506 22:00:31 glance:35]  cat C:/data/word_frequency\bar-word_frequency.tsv n_src:594239--> freq:594237 total:8226490.0
+[I 230506 22:00:37 ZiTokenizer:48]  ./languages/bat_smg\vocab.txt load vocab:57954 root:48260 prefix:3596 suffix:6098 
+[I 230506 22:00:37 ZiCutter:58] ./languages/bat_smg\JiZi.txt load  JiZi:631
+[I 230506 22:00:37 ZiCutter:32]   ./languages/bat_smg\HeZi.txt 71752  JiZi:631 --> loadHeZi 71752  values:631 slim2Zi:70305 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:00:37 ZiCutter:66] ./languages/bat_smg loaded vocab:631
+[I 230506 22:00:37 glance:35]  cat C:/data/word_frequency\bat_smg-word_frequency.tsv n_src:137372--> freq:137372 total:1055100.0
+[I 230506 22:00:39 ZiTokenizer:48]  ./languages/bcl\vocab.txt load vocab:39290 root:31662 prefix:2891 suffix:4737 
+[I 230506 22:00:39 ZiCutter:58] ./languages/bcl\JiZi.txt load  JiZi:1154
+[I 230506 22:00:39 ZiCutter:32]   ./languages/bcl\HeZi.txt 79089  JiZi:1154 --> loadHeZi 79089  values:1154 slim2Zi:76622 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:00:39 ZiCutter:66] ./languages/bcl loaded vocab:1154
+[I 230506 22:00:40 glance:35]  cat C:/data/word_frequency\bcl-word_frequency.tsv n_src:276798--> freq:276795 total:5440189.0
+[I 230506 22:00:42 ZiTokenizer:48]  ./languages/be\vocab.txt load vocab:50488 root:37655 prefix:5782 suffix:7051 
+[I 230506 22:00:42 ZiCutter:58] ./languages/be\JiZi.txt load  JiZi:614
+[I 230506 22:00:42 ZiCutter:32]   ./languages/be\HeZi.txt 71407  JiZi:614 --> loadHeZi 71407  values:614 slim2Zi:70012 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:00:42 ZiCutter:66] ./languages/be loaded vocab:614
+[I 230506 22:00:47 glance:35]  cat C:/data/word_frequency\be-word_frequency.tsv n_src:2462928--> freq:2462896 total:95366284.0
+[I 230506 22:01:13 ZiTokenizer:48]  ./languages/be_x_old\vocab.txt load vocab:50969 root:38778 prefix:6019 suffix:6172 
+[I 230506 22:01:13 ZiCutter:58] ./languages/be_x_old\JiZi.txt load  JiZi:579
+[I 230506 22:01:13 ZiCutter:32]   ./languages/be_x_old\HeZi.txt 70836  JiZi:579 --> loadHeZi 70836  values:579 slim2Zi:69498 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:01:13 ZiCutter:66] ./languages/be_x_old loaded vocab:579
+[I 230506 22:01:15 glance:35]  cat C:/data/word_frequency\be_x_old-word_frequency.tsv n_src:1095165--> freq:1095152 total:30396936.0
+[I 230506 22:01:27 ZiTokenizer:48]  ./languages/bg\vocab.txt load vocab:46384 root:36828 prefix:3589 suffix:5967 
+[I 230506 22:01:27 ZiCutter:58] ./languages/bg\JiZi.txt load  JiZi:621
+[I 230506 22:01:27 ZiCutter:32]   ./languages/bg\HeZi.txt 71954  JiZi:621 --> loadHeZi 71954  values:621 slim2Zi:70543 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:01:27 ZiCutter:66] ./languages/bg loaded vocab:621
+[E 230506 22:01:28 glance:19] ('\n', ['\n'])
+[I 230506 22:01:32 glance:35]  cat C:/data/word_frequency\bg-word_frequency.tsv n_src:2487237--> freq:2487192 total:151050786.0
+[I 230506 22:01:59 ZiTokenizer:48]  ./languages/bh\vocab.txt load vocab:15023 root:12470 prefix:1076 suffix:1477 
+[I 230506 22:01:59 ZiCutter:58] ./languages/bh\JiZi.txt load  JiZi:604
+[I 230506 22:02:00 ZiCutter:32]   ./languages/bh\HeZi.txt 70950  JiZi:604 --> loadHeZi 70950  values:604 slim2Zi:69588 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:00 ZiCutter:66] ./languages/bh loaded vocab:604
+[I 230506 22:02:00 glance:35]  cat C:/data/word_frequency\bh-word_frequency.tsv n_src:68957--> freq:68951 total:3339971.0
+[I 230506 22:02:00 ZiTokenizer:48]  ./languages/bi\vocab.txt load vocab:4370 root:3584 prefix:358 suffix:428 
+[I 230506 22:02:00 ZiCutter:58] ./languages/bi\JiZi.txt load  JiZi:538
+[I 230506 22:02:01 ZiCutter:32]   ./languages/bi\HeZi.txt 70138  JiZi:538 --> loadHeZi 70138  values:538 slim2Zi:68915 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:01 ZiCutter:66] ./languages/bi loaded vocab:538
+[I 230506 22:02:01 glance:35]  cat C:/data/word_frequency\bi-word_frequency.tsv n_src:8913--> freq:8912 total:54146.0
+[I 230506 22:02:01 ZiTokenizer:48]  ./languages/bjn\vocab.txt load vocab:52313 root:45784 prefix:2273 suffix:4256 
+[I 230506 22:02:01 ZiCutter:58] ./languages/bjn\JiZi.txt load  JiZi:756
+[I 230506 22:02:01 ZiCutter:32]   ./languages/bjn\HeZi.txt 74371  JiZi:756 --> loadHeZi 74371  values:756 slim2Zi:72598 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:01 ZiCutter:66] ./languages/bjn loaded vocab:756
+[I 230506 22:02:01 glance:35]  cat C:/data/word_frequency\bjn-word_frequency.tsv n_src:110202--> freq:110202 total:1166238.0
+[I 230506 22:02:02 ZiTokenizer:48]  ./languages/blk\vocab.txt load vocab:9234 root:8498 prefix:350 suffix:386 
+[I 230506 22:02:02 ZiCutter:58] ./languages/blk\JiZi.txt load  JiZi:583
+[I 230506 22:02:03 ZiCutter:32]   ./languages/blk\HeZi.txt 71154  JiZi:583 --> loadHeZi 71154  values:583 slim2Zi:69836 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:03 ZiCutter:66] ./languages/blk loaded vocab:583
+[I 230506 22:02:03 glance:35]  cat C:/data/word_frequency\blk-word_frequency.tsv n_src:31192--> freq:31191 total:3912441.0
+[I 230506 22:02:03 ZiTokenizer:48]  ./languages/bm\vocab.txt load vocab:6480 root:5553 prefix:331 suffix:596 
+[I 230506 22:02:03 ZiCutter:58] ./languages/bm\JiZi.txt load  JiZi:538
+[I 230506 22:02:03 ZiCutter:32]   ./languages/bm\HeZi.txt 70074  JiZi:538 --> loadHeZi 70074  values:538 slim2Zi:68855 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:03 ZiCutter:66] ./languages/bm loaded vocab:538
+[I 230506 22:02:03 glance:35]  cat C:/data/word_frequency\bm-word_frequency.tsv n_src:12729--> freq:12729 total:87685.0
+[I 230506 22:02:03 ZiTokenizer:48]  ./languages/bn\vocab.txt load vocab:11566 root:9419 prefix:915 suffix:1232 
+[I 230506 22:02:03 ZiCutter:58] ./languages/bn\JiZi.txt load  JiZi:600
+[I 230506 22:02:04 ZiCutter:32]   ./languages/bn\HeZi.txt 71189  JiZi:600 --> loadHeZi 71189  values:600 slim2Zi:69803 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:04 ZiCutter:66] ./languages/bn loaded vocab:600
+[I 230506 22:02:05 glance:35]  cat C:/data/word_frequency\bn-word_frequency.tsv n_src:938560--> freq:938544 total:280202775.0
+[I 230506 22:02:14 ZiTokenizer:48]  ./languages/bo\vocab.txt load vocab:4655 root:4278 prefix:177 suffix:200 
+[I 230506 22:02:14 ZiCutter:58] ./languages/bo\JiZi.txt load  JiZi:947
+[I 230506 22:02:14 ZiCutter:32]   ./languages/bo\HeZi.txt 77810  JiZi:947 --> loadHeZi 77810  values:947 slim2Zi:75724 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:14 ZiCutter:66] ./languages/bo loaded vocab:947
+[I 230506 22:02:15 glance:35]  cat C:/data/word_frequency\bo-word_frequency.tsv n_src:36814--> freq:36772 total:25114485.0
+[I 230506 22:02:15 ZiTokenizer:48]  ./languages/bpy\vocab.txt load vocab:5104 root:4373 prefix:351 suffix:380 
+[I 230506 22:02:15 ZiCutter:58] ./languages/bpy\JiZi.txt load  JiZi:537
+[I 230506 22:02:15 ZiCutter:32]   ./languages/bpy\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:15 ZiCutter:66] ./languages/bpy loaded vocab:537
+[I 230506 22:02:15 glance:35]  cat C:/data/word_frequency\bpy-word_frequency.tsv n_src:51864--> freq:51861 total:9931026.0
+[I 230506 22:02:16 ZiTokenizer:48]  ./languages/br\vocab.txt load vocab:37699 root:30878 prefix:2339 suffix:4482 
+[I 230506 22:02:16 ZiCutter:58] ./languages/br\JiZi.txt load  JiZi:615
+[I 230506 22:02:16 ZiCutter:32]   ./languages/br\HeZi.txt 71500  JiZi:615 --> loadHeZi 71500  values:615 slim2Zi:70084 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:16 ZiCutter:66] ./languages/br loaded vocab:615
+[I 230506 22:02:17 glance:35]  cat C:/data/word_frequency\br-word_frequency.tsv n_src:761224--> freq:761209 total:35567011.0
+[I 230506 22:02:24 ZiTokenizer:48]  ./languages/bs\vocab.txt load vocab:46168 root:35997 prefix:3738 suffix:6433 
+[I 230506 22:02:24 ZiCutter:58] ./languages/bs\JiZi.txt load  JiZi:553
+[I 230506 22:02:25 ZiCutter:32]   ./languages/bs\HeZi.txt 70383  JiZi:553 --> loadHeZi 70383  values:553 slim2Zi:69131 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:25 ZiCutter:66] ./languages/bs loaded vocab:553
+[I 230506 22:02:27 glance:35]  cat C:/data/word_frequency\bs-word_frequency.tsv n_src:1508779--> freq:1508433 total:55566078.0
+[I 230506 22:02:43 ZiTokenizer:48]  ./languages/bug\vocab.txt load vocab:8208 root:6004 prefix:899 suffix:1305 
+[I 230506 22:02:43 ZiCutter:58] ./languages/bug\JiZi.txt load  JiZi:543
+[I 230506 22:02:43 ZiCutter:32]   ./languages/bug\HeZi.txt 70223  JiZi:543 --> loadHeZi 70223  values:543 slim2Zi:68990 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:43 ZiCutter:66] ./languages/bug loaded vocab:543
+[I 230506 22:02:43 glance:35]  cat C:/data/word_frequency\bug-word_frequency.tsv n_src:23258--> freq:23258 total:428292.0
+[I 230506 22:02:43 ZiTokenizer:48]  ./languages/bxr\vocab.txt load vocab:52262 root:44773 prefix:3125 suffix:4364 
+[I 230506 22:02:43 ZiCutter:58] ./languages/bxr\JiZi.txt load  JiZi:819
+[I 230506 22:02:43 ZiCutter:32]   ./languages/bxr\HeZi.txt 73968  JiZi:819 --> loadHeZi 73968  values:819 slim2Zi:72166 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:43 ZiCutter:66] ./languages/bxr loaded vocab:819
+[I 230506 22:02:44 glance:35]  cat C:/data/word_frequency\bxr-word_frequency.tsv n_src:117765--> freq:117765 total:1015214.0
+[I 230506 22:02:45 ZiTokenizer:48]  ./languages/ca\vocab.txt load vocab:39553 root:31816 prefix:2774 suffix:4963 
+[I 230506 22:02:45 ZiCutter:58] ./languages/ca\JiZi.txt load  JiZi:749
+[I 230506 22:02:45 ZiCutter:32]   ./languages/ca\HeZi.txt 74612  JiZi:749 --> loadHeZi 74612  values:749 slim2Zi:72920 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:02:45 ZiCutter:66] ./languages/ca loaded vocab:749
+[I 230506 22:02:53 glance:35]  cat C:/data/word_frequency\ca-word_frequency.tsv n_src:4172598--> freq:4172398 total:492269088.0
+[I 230506 22:03:37 ZiTokenizer:48]  ./languages/cbk_zam\vocab.txt load vocab:26359 root:22519 prefix:1612 suffix:2228 
+[I 230506 22:03:37 ZiCutter:58] ./languages/cbk_zam\JiZi.txt load  JiZi:565
+[I 230506 22:03:37 ZiCutter:32]   ./languages/cbk_zam\HeZi.txt 70865  JiZi:565 --> loadHeZi 70865  values:565 slim2Zi:69571 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:03:37 ZiCutter:66] ./languages/cbk_zam loaded vocab:565
+[I 230506 22:03:38 glance:35]  cat C:/data/word_frequency\cbk_zam-word_frequency.tsv n_src:57343--> freq:57342 total:881995.0
+[I 230506 22:03:38 ZiTokenizer:48]  ./languages/cdo\vocab.txt load vocab:16067 root:15338 prefix:318 suffix:411 
+[I 230506 22:03:38 ZiCutter:58] ./languages/cdo\JiZi.txt load  JiZi:3415
+[I 230506 22:03:38 ZiCutter:32]   ./languages/cdo\HeZi.txt 86425  JiZi:3415 --> loadHeZi 86425  values:3415 slim2Zi:81060 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:03:38 ZiCutter:66] ./languages/cdo loaded vocab:3415
+[I 230506 22:03:38 glance:35]  cat C:/data/word_frequency\cdo-word_frequency.tsv n_src:22835--> freq:22835 total:1205262.0
+[I 230506 22:03:39 ZiTokenizer:48]  ./languages/ce\vocab.txt load vocab:10316 root:7960 prefix:1122 suffix:1234 
+[I 230506 22:03:39 ZiCutter:58] ./languages/ce\JiZi.txt load  JiZi:593
+[I 230506 22:03:39 ZiCutter:32]   ./languages/ce\HeZi.txt 70710  JiZi:593 --> loadHeZi 70710  values:593 slim2Zi:69414 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:03:39 ZiCutter:66] ./languages/ce loaded vocab:593
+[I 230506 22:03:40 glance:35]  cat C:/data/word_frequency\ce-word_frequency.tsv n_src:863428--> freq:863426 total:135871018.0
+[I 230506 22:03:49 ZiTokenizer:48]  ./languages/ceb\vocab.txt load vocab:10211 root:7725 prefix:882 suffix:1604 
+[I 230506 22:03:49 ZiCutter:58] ./languages/ceb\JiZi.txt load  JiZi:586
+[I 230506 22:03:49 ZiCutter:32]   ./languages/ceb\HeZi.txt 70877  JiZi:586 --> loadHeZi 70877  values:586 slim2Zi:69564 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:03:49 ZiCutter:66] ./languages/ceb loaded vocab:586
+[I 230506 22:03:58 glance:35]  cat C:/data/word_frequency\ceb-word_frequency.tsv n_src:4917545--> freq:4917537 total:1904461931.0
+[I 230506 22:04:48 ZiTokenizer:48]  ./languages/ch\vocab.txt load vocab:3014 root:2562 prefix:195 suffix:257 
+[I 230506 22:04:48 ZiCutter:58] ./languages/ch\JiZi.txt load  JiZi:758
+[I 230506 22:04:48 ZiCutter:32]   ./languages/ch\HeZi.txt 74455  JiZi:758 --> loadHeZi 74455  values:758 slim2Zi:72816 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:04:48 ZiCutter:66] ./languages/ch loaded vocab:758
+[I 230506 22:04:48 glance:35]  cat C:/data/word_frequency\ch-word_frequency.tsv n_src:6483--> freq:6482 total:33817.0
+[I 230506 22:04:48 ZiTokenizer:48]  ./languages/cho\vocab.txt load vocab:616 root:613 prefix:1 suffix:2 
+[I 230506 22:04:48 ZiCutter:58] ./languages/cho\JiZi.txt load  JiZi:537
+[I 230506 22:04:48 ZiCutter:32]   ./languages/cho\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:04:48 ZiCutter:66] ./languages/cho loaded vocab:537
+[I 230506 22:04:48 glance:35]  cat C:/data/word_frequency\cho-word_frequency.tsv n_src:266--> freq:266 total:473.0
+[I 230506 22:04:48 ZiTokenizer:48]  ./languages/chr\vocab.txt load vocab:7591 root:6454 prefix:388 suffix:749 
+[I 230506 22:04:48 ZiCutter:58] ./languages/chr\JiZi.txt load  JiZi:538
+[I 230506 22:04:49 ZiCutter:32]   ./languages/chr\HeZi.txt 70076  JiZi:538 --> loadHeZi 70076  values:538 slim2Zi:68857 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:04:49 ZiCutter:66] ./languages/chr loaded vocab:538
+[I 230506 22:04:49 glance:35]  cat C:/data/word_frequency\chr-word_frequency.tsv n_src:16126--> freq:16126 total:91867.0
+[I 230506 22:04:49 ZiTokenizer:48]  ./languages/chy\vocab.txt load vocab:2011 root:1693 prefix:153 suffix:165 
+[I 230506 22:04:49 ZiCutter:58] ./languages/chy\JiZi.txt load  JiZi:537
+[I 230506 22:04:49 ZiCutter:32]   ./languages/chy\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:04:49 ZiCutter:66] ./languages/chy loaded vocab:537
+[I 230506 22:04:49 glance:35]  cat C:/data/word_frequency\chy-word_frequency.tsv n_src:3436--> freq:3436 total:14345.0
+[I 230506 22:04:49 ZiTokenizer:48]  ./languages/ckb\vocab.txt load vocab:43962 root:35857 prefix:2716 suffix:5389 
+[I 230506 22:04:49 ZiCutter:58] ./languages/ckb\JiZi.txt load  JiZi:1153
+[I 230506 22:04:50 ZiCutter:32]   ./languages/ckb\HeZi.txt 79009  JiZi:1153 --> loadHeZi 79009  values:1153 slim2Zi:76654 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:04:50 ZiCutter:66] ./languages/ckb loaded vocab:1153
+[E 230506 22:04:50 glance:19] ('\n', ['\n'])
+[I 230506 22:04:51 glance:35]  cat C:/data/word_frequency\ckb-word_frequency.tsv n_src:624077--> freq:624066 total:12749467.0
+[I 230506 22:04:57 ZiTokenizer:48]  ./languages/co\vocab.txt load vocab:43130 root:36467 prefix:2778 suffix:3885 
+[I 230506 22:04:57 ZiCutter:58] ./languages/co\JiZi.txt load  JiZi:559
+[I 230506 22:04:57 ZiCutter:32]   ./languages/co\HeZi.txt 70601  JiZi:559 --> loadHeZi 70601  values:559 slim2Zi:69324 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:04:57 ZiCutter:66] ./languages/co loaded vocab:559
+[I 230506 22:04:57 glance:35]  cat C:/data/word_frequency\co-word_frequency.tsv n_src:123679--> freq:123678 total:1622981.0
+[I 230506 22:04:58 ZiTokenizer:48]  ./languages/cr\vocab.txt load vocab:952 root:854 prefix:41 suffix:57 
+[I 230506 22:04:58 ZiCutter:58] ./languages/cr\JiZi.txt load  JiZi:537
+[I 230506 22:04:59 ZiCutter:32]   ./languages/cr\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:04:59 ZiCutter:66] ./languages/cr loaded vocab:537
+[I 230506 22:04:59 glance:35]  cat C:/data/word_frequency\cr-word_frequency.tsv n_src:1323--> freq:1323 total:3479.0
+[I 230506 22:04:59 ZiTokenizer:48]  ./languages/crh\vocab.txt load vocab:35456 root:26275 prefix:4100 suffix:5081 
+[I 230506 22:04:59 ZiCutter:58] ./languages/crh\JiZi.txt load  JiZi:611
+[I 230506 22:04:59 ZiCutter:32]   ./languages/crh\HeZi.txt 71410  JiZi:611 --> loadHeZi 71410  values:611 slim2Zi:70022 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:04:59 ZiCutter:66] ./languages/crh loaded vocab:611
+[I 230506 22:04:59 glance:35]  cat C:/data/word_frequency\crh-word_frequency.tsv n_src:147901--> freq:147900 total:1667148.0
+[I 230506 22:05:01 ZiTokenizer:48]  ./languages/cs\vocab.txt load vocab:53522 root:41405 prefix:4241 suffix:7876 
+[I 230506 22:05:01 ZiCutter:58] ./languages/cs\JiZi.txt load  JiZi:684
+[I 230506 22:05:01 ZiCutter:32]   ./languages/cs\HeZi.txt 73138  JiZi:684 --> loadHeZi 73138  values:684 slim2Zi:71592 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:05:01 ZiCutter:66] ./languages/cs loaded vocab:684
+[I 230506 22:05:11 glance:35]  cat C:/data/word_frequency\cs-word_frequency.tsv n_src:5170085--> freq:5169943 total:371437914.0
+[I 230506 22:06:06 ZiTokenizer:48]  ./languages/csb\vocab.txt load vocab:36537 root:30088 prefix:2408 suffix:4041 
+[I 230506 22:06:06 ZiCutter:58] ./languages/csb\JiZi.txt load  JiZi:588
+[I 230506 22:06:06 ZiCutter:32]   ./languages/csb\HeZi.txt 70901  JiZi:588 --> loadHeZi 70901  values:588 slim2Zi:69572 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:06:06 ZiCutter:66] ./languages/csb loaded vocab:588
+[I 230506 22:06:07 glance:35]  cat C:/data/word_frequency\csb-word_frequency.tsv n_src:87833--> freq:87833 total:628607.0
+[I 230506 22:06:08 ZiTokenizer:48]  ./languages/cu\vocab.txt load vocab:8789 root:7328 prefix:790 suffix:671 
+[I 230506 22:06:08 ZiCutter:58] ./languages/cu\JiZi.txt load  JiZi:551
+[I 230506 22:06:08 ZiCutter:32]   ./languages/cu\HeZi.txt 70307  JiZi:551 --> loadHeZi 70307  values:551 slim2Zi:69060 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:06:08 ZiCutter:66] ./languages/cu loaded vocab:551
+[I 230506 22:06:08 glance:35]  cat C:/data/word_frequency\cu-word_frequency.tsv n_src:19989--> freq:19989 total:125438.0
+[I 230506 22:06:08 ZiTokenizer:48]  ./languages/cv\vocab.txt load vocab:26872 root:20101 prefix:3129 suffix:3642 
+[I 230506 22:06:08 ZiCutter:58] ./languages/cv\JiZi.txt load  JiZi:592
+[I 230506 22:06:08 ZiCutter:32]   ./languages/cv\HeZi.txt 70972  JiZi:592 --> loadHeZi 70972  values:592 slim2Zi:69620 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:06:08 ZiCutter:66] ./languages/cv loaded vocab:592
+[I 230506 22:06:09 glance:35]  cat C:/data/word_frequency\cv-word_frequency.tsv n_src:468891--> freq:468884 total:14661273.0
+[I 230506 22:06:14 ZiTokenizer:48]  ./languages/cy\vocab.txt load vocab:30030 root:23831 prefix:2098 suffix:4101 
+[I 230506 22:06:14 ZiCutter:58] ./languages/cy\JiZi.txt load  JiZi:581
+[I 230506 22:06:14 ZiCutter:32]   ./languages/cy\HeZi.txt 70736  JiZi:581 --> loadHeZi 70736  values:581 slim2Zi:69411 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:06:14 ZiCutter:66] ./languages/cy loaded vocab:581
+[I 230506 22:06:16 glance:35]  cat C:/data/word_frequency\cy-word_frequency.tsv n_src:1008996--> freq:1008983 total:82737778.0
+[I 230506 22:06:25 ZiTokenizer:48]  ./languages/da\vocab.txt load vocab:44383 root:34092 prefix:3341 suffix:6950 
+[I 230506 22:06:25 ZiCutter:58] ./languages/da\JiZi.txt load  JiZi:659
+[I 230506 22:06:26 ZiCutter:32]   ./languages/da\HeZi.txt 72609  JiZi:659 --> loadHeZi 72609  values:659 slim2Zi:71088 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:06:26 ZiCutter:66] ./languages/da loaded vocab:659
+[I 230506 22:06:30 glance:35]  cat C:/data/word_frequency\da-word_frequency.tsv n_src:2491322--> freq:2491274 total:131898834.0
+[I 230506 22:06:59 ZiTokenizer:48]  ./languages/dag\vocab.txt load vocab:34584 root:30794 prefix:1642 suffix:2148 
+[I 230506 22:06:59 ZiCutter:58] ./languages/dag\JiZi.txt load  JiZi:577
+[I 230506 22:07:00 ZiCutter:32]   ./languages/dag\HeZi.txt 70520  JiZi:577 --> loadHeZi 70520  values:577 slim2Zi:69225 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:07:00 ZiCutter:66] ./languages/dag loaded vocab:577
+[I 230506 22:07:00 glance:35]  cat C:/data/word_frequency\dag-word_frequency.tsv n_src:65603--> freq:65603 total:1270214.0
+[I 230506 22:07:00 ZiTokenizer:48]  ./languages/de\vocab.txt load vocab:45120 root:33742 prefix:3189 suffix:8189 
+[I 230506 22:07:00 ZiCutter:58] ./languages/de\JiZi.txt load  JiZi:813
+[I 230506 22:07:01 ZiCutter:32]   ./languages/de\HeZi.txt 75587  JiZi:813 --> loadHeZi 75587  values:813 slim2Zi:73760 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:07:01 ZiCutter:66] ./languages/de loaded vocab:813
+[I 230506 22:07:36 glance:35]  cat C:/data/word_frequency\de-word_frequency.tsv n_src:17751828--> freq:17751424 total:2344288655.0
+[I 230506 22:11:18 ZiTokenizer:48]  ./languages/din\vocab.txt load vocab:7822 root:6463 prefix:445 suffix:914 
+[I 230506 22:11:18 ZiCutter:58] ./languages/din\JiZi.txt load  JiZi:537
+[I 230506 22:11:18 ZiCutter:32]   ./languages/din\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:11:18 ZiCutter:66] ./languages/din loaded vocab:537
+[I 230506 22:11:18 glance:35]  cat C:/data/word_frequency\din-word_frequency.tsv n_src:16840--> freq:16840 total:110096.0
+[I 230506 22:11:19 ZiTokenizer:48]  ./languages/diq\vocab.txt load vocab:38780 root:31383 prefix:2915 suffix:4482 
+[I 230506 22:11:19 ZiCutter:58] ./languages/diq\JiZi.txt load  JiZi:664
+[I 230506 22:11:19 ZiCutter:32]   ./languages/diq\HeZi.txt 72234  JiZi:664 --> loadHeZi 72234  values:664 slim2Zi:70806 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:11:19 ZiCutter:66] ./languages/diq loaded vocab:664
+[I 230506 22:11:19 glance:35]  cat C:/data/word_frequency\diq-word_frequency.tsv n_src:272886--> freq:272879 total:4524712.0
+[I 230506 22:11:22 ZiTokenizer:48]  ./languages/dsb\vocab.txt load vocab:37903 root:32526 prefix:2132 suffix:3245 
+[I 230506 22:11:22 ZiCutter:58] ./languages/dsb\JiZi.txt load  JiZi:567
+[I 230506 22:11:22 ZiCutter:32]   ./languages/dsb\HeZi.txt 70427  JiZi:567 --> loadHeZi 70427  values:567 slim2Zi:69152 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:11:22 ZiCutter:66] ./languages/dsb loaded vocab:567
+[I 230506 22:11:22 glance:35]  cat C:/data/word_frequency\dsb-word_frequency.tsv n_src:83933--> freq:83933 total:713100.0
+[I 230506 22:11:23 ZiTokenizer:48]  ./languages/dty\vocab.txt load vocab:11551 root:10055 prefix:700 suffix:796 
+[I 230506 22:11:23 ZiCutter:58] ./languages/dty\JiZi.txt load  JiZi:590
+[I 230506 22:11:23 ZiCutter:32]   ./languages/dty\HeZi.txt 71037  JiZi:590 --> loadHeZi 71037  values:590 slim2Zi:69708 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:11:23 ZiCutter:66] ./languages/dty loaded vocab:590
+[E 230506 22:11:23 glance:19] ('\n', ['\n'])
+[I 230506 22:11:23 glance:35]  cat C:/data/word_frequency\dty-word_frequency.tsv n_src:30864--> freq:30861 total:1515506.0
+[I 230506 22:11:24 ZiTokenizer:48]  ./languages/dv\vocab.txt load vocab:4665 root:3771 prefix:393 suffix:501 
+[I 230506 22:11:24 ZiCutter:58] ./languages/dv\JiZi.txt load  JiZi:587
+[I 230506 22:11:24 ZiCutter:32]   ./languages/dv\HeZi.txt 70989  JiZi:587 --> loadHeZi 70989  values:587 slim2Zi:69694 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:11:24 ZiCutter:66] ./languages/dv loaded vocab:587
+[I 230506 22:11:24 glance:35]  cat C:/data/word_frequency\dv-word_frequency.tsv n_src:19147--> freq:19141 total:3171247.0
+[I 230506 22:11:24 ZiTokenizer:48]  ./languages/dz\vocab.txt load vocab:5098 root:4549 prefix:261 suffix:288 
+[I 230506 22:11:24 ZiCutter:58] ./languages/dz\JiZi.txt load  JiZi:652
+[I 230506 22:11:24 ZiCutter:32]   ./languages/dz\HeZi.txt 72302  JiZi:652 --> loadHeZi 72302  values:652 slim2Zi:70788 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:11:24 ZiCutter:66] ./languages/dz loaded vocab:652
+[I 230506 22:11:24 glance:35]  cat C:/data/word_frequency\dz-word_frequency.tsv n_src:9815--> freq:9815 total:1699421.0
+[I 230506 22:11:24 ZiTokenizer:48]  ./languages/ee\vocab.txt load vocab:8352 root:7221 prefix:414 suffix:717 
+[I 230506 22:11:24 ZiCutter:58] ./languages/ee\JiZi.txt load  JiZi:538
+[I 230506 22:11:25 ZiCutter:32]   ./languages/ee\HeZi.txt 70074  JiZi:538 --> loadHeZi 70074  values:538 slim2Zi:68855 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:11:25 ZiCutter:66] ./languages/ee loaded vocab:538
+[I 230506 22:11:25 glance:35]  cat C:/data/word_frequency\ee-word_frequency.tsv n_src:16216--> freq:16216 total:140626.0
+[I 230506 22:11:25 ZiTokenizer:48]  ./languages/el\vocab.txt load vocab:51065 root:38354 prefix:5624 suffix:7087 
+[I 230506 22:11:25 ZiCutter:58] ./languages/el\JiZi.txt load  JiZi:643
+[I 230506 22:11:25 ZiCutter:32]   ./languages/el\HeZi.txt 72061  JiZi:643 --> loadHeZi 72061  values:643 slim2Zi:70585 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:11:25 ZiCutter:66] ./languages/el loaded vocab:643
+[I 230506 22:11:32 glance:35]  cat C:/data/word_frequency\el-word_frequency.tsv n_src:3981417--> freq:3981186 total:209225506.0
+[I 230506 22:12:16 ZiTokenizer:48]  ./languages/eml\vocab.txt load vocab:30301 root:24467 prefix:1952 suffix:3882 
+[I 230506 22:12:16 ZiCutter:58] ./languages/eml\JiZi.txt load  JiZi:559
+[I 230506 22:12:16 ZiCutter:32]   ./languages/eml\HeZi.txt 70458  JiZi:559 --> loadHeZi 70458  values:559 slim2Zi:69168 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:12:16 ZiCutter:66] ./languages/eml loaded vocab:559
+[I 230506 22:12:17 glance:35]  cat C:/data/word_frequency\eml-word_frequency.tsv n_src:205079--> freq:205078 total:5410367.0
+[I 230506 22:12:18 ZiTokenizer:48]  ./languages/en\vocab.txt load vocab:38570 root:31516 prefix:2530 suffix:4524 
+[I 230506 22:12:18 ZiCutter:58] ./languages/en\JiZi.txt load  JiZi:1359
+[I 230506 22:12:19 ZiCutter:32]   ./languages/en\HeZi.txt 81109  JiZi:1359 --> loadHeZi 81109  values:1359 slim2Zi:78354 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:12:19 ZiCutter:66] ./languages/en loaded vocab:1359
+[I 230506 22:13:16 glance:35]  cat C:/data/word_frequency\en-word_frequency.tsv n_src:23818568--> freq:23817129 total:7256885603.0
+[I 230506 22:17:50 ZiTokenizer:48]  ./languages/eo\vocab.txt load vocab:44646 root:34288 prefix:3712 suffix:6646 
+[I 230506 22:17:50 ZiCutter:58] ./languages/eo\JiZi.txt load  JiZi:848
+[I 230506 22:17:51 ZiCutter:32]   ./languages/eo\HeZi.txt 75643  JiZi:848 --> loadHeZi 75643  values:848 slim2Zi:73682 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:17:51 ZiCutter:66] ./languages/eo loaded vocab:848
+[E 230506 22:17:51 glance:19] ('\n', ['\n'])
+[I 230506 22:17:55 glance:35]  cat C:/data/word_frequency\eo-word_frequency.tsv n_src:2723253--> freq:2723213 total:111766940.0
+[I 230506 22:18:23 ZiTokenizer:48]  ./languages/es\vocab.txt load vocab:40736 root:32862 prefix:2715 suffix:5159 
+[I 230506 22:18:23 ZiCutter:58] ./languages/es\JiZi.txt load  JiZi:867
+[I 230506 22:18:24 ZiCutter:32]   ./languages/es\HeZi.txt 76958  JiZi:867 --> loadHeZi 76958  values:867 slim2Zi:74998 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:18:24 ZiCutter:66] ./languages/es loaded vocab:867
+[I 230506 22:18:39 glance:35]  cat C:/data/word_frequency\es-word_frequency.tsv n_src:9647017--> freq:9646160 total:1574066563.0
+[I 230506 22:20:21 ZiTokenizer:48]  ./languages/et\vocab.txt load vocab:57127 root:43319 prefix:4824 suffix:8984 
+[I 230506 22:20:21 ZiCutter:58] ./languages/et\JiZi.txt load  JiZi:647
+[I 230506 22:20:21 ZiCutter:32]   ./languages/et\HeZi.txt 72543  JiZi:647 --> loadHeZi 72543  values:647 slim2Zi:71056 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:20:21 ZiCutter:66] ./languages/et loaded vocab:647
+[I 230506 22:20:27 glance:35]  cat C:/data/word_frequency\et-word_frequency.tsv n_src:3063882--> freq:3063859 total:84982496.0
+[I 230506 22:21:03 ZiTokenizer:48]  ./languages/eu\vocab.txt load vocab:41117 root:31972 prefix:3737 suffix:5408 
+[I 230506 22:21:03 ZiCutter:58] ./languages/eu\JiZi.txt load  JiZi:777
+[I 230506 22:21:03 ZiCutter:32]   ./languages/eu\HeZi.txt 74487  JiZi:777 --> loadHeZi 74487  values:777 slim2Zi:72662 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:21:03 ZiCutter:66] ./languages/eu loaded vocab:777
+[I 230506 22:21:08 glance:35]  cat C:/data/word_frequency\eu-word_frequency.tsv n_src:2800577--> freq:2800502 total:115999282.0
+[I 230506 22:21:43 ZiTokenizer:48]  ./languages/ext\vocab.txt load vocab:43484 root:37351 prefix:2477 suffix:3656 
+[I 230506 22:21:43 ZiCutter:58] ./languages/ext\JiZi.txt load  JiZi:577
+[I 230506 22:21:43 ZiCutter:32]   ./languages/ext\HeZi.txt 70869  JiZi:577 --> loadHeZi 70869  values:577 slim2Zi:69538 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:21:43 ZiCutter:66] ./languages/ext loaded vocab:577
+[I 230506 22:21:44 glance:35]  cat C:/data/word_frequency\ext-word_frequency.tsv n_src:94713--> freq:94711 total:786826.0
+[I 230506 22:21:45 ZiTokenizer:48]  ./languages/fa\vocab.txt load vocab:34010 root:28010 prefix:2316 suffix:3684 
+[I 230506 22:21:45 ZiCutter:58] ./languages/fa\JiZi.txt load  JiZi:832
+[I 230506 22:21:45 ZiCutter:32]   ./languages/fa\HeZi.txt 75639  JiZi:832 --> loadHeZi 75639  values:832 slim2Zi:73785 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:21:45 ZiCutter:66] ./languages/fa loaded vocab:832
+[I 230506 22:21:51 glance:35]  cat C:/data/word_frequency\fa-word_frequency.tsv n_src:2971046--> freq:2970882 total:286370683.0
+[I 230506 22:22:24 ZiTokenizer:48]  ./languages/ff\vocab.txt load vocab:17229 root:14115 prefix:1281 suffix:1833 
+[I 230506 22:22:24 ZiCutter:58] ./languages/ff\JiZi.txt load  JiZi:538
+[I 230506 22:22:25 ZiCutter:32]   ./languages/ff\HeZi.txt 70074  JiZi:538 --> loadHeZi 70074  values:538 slim2Zi:68855 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:22:25 ZiCutter:66] ./languages/ff loaded vocab:538
+[I 230506 22:22:25 glance:35]  cat C:/data/word_frequency\ff-word_frequency.tsv n_src:39299--> freq:39299 total:248924.0
+[I 230506 22:22:25 ZiTokenizer:48]  ./languages/fi\vocab.txt load vocab:56418 root:41153 prefix:5791 suffix:9474 
+[I 230506 22:22:25 ZiCutter:58] ./languages/fi\JiZi.txt load  JiZi:756
+[I 230506 22:22:25 ZiCutter:32]   ./languages/fi\HeZi.txt 74089  JiZi:756 --> loadHeZi 74089  values:756 slim2Zi:72392 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:22:25 ZiCutter:66] ./languages/fi loaded vocab:756
+[I 230506 22:22:36 glance:35]  cat C:/data/word_frequency\fi-word_frequency.tsv n_src:6038852--> freq:6038793 total:241186936.0
+[I 230506 22:24:04 ZiTokenizer:48]  ./languages/fiu_vro\vocab.txt load vocab:40423 root:33891 prefix:2500 suffix:4032 
+[I 230506 22:24:04 ZiCutter:58] ./languages/fiu_vro\JiZi.txt load  JiZi:546
+[I 230506 22:24:04 ZiCutter:32]   ./languages/fiu_vro\HeZi.txt 70211  JiZi:546 --> loadHeZi 70211  values:546 slim2Zi:68975 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:24:04 ZiCutter:66] ./languages/fiu_vro loaded vocab:546
+[I 230506 22:24:04 glance:35]  cat C:/data/word_frequency\fiu_vro-word_frequency.tsv n_src:93597--> freq:93597 total:675138.0
+[I 230506 22:24:05 ZiTokenizer:48]  ./languages/fj\vocab.txt load vocab:6002 root:5129 prefix:310 suffix:563 
+[I 230506 22:24:05 ZiCutter:58] ./languages/fj\JiZi.txt load  JiZi:542
+[I 230506 22:24:05 ZiCutter:32]   ./languages/fj\HeZi.txt 70196  JiZi:542 --> loadHeZi 70196  values:542 slim2Zi:68967 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:24:05 ZiCutter:66] ./languages/fj loaded vocab:542
+[I 230506 22:24:05 glance:35]  cat C:/data/word_frequency\fj-word_frequency.tsv n_src:11557--> freq:11557 total:107243.0
+[I 230506 22:24:06 ZiTokenizer:48]  ./languages/fo\vocab.txt load vocab:44712 root:35959 prefix:3465 suffix:5288 
+[I 230506 22:24:06 ZiCutter:58] ./languages/fo\JiZi.txt load  JiZi:696
+[I 230506 22:24:06 ZiCutter:32]   ./languages/fo\HeZi.txt 72950  JiZi:696 --> loadHeZi 72950  values:696 slim2Zi:71474 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:24:06 ZiCutter:66] ./languages/fo loaded vocab:696
+[I 230506 22:24:06 glance:35]  cat C:/data/word_frequency\fo-word_frequency.tsv n_src:206437--> freq:206435 total:3085017.0
+[I 230506 22:24:08 ZiTokenizer:48]  ./languages/fr\vocab.txt load vocab:37140 root:30348 prefix:2810 suffix:3982 
+[I 230506 22:24:08 ZiCutter:58] ./languages/fr\JiZi.txt load  JiZi:727
+[I 230506 22:24:09 ZiCutter:32]   ./languages/fr\HeZi.txt 73797  JiZi:727 --> loadHeZi 73797  values:727 slim2Zi:72124 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:24:09 ZiCutter:66] ./languages/fr loaded vocab:727
+[I 230506 22:24:35 glance:35]  cat C:/data/word_frequency\fr-word_frequency.tsv n_src:12323757--> freq:12322355 total:3783475972.0
+[I 230506 22:27:13 ZiTokenizer:48]  ./languages/frp\vocab.txt load vocab:32459 root:28158 prefix:1952 suffix:2349 
+[I 230506 22:27:13 ZiCutter:58] ./languages/frp\JiZi.txt load  JiZi:544
+[I 230506 22:27:13 ZiCutter:32]   ./languages/frp\HeZi.txt 70298  JiZi:544 --> loadHeZi 70298  values:544 slim2Zi:69067 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:27:13 ZiCutter:66] ./languages/frp loaded vocab:544
+[I 230506 22:27:14 glance:35]  cat C:/data/word_frequency\frp-word_frequency.tsv n_src:65612--> freq:65611 total:861026.0
+[I 230506 22:27:14 ZiTokenizer:48]  ./languages/frr\vocab.txt load vocab:33932 root:27478 prefix:2448 suffix:4006 
+[I 230506 22:27:14 ZiCutter:58] ./languages/frr\JiZi.txt load  JiZi:791
+[I 230506 22:27:15 ZiCutter:32]   ./languages/frr\HeZi.txt 73567  JiZi:791 --> loadHeZi 73567  values:791 slim2Zi:71836 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:27:15 ZiCutter:66] ./languages/frr loaded vocab:791
+[I 230506 22:27:15 glance:35]  cat C:/data/word_frequency\frr-word_frequency.tsv n_src:163143--> freq:163142 total:3164581.0
+[I 230506 22:27:17 ZiTokenizer:48]  ./languages/fur\vocab.txt load vocab:34433 root:30018 prefix:1582 suffix:2833 
+[I 230506 22:27:17 ZiCutter:58] ./languages/fur\JiZi.txt load  JiZi:560
+[I 230506 22:27:17 ZiCutter:32]   ./languages/fur\HeZi.txt 70607  JiZi:560 --> loadHeZi 70607  values:560 slim2Zi:69345 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:27:17 ZiCutter:66] ./languages/fur loaded vocab:560
+[I 230506 22:27:17 glance:35]  cat C:/data/word_frequency\fur-word_frequency.tsv n_src:70503--> freq:70503 total:803280.0
+[I 230506 22:27:18 ZiTokenizer:48]  ./languages/fy\vocab.txt load vocab:39788 root:31717 prefix:2501 suffix:5570 
+[I 230506 22:27:18 ZiCutter:58] ./languages/fy\JiZi.txt load  JiZi:552
+[I 230506 22:27:18 ZiCutter:32]   ./languages/fy\HeZi.txt 70386  JiZi:552 --> loadHeZi 70386  values:552 slim2Zi:69136 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:27:18 ZiCutter:66] ./languages/fy loaded vocab:552
+[I 230506 22:27:19 glance:35]  cat C:/data/word_frequency\fy-word_frequency.tsv n_src:590395--> freq:590393 total:22562172.0
+[I 230506 22:27:26 ZiTokenizer:48]  ./languages/ga\vocab.txt load vocab:40848 root:33141 prefix:2955 suffix:4752 
+[I 230506 22:27:26 ZiCutter:58] ./languages/ga\JiZi.txt load  JiZi:655
+[I 230506 22:27:27 ZiCutter:32]   ./languages/ga\HeZi.txt 72510  JiZi:655 --> loadHeZi 72510  values:655 slim2Zi:71003 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:27:27 ZiCutter:66] ./languages/ga loaded vocab:655
+[I 230506 22:27:27 glance:35]  cat C:/data/word_frequency\ga-word_frequency.tsv n_src:401285--> freq:401261 total:11158727.0
+[I 230506 22:27:32 ZiTokenizer:48]  ./languages/gag\vocab.txt load vocab:29322 root:24645 prefix:1513 suffix:3164 
+[I 230506 22:27:32 ZiCutter:58] ./languages/gag\JiZi.txt load  JiZi:565
+[I 230506 22:27:32 ZiCutter:32]   ./languages/gag\HeZi.txt 70700  JiZi:565 --> loadHeZi 70700  values:565 slim2Zi:69401 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:27:33 ZiCutter:66] ./languages/gag loaded vocab:565
+[I 230506 22:27:33 glance:35]  cat C:/data/word_frequency\gag-word_frequency.tsv n_src:69012--> freq:69012 total:378765.0
+[I 230506 22:27:33 ZiTokenizer:48]  ./languages/gan\vocab.txt load vocab:11017 root:9961 prefix:517 suffix:539 
+[I 230506 22:27:34 ZiCutter:58] ./languages/gan\JiZi.txt load  JiZi:4087
+[I 230506 22:27:34 ZiCutter:32]   ./languages/gan\HeZi.txt 86359  JiZi:4087 --> loadHeZi 86359  values:4087 slim2Zi:79935 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:27:34 ZiCutter:66] ./languages/gan loaded vocab:4087
+[I 230506 22:27:34 glance:35]  cat C:/data/word_frequency\gan-word_frequency.tsv n_src:20283--> freq:20281 total:626991.0
+[I 230506 22:27:34 ZiTokenizer:48]  ./languages/gcr\vocab.txt load vocab:18705 root:16393 prefix:916 suffix:1396 
+[I 230506 22:27:34 ZiCutter:58] ./languages/gcr\JiZi.txt load  JiZi:566
+[I 230506 22:27:35 ZiCutter:32]   ./languages/gcr\HeZi.txt 70582  JiZi:566 --> loadHeZi 70582  values:566 slim2Zi:69303 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:27:35 ZiCutter:66] ./languages/gcr loaded vocab:566
+[I 230506 22:27:35 glance:35]  cat C:/data/word_frequency\gcr-word_frequency.tsv n_src:36169--> freq:36169 total:460179.0
+[I 230506 22:27:35 ZiTokenizer:48]  ./languages/gd\vocab.txt load vocab:30002 root:25345 prefix:2007 suffix:2650 
+[I 230506 22:27:35 ZiCutter:58] ./languages/gd\JiZi.txt load  JiZi:639
+[I 230506 22:27:35 ZiCutter:32]   ./languages/gd\HeZi.txt 71645  JiZi:639 --> loadHeZi 71645  values:639 slim2Zi:70208 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:27:35 ZiCutter:66] ./languages/gd loaded vocab:639
+[I 230506 22:27:36 glance:35]  cat C:/data/word_frequency\gd-word_frequency.tsv n_src:138356--> freq:138353 total:3405055.0
+[I 230506 22:27:37 ZiTokenizer:48]  ./languages/gl\vocab.txt load vocab:43122 root:35038 prefix:2675 suffix:5409 
+[I 230506 22:27:37 ZiCutter:58] ./languages/gl\JiZi.txt load  JiZi:714
+[I 230506 22:27:37 ZiCutter:32]   ./languages/gl\HeZi.txt 73101  JiZi:714 --> loadHeZi 73101  values:714 slim2Zi:71464 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:27:37 ZiCutter:66] ./languages/gl loaded vocab:714
+[I 230506 22:27:41 glance:35]  cat C:/data/word_frequency\gl-word_frequency.tsv n_src:1766250--> freq:1766223 total:111838654.0
+[I 230506 22:28:02 ZiTokenizer:48]  ./languages/glk\vocab.txt load vocab:37291 root:33343 prefix:1632 suffix:2316 
+[I 230506 22:28:02 ZiCutter:58] ./languages/glk\JiZi.txt load  JiZi:544
+[I 230506 22:28:02 ZiCutter:32]   ./languages/glk\HeZi.txt 70148  JiZi:544 --> loadHeZi 70148  values:544 slim2Zi:68923 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:02 ZiCutter:66] ./languages/glk loaded vocab:544
+[I 230506 22:28:02 glance:35]  cat C:/data/word_frequency\glk-word_frequency.tsv n_src:72681--> freq:72681 total:891006.0
+[I 230506 22:28:03 ZiTokenizer:48]  ./languages/gn\vocab.txt load vocab:35476 root:29062 prefix:2524 suffix:3890 
+[I 230506 22:28:03 ZiCutter:58] ./languages/gn\JiZi.txt load  JiZi:604
+[I 230506 22:28:03 ZiCutter:32]   ./languages/gn\HeZi.txt 71320  JiZi:604 --> loadHeZi 71320  values:604 slim2Zi:69996 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:03 ZiCutter:66] ./languages/gn loaded vocab:604
+[I 230506 22:28:04 glance:35]  cat C:/data/word_frequency\gn-word_frequency.tsv n_src:115961--> freq:115961 total:1383158.0
+[I 230506 22:28:05 ZiTokenizer:48]  ./languages/gom\vocab.txt load vocab:17454 root:14138 prefix:1482 suffix:1834 
+[I 230506 22:28:05 ZiCutter:58] ./languages/gom\JiZi.txt load  JiZi:537
+[I 230506 22:28:05 ZiCutter:32]   ./languages/gom\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:05 ZiCutter:66] ./languages/gom loaded vocab:537
+[I 230506 22:28:05 glance:35]  cat C:/data/word_frequency\gom-word_frequency.tsv n_src:144096--> freq:144095 total:6430856.0
+[I 230506 22:28:07 ZiTokenizer:48]  ./languages/gor\vocab.txt load vocab:27045 root:23500 prefix:1305 suffix:2240 
+[I 230506 22:28:07 ZiCutter:58] ./languages/gor\JiZi.txt load  JiZi:555
+[I 230506 22:28:07 ZiCutter:32]   ./languages/gor\HeZi.txt 70308  JiZi:555 --> loadHeZi 70308  values:555 slim2Zi:69066 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:07 ZiCutter:66] ./languages/gor loaded vocab:555
+[I 230506 22:28:07 glance:35]  cat C:/data/word_frequency\gor-word_frequency.tsv n_src:55397--> freq:55397 total:1068380.0
+[I 230506 22:28:08 ZiTokenizer:48]  ./languages/got\vocab.txt load vocab:8805 root:7538 prefix:614 suffix:653 
+[I 230506 22:28:08 ZiCutter:58] ./languages/got\JiZi.txt load  JiZi:547
+[I 230506 22:28:08 ZiCutter:32]   ./languages/got\HeZi.txt 70096  JiZi:547 --> loadHeZi 70096  values:547 slim2Zi:68858 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:08 ZiCutter:66] ./languages/got loaded vocab:547
+[I 230506 22:28:08 glance:35]  cat C:/data/word_frequency\got-word_frequency.tsv n_src:17452--> freq:17452 total:351157.0
+[I 230506 22:28:08 ZiTokenizer:48]  ./languages/gu\vocab.txt load vocab:10910 root:9478 prefix:614 suffix:818 
+[I 230506 22:28:08 ZiCutter:58] ./languages/gu\JiZi.txt load  JiZi:541
+[I 230506 22:28:09 ZiCutter:32]   ./languages/gu\HeZi.txt 70188  JiZi:541 --> loadHeZi 70188  values:541 slim2Zi:68961 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:09 ZiCutter:66] ./languages/gu loaded vocab:541
+[I 230506 22:28:09 glance:35]  cat C:/data/word_frequency\gu-word_frequency.tsv n_src:220793--> freq:220791 total:50654459.0
+[I 230506 22:28:11 ZiTokenizer:48]  ./languages/guw\vocab.txt load vocab:15208 root:13197 prefix:727 suffix:1284 
+[I 230506 22:28:11 ZiCutter:58] ./languages/guw\JiZi.txt load  JiZi:538
+[I 230506 22:28:12 ZiCutter:32]   ./languages/guw\HeZi.txt 70074  JiZi:538 --> loadHeZi 70074  values:538 slim2Zi:68855 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:12 ZiCutter:66] ./languages/guw loaded vocab:538
+[I 230506 22:28:12 glance:35]  cat C:/data/word_frequency\guw-word_frequency.tsv n_src:29812--> freq:29812 total:325931.0
+[I 230506 22:28:12 ZiTokenizer:48]  ./languages/gv\vocab.txt load vocab:41613 root:36682 prefix:1929 suffix:3002 
+[I 230506 22:28:12 ZiCutter:58] ./languages/gv\JiZi.txt load  JiZi:615
+[I 230506 22:28:13 ZiCutter:32]   ./languages/gv\HeZi.txt 71506  JiZi:615 --> loadHeZi 71506  values:615 slim2Zi:70096 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:13 ZiCutter:66] ./languages/gv loaded vocab:615
+[I 230506 22:28:13 glance:35]  cat C:/data/word_frequency\gv-word_frequency.tsv n_src:84863--> freq:84862 total:1321098.0
+[I 230506 22:28:14 ZiTokenizer:48]  ./languages/ha\vocab.txt load vocab:32133 root:26258 prefix:2251 suffix:3624 
+[I 230506 22:28:14 ZiCutter:58] ./languages/ha\JiZi.txt load  JiZi:636
+[I 230506 22:28:14 ZiCutter:32]   ./languages/ha\HeZi.txt 71991  JiZi:636 --> loadHeZi 71991  values:636 slim2Zi:70485 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:14 ZiCutter:66] ./languages/ha loaded vocab:636
+[E 230506 22:28:14 glance:19] ('\n', ['\n'])
+[I 230506 22:28:15 glance:35]  cat C:/data/word_frequency\ha-word_frequency.tsv n_src:352503--> freq:352500 total:13310788.0
+[I 230506 22:28:19 ZiTokenizer:48]  ./languages/hak\vocab.txt load vocab:17015 root:15456 prefix:676 suffix:883 
+[I 230506 22:28:19 ZiCutter:58] ./languages/hak\JiZi.txt load  JiZi:2772
+[I 230506 22:28:20 ZiCutter:32]   ./languages/hak\HeZi.txt 86247  JiZi:2772 --> loadHeZi 86247  values:2772 slim2Zi:81393 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:20 ZiCutter:66] ./languages/hak loaded vocab:2772
+[I 230506 22:28:20 glance:35]  cat C:/data/word_frequency\hak-word_frequency.tsv n_src:30263--> freq:30263 total:1039695.0
+[I 230506 22:28:20 ZiTokenizer:48]  ./languages/haw\vocab.txt load vocab:9479 root:7965 prefix:685 suffix:829 
+[I 230506 22:28:20 ZiCutter:58] ./languages/haw\JiZi.txt load  JiZi:576
+[I 230506 22:28:21 ZiCutter:32]   ./languages/haw\HeZi.txt 70862  JiZi:576 --> loadHeZi 70862  values:576 slim2Zi:69564 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:21 ZiCutter:66] ./languages/haw loaded vocab:576
+[I 230506 22:28:21 glance:35]  cat C:/data/word_frequency\haw-word_frequency.tsv n_src:20858--> freq:20858 total:337804.0
+[I 230506 22:28:21 ZiTokenizer:48]  ./languages/he\vocab.txt load vocab:51859 root:43464 prefix:2072 suffix:6323 
+[I 230506 22:28:21 ZiCutter:58] ./languages/he\JiZi.txt load  JiZi:556
+[I 230506 22:28:21 ZiCutter:32]   ./languages/he\HeZi.txt 70352  JiZi:556 --> loadHeZi 70352  values:556 slim2Zi:69088 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:28:21 ZiCutter:66] ./languages/he loaded vocab:556
+[I 230506 22:28:29 glance:35]  cat C:/data/word_frequency\he-word_frequency.tsv n_src:3619486--> freq:3619341 total:591149106.0
+[I 230506 22:29:12 ZiTokenizer:48]  ./languages/hi\vocab.txt load vocab:11379 root:9471 prefix:806 suffix:1102 
+[I 230506 22:29:12 ZiCutter:58] ./languages/hi\JiZi.txt load  JiZi:562
+[I 230506 22:29:12 ZiCutter:32]   ./languages/hi\HeZi.txt 70547  JiZi:562 --> loadHeZi 70547  values:562 slim2Zi:69263 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:29:12 ZiCutter:66] ./languages/hi loaded vocab:562
+[I 230506 22:29:13 glance:35]  cat C:/data/word_frequency\hi-word_frequency.tsv n_src:655344--> freq:655294 total:166654729.0
+[I 230506 22:29:20 ZiTokenizer:48]  ./languages/hif\vocab.txt load vocab:39376 root:34421 prefix:1820 suffix:3135 
+[I 230506 22:29:20 ZiCutter:58] ./languages/hif\JiZi.txt load  JiZi:600
+[I 230506 22:29:20 ZiCutter:32]   ./languages/hif\HeZi.txt 71207  JiZi:600 --> loadHeZi 71207  values:600 slim2Zi:69881 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:29:20 ZiCutter:66] ./languages/hif loaded vocab:600
+[I 230506 22:29:20 glance:35]  cat C:/data/word_frequency\hif-word_frequency.tsv n_src:81539--> freq:81539 total:1017234.0
+[I 230506 22:29:21 ZiTokenizer:48]  ./languages/ho\vocab.txt load vocab:590 root:589 prefix:0 suffix:1 
+[I 230506 22:29:21 ZiCutter:58] ./languages/ho\JiZi.txt load  JiZi:537
+[I 230506 22:29:21 ZiCutter:32]   ./languages/ho\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:29:21 ZiCutter:66] ./languages/ho loaded vocab:537
+[I 230506 22:29:21 glance:35]  cat C:/data/word_frequency\ho-word_frequency.tsv n_src:98--> freq:98 total:234.0
+[I 230506 22:29:21 ZiTokenizer:48]  ./languages/hr\vocab.txt load vocab:54942 root:43489 prefix:3885 suffix:7568 
+[I 230506 22:29:21 ZiCutter:58] ./languages/hr\JiZi.txt load  JiZi:600
+[I 230506 22:29:22 ZiCutter:32]   ./languages/hr\HeZi.txt 71186  JiZi:600 --> loadHeZi 71186  values:600 slim2Zi:69828 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:29:22 ZiCutter:66] ./languages/hr loaded vocab:600
+[I 230506 22:29:26 glance:35]  cat C:/data/word_frequency\hr-word_frequency.tsv n_src:2488296--> freq:2488253 total:104181622.0
+[I 230506 22:29:55 ZiTokenizer:48]  ./languages/hsb\vocab.txt load vocab:38029 root:31655 prefix:2559 suffix:3815 
+[I 230506 22:29:55 ZiCutter:58] ./languages/hsb\JiZi.txt load  JiZi:564
+[I 230506 22:29:56 ZiCutter:32]   ./languages/hsb\HeZi.txt 70734  JiZi:564 --> loadHeZi 70734  values:564 slim2Zi:69474 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:29:56 ZiCutter:66] ./languages/hsb loaded vocab:564
+[I 230506 22:29:56 glance:35]  cat C:/data/word_frequency\hsb-word_frequency.tsv n_src:194518--> freq:194516 total:3797083.0
+[I 230506 22:29:58 ZiTokenizer:48]  ./languages/ht\vocab.txt load vocab:34660 root:28660 prefix:1844 suffix:4156 
+[I 230506 22:29:59 ZiCutter:58] ./languages/ht\JiZi.txt load  JiZi:549
+[I 230506 22:29:59 ZiCutter:32]   ./languages/ht\HeZi.txt 70293  JiZi:549 --> loadHeZi 70293  values:549 slim2Zi:69052 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:29:59 ZiCutter:66] ./languages/ht loaded vocab:549
+[I 230506 22:30:00 glance:35]  cat C:/data/word_frequency\ht-word_frequency.tsv n_src:287822--> freq:287820 total:10474099.0
+[I 230506 22:30:03 ZiTokenizer:48]  ./languages/hu\vocab.txt load vocab:51250 root:39147 prefix:3952 suffix:8151 
+[I 230506 22:30:03 ZiCutter:58] ./languages/hu\JiZi.txt load  JiZi:831
+[I 230506 22:30:03 ZiCutter:32]   ./languages/hu\HeZi.txt 75485  JiZi:831 --> loadHeZi 75485  values:831 slim2Zi:73609 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:30:03 ZiCutter:66] ./languages/hu loaded vocab:831
+[I 230506 22:30:16 glance:35]  cat C:/data/word_frequency\hu-word_frequency.tsv n_src:6035170--> freq:6035025 total:322403328.0
+[I 230506 22:31:38 ZiTokenizer:48]  ./languages/hy\vocab.txt load vocab:48645 root:37408 prefix:4880 suffix:6357 
+[I 230506 22:31:38 ZiCutter:58] ./languages/hy\JiZi.txt load  JiZi:744
+[I 230506 22:31:39 ZiCutter:32]   ./languages/hy\HeZi.txt 74153  JiZi:744 --> loadHeZi 74153  values:744 slim2Zi:72492 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:31:39 ZiCutter:66] ./languages/hy loaded vocab:744
+[I 230506 22:31:46 glance:35]  cat C:/data/word_frequency\hy-word_frequency.tsv n_src:3812333--> freq:3812294 total:158059465.0
+[I 230506 22:32:32 ZiTokenizer:48]  ./languages/hyw\vocab.txt load vocab:52119 root:41391 prefix:5517 suffix:5211 
+[I 230506 22:32:32 ZiCutter:58] ./languages/hyw\JiZi.txt load  JiZi:621
+[I 230506 22:32:33 ZiCutter:32]   ./languages/hyw\HeZi.txt 71846  JiZi:621 --> loadHeZi 71846  values:621 slim2Zi:70433 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:32:33 ZiCutter:66] ./languages/hyw loaded vocab:621
+[I 230506 22:32:34 glance:35]  cat C:/data/word_frequency\hyw-word_frequency.tsv n_src:462882--> freq:462879 total:6995216.0
+[I 230506 22:32:40 ZiTokenizer:48]  ./languages/ia\vocab.txt load vocab:36612 root:30482 prefix:2509 suffix:3621 
+[I 230506 22:32:40 ZiCutter:58] ./languages/ia\JiZi.txt load  JiZi:682
+[I 230506 22:32:40 ZiCutter:32]   ./languages/ia\HeZi.txt 72566  JiZi:682 --> loadHeZi 72566  values:682 slim2Zi:71000 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:32:40 ZiCutter:66] ./languages/ia loaded vocab:682
+[I 230506 22:32:40 glance:35]  cat C:/data/word_frequency\ia-word_frequency.tsv n_src:164815--> freq:164813 total:3235661.0
+[I 230506 22:32:42 ZiTokenizer:48]  ./languages/id\vocab.txt load vocab:42561 root:34730 prefix:2497 suffix:5334 
+[I 230506 22:32:42 ZiCutter:58] ./languages/id\JiZi.txt load  JiZi:1739
+[I 230506 22:32:43 ZiCutter:32]   ./languages/id\HeZi.txt 83390  JiZi:1739 --> loadHeZi 83390  values:1739 slim2Zi:80174 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:32:43 ZiCutter:66] ./languages/id loaded vocab:1739
+[I 230506 22:32:49 glance:35]  cat C:/data/word_frequency\id-word_frequency.tsv n_src:3163991--> freq:3162334 total:270432825.0
+[I 230506 22:33:30 ZiTokenizer:48]  ./languages/ie\vocab.txt load vocab:14306 root:12541 prefix:630 suffix:1135 
+[I 230506 22:33:30 ZiCutter:58] ./languages/ie\JiZi.txt load  JiZi:548
+[I 230506 22:33:30 ZiCutter:32]   ./languages/ie\HeZi.txt 70246  JiZi:548 --> loadHeZi 70246  values:548 slim2Zi:69003 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:33:30 ZiCutter:66] ./languages/ie loaded vocab:548
+[I 230506 22:33:31 glance:35]  cat C:/data/word_frequency\ie-word_frequency.tsv n_src:72045--> freq:72044 total:6322034.0
+[I 230506 22:33:32 ZiTokenizer:48]  ./languages/ig\vocab.txt load vocab:30894 root:25126 prefix:2020 suffix:3748 
+[I 230506 22:33:32 ZiCutter:58] ./languages/ig\JiZi.txt load  JiZi:750
+[I 230506 22:33:32 ZiCutter:32]   ./languages/ig\HeZi.txt 73671  JiZi:750 --> loadHeZi 73671  values:750 slim2Zi:71956 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:33:32 ZiCutter:66] ./languages/ig loaded vocab:750
+[I 230506 22:33:32 glance:35]  cat C:/data/word_frequency\ig-word_frequency.tsv n_src:292124--> freq:292123 total:10359285.0
+[I 230506 22:33:36 ZiTokenizer:48]  ./languages/ii\vocab.txt load vocab:572 root:572 prefix:0 suffix:0 
+[I 230506 22:33:36 ZiCutter:58] ./languages/ii\JiZi.txt load  JiZi:548
+[I 230506 22:33:36 ZiCutter:32]   ./languages/ii\HeZi.txt 70134  JiZi:548 --> loadHeZi 70134  values:548 slim2Zi:68881 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:33:36 ZiCutter:66] ./languages/ii loaded vocab:548
+[I 230506 22:33:36 glance:35]  cat C:/data/word_frequency\ii-word_frequency.tsv n_src:32--> freq:32 total:96.0
+[I 230506 22:33:36 ZiTokenizer:48]  ./languages/ik\vocab.txt load vocab:2626 root:2094 prefix:248 suffix:284 
+[I 230506 22:33:36 ZiCutter:58] ./languages/ik\JiZi.txt load  JiZi:538
+[I 230506 22:33:36 ZiCutter:32]   ./languages/ik\HeZi.txt 70074  JiZi:538 --> loadHeZi 70074  values:538 slim2Zi:68855 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:33:36 ZiCutter:66] ./languages/ik loaded vocab:538
+[I 230506 22:33:37 glance:35]  cat C:/data/word_frequency\ik-word_frequency.tsv n_src:6837--> freq:6837 total:19984.0
+[I 230506 22:33:37 ZiTokenizer:48]  ./languages/ilo\vocab.txt load vocab:30758 root:24604 prefix:2227 suffix:3927 
+[I 230506 22:33:37 ZiCutter:58] ./languages/ilo\JiZi.txt load  JiZi:1145
+[I 230506 22:33:37 ZiCutter:32]   ./languages/ilo\HeZi.txt 77997  JiZi:1145 --> loadHeZi 77997  values:1145 slim2Zi:75688 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:33:37 ZiCutter:66] ./languages/ilo loaded vocab:1145
+[I 230506 22:33:38 glance:35]  cat C:/data/word_frequency\ilo-word_frequency.tsv n_src:210778--> freq:210776 total:4682859.0
+[I 230506 22:33:40 ZiTokenizer:48]  ./languages/inh\vocab.txt load vocab:26629 root:22202 prefix:2110 suffix:2317 
+[I 230506 22:33:40 ZiCutter:58] ./languages/inh\JiZi.txt load  JiZi:546
+[I 230506 22:33:40 ZiCutter:32]   ./languages/inh\HeZi.txt 70389  JiZi:546 --> loadHeZi 70389  values:546 slim2Zi:69155 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:33:40 ZiCutter:66] ./languages/inh loaded vocab:546
+[I 230506 22:33:41 glance:35]  cat C:/data/word_frequency\inh-word_frequency.tsv n_src:60749--> freq:60749 total:430032.0
+[I 230506 22:33:41 ZiTokenizer:48]  ./languages/io\vocab.txt load vocab:24602 root:19512 prefix:2086 suffix:3004 
+[I 230506 22:33:41 ZiCutter:58] ./languages/io\JiZi.txt load  JiZi:603
+[I 230506 22:33:41 ZiCutter:32]   ./languages/io\HeZi.txt 71252  JiZi:603 --> loadHeZi 71252  values:603 slim2Zi:69896 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:33:41 ZiCutter:66] ./languages/io loaded vocab:603
+[I 230506 22:33:42 glance:35]  cat C:/data/word_frequency\io-word_frequency.tsv n_src:199564--> freq:199563 total:8854626.0
+[I 230506 22:33:44 ZiTokenizer:48]  ./languages/is\vocab.txt load vocab:46745 root:35794 prefix:3472 suffix:7479 
+[I 230506 22:33:44 ZiCutter:58] ./languages/is\JiZi.txt load  JiZi:632
+[I 230506 22:33:45 ZiCutter:32]   ./languages/is\HeZi.txt 71716  JiZi:632 --> loadHeZi 71716  values:632 slim2Zi:70258 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:33:45 ZiCutter:66] ./languages/is loaded vocab:632
+[I 230506 22:33:46 glance:35]  cat C:/data/word_frequency\is-word_frequency.tsv n_src:809669--> freq:809664 total:20588323.0
+[I 230506 22:33:57 ZiTokenizer:48]  ./languages/it\vocab.txt load vocab:43348 root:34907 prefix:2868 suffix:5573 
+[I 230506 22:33:57 ZiCutter:58] ./languages/it\JiZi.txt load  JiZi:840
+[I 230506 22:33:57 ZiCutter:32]   ./languages/it\HeZi.txt 75923  JiZi:840 --> loadHeZi 75923  values:840 slim2Zi:74040 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:33:57 ZiCutter:66] ./languages/it loaded vocab:840
+[I 230506 22:34:16 glance:35]  cat C:/data/word_frequency\it-word_frequency.tsv n_src:8169978--> freq:8168491 total:1437125130.0
+[I 230506 22:36:09 ZiTokenizer:48]  ./languages/iu\vocab.txt load vocab:3225 root:2428 prefix:411 suffix:386 
+[I 230506 22:36:09 ZiCutter:58] ./languages/iu\JiZi.txt load  JiZi:545
+[I 230506 22:36:10 ZiCutter:32]   ./languages/iu\HeZi.txt 70276  JiZi:545 --> loadHeZi 70276  values:545 slim2Zi:69051 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:36:10 ZiCutter:66] ./languages/iu loaded vocab:545
+[I 230506 22:36:10 glance:35]  cat C:/data/word_frequency\iu-word_frequency.tsv n_src:8316--> freq:8316 total:25047.0
+[I 230506 22:36:10 ZiTokenizer:48]  ./languages/ja\vocab.txt load vocab:10038 root:8224 prefix:866 suffix:948 
+[I 230506 22:36:10 ZiCutter:58] ./languages/ja\JiZi.txt load  JiZi:3554
+[I 230506 22:36:10 ZiCutter:32]   ./languages/ja\HeZi.txt 86182  JiZi:3554 --> loadHeZi 86182  values:3554 slim2Zi:80314 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:36:10 ZiCutter:66] ./languages/ja loaded vocab:3554
+[I 230506 22:36:20 glance:35]  cat C:/data/word_frequency\ja-word_frequency.tsv n_src:4496607--> freq:4496353 total:2783839815.0
+[I 230506 22:37:20 ZiTokenizer:48]  ./languages/jam\vocab.txt load vocab:14841 root:12841 prefix:789 suffix:1211 
+[I 230506 22:37:20 ZiCutter:58] ./languages/jam\JiZi.txt load  JiZi:546
+[I 230506 22:37:20 ZiCutter:32]   ./languages/jam\HeZi.txt 70287  JiZi:546 --> loadHeZi 70287  values:546 slim2Zi:69050 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:37:20 ZiCutter:66] ./languages/jam loaded vocab:546
+[I 230506 22:37:20 glance:35]  cat C:/data/word_frequency\jam-word_frequency.tsv n_src:29822--> freq:29822 total:242610.0
+[I 230506 22:37:21 ZiTokenizer:48]  ./languages/jbo\vocab.txt load vocab:14231 root:12442 prefix:672 suffix:1117 
+[I 230506 22:37:21 ZiCutter:58] ./languages/jbo\JiZi.txt load  JiZi:543
+[I 230506 22:37:21 ZiCutter:32]   ./languages/jbo\HeZi.txt 70203  JiZi:543 --> loadHeZi 70203  values:543 slim2Zi:68970 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:37:21 ZiCutter:66] ./languages/jbo loaded vocab:543
+[I 230506 22:37:21 glance:35]  cat C:/data/word_frequency\jbo-word_frequency.tsv n_src:27233--> freq:27233 total:779316.0
+[I 230506 22:37:21 ZiTokenizer:48]  ./languages/jv\vocab.txt load vocab:41145 root:33128 prefix:2690 suffix:5327 
+[I 230506 22:37:21 ZiCutter:58] ./languages/jv\JiZi.txt load  JiZi:1304
+[I 230506 22:37:22 ZiCutter:32]   ./languages/jv\HeZi.txt 79997  JiZi:1304 --> loadHeZi 79997  values:1304 slim2Zi:77348 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:37:22 ZiCutter:66] ./languages/jv loaded vocab:1304
+[I 230506 22:37:23 glance:35]  cat C:/data/word_frequency\jv-word_frequency.tsv n_src:670259--> freq:670240 total:20831670.0
+[I 230506 22:37:31 ZiTokenizer:48]  ./languages/ka\vocab.txt load vocab:49459 root:38953 prefix:5019 suffix:5487 
+[I 230506 22:37:31 ZiCutter:58] ./languages/ka\JiZi.txt load  JiZi:713
+[I 230506 22:37:31 ZiCutter:32]   ./languages/ka\HeZi.txt 73093  JiZi:713 --> loadHeZi 73093  values:713 slim2Zi:71549 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:37:31 ZiCutter:66] ./languages/ka loaded vocab:713
+[I 230506 22:37:36 glance:35]  cat C:/data/word_frequency\ka-word_frequency.tsv n_src:1801777--> freq:1801735 total:57772512.0
+[I 230506 22:37:59 ZiTokenizer:48]  ./languages/kaa\vocab.txt load vocab:47756 root:41839 prefix:3098 suffix:2819 
+[I 230506 22:37:59 ZiCutter:58] ./languages/kaa\JiZi.txt load  JiZi:629
+[I 230506 22:38:00 ZiCutter:32]   ./languages/kaa\HeZi.txt 71475  JiZi:629 --> loadHeZi 71475  values:629 slim2Zi:70037 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:00 ZiCutter:66] ./languages/kaa loaded vocab:629
+[I 230506 22:38:00 glance:35]  cat C:/data/word_frequency\kaa-word_frequency.tsv n_src:107758--> freq:107757 total:791706.0
+[I 230506 22:38:02 ZiTokenizer:48]  ./languages/kab\vocab.txt load vocab:44156 root:37323 prefix:2802 suffix:4031 
+[I 230506 22:38:02 ZiCutter:58] ./languages/kab\JiZi.txt load  JiZi:559
+[I 230506 22:38:02 ZiCutter:32]   ./languages/kab\HeZi.txt 70511  JiZi:559 --> loadHeZi 70511  values:559 slim2Zi:69265 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:02 ZiCutter:66] ./languages/kab loaded vocab:559
+[I 230506 22:38:02 glance:35]  cat C:/data/word_frequency\kab-word_frequency.tsv n_src:96929--> freq:96929 total:960058.0
+[I 230506 22:38:04 ZiTokenizer:48]  ./languages/kbd\vocab.txt load vocab:23612 root:19223 prefix:1921 suffix:2468 
+[I 230506 22:38:04 ZiCutter:58] ./languages/kbd\JiZi.txt load  JiZi:546
+[I 230506 22:38:04 ZiCutter:32]   ./languages/kbd\HeZi.txt 70409  JiZi:546 --> loadHeZi 70409  values:546 slim2Zi:69183 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:04 ZiCutter:66] ./languages/kbd loaded vocab:546
+[I 230506 22:38:05 glance:35]  cat C:/data/word_frequency\kbd-word_frequency.tsv n_src:61333--> freq:61331 total:355478.0
+[I 230506 22:38:06 ZiTokenizer:48]  ./languages/kbp\vocab.txt load vocab:22957 root:19866 prefix:1089 suffix:2002 
+[I 230506 22:38:06 ZiCutter:58] ./languages/kbp\JiZi.txt load  JiZi:549
+[I 230506 22:38:06 ZiCutter:32]   ./languages/kbp\HeZi.txt 70151  JiZi:549 --> loadHeZi 70151  values:549 slim2Zi:68879 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:06 ZiCutter:66] ./languages/kbp loaded vocab:549
+[I 230506 22:38:06 glance:35]  cat C:/data/word_frequency\kbp-word_frequency.tsv n_src:49299--> freq:49296 total:586590.0
+[I 230506 22:38:07 ZiTokenizer:48]  ./languages/kcg\vocab.txt load vocab:7667 root:6551 prefix:520 suffix:596 
+[I 230506 22:38:07 ZiCutter:58] ./languages/kcg\JiZi.txt load  JiZi:560
+[I 230506 22:38:07 ZiCutter:32]   ./languages/kcg\HeZi.txt 70652  JiZi:560 --> loadHeZi 70652  values:560 slim2Zi:69401 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:07 ZiCutter:66] ./languages/kcg loaded vocab:560
+[I 230506 22:38:07 glance:35]  cat C:/data/word_frequency\kcg-word_frequency.tsv n_src:15304--> freq:15304 total:154866.0
+[I 230506 22:38:08 ZiTokenizer:48]  ./languages/kg\vocab.txt load vocab:4712 root:3979 prefix:288 suffix:445 
+[I 230506 22:38:08 ZiCutter:58] ./languages/kg\JiZi.txt load  JiZi:537
+[I 230506 22:38:08 ZiCutter:32]   ./languages/kg\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:08 ZiCutter:66] ./languages/kg loaded vocab:537
+[I 230506 22:38:08 glance:35]  cat C:/data/word_frequency\kg-word_frequency.tsv n_src:9163--> freq:9163 total:47653.0
+[I 230506 22:38:08 ZiTokenizer:48]  ./languages/ki\vocab.txt load vocab:6259 root:5058 prefix:468 suffix:733 
+[I 230506 22:38:08 ZiCutter:58] ./languages/ki\JiZi.txt load  JiZi:540
+[I 230506 22:38:09 ZiCutter:32]   ./languages/ki\HeZi.txt 70210  JiZi:540 --> loadHeZi 70210  values:540 slim2Zi:68980 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:09 ZiCutter:66] ./languages/ki loaded vocab:540
+[I 230506 22:38:09 glance:35]  cat C:/data/word_frequency\ki-word_frequency.tsv n_src:13010--> freq:13009 total:56724.0
+[I 230506 22:38:09 ZiTokenizer:48]  ./languages/kj\vocab.txt load vocab:561 root:561 prefix:0 suffix:0 
+[I 230506 22:38:09 ZiCutter:58] ./languages/kj\JiZi.txt load  JiZi:537
+[I 230506 22:38:09 ZiCutter:32]   ./languages/kj\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:09 ZiCutter:66] ./languages/kj loaded vocab:537
+[I 230506 22:38:09 glance:35]  cat C:/data/word_frequency\kj-word_frequency.tsv n_src:92--> freq:92 total:134.0
+[I 230506 22:38:09 ZiTokenizer:48]  ./languages/kk\vocab.txt load vocab:41483 root:33074 prefix:3658 suffix:4751 
+[I 230506 22:38:09 ZiCutter:58] ./languages/kk\JiZi.txt load  JiZi:599
+[I 230506 22:38:10 ZiCutter:32]   ./languages/kk\HeZi.txt 71066  JiZi:599 --> loadHeZi 71066  values:599 slim2Zi:69718 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:10 ZiCutter:66] ./languages/kk loaded vocab:599
+[I 230506 22:38:13 glance:35]  cat C:/data/word_frequency\kk-word_frequency.tsv n_src:1537038--> freq:1536998 total:51117688.0
+[I 230506 22:38:34 ZiTokenizer:48]  ./languages/kl\vocab.txt load vocab:5021 root:3570 prefix:794 suffix:657 
+[I 230506 22:38:34 ZiCutter:58] ./languages/kl\JiZi.txt load  JiZi:537
+[I 230506 22:38:34 ZiCutter:32]   ./languages/kl\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:34 ZiCutter:66] ./languages/kl loaded vocab:537
+[I 230506 22:38:34 glance:35]  cat C:/data/word_frequency\kl-word_frequency.tsv n_src:14104--> freq:14104 total:36508.0
+[I 230506 22:38:34 ZiTokenizer:48]  ./languages/km\vocab.txt load vocab:15814 root:13652 prefix:1046 suffix:1116 
+[I 230506 22:38:34 ZiCutter:58] ./languages/km\JiZi.txt load  JiZi:780
+[I 230506 22:38:34 ZiCutter:32]   ./languages/km\HeZi.txt 74611  JiZi:780 --> loadHeZi 74611  values:780 slim2Zi:72862 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:34 ZiCutter:66] ./languages/km loaded vocab:780
+[I 230506 22:38:35 glance:35]  cat C:/data/word_frequency\km-word_frequency.tsv n_src:199559--> freq:199547 total:20058838.0
+[I 230506 22:38:37 ZiTokenizer:48]  ./languages/kn\vocab.txt load vocab:10499 root:9086 prefix:672 suffix:741 
+[I 230506 22:38:37 ZiCutter:58] ./languages/kn\JiZi.txt load  JiZi:539
+[I 230506 22:38:37 ZiCutter:32]   ./languages/kn\HeZi.txt 70076  JiZi:539 --> loadHeZi 70076  values:539 slim2Zi:68857 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:37 ZiCutter:66] ./languages/kn loaded vocab:539
+[I 230506 22:38:38 glance:35]  cat C:/data/word_frequency\kn-word_frequency.tsv n_src:391384--> freq:391343 total:125640426.0
+[I 230506 22:38:42 ZiTokenizer:48]  ./languages/ko\vocab.txt load vocab:10406 root:8947 prefix:611 suffix:848 
+[I 230506 22:38:42 ZiCutter:58] ./languages/ko\JiZi.txt load  JiZi:3403
+[I 230506 22:38:42 ZiCutter:32]   ./languages/ko\HeZi.txt 86839  JiZi:3403 --> loadHeZi 86839  values:3403 slim2Zi:81075 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:38:42 ZiCutter:66] ./languages/ko loaded vocab:3403
+[I 230506 22:38:45 glance:35]  cat C:/data/word_frequency\ko-word_frequency.tsv n_src:1498896--> freq:1498799 total:853576767.0
+[I 230506 22:39:07 ZiTokenizer:48]  ./languages/koi\vocab.txt load vocab:30126 root:25412 prefix:2145 suffix:2569 
+[I 230506 22:39:07 ZiCutter:58] ./languages/koi\JiZi.txt load  JiZi:544
+[I 230506 22:39:07 ZiCutter:32]   ./languages/koi\HeZi.txt 70346  JiZi:544 --> loadHeZi 70346  values:544 slim2Zi:69118 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:39:07 ZiCutter:66] ./languages/koi loaded vocab:544
+[I 230506 22:39:07 glance:35]  cat C:/data/word_frequency\koi-word_frequency.tsv n_src:67971--> freq:67971 total:752093.0
+[I 230506 22:39:08 ZiTokenizer:48]  ./languages/krc\vocab.txt load vocab:31146 root:26499 prefix:2013 suffix:2634 
+[I 230506 22:39:08 ZiCutter:58] ./languages/krc\JiZi.txt load  JiZi:567
+[I 230506 22:39:08 ZiCutter:32]   ./languages/krc\HeZi.txt 70663  JiZi:567 --> loadHeZi 70663  values:567 slim2Zi:69395 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:39:08 ZiCutter:66] ./languages/krc loaded vocab:567
+[I 230506 22:39:09 glance:35]  cat C:/data/word_frequency\krc-word_frequency.tsv n_src:71918--> freq:71918 total:466601.0
+[I 230506 22:39:09 ZiTokenizer:48]  ./languages/ks\vocab.txt load vocab:11107 root:9377 prefix:874 suffix:856 
+[I 230506 22:39:09 ZiCutter:58] ./languages/ks\JiZi.txt load  JiZi:541
+[I 230506 22:39:10 ZiCutter:32]   ./languages/ks\HeZi.txt 70105  JiZi:541 --> loadHeZi 70105  values:541 slim2Zi:68863 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:39:10 ZiCutter:66] ./languages/ks loaded vocab:541
+[I 230506 22:39:10 glance:35]  cat C:/data/word_frequency\ks-word_frequency.tsv n_src:22954--> freq:22954 total:262321.0
+[I 230506 22:39:10 ZiTokenizer:48]  ./languages/ksh\vocab.txt load vocab:33248 root:27706 prefix:1730 suffix:3812 
+[I 230506 22:39:10 ZiCutter:58] ./languages/ksh\JiZi.txt load  JiZi:547
+[I 230506 22:39:10 ZiCutter:32]   ./languages/ksh\HeZi.txt 70218  JiZi:547 --> loadHeZi 70218  values:547 slim2Zi:68988 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:39:10 ZiCutter:66] ./languages/ksh loaded vocab:547
+[I 230506 22:39:11 glance:35]  cat C:/data/word_frequency\ksh-word_frequency.tsv n_src:76097--> freq:76095 total:672758.0
+[I 230506 22:39:11 ZiTokenizer:48]  ./languages/ku\vocab.txt load vocab:42597 root:32944 prefix:3332 suffix:6321 
+[I 230506 22:39:11 ZiCutter:58] ./languages/ku\JiZi.txt load  JiZi:672
+[I 230506 22:39:12 ZiCutter:32]   ./languages/ku\HeZi.txt 72577  JiZi:672 --> loadHeZi 72577  values:672 slim2Zi:71018 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:39:12 ZiCutter:66] ./languages/ku loaded vocab:672
+[I 230506 22:39:13 glance:35]  cat C:/data/word_frequency\ku-word_frequency.tsv n_src:501006--> freq:501004 total:8501851.0
+[I 230506 22:39:18 ZiTokenizer:48]  ./languages/kv\vocab.txt load vocab:31228 root:25771 prefix:2322 suffix:3135 
+[I 230506 22:39:18 ZiCutter:58] ./languages/kv\JiZi.txt load  JiZi:545
+[I 230506 22:39:18 ZiCutter:32]   ./languages/kv\HeZi.txt 70377  JiZi:545 --> loadHeZi 70377  values:545 slim2Zi:69145 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:39:18 ZiCutter:66] ./languages/kv loaded vocab:545
+[I 230506 22:39:19 glance:35]  cat C:/data/word_frequency\kv-word_frequency.tsv n_src:108035--> freq:108035 total:1547439.0
+[I 230506 22:39:20 ZiTokenizer:48]  ./languages/kw\vocab.txt load vocab:37536 root:32967 prefix:1685 suffix:2884 
+[I 230506 22:39:20 ZiCutter:58] ./languages/kw\JiZi.txt load  JiZi:601
+[I 230506 22:39:20 ZiCutter:32]   ./languages/kw\HeZi.txt 71597  JiZi:601 --> loadHeZi 71597  values:601 slim2Zi:70200 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:39:20 ZiCutter:66] ./languages/kw loaded vocab:601
+[I 230506 22:39:20 glance:35]  cat C:/data/word_frequency\kw-word_frequency.tsv n_src:76565--> freq:76563 total:938647.0
+[I 230506 22:39:21 ZiTokenizer:48]  ./languages/ky\vocab.txt load vocab:42841 root:34636 prefix:3383 suffix:4822 
+[I 230506 22:39:21 ZiCutter:58] ./languages/ky\JiZi.txt load  JiZi:588
+[I 230506 22:39:22 ZiCutter:32]   ./languages/ky\HeZi.txt 70904  JiZi:588 --> loadHeZi 70904  values:588 slim2Zi:69583 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:39:22 ZiCutter:66] ./languages/ky loaded vocab:588
+[I 230506 22:39:23 glance:35]  cat C:/data/word_frequency\ky-word_frequency.tsv n_src:679655--> freq:679636 total:17251490.0
+[I 230506 22:39:31 ZiTokenizer:48]  ./languages/la\vocab.txt load vocab:52643 root:42670 prefix:3250 suffix:6723 
+[I 230506 22:39:31 ZiCutter:58] ./languages/la\JiZi.txt load  JiZi:571
+[I 230506 22:39:31 ZiCutter:32]   ./languages/la\HeZi.txt 70571  JiZi:571 --> loadHeZi 70571  values:571 slim2Zi:69270 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:39:31 ZiCutter:66] ./languages/la loaded vocab:571
+[I 230506 22:39:36 glance:35]  cat C:/data/word_frequency\la-word_frequency.tsv n_src:2321017--> freq:2320986 total:122807560.0
+[I 230506 22:40:04 ZiTokenizer:48]  ./languages/lad\vocab.txt load vocab:41025 root:35503 prefix:1945 suffix:3577 
+[I 230506 22:40:04 ZiCutter:58] ./languages/lad\JiZi.txt load  JiZi:595
+[I 230506 22:40:04 ZiCutter:32]   ./languages/lad\HeZi.txt 70890  JiZi:595 --> loadHeZi 70890  values:595 slim2Zi:69576 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:04 ZiCutter:66] ./languages/lad loaded vocab:595
+[I 230506 22:40:04 glance:35]  cat C:/data/word_frequency\lad-word_frequency.tsv n_src:87510--> freq:87510 total:964429.0
+[I 230506 22:40:05 ZiTokenizer:48]  ./languages/lb\vocab.txt load vocab:41927 root:33346 prefix:2673 suffix:5908 
+[I 230506 22:40:05 ZiCutter:58] ./languages/lb\JiZi.txt load  JiZi:579
+[I 230506 22:40:05 ZiCutter:32]   ./languages/lb\HeZi.txt 70654  JiZi:579 --> loadHeZi 70654  values:579 slim2Zi:69352 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:05 ZiCutter:66] ./languages/lb loaded vocab:579
+[I 230506 22:40:06 glance:35]  cat C:/data/word_frequency\lb-word_frequency.tsv n_src:557763--> freq:557760 total:16985312.0
+[I 230506 22:40:14 ZiTokenizer:48]  ./languages/lbe\vocab.txt load vocab:7264 root:5738 prefix:697 suffix:829 
+[I 230506 22:40:14 ZiCutter:58] ./languages/lbe\JiZi.txt load  JiZi:573
+[I 230506 22:40:14 ZiCutter:32]   ./languages/lbe\HeZi.txt 70930  JiZi:573 --> loadHeZi 70930  values:573 slim2Zi:69642 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:14 ZiCutter:66] ./languages/lbe loaded vocab:573
+[I 230506 22:40:14 glance:35]  cat C:/data/word_frequency\lbe-word_frequency.tsv n_src:16874--> freq:16872 total:74716.0
+[I 230506 22:40:14 ZiTokenizer:48]  ./languages/lez\vocab.txt load vocab:48178 root:41399 prefix:3148 suffix:3631 
+[I 230506 22:40:14 ZiCutter:58] ./languages/lez\JiZi.txt load  JiZi:572
+[I 230506 22:40:15 ZiCutter:32]   ./languages/lez\HeZi.txt 70961  JiZi:572 --> loadHeZi 70961  values:572 slim2Zi:69676 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:15 ZiCutter:66] ./languages/lez loaded vocab:572
+[I 230506 22:40:15 glance:35]  cat C:/data/word_frequency\lez-word_frequency.tsv n_src:110911--> freq:110910 total:1173326.0
+[I 230506 22:40:16 ZiTokenizer:48]  ./languages/lfn\vocab.txt load vocab:32634 root:27890 prefix:1972 suffix:2772 
+[I 230506 22:40:16 ZiCutter:58] ./languages/lfn\JiZi.txt load  JiZi:725
+[I 230506 22:40:16 ZiCutter:32]   ./languages/lfn\HeZi.txt 72803  JiZi:725 --> loadHeZi 72803  values:725 slim2Zi:71197 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:16 ZiCutter:66] ./languages/lfn loaded vocab:725
+[I 230506 22:40:17 glance:35]  cat C:/data/word_frequency\lfn-word_frequency.tsv n_src:99117--> freq:99117 total:1887725.0
+[I 230506 22:40:18 ZiTokenizer:48]  ./languages/lg\vocab.txt load vocab:39232 root:32545 prefix:2650 suffix:4037 
+[I 230506 22:40:18 ZiCutter:58] ./languages/lg\JiZi.txt load  JiZi:539
+[I 230506 22:40:18 ZiCutter:32]   ./languages/lg\HeZi.txt 70074  JiZi:539 --> loadHeZi 70074  values:539 slim2Zi:68849 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:18 ZiCutter:66] ./languages/lg loaded vocab:539
+[I 230506 22:40:18 glance:35]  cat C:/data/word_frequency\lg-word_frequency.tsv n_src:110922--> freq:110919 total:1670945.0
+[I 230506 22:40:19 ZiTokenizer:48]  ./languages/li\vocab.txt load vocab:41850 root:33029 prefix:2629 suffix:6192 
+[I 230506 22:40:19 ZiCutter:58] ./languages/li\JiZi.txt load  JiZi:549
+[I 230506 22:40:20 ZiCutter:32]   ./languages/li\HeZi.txt 70310  JiZi:549 --> loadHeZi 70310  values:549 slim2Zi:69082 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:20 ZiCutter:66] ./languages/li loaded vocab:549
+[I 230506 22:40:20 glance:35]  cat C:/data/word_frequency\li-word_frequency.tsv n_src:358451--> freq:358446 total:6837468.0
+[I 230506 22:40:25 ZiTokenizer:48]  ./languages/lij\vocab.txt load vocab:47466 root:37945 prefix:3364 suffix:6157 
+[I 230506 22:40:25 ZiCutter:58] ./languages/lij\JiZi.txt load  JiZi:587
+[I 230506 22:40:25 ZiCutter:32]   ./languages/lij\HeZi.txt 70994  JiZi:587 --> loadHeZi 70994  values:587 slim2Zi:69688 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:25 ZiCutter:66] ./languages/lij loaded vocab:587
+[I 230506 22:40:26 glance:35]  cat C:/data/word_frequency\lij-word_frequency.tsv n_src:319206--> freq:319206 total:5265378.0
+[I 230506 22:40:29 ZiTokenizer:48]  ./languages/lld\vocab.txt load vocab:13048 root:10095 prefix:998 suffix:1955 
+[I 230506 22:40:29 ZiCutter:58] ./languages/lld\JiZi.txt load  JiZi:542
+[I 230506 22:40:30 ZiCutter:32]   ./languages/lld\HeZi.txt 70116  JiZi:542 --> loadHeZi 70116  values:542 slim2Zi:68889 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:30 ZiCutter:66] ./languages/lld loaded vocab:542
+[I 230506 22:40:30 glance:35]  cat C:/data/word_frequency\lld-word_frequency.tsv n_src:150372--> freq:150372 total:7337046.0
+[I 230506 22:40:32 ZiTokenizer:48]  ./languages/lmo\vocab.txt load vocab:36099 root:28510 prefix:2446 suffix:5143 
+[I 230506 22:40:32 ZiCutter:58] ./languages/lmo\JiZi.txt load  JiZi:597
+[I 230506 22:40:32 ZiCutter:32]   ./languages/lmo\HeZi.txt 71491  JiZi:597 --> loadHeZi 71491  values:597 slim2Zi:70158 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:32 ZiCutter:66] ./languages/lmo loaded vocab:597
+[I 230506 22:40:33 glance:35]  cat C:/data/word_frequency\lmo-word_frequency.tsv n_src:360761--> freq:360758 total:9080245.0
+[I 230506 22:40:36 ZiTokenizer:48]  ./languages/ln\vocab.txt load vocab:23331 root:19833 prefix:1388 suffix:2110 
+[I 230506 22:40:36 ZiCutter:58] ./languages/ln\JiZi.txt load  JiZi:540
+[I 230506 22:40:36 ZiCutter:32]   ./languages/ln\HeZi.txt 70082  JiZi:540 --> loadHeZi 70082  values:540 slim2Zi:68863 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:36 ZiCutter:66] ./languages/ln loaded vocab:540
+[I 230506 22:40:37 glance:35]  cat C:/data/word_frequency\ln-word_frequency.tsv n_src:46986--> freq:46986 total:366286.0
+[I 230506 22:40:37 ZiTokenizer:48]  ./languages/lo\vocab.txt load vocab:51859 root:42433 prefix:5403 suffix:4023 
+[I 230506 22:40:37 ZiCutter:58] ./languages/lo\JiZi.txt load  JiZi:766
+[I 230506 22:40:37 ZiCutter:32]   ./languages/lo\HeZi.txt 73949  JiZi:766 --> loadHeZi 73949  values:766 slim2Zi:72285 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:37 ZiCutter:66] ./languages/lo loaded vocab:766
+[I 230506 22:40:38 glance:35]  cat C:/data/word_frequency\lo-word_frequency.tsv n_src:195687--> freq:195685 total:1594567.0
+[I 230506 22:40:40 ZiTokenizer:48]  ./languages/lt\vocab.txt load vocab:50327 root:38035 prefix:5281 suffix:7011 
+[I 230506 22:40:40 ZiCutter:58] ./languages/lt\JiZi.txt load  JiZi:730
+[I 230506 22:40:40 ZiCutter:32]   ./languages/lt\HeZi.txt 73765  JiZi:730 --> loadHeZi 73765  values:730 slim2Zi:72101 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:40:40 ZiCutter:66] ./languages/lt loaded vocab:730
+[I 230506 22:40:44 glance:35]  cat C:/data/word_frequency\lt-word_frequency.tsv n_src:1927191--> freq:1927164 total:69148341.0
+[I 230506 22:41:08 ZiTokenizer:48]  ./languages/ltg\vocab.txt load vocab:13294 root:10788 prefix:1058 suffix:1448 
+[I 230506 22:41:08 ZiCutter:58] ./languages/ltg\JiZi.txt load  JiZi:540
+[I 230506 22:41:08 ZiCutter:32]   ./languages/ltg\HeZi.txt 70138  JiZi:540 --> loadHeZi 70138  values:540 slim2Zi:68918 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:08 ZiCutter:66] ./languages/ltg loaded vocab:540
+[I 230506 22:41:08 glance:35]  cat C:/data/word_frequency\ltg-word_frequency.tsv n_src:30458--> freq:30458 total:148404.0
+[I 230506 22:41:09 ZiTokenizer:48]  ./languages/lv\vocab.txt load vocab:50443 root:39299 prefix:3922 suffix:7222 
+[I 230506 22:41:09 ZiCutter:58] ./languages/lv\JiZi.txt load  JiZi:694
+[I 230506 22:41:09 ZiCutter:32]   ./languages/lv\HeZi.txt 73557  JiZi:694 --> loadHeZi 73557  values:694 slim2Zi:71951 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:09 ZiCutter:66] ./languages/lv loaded vocab:694
+[I 230506 22:41:12 glance:35]  cat C:/data/word_frequency\lv-word_frequency.tsv n_src:1238952--> freq:1238943 total:43499423.0
+[I 230506 22:41:29 ZiTokenizer:48]  ./languages/mad\vocab.txt load vocab:15789 root:13469 prefix:829 suffix:1491 
+[I 230506 22:41:29 ZiCutter:58] ./languages/mad\JiZi.txt load  JiZi:551
+[I 230506 22:41:30 ZiCutter:32]   ./languages/mad\HeZi.txt 70349  JiZi:551 --> loadHeZi 70349  values:551 slim2Zi:69120 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:30 ZiCutter:66] ./languages/mad loaded vocab:551
+[I 230506 22:41:30 glance:35]  cat C:/data/word_frequency\mad-word_frequency.tsv n_src:33492--> freq:33492 total:212913.0
+[I 230506 22:41:30 ZiTokenizer:48]  ./languages/mai\vocab.txt load vocab:13288 root:11186 prefix:997 suffix:1105 
+[I 230506 22:41:30 ZiCutter:58] ./languages/mai\JiZi.txt load  JiZi:687
+[I 230506 22:41:31 ZiCutter:32]   ./languages/mai\HeZi.txt 72560  JiZi:687 --> loadHeZi 72560  values:687 slim2Zi:71066 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:31 ZiCutter:66] ./languages/mai loaded vocab:687
+[I 230506 22:41:31 glance:35]  cat C:/data/word_frequency\mai-word_frequency.tsv n_src:68773--> freq:68773 total:4385136.0
+[I 230506 22:41:31 ZiTokenizer:48]  ./languages/map_bms\vocab.txt load vocab:37767 root:33273 prefix:1702 suffix:2792 
+[I 230506 22:41:31 ZiCutter:58] ./languages/map_bms\JiZi.txt load  JiZi:571
+[I 230506 22:41:32 ZiCutter:32]   ./languages/map_bms\HeZi.txt 70738  JiZi:571 --> loadHeZi 70738  values:571 slim2Zi:69454 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:32 ZiCutter:66] ./languages/map_bms loaded vocab:571
+[I 230506 22:41:32 glance:35]  cat C:/data/word_frequency\map_bms-word_frequency.tsv n_src:74217--> freq:74216 total:886942.0
+[I 230506 22:41:33 ZiTokenizer:48]  ./languages/mdf\vocab.txt load vocab:35294 root:29444 prefix:2809 suffix:3041 
+[I 230506 22:41:33 ZiCutter:58] ./languages/mdf\JiZi.txt load  JiZi:559
+[I 230506 22:41:33 ZiCutter:32]   ./languages/mdf\HeZi.txt 70669  JiZi:559 --> loadHeZi 70669  values:559 slim2Zi:69403 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:33 ZiCutter:66] ./languages/mdf loaded vocab:559
+[I 230506 22:41:33 glance:35]  cat C:/data/word_frequency\mdf-word_frequency.tsv n_src:78123--> freq:78122 total:983559.0
+[I 230506 22:41:34 ZiTokenizer:48]  ./languages/mg\vocab.txt load vocab:23024 root:18072 prefix:2185 suffix:2767 
+[I 230506 22:41:34 ZiCutter:58] ./languages/mg\JiZi.txt load  JiZi:659
+[I 230506 22:41:34 ZiCutter:32]   ./languages/mg\HeZi.txt 72102  JiZi:659 --> loadHeZi 72102  values:659 slim2Zi:70622 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:34 ZiCutter:66] ./languages/mg loaded vocab:659
+[I 230506 22:41:35 glance:35]  cat C:/data/word_frequency\mg-word_frequency.tsv n_src:364543--> freq:364543 total:15175113.0
+[I 230506 22:41:39 ZiTokenizer:48]  ./languages/mh\vocab.txt load vocab:661 root:658 prefix:0 suffix:3 
+[I 230506 22:41:39 ZiCutter:58] ./languages/mh\JiZi.txt load  JiZi:537
+[I 230506 22:41:39 ZiCutter:32]   ./languages/mh\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:39 ZiCutter:66] ./languages/mh loaded vocab:537
+[I 230506 22:41:39 glance:35]  cat C:/data/word_frequency\mh-word_frequency.tsv n_src:321--> freq:321 total:690.0
+[I 230506 22:41:39 ZiTokenizer:48]  ./languages/mhr\vocab.txt load vocab:22785 root:18877 prefix:1750 suffix:2158 
+[I 230506 22:41:39 ZiCutter:58] ./languages/mhr\JiZi.txt load  JiZi:570
+[I 230506 22:41:39 ZiCutter:32]   ./languages/mhr\HeZi.txt 70763  JiZi:570 --> loadHeZi 70763  values:570 slim2Zi:69474 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:39 ZiCutter:66] ./languages/mhr loaded vocab:570
+[I 230506 22:41:40 glance:35]  cat C:/data/word_frequency\mhr-word_frequency.tsv n_src:133708--> freq:133707 total:4981089.0
+[I 230506 22:41:41 ZiTokenizer:48]  ./languages/mi\vocab.txt load vocab:14223 root:12210 prefix:742 suffix:1271 
+[I 230506 22:41:41 ZiCutter:58] ./languages/mi\JiZi.txt load  JiZi:556
+[I 230506 22:41:41 ZiCutter:32]   ./languages/mi\HeZi.txt 70513  JiZi:556 --> loadHeZi 70513  values:556 slim2Zi:69263 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:41 ZiCutter:66] ./languages/mi loaded vocab:556
+[I 230506 22:41:42 glance:35]  cat C:/data/word_frequency\mi-word_frequency.tsv n_src:28479--> freq:28479 total:1120516.0
+[I 230506 22:41:42 ZiTokenizer:48]  ./languages/min\vocab.txt load vocab:13438 root:10211 prefix:1163 suffix:2064 
+[I 230506 22:41:42 ZiCutter:58] ./languages/min\JiZi.txt load  JiZi:562
+[I 230506 22:41:42 ZiCutter:32]   ./languages/min\HeZi.txt 70523  JiZi:562 --> loadHeZi 70523  values:562 slim2Zi:69235 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:42 ZiCutter:66] ./languages/min loaded vocab:562
+[I 230506 22:41:43 glance:35]  cat C:/data/word_frequency\min-word_frequency.tsv n_src:339223--> freq:339223 total:30727400.0
+[I 230506 22:41:47 ZiTokenizer:48]  ./languages/mk\vocab.txt load vocab:45357 root:36241 prefix:3434 suffix:5682 
+[I 230506 22:41:47 ZiCutter:58] ./languages/mk\JiZi.txt load  JiZi:648
+[I 230506 22:41:47 ZiCutter:32]   ./languages/mk\HeZi.txt 72136  JiZi:648 --> loadHeZi 72136  values:648 slim2Zi:70687 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:41:47 ZiCutter:66] ./languages/mk loaded vocab:648
+[E 230506 22:41:47 glance:19] ('\n', ['\n'])
+[I 230506 22:41:52 glance:35]  cat C:/data/word_frequency\mk-word_frequency.tsv n_src:1786888--> freq:1786842 total:82854102.0
+[I 230506 22:42:13 ZiTokenizer:48]  ./languages/ml\vocab.txt load vocab:13692 root:11273 prefix:1129 suffix:1290 
+[I 230506 22:42:13 ZiCutter:58] ./languages/ml\JiZi.txt load  JiZi:588
+[I 230506 22:42:14 ZiCutter:32]   ./languages/ml\HeZi.txt 70902  JiZi:588 --> loadHeZi 70902  values:588 slim2Zi:69571 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:42:14 ZiCutter:66] ./languages/ml loaded vocab:588
+[I 230506 22:42:15 glance:35]  cat C:/data/word_frequency\ml-word_frequency.tsv n_src:827654--> freq:827577 total:152232814.0
+[I 230506 22:42:24 ZiTokenizer:48]  ./languages/mn\vocab.txt load vocab:48238 root:40195 prefix:3015 suffix:5028 
+[I 230506 22:42:24 ZiCutter:58] ./languages/mn\JiZi.txt load  JiZi:1311
+[I 230506 22:42:24 ZiCutter:32]   ./languages/mn\HeZi.txt 80474  JiZi:1311 --> loadHeZi 80474  values:1311 slim2Zi:77807 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:42:24 ZiCutter:66] ./languages/mn loaded vocab:1311
+[I 230506 22:42:25 glance:35]  cat C:/data/word_frequency\mn-word_frequency.tsv n_src:450555--> freq:450541 total:9570113.0
+[I 230506 22:42:30 ZiTokenizer:48]  ./languages/mni\vocab.txt load vocab:6073 root:4624 prefix:688 suffix:761 
+[I 230506 22:42:30 ZiCutter:58] ./languages/mni\JiZi.txt load  JiZi:596
+[I 230506 22:42:31 ZiCutter:32]   ./languages/mni\HeZi.txt 71426  JiZi:596 --> loadHeZi 71426  values:596 slim2Zi:69993 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:42:31 ZiCutter:66] ./languages/mni loaded vocab:596
+[I 230506 22:42:31 glance:35]  cat C:/data/word_frequency\mni-word_frequency.tsv n_src:24817--> freq:24815 total:2317165.0
+[I 230506 22:42:31 ZiTokenizer:48]  ./languages/mnw\vocab.txt load vocab:14249 root:12316 prefix:879 suffix:1054 
+[I 230506 22:42:31 ZiCutter:58] ./languages/mnw\JiZi.txt load  JiZi:555
+[I 230506 22:42:31 ZiCutter:32]   ./languages/mnw\HeZi.txt 70206  JiZi:555 --> loadHeZi 70206  values:555 slim2Zi:68927 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:42:31 ZiCutter:66] ./languages/mnw loaded vocab:555
+[I 230506 22:42:32 glance:35]  cat C:/data/word_frequency\mnw-word_frequency.tsv n_src:91149--> freq:91141 total:6861061.0
+[I 230506 22:42:32 ZiTokenizer:48]  ./languages/mr\vocab.txt load vocab:11265 root:9748 prefix:717 suffix:800 
+[I 230506 22:42:32 ZiCutter:58] ./languages/mr\JiZi.txt load  JiZi:897
+[I 230506 22:42:33 ZiCutter:32]   ./languages/mr\HeZi.txt 75784  JiZi:897 --> loadHeZi 75784  values:897 slim2Zi:73839 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:42:33 ZiCutter:66] ./languages/mr loaded vocab:897
+[E 230506 22:42:33 glance:19] ('\n', ['\n'])
+[I 230506 22:42:33 glance:35]  cat C:/data/word_frequency\mr-word_frequency.tsv n_src:358725--> freq:358665 total:82105799.0
+[I 230506 22:42:37 ZiTokenizer:48]  ./languages/mrj\vocab.txt load vocab:54853 root:47415 prefix:3396 suffix:4042 
+[I 230506 22:42:37 ZiCutter:58] ./languages/mrj\JiZi.txt load  JiZi:581
+[I 230506 22:42:37 ZiCutter:32]   ./languages/mrj\HeZi.txt 71041  JiZi:581 --> loadHeZi 71041  values:581 slim2Zi:69717 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:42:37 ZiCutter:66] ./languages/mrj loaded vocab:581
+[I 230506 22:42:38 glance:35]  cat C:/data/word_frequency\mrj-word_frequency.tsv n_src:112932--> freq:112932 total:1057776.0
+[I 230506 22:42:39 ZiTokenizer:48]  ./languages/ms\vocab.txt load vocab:41050 root:33910 prefix:2339 suffix:4801 
+[I 230506 22:42:39 ZiCutter:58] ./languages/ms\JiZi.txt load  JiZi:1677
+[I 230506 22:42:39 ZiCutter:32]   ./languages/ms\HeZi.txt 82636  JiZi:1677 --> loadHeZi 82636  values:1677 slim2Zi:79485 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:42:39 ZiCutter:66] ./languages/ms loaded vocab:1677
+[E 230506 22:42:39 glance:19] ('\n', ['\n'])
+[I 230506 22:42:42 glance:35]  cat C:/data/word_frequency\ms-word_frequency.tsv n_src:1508454--> freq:1508394 total:91897433.0
+[I 230506 22:42:59 ZiTokenizer:48]  ./languages/mt\vocab.txt load vocab:37623 root:31011 prefix:2891 suffix:3721 
+[I 230506 22:42:59 ZiCutter:58] ./languages/mt\JiZi.txt load  JiZi:672
+[I 230506 22:42:59 ZiCutter:32]   ./languages/mt\HeZi.txt 72394  JiZi:672 --> loadHeZi 72394  values:672 slim2Zi:70891 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:42:59 ZiCutter:66] ./languages/mt loaded vocab:672
+[I 230506 22:43:00 glance:35]  cat C:/data/word_frequency\mt-word_frequency.tsv n_src:240374--> freq:240374 total:6082724.0
+[I 230506 22:43:02 ZiTokenizer:48]  ./languages/mus\vocab.txt load vocab:562 root:561 prefix:1 suffix:0 
+[I 230506 22:43:02 ZiCutter:58] ./languages/mus\JiZi.txt load  JiZi:537
+[I 230506 22:43:02 ZiCutter:32]   ./languages/mus\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:02 ZiCutter:66] ./languages/mus loaded vocab:537
+[I 230506 22:43:03 glance:35]  cat C:/data/word_frequency\mus-word_frequency.tsv n_src:113--> freq:113 total:134.0
+[I 230506 22:43:03 ZiTokenizer:48]  ./languages/mwl\vocab.txt load vocab:40710 root:34005 prefix:2783 suffix:3922 
+[I 230506 22:43:03 ZiCutter:58] ./languages/mwl\JiZi.txt load  JiZi:806
+[I 230506 22:43:03 ZiCutter:32]   ./languages/mwl\HeZi.txt 74088  JiZi:806 --> loadHeZi 74088  values:806 slim2Zi:72328 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:03 ZiCutter:66] ./languages/mwl loaded vocab:806
+[I 230506 22:43:03 glance:35]  cat C:/data/word_frequency\mwl-word_frequency.tsv n_src:202390--> freq:202389 total:4144654.0
+[I 230506 22:43:06 ZiTokenizer:48]  ./languages/my\vocab.txt load vocab:12749 root:10703 prefix:791 suffix:1255 
+[I 230506 22:43:06 ZiCutter:58] ./languages/my\JiZi.txt load  JiZi:931
+[I 230506 22:43:06 ZiCutter:32]   ./languages/my\HeZi.txt 77393  JiZi:931 --> loadHeZi 77393  values:931 slim2Zi:75329 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:06 ZiCutter:66] ./languages/my loaded vocab:931
+[I 230506 22:43:07 glance:35]  cat C:/data/word_frequency\my-word_frequency.tsv n_src:355547--> freq:355545 total:44618261.0
+[I 230506 22:43:10 ZiTokenizer:48]  ./languages/myv\vocab.txt load vocab:37854 root:29939 prefix:3790 suffix:4125 
+[I 230506 22:43:10 ZiCutter:58] ./languages/myv\JiZi.txt load  JiZi:619
+[I 230506 22:43:11 ZiCutter:32]   ./languages/myv\HeZi.txt 71784  JiZi:619 --> loadHeZi 71784  values:619 slim2Zi:70415 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:11 ZiCutter:66] ./languages/myv loaded vocab:619
+[I 230506 22:43:11 glance:35]  cat C:/data/word_frequency\myv-word_frequency.tsv n_src:172347--> freq:172345 total:2545835.0
+[I 230506 22:43:13 ZiTokenizer:48]  ./languages/mzn\vocab.txt load vocab:28521 root:23253 prefix:2184 suffix:3084 
+[I 230506 22:43:13 ZiCutter:58] ./languages/mzn\JiZi.txt load  JiZi:618
+[I 230506 22:43:13 ZiCutter:32]   ./languages/mzn\HeZi.txt 71500  JiZi:618 --> loadHeZi 71500  values:618 slim2Zi:70144 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:13 ZiCutter:66] ./languages/mzn loaded vocab:618
+[I 230506 22:43:14 glance:35]  cat C:/data/word_frequency\mzn-word_frequency.tsv n_src:114841--> freq:114841 total:2094022.0
+[I 230506 22:43:15 ZiTokenizer:48]  ./languages/na\vocab.txt load vocab:4656 root:3850 prefix:296 suffix:510 
+[I 230506 22:43:15 ZiCutter:58] ./languages/na\JiZi.txt load  JiZi:545
+[I 230506 22:43:15 ZiCutter:32]   ./languages/na\HeZi.txt 70268  JiZi:545 --> loadHeZi 70268  values:545 slim2Zi:69039 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:15 ZiCutter:66] ./languages/na loaded vocab:545
+[I 230506 22:43:15 glance:35]  cat C:/data/word_frequency\na-word_frequency.tsv n_src:11191--> freq:11191 total:49842.0
+[I 230506 22:43:15 ZiTokenizer:48]  ./languages/nah\vocab.txt load vocab:29280 root:25263 prefix:1529 suffix:2488 
+[I 230506 22:43:15 ZiCutter:58] ./languages/nah\JiZi.txt load  JiZi:571
+[I 230506 22:43:16 ZiCutter:32]   ./languages/nah\HeZi.txt 70534  JiZi:571 --> loadHeZi 70534  values:571 slim2Zi:69237 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:16 ZiCutter:66] ./languages/nah loaded vocab:571
+[I 230506 22:43:16 glance:35]  cat C:/data/word_frequency\nah-word_frequency.tsv n_src:62069--> freq:62067 total:698379.0
+[I 230506 22:43:17 ZiTokenizer:48]  ./languages/nap\vocab.txt load vocab:36315 root:29311 prefix:2915 suffix:4089 
+[I 230506 22:43:17 ZiCutter:58] ./languages/nap\JiZi.txt load  JiZi:661
+[I 230506 22:43:17 ZiCutter:32]   ./languages/nap\HeZi.txt 72437  JiZi:661 --> loadHeZi 72437  values:661 slim2Zi:70945 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:17 ZiCutter:66] ./languages/nap loaded vocab:661
+[I 230506 22:43:17 glance:35]  cat C:/data/word_frequency\nap-word_frequency.tsv n_src:221176--> freq:221173 total:3607418.0
+[I 230506 22:43:20 ZiTokenizer:48]  ./languages/nds\vocab.txt load vocab:34199 root:26638 prefix:2236 suffix:5325 
+[I 230506 22:43:20 ZiCutter:58] ./languages/nds\JiZi.txt load  JiZi:570
+[I 230506 22:43:20 ZiCutter:32]   ./languages/nds\HeZi.txt 70468  JiZi:570 --> loadHeZi 70468  values:570 slim2Zi:69154 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:20 ZiCutter:66] ./languages/nds loaded vocab:570
+[I 230506 22:43:22 glance:35]  cat C:/data/word_frequency\nds-word_frequency.tsv n_src:569897--> freq:569897 total:22224659.0
+[I 230506 22:43:29 ZiTokenizer:48]  ./languages/nds_nl\vocab.txt load vocab:52417 root:41939 prefix:3639 suffix:6839 
+[I 230506 22:43:29 ZiCutter:58] ./languages/nds_nl\JiZi.txt load  JiZi:555
+[I 230506 22:43:29 ZiCutter:32]   ./languages/nds_nl\HeZi.txt 70279  JiZi:555 --> loadHeZi 70279  values:555 slim2Zi:69042 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:29 ZiCutter:66] ./languages/nds_nl loaded vocab:555
+[I 230506 22:43:30 glance:35]  cat C:/data/word_frequency\nds_nl-word_frequency.tsv n_src:220456--> freq:220454 total:2564936.0
+[I 230506 22:43:33 ZiTokenizer:48]  ./languages/ne\vocab.txt load vocab:12019 root:10089 prefix:847 suffix:1083 
+[I 230506 22:43:33 ZiCutter:58] ./languages/ne\JiZi.txt load  JiZi:786
+[I 230506 22:43:33 ZiCutter:32]   ./languages/ne\HeZi.txt 74539  JiZi:786 --> loadHeZi 74539  values:786 slim2Zi:72854 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:33 ZiCutter:66] ./languages/ne loaded vocab:786
+[I 230506 22:43:34 glance:35]  cat C:/data/word_frequency\ne-word_frequency.tsv n_src:180950--> freq:180943 total:24111050.0
+[I 230506 22:43:36 ZiTokenizer:48]  ./languages/new\vocab.txt load vocab:5632 root:4500 prefix:540 suffix:592 
+[I 230506 22:43:36 ZiCutter:58] ./languages/new\JiZi.txt load  JiZi:539
+[I 230506 22:43:36 ZiCutter:32]   ./languages/new\HeZi.txt 70106  JiZi:539 --> loadHeZi 70106  values:539 slim2Zi:68886 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:36 ZiCutter:66] ./languages/new loaded vocab:539
+[I 230506 22:43:37 glance:35]  cat C:/data/word_frequency\new-word_frequency.tsv n_src:131446--> freq:131445 total:28267742.0
+[I 230506 22:43:38 ZiTokenizer:48]  ./languages/ng\vocab.txt load vocab:1052 root:1024 prefix:0 suffix:28 
+[I 230506 22:43:38 ZiCutter:58] ./languages/ng\JiZi.txt load  JiZi:537
+[I 230506 22:43:38 ZiCutter:32]   ./languages/ng\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:38 ZiCutter:66] ./languages/ng loaded vocab:537
+[I 230506 22:43:39 glance:35]  cat C:/data/word_frequency\ng-word_frequency.tsv n_src:1135--> freq:1135 total:3168.0
+[I 230506 22:43:39 ZiTokenizer:48]  ./languages/nia\vocab.txt load vocab:17092 root:14916 prefix:946 suffix:1230 
+[I 230506 22:43:39 ZiCutter:58] ./languages/nia\JiZi.txt load  JiZi:553
+[I 230506 22:43:39 ZiCutter:32]   ./languages/nia\HeZi.txt 70312  JiZi:553 --> loadHeZi 70312  values:553 slim2Zi:69067 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:39 ZiCutter:66] ./languages/nia loaded vocab:553
+[I 230506 22:43:39 glance:35]  cat C:/data/word_frequency\nia-word_frequency.tsv n_src:33114--> freq:33114 total:467985.0
+[I 230506 22:43:40 ZiTokenizer:48]  ./languages/nl\vocab.txt load vocab:41406 root:30916 prefix:3032 suffix:7458 
+[I 230506 22:43:40 ZiCutter:58] ./languages/nl\JiZi.txt load  JiZi:648
+[I 230506 22:43:40 ZiCutter:32]   ./languages/nl\HeZi.txt 72381  JiZi:648 --> loadHeZi 72381  values:648 slim2Zi:70898 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:43:40 ZiCutter:66] ./languages/nl loaded vocab:648
+[I 230506 22:43:51 glance:35]  cat C:/data/word_frequency\nl-word_frequency.tsv n_src:5221599--> freq:5220951 total:524045023.0
+[I 230506 22:45:04 ZiTokenizer:48]  ./languages/nn\vocab.txt load vocab:40718 root:31423 prefix:2979 suffix:6316 
+[I 230506 22:45:04 ZiCutter:58] ./languages/nn\JiZi.txt load  JiZi:588
+[I 230506 22:45:04 ZiCutter:32]   ./languages/nn\HeZi.txt 70810  JiZi:588 --> loadHeZi 70810  values:588 slim2Zi:69485 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:45:04 ZiCutter:66] ./languages/nn loaded vocab:588
+[I 230506 22:45:07 glance:35]  cat C:/data/word_frequency\nn-word_frequency.tsv n_src:1347595--> freq:1347585 total:51526435.0
+[I 230506 22:45:24 ZiTokenizer:48]  ./languages/no\vocab.txt load vocab:44820 root:34194 prefix:3386 suffix:7240 
+[I 230506 22:45:24 ZiCutter:58] ./languages/no\JiZi.txt load  JiZi:819
+[I 230506 22:45:24 ZiCutter:32]   ./languages/no\HeZi.txt 74953  JiZi:819 --> loadHeZi 74953  values:819 slim2Zi:73133 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:45:24 ZiCutter:66] ./languages/no loaded vocab:819
+[I 230506 22:45:33 glance:35]  cat C:/data/word_frequency\no-word_frequency.tsv n_src:4187573--> freq:4187512 total:269376859.0
+[I 230506 22:46:35 ZiTokenizer:48]  ./languages/nov\vocab.txt load vocab:11624 root:10013 prefix:628 suffix:983 
+[I 230506 22:46:35 ZiCutter:58] ./languages/nov\JiZi.txt load  JiZi:559
+[I 230506 22:46:36 ZiCutter:32]   ./languages/nov\HeZi.txt 70239  JiZi:559 --> loadHeZi 70239  values:559 slim2Zi:68976 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:36 ZiCutter:66] ./languages/nov loaded vocab:559
+[I 230506 22:46:36 glance:35]  cat C:/data/word_frequency\nov-word_frequency.tsv n_src:23633--> freq:23633 total:180178.0
+[I 230506 22:46:36 ZiTokenizer:48]  ./languages/nqo\vocab.txt load vocab:19955 root:17896 prefix:1214 suffix:845 
+[I 230506 22:46:36 ZiCutter:58] ./languages/nqo\JiZi.txt load  JiZi:545
+[I 230506 22:46:37 ZiCutter:32]   ./languages/nqo\HeZi.txt 70229  JiZi:545 --> loadHeZi 70229  values:545 slim2Zi:68993 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:37 ZiCutter:66] ./languages/nqo loaded vocab:545
+[I 230506 22:46:37 glance:35]  cat C:/data/word_frequency\nqo-word_frequency.tsv n_src:38149--> freq:38147 total:1152569.0
+[I 230506 22:46:37 ZiTokenizer:48]  ./languages/nrm\vocab.txt load vocab:24897 root:21649 prefix:1533 suffix:1715 
+[I 230506 22:46:37 ZiCutter:58] ./languages/nrm\JiZi.txt load  JiZi:540
+[I 230506 22:46:37 ZiCutter:32]   ./languages/nrm\HeZi.txt 70113  JiZi:540 --> loadHeZi 70113  values:540 slim2Zi:68894 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:37 ZiCutter:66] ./languages/nrm loaded vocab:540
+[I 230506 22:46:38 glance:35]  cat C:/data/word_frequency\nrm-word_frequency.tsv n_src:49063--> freq:49063 total:682398.0
+[I 230506 22:46:38 ZiTokenizer:48]  ./languages/nso\vocab.txt load vocab:15656 root:13957 prefix:737 suffix:962 
+[I 230506 22:46:38 ZiCutter:58] ./languages/nso\JiZi.txt load  JiZi:537
+[I 230506 22:46:38 ZiCutter:32]   ./languages/nso\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:38 ZiCutter:66] ./languages/nso loaded vocab:537
+[I 230506 22:46:39 glance:35]  cat C:/data/word_frequency\nso-word_frequency.tsv n_src:27035--> freq:27035 total:459565.0
+[I 230506 22:46:39 ZiTokenizer:48]  ./languages/nv\vocab.txt load vocab:9598 root:7954 prefix:817 suffix:827 
+[I 230506 22:46:39 ZiCutter:58] ./languages/nv\JiZi.txt load  JiZi:548
+[I 230506 22:46:39 ZiCutter:32]   ./languages/nv\HeZi.txt 70173  JiZi:548 --> loadHeZi 70173  values:548 slim2Zi:68951 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:39 ZiCutter:66] ./languages/nv loaded vocab:548
+[I 230506 22:46:39 glance:35]  cat C:/data/word_frequency\nv-word_frequency.tsv n_src:36704--> freq:36704 total:2764913.0
+[I 230506 22:46:40 ZiTokenizer:48]  ./languages/ny\vocab.txt load vocab:21564 root:18182 prefix:1110 suffix:2272 
+[I 230506 22:46:40 ZiCutter:58] ./languages/ny\JiZi.txt load  JiZi:550
+[I 230506 22:46:40 ZiCutter:32]   ./languages/ny\HeZi.txt 70242  JiZi:550 --> loadHeZi 70242  values:550 slim2Zi:68999 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:40 ZiCutter:66] ./languages/ny loaded vocab:550
+[I 230506 22:46:40 glance:35]  cat C:/data/word_frequency\ny-word_frequency.tsv n_src:43470--> freq:43470 total:400834.0
+[I 230506 22:46:40 ZiTokenizer:48]  ./languages/oc\vocab.txt load vocab:41070 root:32685 prefix:3425 suffix:4960 
+[I 230506 22:46:41 ZiCutter:58] ./languages/oc\JiZi.txt load  JiZi:589
+[I 230506 22:46:41 ZiCutter:32]   ./languages/oc\HeZi.txt 70806  JiZi:589 --> loadHeZi 70806  values:589 slim2Zi:69474 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:41 ZiCutter:66] ./languages/oc loaded vocab:589
+[I 230506 22:46:42 glance:35]  cat C:/data/word_frequency\oc-word_frequency.tsv n_src:734626--> freq:734579 total:26665110.0
+[I 230506 22:46:50 ZiTokenizer:48]  ./languages/olo\vocab.txt load vocab:33443 root:27247 prefix:2975 suffix:3221 
+[I 230506 22:46:50 ZiCutter:58] ./languages/olo\JiZi.txt load  JiZi:572
+[I 230506 22:46:50 ZiCutter:32]   ./languages/olo\HeZi.txt 70800  JiZi:572 --> loadHeZi 70800  values:572 slim2Zi:69495 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:50 ZiCutter:66] ./languages/olo loaded vocab:572
+[I 230506 22:46:51 glance:35]  cat C:/data/word_frequency\olo-word_frequency.tsv n_src:75848--> freq:75848 total:540040.0
+[I 230506 22:46:51 ZiTokenizer:48]  ./languages/om\vocab.txt load vocab:30041 root:25727 prefix:2268 suffix:2046 
+[I 230506 22:46:51 ZiCutter:58] ./languages/om\JiZi.txt load  JiZi:539
+[I 230506 22:46:52 ZiCutter:32]   ./languages/om\HeZi.txt 70076  JiZi:539 --> loadHeZi 70076  values:539 slim2Zi:68857 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:52 ZiCutter:66] ./languages/om loaded vocab:539
+[I 230506 22:46:52 glance:35]  cat C:/data/word_frequency\om-word_frequency.tsv n_src:67310--> freq:67309 total:443815.0
+[I 230506 22:46:53 ZiTokenizer:48]  ./languages/or\vocab.txt load vocab:14111 root:11568 prefix:1099 suffix:1444 
+[I 230506 22:46:53 ZiCutter:58] ./languages/or\JiZi.txt load  JiZi:569
+[I 230506 22:46:53 ZiCutter:32]   ./languages/or\HeZi.txt 70561  JiZi:569 --> loadHeZi 70561  values:569 slim2Zi:69260 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:53 ZiCutter:66] ./languages/or loaded vocab:569
+[I 230506 22:46:53 glance:35]  cat C:/data/word_frequency\or-word_frequency.tsv n_src:213180--> freq:213175 total:22199625.0
+[I 230506 22:46:56 ZiTokenizer:48]  ./languages/os\vocab.txt load vocab:27431 root:22689 prefix:2376 suffix:2366 
+[I 230506 22:46:56 ZiCutter:58] ./languages/os\JiZi.txt load  JiZi:684
+[I 230506 22:46:56 ZiCutter:32]   ./languages/os\HeZi.txt 72604  JiZi:684 --> loadHeZi 72604  values:684 slim2Zi:71142 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:56 ZiCutter:66] ./languages/os loaded vocab:684
+[I 230506 22:46:56 glance:35]  cat C:/data/word_frequency\os-word_frequency.tsv n_src:123871--> freq:123870 total:3031116.0
+[I 230506 22:46:58 ZiTokenizer:48]  ./languages/pa\vocab.txt load vocab:14409 root:11815 prefix:1073 suffix:1521 
+[I 230506 22:46:58 ZiCutter:58] ./languages/pa\JiZi.txt load  JiZi:577
+[I 230506 22:46:58 ZiCutter:32]   ./languages/pa\HeZi.txt 70867  JiZi:577 --> loadHeZi 70867  values:577 slim2Zi:69563 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:46:58 ZiCutter:66] ./languages/pa loaded vocab:577
+[I 230506 22:46:59 glance:35]  cat C:/data/word_frequency\pa-word_frequency.tsv n_src:353484--> freq:353469 total:45732678.0
+[I 230506 22:47:03 ZiTokenizer:48]  ./languages/pag\vocab.txt load vocab:20567 root:16966 prefix:1356 suffix:2245 
+[I 230506 22:47:03 ZiCutter:58] ./languages/pag\JiZi.txt load  JiZi:645
+[I 230506 22:47:03 ZiCutter:32]   ./languages/pag\HeZi.txt 71945  JiZi:645 --> loadHeZi 71945  values:645 slim2Zi:70499 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:47:03 ZiCutter:66] ./languages/pag loaded vocab:645
+[I 230506 22:47:04 glance:35]  cat C:/data/word_frequency\pag-word_frequency.tsv n_src:49478--> freq:49478 total:744763.0
+[I 230506 22:47:04 ZiTokenizer:48]  ./languages/pam\vocab.txt load vocab:36058 root:29900 prefix:2187 suffix:3971 
+[I 230506 22:47:04 ZiCutter:58] ./languages/pam\JiZi.txt load  JiZi:1006
+[I 230506 22:47:05 ZiCutter:32]   ./languages/pam\HeZi.txt 76370  JiZi:1006 --> loadHeZi 76370  values:1006 slim2Zi:74295 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:47:05 ZiCutter:66] ./languages/pam loaded vocab:1006
+[I 230506 22:47:05 glance:35]  cat C:/data/word_frequency\pam-word_frequency.tsv n_src:133381--> freq:133378 total:2263788.0
+[I 230506 22:47:07 ZiTokenizer:48]  ./languages/pap\vocab.txt load vocab:25212 root:22487 prefix:969 suffix:1756 
+[I 230506 22:47:07 ZiCutter:58] ./languages/pap\JiZi.txt load  JiZi:539
+[I 230506 22:47:07 ZiCutter:32]   ./languages/pap\HeZi.txt 70089  JiZi:539 --> loadHeZi 70089  values:539 slim2Zi:68864 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:47:07 ZiCutter:66] ./languages/pap loaded vocab:539
+[I 230506 22:47:07 glance:35]  cat C:/data/word_frequency\pap-word_frequency.tsv n_src:48163--> freq:48163 total:706762.0
+[I 230506 22:47:08 ZiTokenizer:48]  ./languages/pcd\vocab.txt load vocab:51383 root:44803 prefix:2932 suffix:3648 
+[I 230506 22:47:08 ZiCutter:58] ./languages/pcd\JiZi.txt load  JiZi:770
+[I 230506 22:47:08 ZiCutter:32]   ./languages/pcd\HeZi.txt 74306  JiZi:770 --> loadHeZi 74306  values:770 slim2Zi:72605 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:47:08 ZiCutter:66] ./languages/pcd loaded vocab:770
+[E 230506 22:47:08 glance:19] ('\n', ['\n'])
+[I 230506 22:47:09 glance:35]  cat C:/data/word_frequency\pcd-word_frequency.tsv n_src:109073--> freq:109061 total:1233764.0
+[I 230506 22:47:10 ZiTokenizer:48]  ./languages/pcm\vocab.txt load vocab:13183 root:11445 prefix:588 suffix:1150 
+[I 230506 22:47:10 ZiCutter:58] ./languages/pcm\JiZi.txt load  JiZi:537
+[I 230506 22:47:10 ZiCutter:32]   ./languages/pcm\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:47:10 ZiCutter:66] ./languages/pcm loaded vocab:537
+[I 230506 22:47:10 glance:35]  cat C:/data/word_frequency\pcm-word_frequency.tsv n_src:25114--> freq:25114 total:260983.0
+[I 230506 22:47:11 ZiTokenizer:48]  ./languages/pdc\vocab.txt load vocab:13111 root:11118 prefix:741 suffix:1252 
+[I 230506 22:47:11 ZiCutter:58] ./languages/pdc\JiZi.txt load  JiZi:537
+[I 230506 22:47:11 ZiCutter:32]   ./languages/pdc\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:47:11 ZiCutter:66] ./languages/pdc loaded vocab:537
+[I 230506 22:47:11 glance:35]  cat C:/data/word_frequency\pdc-word_frequency.tsv n_src:27949--> freq:27948 total:199983.0
+[I 230506 22:47:12 ZiTokenizer:48]  ./languages/pfl\vocab.txt load vocab:39489 root:32334 prefix:2538 suffix:4617 
+[I 230506 22:47:12 ZiCutter:58] ./languages/pfl\JiZi.txt load  JiZi:541
+[I 230506 22:47:12 ZiCutter:32]   ./languages/pfl\HeZi.txt 70089  JiZi:541 --> loadHeZi 70089  values:541 slim2Zi:68862 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:47:12 ZiCutter:66] ./languages/pfl loaded vocab:541
+[I 230506 22:47:12 glance:35]  cat C:/data/word_frequency\pfl-word_frequency.tsv n_src:94522--> freq:94522 total:756667.0
+[I 230506 22:47:13 ZiTokenizer:48]  ./languages/pi\vocab.txt load vocab:3255 root:2628 prefix:300 suffix:327 
+[I 230506 22:47:13 ZiCutter:58] ./languages/pi\JiZi.txt load  JiZi:540
+[I 230506 22:47:14 ZiCutter:32]   ./languages/pi\HeZi.txt 70073  JiZi:540 --> loadHeZi 70073  values:540 slim2Zi:68854 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:47:14 ZiCutter:66] ./languages/pi loaded vocab:540
+[I 230506 22:47:14 glance:35]  cat C:/data/word_frequency\pi-word_frequency.tsv n_src:8022--> freq:8022 total:117088.0
+[I 230506 22:47:14 ZiTokenizer:48]  ./languages/pih\vocab.txt load vocab:4822 root:4037 prefix:330 suffix:455 
+[I 230506 22:47:14 ZiCutter:58] ./languages/pih\JiZi.txt load  JiZi:542
+[I 230506 22:47:14 ZiCutter:32]   ./languages/pih\HeZi.txt 70174  JiZi:542 --> loadHeZi 70174  values:542 slim2Zi:68938 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:47:14 ZiCutter:66] ./languages/pih loaded vocab:542
+[I 230506 22:47:14 glance:35]  cat C:/data/word_frequency\pih-word_frequency.tsv n_src:10224--> freq:10224 total:68530.0
+[I 230506 22:47:14 ZiTokenizer:48]  ./languages/pl\vocab.txt load vocab:55592 root:42852 prefix:4312 suffix:8428 
+[I 230506 22:47:14 ZiCutter:58] ./languages/pl\JiZi.txt load  JiZi:720
+[I 230506 22:47:15 ZiCutter:32]   ./languages/pl\HeZi.txt 73625  JiZi:720 --> loadHeZi 73625  values:720 slim2Zi:72035 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:47:15 ZiCutter:66] ./languages/pl loaded vocab:720
+[I 230506 22:47:37 glance:35]  cat C:/data/word_frequency\pl-word_frequency.tsv n_src:9893701--> freq:9893206 total:1111991190.0
+[I 230506 22:50:04 ZiTokenizer:48]  ./languages/pms\vocab.txt load vocab:29108 root:24174 prefix:1968 suffix:2966 
+[I 230506 22:50:04 ZiCutter:58] ./languages/pms\JiZi.txt load  JiZi:537
+[I 230506 22:50:05 ZiCutter:32]   ./languages/pms\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:50:05 ZiCutter:66] ./languages/pms loaded vocab:537
+[I 230506 22:50:05 glance:35]  cat C:/data/word_frequency\pms-word_frequency.tsv n_src:161536--> freq:161533 total:4416923.0
+[I 230506 22:50:07 ZiTokenizer:48]  ./languages/pnb\vocab.txt load vocab:35617 root:29519 prefix:2310 suffix:3788 
+[I 230506 22:50:07 ZiCutter:58] ./languages/pnb\JiZi.txt load  JiZi:602
+[I 230506 22:50:07 ZiCutter:32]   ./languages/pnb\HeZi.txt 71197  JiZi:602 --> loadHeZi 71197  values:602 slim2Zi:69804 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:50:07 ZiCutter:66] ./languages/pnb loaded vocab:602
+[I 230506 22:50:09 glance:35]  cat C:/data/word_frequency\pnb-word_frequency.tsv n_src:986184--> freq:986144 total:51710156.0
+[I 230506 22:50:20 ZiTokenizer:48]  ./languages/pnt\vocab.txt load vocab:6267 root:5155 prefix:533 suffix:579 
+[I 230506 22:50:20 ZiCutter:58] ./languages/pnt\JiZi.txt load  JiZi:538
+[I 230506 22:50:20 ZiCutter:32]   ./languages/pnt\HeZi.txt 70077  JiZi:538 --> loadHeZi 70077  values:538 slim2Zi:68858 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:50:20 ZiCutter:66] ./languages/pnt loaded vocab:538
+[I 230506 22:50:20 glance:35]  cat C:/data/word_frequency\pnt-word_frequency.tsv n_src:14422--> freq:14422 total:73193.0
+[I 230506 22:50:21 ZiTokenizer:48]  ./languages/ps\vocab.txt load vocab:39069 root:31791 prefix:2420 suffix:4858 
+[I 230506 22:50:21 ZiCutter:58] ./languages/ps\JiZi.txt load  JiZi:585
+[I 230506 22:50:21 ZiCutter:32]   ./languages/ps\HeZi.txt 71174  JiZi:585 --> loadHeZi 71174  values:585 slim2Zi:69830 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:50:21 ZiCutter:66] ./languages/ps loaded vocab:585
+[I 230506 22:50:22 glance:35]  cat C:/data/word_frequency\ps-word_frequency.tsv n_src:616287--> freq:616190 total:18242178.0
+[I 230506 22:50:29 ZiTokenizer:48]  ./languages/pt\vocab.txt load vocab:42322 root:34400 prefix:2650 suffix:5272 
+[I 230506 22:50:29 ZiCutter:58] ./languages/pt\JiZi.txt load  JiZi:909
+[I 230506 22:50:29 ZiCutter:32]   ./languages/pt\HeZi.txt 77193  JiZi:909 --> loadHeZi 77193  values:909 slim2Zi:75163 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:50:29 ZiCutter:66] ./languages/pt loaded vocab:909
+[I 230506 22:50:39 glance:35]  cat C:/data/word_frequency\pt-word_frequency.tsv n_src:4929313--> freq:4928975 total:718604277.0
+[I 230506 22:51:48 ZiTokenizer:48]  ./languages/pwn\vocab.txt load vocab:8883 root:7674 prefix:453 suffix:756 
+[I 230506 22:51:48 ZiCutter:58] ./languages/pwn\JiZi.txt load  JiZi:1503
+[I 230506 22:51:48 ZiCutter:32]   ./languages/pwn\HeZi.txt 81043  JiZi:1503 --> loadHeZi 81043  values:1503 slim2Zi:78181 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:51:48 ZiCutter:66] ./languages/pwn loaded vocab:1503
+[I 230506 22:51:48 glance:35]  cat C:/data/word_frequency\pwn-word_frequency.tsv n_src:18041--> freq:18041 total:163715.0
+[I 230506 22:51:49 ZiTokenizer:48]  ./languages/qu\vocab.txt load vocab:43693 root:36023 prefix:2963 suffix:4707 
+[I 230506 22:51:49 ZiCutter:58] ./languages/qu\JiZi.txt load  JiZi:1092
+[I 230506 22:51:49 ZiCutter:32]   ./languages/qu\HeZi.txt 77245  JiZi:1092 --> loadHeZi 77245  values:1092 slim2Zi:74983 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:51:49 ZiCutter:66] ./languages/qu loaded vocab:1092
+[I 230506 22:51:49 glance:35]  cat C:/data/word_frequency\qu-word_frequency.tsv n_src:208929--> freq:208928 total:3132033.0
+[I 230506 22:51:52 ZiTokenizer:48]  ./languages/rm\vocab.txt load vocab:34892 root:29805 prefix:2035 suffix:3052 
+[I 230506 22:51:52 ZiCutter:58] ./languages/rm\JiZi.txt load  JiZi:555
+[I 230506 22:51:52 ZiCutter:32]   ./languages/rm\HeZi.txt 70377  JiZi:555 --> loadHeZi 70377  values:555 slim2Zi:69098 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:51:52 ZiCutter:66] ./languages/rm loaded vocab:555
+[I 230506 22:51:53 glance:35]  cat C:/data/word_frequency\rm-word_frequency.tsv n_src:148954--> freq:148954 total:3648381.0
+[I 230506 22:51:54 ZiTokenizer:48]  ./languages/rmy\vocab.txt load vocab:6355 root:5264 prefix:439 suffix:652 
+[I 230506 22:51:54 ZiCutter:58] ./languages/rmy\JiZi.txt load  JiZi:537
+[I 230506 22:51:55 ZiCutter:32]   ./languages/rmy\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:51:55 ZiCutter:66] ./languages/rmy loaded vocab:537
+[I 230506 22:51:55 glance:35]  cat C:/data/word_frequency\rmy-word_frequency.tsv n_src:14351--> freq:14351 total:75859.0
+[I 230506 22:51:55 ZiTokenizer:48]  ./languages/rn\vocab.txt load vocab:7326 root:5800 prefix:378 suffix:1148 
+[I 230506 22:51:55 ZiCutter:58] ./languages/rn\JiZi.txt load  JiZi:537
+[I 230506 22:51:55 ZiCutter:32]   ./languages/rn\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:51:55 ZiCutter:66] ./languages/rn loaded vocab:537
+[I 230506 22:51:55 glance:35]  cat C:/data/word_frequency\rn-word_frequency.tsv n_src:16383--> freq:16383 total:79755.0
+[I 230506 22:51:55 ZiTokenizer:48]  ./languages/ro\vocab.txt load vocab:44970 root:36538 prefix:3065 suffix:5367 
+[I 230506 22:51:55 ZiCutter:58] ./languages/ro\JiZi.txt load  JiZi:676
+[I 230506 22:51:56 ZiCutter:32]   ./languages/ro\HeZi.txt 72649  JiZi:676 --> loadHeZi 72649  values:676 slim2Zi:71128 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:51:56 ZiCutter:66] ./languages/ro loaded vocab:676
+[I 230506 22:52:02 glance:35]  cat C:/data/word_frequency\ro-word_frequency.tsv n_src:2912665--> freq:2912572 total:230880308.0
+[I 230506 22:52:43 ZiTokenizer:48]  ./languages/roa_rup\vocab.txt load vocab:24713 root:20422 prefix:1881 suffix:2410 
+[I 230506 22:52:43 ZiCutter:58] ./languages/roa_rup\JiZi.txt load  JiZi:544
+[I 230506 22:52:44 ZiCutter:32]   ./languages/roa_rup\HeZi.txt 70264  JiZi:544 --> loadHeZi 70264  values:544 slim2Zi:69034 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:52:44 ZiCutter:66] ./languages/roa_rup loaded vocab:544
+[I 230506 22:52:44 glance:35]  cat C:/data/word_frequency\roa_rup-word_frequency.tsv n_src:57504--> freq:57503 total:305073.0
+[I 230506 22:52:45 ZiTokenizer:48]  ./languages/roa_tara\vocab.txt load vocab:34676 root:28335 prefix:2539 suffix:3802 
+[I 230506 22:52:45 ZiCutter:58] ./languages/roa_tara\JiZi.txt load  JiZi:609
+[I 230506 22:52:45 ZiCutter:32]   ./languages/roa_tara\HeZi.txt 71028  JiZi:609 --> loadHeZi 71028  values:609 slim2Zi:69678 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:52:45 ZiCutter:66] ./languages/roa_tara loaded vocab:609
+[I 230506 22:52:45 glance:35]  cat C:/data/word_frequency\roa_tara-word_frequency.tsv n_src:117349--> freq:114348 total:1953256.0
+[I 230506 22:52:47 ZiTokenizer:48]  ./languages/ru\vocab.txt load vocab:55962 root:41285 prefix:6622 suffix:8055 
+[I 230506 22:52:47 ZiCutter:58] ./languages/ru\JiZi.txt load  JiZi:730
+[I 230506 22:52:47 ZiCutter:32]   ./languages/ru\HeZi.txt 73615  JiZi:730 --> loadHeZi 73615  values:730 slim2Zi:71959 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:52:47 ZiCutter:66] ./languages/ru loaded vocab:730
+[I 230506 22:53:34 glance:35]  cat C:/data/word_frequency\ru-word_frequency.tsv n_src:17396630--> freq:17395897 total:2669631327.0
+[I 230506 22:57:04 ZiTokenizer:48]  ./languages/rue\vocab.txt load vocab:58249 root:47151 prefix:4970 suffix:6128 
+[I 230506 22:57:04 ZiCutter:58] ./languages/rue\JiZi.txt load  JiZi:563
+[I 230506 22:57:05 ZiCutter:32]   ./languages/rue\HeZi.txt 70589  JiZi:563 --> loadHeZi 70589  values:563 slim2Zi:69307 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:05 ZiCutter:66] ./languages/rue loaded vocab:563
+[I 230506 22:57:05 glance:35]  cat C:/data/word_frequency\rue-word_frequency.tsv n_src:187928--> freq:187927 total:1788372.0
+[I 230506 22:57:07 ZiTokenizer:48]  ./languages/rw\vocab.txt load vocab:41129 root:33960 prefix:3064 suffix:4105 
+[I 230506 22:57:07 ZiCutter:58] ./languages/rw\JiZi.txt load  JiZi:562
+[I 230506 22:57:08 ZiCutter:32]   ./languages/rw\HeZi.txt 70849  JiZi:562 --> loadHeZi 70849  values:562 slim2Zi:69564 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:08 ZiCutter:66] ./languages/rw loaded vocab:562
+[I 230506 22:57:08 glance:35]  cat C:/data/word_frequency\rw-word_frequency.tsv n_src:125588--> freq:125587 total:1417044.0
+[I 230506 22:57:09 ZiTokenizer:48]  ./languages/sa\vocab.txt load vocab:12893 root:11670 prefix:630 suffix:593 
+[I 230506 22:57:09 ZiCutter:58] ./languages/sa\JiZi.txt load  JiZi:538
+[I 230506 22:57:10 ZiCutter:32]   ./languages/sa\HeZi.txt 70206  JiZi:538 --> loadHeZi 70206  values:538 slim2Zi:68986 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:10 ZiCutter:66] ./languages/sa loaded vocab:538
+[I 230506 22:57:11 glance:35]  cat C:/data/word_frequency\sa-word_frequency.tsv n_src:645394--> freq:645230 total:191108271.0
+[I 230506 22:57:17 ZiTokenizer:48]  ./languages/sah\vocab.txt load vocab:51638 root:42186 prefix:4226 suffix:5226 
+[I 230506 22:57:17 ZiCutter:58] ./languages/sah\JiZi.txt load  JiZi:789
+[I 230506 22:57:17 ZiCutter:32]   ./languages/sah\HeZi.txt 75009  JiZi:789 --> loadHeZi 75009  values:789 slim2Zi:73231 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:17 ZiCutter:66] ./languages/sah loaded vocab:789
+[I 230506 22:57:18 glance:35]  cat C:/data/word_frequency\sah-word_frequency.tsv n_src:358238--> freq:358238 total:5954021.0
+[I 230506 22:57:22 ZiTokenizer:48]  ./languages/sat\vocab.txt load vocab:36733 root:29774 prefix:2386 suffix:4573 
+[I 230506 22:57:22 ZiCutter:58] ./languages/sat\JiZi.txt load  JiZi:898
+[I 230506 22:57:22 ZiCutter:32]   ./languages/sat\HeZi.txt 75683  JiZi:898 --> loadHeZi 75683  values:898 slim2Zi:73750 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:22 ZiCutter:66] ./languages/sat loaded vocab:898
+[E 230506 22:57:22 glance:19] ('\n', ['\n'])
+[I 230506 22:57:23 glance:35]  cat C:/data/word_frequency\sat-word_frequency.tsv n_src:209166--> freq:209158 total:3668303.0
+[I 230506 22:57:25 ZiTokenizer:48]  ./languages/sc\vocab.txt load vocab:43764 root:35635 prefix:3557 suffix:4572 
+[I 230506 22:57:25 ZiCutter:58] ./languages/sc\JiZi.txt load  JiZi:630
+[I 230506 22:57:25 ZiCutter:32]   ./languages/sc\HeZi.txt 71888  JiZi:630 --> loadHeZi 71888  values:630 slim2Zi:70448 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:25 ZiCutter:66] ./languages/sc loaded vocab:630
+[I 230506 22:57:25 glance:35]  cat C:/data/word_frequency\sc-word_frequency.tsv n_src:195466--> freq:195466 total:2929662.0
+[I 230506 22:57:27 ZiTokenizer:48]  ./languages/scn\vocab.txt load vocab:48398 root:39323 prefix:3815 suffix:5260 
+[I 230506 22:57:27 ZiCutter:58] ./languages/scn\JiZi.txt load  JiZi:596
+[I 230506 22:57:28 ZiCutter:32]   ./languages/scn\HeZi.txt 71045  JiZi:596 --> loadHeZi 71045  values:596 slim2Zi:69721 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:28 ZiCutter:66] ./languages/scn loaded vocab:596
+[I 230506 22:57:28 glance:35]  cat C:/data/word_frequency\scn-word_frequency.tsv n_src:225849--> freq:225848 total:3306214.0
+[I 230506 22:57:30 ZiTokenizer:48]  ./languages/sco\vocab.txt load vocab:37803 root:31017 prefix:2466 suffix:4320 
+[I 230506 22:57:30 ZiCutter:58] ./languages/sco\JiZi.txt load  JiZi:1099
+[I 230506 22:57:31 ZiCutter:32]   ./languages/sco\HeZi.txt 78164  JiZi:1099 --> loadHeZi 78164  values:1099 slim2Zi:75800 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:31 ZiCutter:66] ./languages/sco loaded vocab:1099
+[I 230506 22:57:31 glance:35]  cat C:/data/word_frequency\sco-word_frequency.tsv n_src:396965--> freq:396960 total:11577845.0
+[I 230506 22:57:35 ZiTokenizer:48]  ./languages/sd\vocab.txt load vocab:33420 root:28152 prefix:2269 suffix:2999 
+[I 230506 22:57:35 ZiCutter:58] ./languages/sd\JiZi.txt load  JiZi:597
+[I 230506 22:57:35 ZiCutter:32]   ./languages/sd\HeZi.txt 70641  JiZi:597 --> loadHeZi 70641  values:597 slim2Zi:69330 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:35 ZiCutter:66] ./languages/sd loaded vocab:597
+[I 230506 22:57:36 glance:35]  cat C:/data/word_frequency\sd-word_frequency.tsv n_src:222335--> freq:222330 total:6126106.0
+[I 230506 22:57:38 ZiTokenizer:48]  ./languages/se\vocab.txt load vocab:24532 root:19124 prefix:2324 suffix:3084 
+[I 230506 22:57:38 ZiCutter:58] ./languages/se\JiZi.txt load  JiZi:552
+[I 230506 22:57:38 ZiCutter:32]   ./languages/se\HeZi.txt 70426  JiZi:552 --> loadHeZi 70426  values:552 slim2Zi:69172 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:38 ZiCutter:66] ./languages/se loaded vocab:552
+[I 230506 22:57:38 glance:35]  cat C:/data/word_frequency\se-word_frequency.tsv n_src:84707--> freq:84707 total:1433205.0
+[I 230506 22:57:39 ZiTokenizer:48]  ./languages/sg\vocab.txt load vocab:2111 root:1910 prefix:68 suffix:133 
+[I 230506 22:57:39 ZiCutter:58] ./languages/sg\JiZi.txt load  JiZi:538
+[I 230506 22:57:39 ZiCutter:32]   ./languages/sg\HeZi.txt 70074  JiZi:538 --> loadHeZi 70074  values:538 slim2Zi:68855 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:39 ZiCutter:66] ./languages/sg loaded vocab:538
+[I 230506 22:57:39 glance:35]  cat C:/data/word_frequency\sg-word_frequency.tsv n_src:3441--> freq:3441 total:35650.0
+[I 230506 22:57:39 ZiTokenizer:48]  ./languages/sh\vocab.txt load vocab:33490 root:25405 prefix:2903 suffix:5182 
+[I 230506 22:57:39 ZiCutter:58] ./languages/sh\JiZi.txt load  JiZi:607
+[I 230506 22:57:40 ZiCutter:32]   ./languages/sh\HeZi.txt 71348  JiZi:607 --> loadHeZi 71348  values:607 slim2Zi:69958 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:57:40 ZiCutter:66] ./languages/sh loaded vocab:607
+[I 230506 22:57:44 glance:35]  cat C:/data/word_frequency\sh-word_frequency.tsv n_src:2362860--> freq:2362826 total:181438340.0
+[I 230506 22:58:08 ZiTokenizer:48]  ./languages/shi\vocab.txt load vocab:24901 root:20813 prefix:1629 suffix:2459 
+[I 230506 22:58:08 ZiCutter:58] ./languages/shi\JiZi.txt load  JiZi:544
+[I 230506 22:58:08 ZiCutter:32]   ./languages/shi\HeZi.txt 70110  JiZi:544 --> loadHeZi 70110  values:544 slim2Zi:68883 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:58:08 ZiCutter:66] ./languages/shi loaded vocab:544
+[I 230506 22:58:08 glance:35]  cat C:/data/word_frequency\shi-word_frequency.tsv n_src:54992--> freq:54982 total:406519.0
+[I 230506 22:58:09 ZiTokenizer:48]  ./languages/shn\vocab.txt load vocab:10391 root:8946 prefix:595 suffix:850 
+[I 230506 22:58:09 ZiCutter:58] ./languages/shn\JiZi.txt load  JiZi:951
+[I 230506 22:58:09 ZiCutter:32]   ./languages/shn\HeZi.txt 76255  JiZi:951 --> loadHeZi 76255  values:951 slim2Zi:74133 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:58:09 ZiCutter:66] ./languages/shn loaded vocab:951
+[I 230506 22:58:09 glance:35]  cat C:/data/word_frequency\shn-word_frequency.tsv n_src:48627--> freq:48627 total:4100820.0
+[I 230506 22:58:09 ZiTokenizer:48]  ./languages/si\vocab.txt load vocab:15139 root:12736 prefix:1126 suffix:1277 
+[I 230506 22:58:09 ZiCutter:58] ./languages/si\JiZi.txt load  JiZi:911
+[I 230506 22:58:10 ZiCutter:32]   ./languages/si\HeZi.txt 76113  JiZi:911 --> loadHeZi 76113  values:911 slim2Zi:74143 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:58:10 ZiCutter:66] ./languages/si loaded vocab:911
+[I 230506 22:58:10 glance:35]  cat C:/data/word_frequency\si-word_frequency.tsv n_src:227847--> freq:227828 total:26251228.0
+[I 230506 22:58:12 ZiTokenizer:48]  ./languages/sk\vocab.txt load vocab:49839 root:38467 prefix:4104 suffix:7268 
+[I 230506 22:58:12 ZiCutter:58] ./languages/sk\JiZi.txt load  JiZi:605
+[I 230506 22:58:12 ZiCutter:32]   ./languages/sk\HeZi.txt 71160  JiZi:605 --> loadHeZi 71160  values:605 slim2Zi:69755 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:58:12 ZiCutter:66] ./languages/sk loaded vocab:605
+[I 230506 22:58:16 glance:35]  cat C:/data/word_frequency\sk-word_frequency.tsv n_src:2091615--> freq:2091600 total:89123759.0
+[I 230506 22:58:39 ZiTokenizer:48]  ./languages/skr\vocab.txt load vocab:34459 root:30587 prefix:1686 suffix:2186 
+[I 230506 22:58:40 ZiCutter:58] ./languages/skr\JiZi.txt load  JiZi:546
+[I 230506 22:58:40 ZiCutter:32]   ./languages/skr\HeZi.txt 70316  JiZi:546 --> loadHeZi 70316  values:546 slim2Zi:69084 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:58:40 ZiCutter:66] ./languages/skr loaded vocab:546
+[I 230506 22:58:40 glance:35]  cat C:/data/word_frequency\skr-word_frequency.tsv n_src:127323--> freq:127265 total:2862993.0
+[I 230506 22:58:41 ZiTokenizer:48]  ./languages/sl\vocab.txt load vocab:52228 root:42116 prefix:3142 suffix:6970 
+[I 230506 22:58:41 ZiCutter:58] ./languages/sl\JiZi.txt load  JiZi:648
+[I 230506 22:58:41 ZiCutter:32]   ./languages/sl\HeZi.txt 72444  JiZi:648 --> loadHeZi 72444  values:648 slim2Zi:70951 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:58:41 ZiCutter:66] ./languages/sl loaded vocab:648
+[I 230506 22:58:47 glance:35]  cat C:/data/word_frequency\sl-word_frequency.tsv n_src:3032990--> freq:3032874 total:167215758.0
+[I 230506 22:59:19 ZiTokenizer:48]  ./languages/sm\vocab.txt load vocab:8141 root:7172 prefix:404 suffix:565 
+[I 230506 22:59:19 ZiCutter:58] ./languages/sm\JiZi.txt load  JiZi:540
+[I 230506 22:59:20 ZiCutter:32]   ./languages/sm\HeZi.txt 70073  JiZi:540 --> loadHeZi 70073  values:540 slim2Zi:68854 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:59:20 ZiCutter:66] ./languages/sm loaded vocab:540
+[I 230506 22:59:20 glance:35]  cat C:/data/word_frequency\sm-word_frequency.tsv n_src:14980--> freq:14980 total:204829.0
+[I 230506 22:59:20 ZiTokenizer:48]  ./languages/smn\vocab.txt load vocab:49816 root:43296 prefix:2103 suffix:4417 
+[I 230506 22:59:20 ZiCutter:58] ./languages/smn\JiZi.txt load  JiZi:571
+[I 230506 22:59:20 ZiCutter:32]   ./languages/smn\HeZi.txt 70690  JiZi:571 --> loadHeZi 70690  values:571 slim2Zi:69427 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:59:20 ZiCutter:66] ./languages/smn loaded vocab:571
+[I 230506 22:59:20 glance:35]  cat C:/data/word_frequency\smn-word_frequency.tsv n_src:103768--> freq:103768 total:1180930.0
+[I 230506 22:59:21 ZiTokenizer:48]  ./languages/sn\vocab.txt load vocab:54053 root:43851 prefix:3716 suffix:6486 
+[I 230506 22:59:21 ZiCutter:58] ./languages/sn\JiZi.txt load  JiZi:566
+[I 230506 22:59:22 ZiCutter:32]   ./languages/sn\HeZi.txt 70549  JiZi:566 --> loadHeZi 70549  values:566 slim2Zi:69282 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:59:22 ZiCutter:66] ./languages/sn loaded vocab:566
+[I 230506 22:59:22 glance:35]  cat C:/data/word_frequency\sn-word_frequency.tsv n_src:168777--> freq:168775 total:1550572.0
+[I 230506 22:59:24 ZiTokenizer:48]  ./languages/so\vocab.txt load vocab:48148 root:40119 prefix:3359 suffix:4670 
+[I 230506 22:59:24 ZiCutter:58] ./languages/so\JiZi.txt load  JiZi:748
+[I 230506 22:59:24 ZiCutter:32]   ./languages/so\HeZi.txt 73224  JiZi:748 --> loadHeZi 73224  values:748 slim2Zi:71555 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:59:24 ZiCutter:66] ./languages/so loaded vocab:748
+[I 230506 22:59:24 glance:35]  cat C:/data/word_frequency\so-word_frequency.tsv n_src:227981--> freq:227966 total:3317130.0
+[I 230506 22:59:27 ZiTokenizer:48]  ./languages/sq\vocab.txt load vocab:46367 root:37720 prefix:2984 suffix:5663 
+[I 230506 22:59:27 ZiCutter:58] ./languages/sq\JiZi.txt load  JiZi:684
+[I 230506 22:59:27 ZiCutter:32]   ./languages/sq\HeZi.txt 73315  JiZi:684 --> loadHeZi 73315  values:684 slim2Zi:71773 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:59:27 ZiCutter:66] ./languages/sq loaded vocab:684
+[E 230506 22:59:27 glance:19] ('\n', ['\n'])
+[I 230506 22:59:29 glance:35]  cat C:/data/word_frequency\sq-word_frequency.tsv n_src:1141677--> freq:1141629 total:43274642.0
+[I 230506 22:59:42 ZiTokenizer:48]  ./languages/sr\vocab.txt load vocab:48445 root:36728 prefix:4303 suffix:7414 
+[I 230506 22:59:42 ZiCutter:58] ./languages/sr\JiZi.txt load  JiZi:631
+[I 230506 22:59:42 ZiCutter:32]   ./languages/sr\HeZi.txt 71805  JiZi:631 --> loadHeZi 71805  values:631 slim2Zi:70388 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 22:59:42 ZiCutter:66] ./languages/sr loaded vocab:631
+[I 230506 22:59:51 glance:35]  cat C:/data/word_frequency\sr-word_frequency.tsv n_src:4473615--> freq:4473523 total:280925383.0
+[I 230506 23:00:45 ZiTokenizer:48]  ./languages/srn\vocab.txt load vocab:5037 root:4125 prefix:341 suffix:571 
+[I 230506 23:00:45 ZiCutter:58] ./languages/srn\JiZi.txt load  JiZi:548
+[I 230506 23:00:45 ZiCutter:32]   ./languages/srn\HeZi.txt 70605  JiZi:548 --> loadHeZi 70605  values:548 slim2Zi:69333 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:00:45 ZiCutter:66] ./languages/srn loaded vocab:548
+[I 230506 23:00:45 glance:35]  cat C:/data/word_frequency\srn-word_frequency.tsv n_src:12067--> freq:12067 total:125431.0
+[I 230506 23:00:45 ZiTokenizer:48]  ./languages/ss\vocab.txt load vocab:13563 root:10398 prefix:930 suffix:2235 
+[I 230506 23:00:45 ZiCutter:58] ./languages/ss\JiZi.txt load  JiZi:540
+[I 230506 23:00:46 ZiCutter:32]   ./languages/ss\HeZi.txt 70113  JiZi:540 --> loadHeZi 70113  values:540 slim2Zi:68895 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:00:46 ZiCutter:66] ./languages/ss loaded vocab:540
+[I 230506 23:00:46 glance:35]  cat C:/data/word_frequency\ss-word_frequency.tsv n_src:31608--> freq:31608 total:130709.0
+[I 230506 23:00:46 ZiTokenizer:48]  ./languages/st\vocab.txt load vocab:11198 root:9689 prefix:603 suffix:906 
+[I 230506 23:00:46 ZiCutter:58] ./languages/st\JiZi.txt load  JiZi:539
+[I 230506 23:00:46 ZiCutter:32]   ./languages/st\HeZi.txt 70110  JiZi:539 --> loadHeZi 70110  values:539 slim2Zi:68888 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:00:46 ZiCutter:66] ./languages/st loaded vocab:539
+[I 230506 23:00:46 glance:35]  cat C:/data/word_frequency\st-word_frequency.tsv n_src:21855--> freq:21855 total:211940.0
+[I 230506 23:00:46 ZiTokenizer:48]  ./languages/stq\vocab.txt load vocab:40844 root:35271 prefix:1718 suffix:3855 
+[I 230506 23:00:46 ZiCutter:58] ./languages/stq\JiZi.txt load  JiZi:538
+[I 230506 23:00:47 ZiCutter:32]   ./languages/stq\HeZi.txt 70247  JiZi:538 --> loadHeZi 70247  values:538 slim2Zi:69020 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:00:47 ZiCutter:66] ./languages/stq loaded vocab:538
+[I 230506 23:00:47 glance:35]  cat C:/data/word_frequency\stq-word_frequency.tsv n_src:84794--> freq:84790 total:884486.0
+[I 230506 23:00:48 ZiTokenizer:48]  ./languages/su\vocab.txt load vocab:40652 root:33769 prefix:2411 suffix:4472 
+[I 230506 23:00:48 ZiCutter:58] ./languages/su\JiZi.txt load  JiZi:1053
+[I 230506 23:00:48 ZiCutter:32]   ./languages/su\HeZi.txt 78409  JiZi:1053 --> loadHeZi 78409  values:1053 slim2Zi:76165 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:00:48 ZiCutter:66] ./languages/su loaded vocab:1053
+[I 230506 23:00:49 glance:35]  cat C:/data/word_frequency\su-word_frequency.tsv n_src:345401--> freq:345398 total:8894506.0
+[I 230506 23:00:53 ZiTokenizer:48]  ./languages/sv\vocab.txt load vocab:30434 root:22027 prefix:3290 suffix:5117 
+[I 230506 23:00:53 ZiCutter:58] ./languages/sv\JiZi.txt load  JiZi:621
+[I 230506 23:00:53 ZiCutter:32]   ./languages/sv\HeZi.txt 71618  JiZi:621 --> loadHeZi 71618  values:621 slim2Zi:70203 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:00:53 ZiCutter:66] ./languages/sv loaded vocab:621
+[I 230506 23:01:06 glance:35]  cat C:/data/word_frequency\sv-word_frequency.tsv n_src:7277792--> freq:7277522 total:829376640.0
+[I 230506 23:02:40 ZiTokenizer:48]  ./languages/sw\vocab.txt load vocab:38945 root:30169 prefix:2757 suffix:6019 
+[I 230506 23:02:40 ZiCutter:58] ./languages/sw\JiZi.txt load  JiZi:733
+[I 230506 23:02:40 ZiCutter:32]   ./languages/sw\HeZi.txt 74219  JiZi:733 --> loadHeZi 74219  values:733 slim2Zi:72501 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:02:40 ZiCutter:66] ./languages/sw loaded vocab:733
+[I 230506 23:02:41 glance:35]  cat C:/data/word_frequency\sw-word_frequency.tsv n_src:549720--> freq:549716 total:15522352.0
+[I 230506 23:02:46 ZiTokenizer:48]  ./languages/szl\vocab.txt load vocab:17846 root:13602 prefix:1689 suffix:2555 
+[I 230506 23:02:46 ZiCutter:58] ./languages/szl\JiZi.txt load  JiZi:578
+[I 230506 23:02:47 ZiCutter:32]   ./languages/szl\HeZi.txt 70757  JiZi:578 --> loadHeZi 70757  values:578 slim2Zi:69419 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:02:47 ZiCutter:66] ./languages/szl loaded vocab:578
+[I 230506 23:02:47 glance:35]  cat C:/data/word_frequency\szl-word_frequency.tsv n_src:207988--> freq:207986 total:9343888.0
+[I 230506 23:02:49 ZiTokenizer:48]  ./languages/szy\vocab.txt load vocab:24613 root:20790 prefix:1272 suffix:2551 
+[I 230506 23:02:49 ZiCutter:58] ./languages/szy\JiZi.txt load  JiZi:3693
+[I 230506 23:02:49 ZiCutter:32]   ./languages/szy\HeZi.txt 85898  JiZi:3693 --> loadHeZi 85898  values:3693 slim2Zi:79661 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:02:49 ZiCutter:66] ./languages/szy loaded vocab:3693
+[I 230506 23:02:50 glance:35]  cat C:/data/word_frequency\szy-word_frequency.tsv n_src:85256--> freq:85256 total:2375872.0
+[I 230506 23:02:50 ZiTokenizer:48]  ./languages/ta\vocab.txt load vocab:8890 root:7031 prefix:899 suffix:960 
+[I 230506 23:02:50 ZiCutter:58] ./languages/ta\JiZi.txt load  JiZi:551
+[I 230506 23:02:51 ZiCutter:32]   ./languages/ta\HeZi.txt 70124  JiZi:551 --> loadHeZi 70124  values:551 slim2Zi:68871 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:02:51 ZiCutter:66] ./languages/ta loaded vocab:551
+[I 230506 23:02:52 glance:35]  cat C:/data/word_frequency\ta-word_frequency.tsv n_src:843296--> freq:843213 total:276368111.0
+[I 230506 23:03:01 ZiTokenizer:48]  ./languages/tay\vocab.txt load vocab:14819 root:13234 prefix:751 suffix:834 
+[I 230506 23:03:01 ZiCutter:58] ./languages/tay\JiZi.txt load  JiZi:1622
+[I 230506 23:03:01 ZiCutter:32]   ./languages/tay\HeZi.txt 81737  JiZi:1622 --> loadHeZi 81737  values:1622 slim2Zi:78525 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:03:01 ZiCutter:66] ./languages/tay loaded vocab:1622
+[I 230506 23:03:01 glance:35]  cat C:/data/word_frequency\tay-word_frequency.tsv n_src:26695--> freq:26695 total:520722.0
+[I 230506 23:03:01 ZiTokenizer:48]  ./languages/tcy\vocab.txt load vocab:10993 root:9364 prefix:815 suffix:814 
+[I 230506 23:03:01 ZiCutter:58] ./languages/tcy\JiZi.txt load  JiZi:538
+[I 230506 23:03:02 ZiCutter:32]   ./languages/tcy\HeZi.txt 70076  JiZi:538 --> loadHeZi 70076  values:538 slim2Zi:68857 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:03:02 ZiCutter:66] ./languages/tcy loaded vocab:538
+[E 230506 23:03:02 glance:19] ('\n', ['\n'])
+[E 230506 23:03:02 glance:19] ('\n', ['\n'])
+[E 230506 23:03:02 glance:19] ('\n', ['\n'])
+[E 230506 23:03:02 glance:19] ('\n', ['\n'])
+[E 230506 23:03:02 glance:19] ('\n', ['\n'])
+[E 230506 23:03:02 glance:19] ('\n', ['\n'])
+[E 230506 23:03:02 glance:19] ('\t\n', ['\t\n'])
+[I 230506 23:03:02 glance:35]  cat C:/data/word_frequency\tcy-word_frequency.tsv n_src:35762--> freq:35752 total:2473645.0
+[I 230506 23:03:02 ZiTokenizer:48]  ./languages/te\vocab.txt load vocab:11574 root:10155 prefix:674 suffix:745 
+[I 230506 23:03:02 ZiCutter:58] ./languages/te\JiZi.txt load  JiZi:537
+[I 230506 23:03:02 ZiCutter:32]   ./languages/te\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:03:02 ZiCutter:66] ./languages/te loaded vocab:537
+[I 230506 23:03:03 glance:35]  cat C:/data/word_frequency\te-word_frequency.tsv n_src:649892--> freq:649756 total:192164531.0
+[I 230506 23:03:09 ZiTokenizer:48]  ./languages/ten\vocab.txt load vocab:11699 root:9965 prefix:669 suffix:1065 
+[I 230506 23:03:09 ZiCutter:58] ./languages/ten\JiZi.txt load  JiZi:908
+[I 230506 23:03:10 ZiCutter:32]   ./languages/ten\HeZi.txt 76321  JiZi:908 --> loadHeZi 76321  values:908 slim2Zi:74342 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:03:10 ZiCutter:66] ./languages/ten loaded vocab:908
+[I 230506 23:03:10 glance:35]  cat C:/data/word_frequency\ten-word_frequency.tsv n_src:25137--> freq:25137 total:160983.0
+[I 230506 23:03:10 ZiTokenizer:48]  ./languages/tet\vocab.txt load vocab:15703 root:13440 prefix:855 suffix:1408 
+[I 230506 23:03:10 ZiCutter:58] ./languages/tet\JiZi.txt load  JiZi:544
+[I 230506 23:03:10 ZiCutter:32]   ./languages/tet\HeZi.txt 70273  JiZi:544 --> loadHeZi 70273  values:544 slim2Zi:69044 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:03:10 ZiCutter:66] ./languages/tet loaded vocab:544
+[I 230506 23:03:11 glance:35]  cat C:/data/word_frequency\tet-word_frequency.tsv n_src:32213--> freq:32213 total:347924.0
+[I 230506 23:03:11 ZiTokenizer:48]  ./languages/tg\vocab.txt load vocab:38942 root:30285 prefix:3341 suffix:5316 
+[I 230506 23:03:11 ZiCutter:58] ./languages/tg\JiZi.txt load  JiZi:694
+[I 230506 23:03:11 ZiCutter:32]   ./languages/tg\HeZi.txt 72707  JiZi:694 --> loadHeZi 72707  values:694 slim2Zi:71119 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:03:11 ZiCutter:66] ./languages/tg loaded vocab:694
+[I 230506 23:03:12 glance:35]  cat C:/data/word_frequency\tg-word_frequency.tsv n_src:599113--> freq:599106 total:14940818.0
+[I 230506 23:03:18 ZiTokenizer:48]  ./languages/th\vocab.txt load vocab:50687 root:39073 prefix:6928 suffix:4686 
+[I 230506 23:03:18 ZiCutter:58] ./languages/th\JiZi.txt load  JiZi:1937
+[I 230506 23:03:19 ZiCutter:32]   ./languages/th\HeZi.txt 84216  JiZi:1937 --> loadHeZi 84216  values:1937 slim2Zi:80674 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:03:19 ZiCutter:66] ./languages/th loaded vocab:1937
+[I 230506 23:03:30 glance:35]  cat C:/data/word_frequency\th-word_frequency.tsv n_src:5463067--> freq:5462978 total:121925188.0
+[I 230506 23:04:34 ZiTokenizer:48]  ./languages/ti\vocab.txt load vocab:6340 root:5362 prefix:338 suffix:640 
+[I 230506 23:04:34 ZiCutter:58] ./languages/ti\JiZi.txt load  JiZi:537
+[I 230506 23:04:34 ZiCutter:32]   ./languages/ti\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:04:34 ZiCutter:66] ./languages/ti loaded vocab:537
+[I 230506 23:04:34 glance:35]  cat C:/data/word_frequency\ti-word_frequency.tsv n_src:14640--> freq:14640 total:58360.0
+[I 230506 23:04:34 ZiTokenizer:48]  ./languages/tk\vocab.txt load vocab:62888 root:53881 prefix:4152 suffix:4855 
+[I 230506 23:04:34 ZiCutter:58] ./languages/tk\JiZi.txt load  JiZi:627
+[I 230506 23:04:35 ZiCutter:32]   ./languages/tk\HeZi.txt 71734  JiZi:627 --> loadHeZi 71734  values:627 slim2Zi:70402 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:04:35 ZiCutter:66] ./languages/tk loaded vocab:627
+[I 230506 23:04:35 glance:35]  cat C:/data/word_frequency\tk-word_frequency.tsv n_src:206834--> freq:206832 total:1931804.0
+[I 230506 23:04:37 ZiTokenizer:48]  ./languages/tl\vocab.txt load vocab:40577 root:32481 prefix:2789 suffix:5307 
+[I 230506 23:04:37 ZiCutter:58] ./languages/tl\JiZi.txt load  JiZi:1591
+[I 230506 23:04:38 ZiCutter:32]   ./languages/tl\HeZi.txt 82033  JiZi:1591 --> loadHeZi 82033  values:1591 slim2Zi:79035 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:04:38 ZiCutter:66] ./languages/tl loaded vocab:1591
+[I 230506 23:04:39 glance:35]  cat C:/data/word_frequency\tl-word_frequency.tsv n_src:603439--> freq:603430 total:20673277.0
+[I 230506 23:04:45 ZiTokenizer:48]  ./languages/tn\vocab.txt load vocab:18435 root:15978 prefix:940 suffix:1517 
+[I 230506 23:04:45 ZiCutter:58] ./languages/tn\JiZi.txt load  JiZi:538
+[I 230506 23:04:45 ZiCutter:32]   ./languages/tn\HeZi.txt 70074  JiZi:538 --> loadHeZi 70074  values:538 slim2Zi:68855 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:04:45 ZiCutter:66] ./languages/tn loaded vocab:538
+[I 230506 23:04:45 glance:35]  cat C:/data/word_frequency\tn-word_frequency.tsv n_src:36026--> freq:36026 total:698156.0
+[I 230506 23:04:46 ZiTokenizer:48]  ./languages/to\vocab.txt load vocab:9143 root:7967 prefix:505 suffix:671 
+[I 230506 23:04:46 ZiCutter:58] ./languages/to\JiZi.txt load  JiZi:538
+[I 230506 23:04:46 ZiCutter:32]   ./languages/to\HeZi.txt 70083  JiZi:538 --> loadHeZi 70083  values:538 slim2Zi:68864 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:04:46 ZiCutter:66] ./languages/to loaded vocab:538
+[I 230506 23:04:46 glance:35]  cat C:/data/word_frequency\to-word_frequency.tsv n_src:16929--> freq:16929 total:274152.0
+[I 230506 23:04:46 ZiTokenizer:48]  ./languages/tpi\vocab.txt load vocab:5930 root:4995 prefix:452 suffix:483 
+[I 230506 23:04:46 ZiCutter:58] ./languages/tpi\JiZi.txt load  JiZi:550
+[I 230506 23:04:46 ZiCutter:32]   ./languages/tpi\HeZi.txt 70273  JiZi:550 --> loadHeZi 70273  values:550 slim2Zi:69042 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:04:46 ZiCutter:66] ./languages/tpi loaded vocab:550
+[I 230506 23:04:47 glance:35]  cat C:/data/word_frequency\tpi-word_frequency.tsv n_src:11137--> freq:11137 total:97617.0
+[I 230506 23:04:47 ZiTokenizer:48]  ./languages/tr\vocab.txt load vocab:48479 root:39398 prefix:3060 suffix:6021 
+[I 230506 23:04:47 ZiCutter:58] ./languages/tr\JiZi.txt load  JiZi:937
+[I 230506 23:04:47 ZiCutter:32]   ./languages/tr\HeZi.txt 77070  JiZi:937 --> loadHeZi 77070  values:937 slim2Zi:75009 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:04:47 ZiCutter:66] ./languages/tr loaded vocab:937
+[I 230506 23:04:53 glance:35]  cat C:/data/word_frequency\tr-word_frequency.tsv n_src:3521208--> freq:3521124 total:226677913.0
+[I 230506 23:05:33 ZiTokenizer:48]  ./languages/trv\vocab.txt load vocab:32825 root:28802 prefix:2150 suffix:1873 
+[I 230506 23:05:33 ZiCutter:58] ./languages/trv\JiZi.txt load  JiZi:1711
+[I 230506 23:05:33 ZiCutter:32]   ./languages/trv\HeZi.txt 82257  JiZi:1711 --> loadHeZi 82257  values:1711 slim2Zi:78928 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:05:33 ZiCutter:66] ./languages/trv loaded vocab:1711
+[I 230506 23:05:34 glance:35]  cat C:/data/word_frequency\trv-word_frequency.tsv n_src:68586--> freq:68586 total:1000358.0
+[I 230506 23:05:34 ZiTokenizer:48]  ./languages/ts\vocab.txt load vocab:13426 root:11135 prefix:842 suffix:1449 
+[I 230506 23:05:34 ZiCutter:58] ./languages/ts\JiZi.txt load  JiZi:546
+[I 230506 23:05:34 ZiCutter:32]   ./languages/ts\HeZi.txt 70260  JiZi:546 --> loadHeZi 70260  values:546 slim2Zi:69017 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:05:34 ZiCutter:66] ./languages/ts loaded vocab:546
+[I 230506 23:05:35 glance:35]  cat C:/data/word_frequency\ts-word_frequency.tsv n_src:28311--> freq:28311 total:220686.0
+[I 230506 23:05:35 ZiTokenizer:48]  ./languages/tt\vocab.txt load vocab:13849 root:10348 prefix:1635 suffix:1866 
+[I 230506 23:05:35 ZiCutter:58] ./languages/tt\JiZi.txt load  JiZi:624
+[I 230506 23:05:35 ZiCutter:32]   ./languages/tt\HeZi.txt 71063  JiZi:624 --> loadHeZi 71063  values:624 slim2Zi:69703 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:05:35 ZiCutter:66] ./languages/tt loaded vocab:624
+[I 230506 23:05:38 glance:35]  cat C:/data/word_frequency\tt-word_frequency.tsv n_src:1446658--> freq:1446645 total:188702558.0
+[I 230506 23:05:54 ZiTokenizer:48]  ./languages/tum\vocab.txt load vocab:7766 root:6302 prefix:506 suffix:958 
+[I 230506 23:05:54 ZiCutter:58] ./languages/tum\JiZi.txt load  JiZi:538
+[I 230506 23:05:54 ZiCutter:32]   ./languages/tum\HeZi.txt 70161  JiZi:538 --> loadHeZi 70161  values:538 slim2Zi:68937 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:05:54 ZiCutter:66] ./languages/tum loaded vocab:538
+[E 230506 23:05:54 glance:19] ('\n', ['\n'])
+[E 230506 23:05:54 glance:19] ('\n', ['\n'])
+[E 230506 23:05:54 glance:19] ('\n', ['\n'])
+[E 230506 23:05:54 glance:19] ('\n', ['\n'])
+[E 230506 23:05:54 glance:19] ('\n', ['\n'])
+[I 230506 23:05:54 glance:35]  cat C:/data/word_frequency\tum-word_frequency.tsv n_src:21964--> freq:21957 total:1821856.0
+[I 230506 23:05:54 ZiTokenizer:48]  ./languages/tw\vocab.txt load vocab:35367 root:31116 prefix:1850 suffix:2401 
+[I 230506 23:05:54 ZiCutter:58] ./languages/tw\JiZi.txt load  JiZi:554
+[I 230506 23:05:55 ZiCutter:32]   ./languages/tw\HeZi.txt 70623  JiZi:554 --> loadHeZi 70623  values:554 slim2Zi:69333 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:05:55 ZiCutter:66] ./languages/tw loaded vocab:554
+[I 230506 23:05:55 glance:35]  cat C:/data/word_frequency\tw-word_frequency.tsv n_src:69296--> freq:69295 total:1224850.0
+[I 230506 23:05:55 ZiTokenizer:48]  ./languages/ty\vocab.txt load vocab:2753 root:2349 prefix:167 suffix:237 
+[I 230506 23:05:55 ZiCutter:58] ./languages/ty\JiZi.txt load  JiZi:542
+[I 230506 23:05:56 ZiCutter:32]   ./languages/ty\HeZi.txt 70071  JiZi:542 --> loadHeZi 70071  values:542 slim2Zi:68852 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:05:56 ZiCutter:66] ./languages/ty loaded vocab:542
+[I 230506 23:05:56 glance:35]  cat C:/data/word_frequency\ty-word_frequency.tsv n_src:5483--> freq:5483 total:31148.0
+[I 230506 23:05:56 ZiTokenizer:48]  ./languages/tyv\vocab.txt load vocab:51289 root:42732 prefix:3747 suffix:4810 
+[I 230506 23:05:56 ZiCutter:58] ./languages/tyv\JiZi.txt load  JiZi:662
+[I 230506 23:05:56 ZiCutter:32]   ./languages/tyv\HeZi.txt 72912  JiZi:662 --> loadHeZi 72912  values:662 slim2Zi:71418 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:05:56 ZiCutter:66] ./languages/tyv loaded vocab:662
+[I 230506 23:05:56 glance:35]  cat C:/data/word_frequency\tyv-word_frequency.tsv n_src:167008--> freq:167008 total:1648671.0
+[I 230506 23:05:58 ZiTokenizer:48]  ./languages/udm\vocab.txt load vocab:41846 root:35706 prefix:2697 suffix:3443 
+[I 230506 23:05:58 ZiCutter:58] ./languages/udm\JiZi.txt load  JiZi:558
+[I 230506 23:05:58 ZiCutter:32]   ./languages/udm\HeZi.txt 70343  JiZi:558 --> loadHeZi 70343  values:558 slim2Zi:69092 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:05:58 ZiCutter:66] ./languages/udm loaded vocab:558
+[I 230506 23:05:59 glance:35]  cat C:/data/word_frequency\udm-word_frequency.tsv n_src:93309--> freq:93308 total:863360.0
+[I 230506 23:06:00 ZiTokenizer:48]  ./languages/ug\vocab.txt load vocab:46386 root:38996 prefix:2715 suffix:4675 
+[I 230506 23:06:00 ZiCutter:58] ./languages/ug\JiZi.txt load  JiZi:1288
+[I 230506 23:06:00 ZiCutter:32]   ./languages/ug\HeZi.txt 80294  JiZi:1288 --> loadHeZi 80294  values:1288 slim2Zi:77610 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:06:00 ZiCutter:66] ./languages/ug loaded vocab:1288
+[I 230506 23:06:01 glance:35]  cat C:/data/word_frequency\ug-word_frequency.tsv n_src:290146--> freq:290139 total:4071126.0
+[I 230506 23:06:04 ZiTokenizer:48]  ./languages/uk\vocab.txt load vocab:50846 root:38279 prefix:4999 suffix:7568 
+[I 230506 23:06:04 ZiCutter:58] ./languages/uk\JiZi.txt load  JiZi:775
+[I 230506 23:06:04 ZiCutter:32]   ./languages/uk\HeZi.txt 74895  JiZi:775 --> loadHeZi 74895  values:775 slim2Zi:73136 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:06:04 ZiCutter:66] ./languages/uk loaded vocab:775
+[I 230506 23:06:22 glance:35]  cat C:/data/word_frequency\uk-word_frequency.tsv n_src:8666907--> freq:8665280 total:700425472.0
+[I 230506 23:07:56 ZiTokenizer:48]  ./languages/ur\vocab.txt load vocab:32359 root:26369 prefix:2146 suffix:3844 
+[I 230506 23:07:56 ZiCutter:58] ./languages/ur\JiZi.txt load  JiZi:709
+[I 230506 23:07:57 ZiCutter:32]   ./languages/ur\HeZi.txt 73650  JiZi:709 --> loadHeZi 73650  values:709 slim2Zi:72061 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:07:57 ZiCutter:66] ./languages/ur loaded vocab:709
+[I 230506 23:07:59 glance:35]  cat C:/data/word_frequency\ur-word_frequency.tsv n_src:1032765--> freq:1032738 total:59795484.0
+[I 230506 23:08:08 ZiTokenizer:48]  ./languages/uz\vocab.txt load vocab:41945 root:33661 prefix:3859 suffix:4425 
+[I 230506 23:08:08 ZiCutter:58] ./languages/uz\JiZi.txt load  JiZi:1025
+[I 230506 23:08:08 ZiCutter:32]   ./languages/uz\HeZi.txt 78252  JiZi:1025 --> loadHeZi 78252  values:1025 slim2Zi:75922 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:08:08 ZiCutter:66] ./languages/uz loaded vocab:1025
+[I 230506 23:08:12 glance:35]  cat C:/data/word_frequency\uz-word_frequency.tsv n_src:2074934--> freq:2074892 total:90204832.0
+[I 230506 23:08:35 ZiTokenizer:48]  ./languages/ve\vocab.txt load vocab:4017 root:3457 prefix:178 suffix:382 
+[I 230506 23:08:35 ZiCutter:58] ./languages/ve\JiZi.txt load  JiZi:538
+[I 230506 23:08:35 ZiCutter:32]   ./languages/ve\HeZi.txt 70074  JiZi:538 --> loadHeZi 70074  values:538 slim2Zi:68855 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:08:35 ZiCutter:66] ./languages/ve loaded vocab:538
+[I 230506 23:08:35 glance:35]  cat C:/data/word_frequency\ve-word_frequency.tsv n_src:7851--> freq:7851 total:52239.0
+[I 230506 23:08:35 ZiTokenizer:48]  ./languages/vec\vocab.txt load vocab:31616 root:24378 prefix:2684 suffix:4554 
+[I 230506 23:08:35 ZiCutter:58] ./languages/vec\JiZi.txt load  JiZi:563
+[I 230506 23:08:36 ZiCutter:32]   ./languages/vec\HeZi.txt 70636  JiZi:563 --> loadHeZi 70636  values:563 slim2Zi:69365 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:08:36 ZiCutter:66] ./languages/vec loaded vocab:563
+[I 230506 23:08:37 glance:35]  cat C:/data/word_frequency\vec-word_frequency.tsv n_src:456472--> freq:456467 total:14984384.0
+[I 230506 23:08:41 ZiTokenizer:48]  ./languages/vep\vocab.txt load vocab:41340 root:33363 prefix:3942 suffix:4035 
+[I 230506 23:08:41 ZiCutter:58] ./languages/vep\JiZi.txt load  JiZi:757
+[I 230506 23:08:41 ZiCutter:32]   ./languages/vep\HeZi.txt 74094  JiZi:757 --> loadHeZi 74094  values:757 slim2Zi:72423 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:08:41 ZiCutter:66] ./languages/vep loaded vocab:757
+[I 230506 23:08:42 glance:35]  cat C:/data/word_frequency\vep-word_frequency.tsv n_src:177785--> freq:177784 total:2381842.0
+[I 230506 23:08:43 ZiTokenizer:48]  ./languages/vi\vocab.txt load vocab:25596 root:20231 prefix:1800 suffix:3565 
+[I 230506 23:08:43 ZiCutter:58] ./languages/vi\JiZi.txt load  JiZi:2199
+[I 230506 23:08:44 ZiCutter:32]   ./languages/vi\HeZi.txt 85849  JiZi:2199 --> loadHeZi 85849  values:2199 slim2Zi:81875 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:08:44 ZiCutter:66] ./languages/vi loaded vocab:2199
+[I 230506 23:08:48 glance:35]  cat C:/data/word_frequency\vi-word_frequency.tsv n_src:2769482--> freq:2769390 total:450791489.0
+[I 230506 23:09:18 ZiTokenizer:48]  ./languages/vls\vocab.txt load vocab:42970 root:34756 prefix:2918 suffix:5296 
+[I 230506 23:09:18 ZiCutter:58] ./languages/vls\JiZi.txt load  JiZi:551
+[I 230506 23:09:19 ZiCutter:32]   ./languages/vls\HeZi.txt 70274  JiZi:551 --> loadHeZi 70274  values:551 slim2Zi:69031 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:19 ZiCutter:66] ./languages/vls loaded vocab:551
+[I 230506 23:09:19 glance:35]  cat C:/data/word_frequency\vls-word_frequency.tsv n_src:171513--> freq:171506 total:2277213.0
+[I 230506 23:09:21 ZiTokenizer:48]  ./languages/vo\vocab.txt load vocab:19985 root:15552 prefix:1826 suffix:2607 
+[I 230506 23:09:21 ZiCutter:58] ./languages/vo\JiZi.txt load  JiZi:654
+[I 230506 23:09:21 ZiCutter:32]   ./languages/vo\HeZi.txt 71814  JiZi:654 --> loadHeZi 71814  values:654 slim2Zi:70317 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:21 ZiCutter:66] ./languages/vo loaded vocab:654
+[I 230506 23:09:21 glance:35]  cat C:/data/word_frequency\vo-word_frequency.tsv n_src:110461--> freq:110460 total:4434591.0
+[I 230506 23:09:22 ZiTokenizer:48]  ./languages/wa\vocab.txt load vocab:33984 root:27868 prefix:3335 suffix:2781 
+[I 230506 23:09:22 ZiCutter:58] ./languages/wa\JiZi.txt load  JiZi:575
+[I 230506 23:09:23 ZiCutter:32]   ./languages/wa\HeZi.txt 70743  JiZi:575 --> loadHeZi 70743  values:575 slim2Zi:69406 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:23 ZiCutter:66] ./languages/wa loaded vocab:575
+[I 230506 23:09:23 glance:35]  cat C:/data/word_frequency\wa-word_frequency.tsv n_src:198277--> freq:198270 total:4299089.0
+[I 230506 23:09:25 ZiTokenizer:48]  ./languages/war\vocab.txt load vocab:15663 root:12046 prefix:1421 suffix:2196 
+[I 230506 23:09:25 ZiCutter:58] ./languages/war\JiZi.txt load  JiZi:538
+[I 230506 23:09:25 ZiCutter:32]   ./languages/war\HeZi.txt 70114  JiZi:538 --> loadHeZi 70114  values:538 slim2Zi:68895 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:25 ZiCutter:66] ./languages/war loaded vocab:538
+[I 230506 23:09:26 glance:35]  cat C:/data/word_frequency\war-word_frequency.tsv n_src:867821--> freq:867820 total:239308241.0
+[I 230506 23:09:35 ZiTokenizer:48]  ./languages/wo\vocab.txt load vocab:27695 root:25268 prefix:997 suffix:1430 
+[I 230506 23:09:36 ZiCutter:58] ./languages/wo\JiZi.txt load  JiZi:539
+[I 230506 23:09:36 ZiCutter:32]   ./languages/wo\HeZi.txt 70084  JiZi:539 --> loadHeZi 70084  values:539 slim2Zi:68864 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:36 ZiCutter:66] ./languages/wo loaded vocab:539
+[I 230506 23:09:36 glance:35]  cat C:/data/word_frequency\wo-word_frequency.tsv n_src:47761--> freq:47761 total:829875.0
+[I 230506 23:09:36 ZiTokenizer:48]  ./languages/wuu\vocab.txt load vocab:14295 root:12387 prefix:880 suffix:1028 
+[I 230506 23:09:36 ZiCutter:58] ./languages/wuu\JiZi.txt load  JiZi:5082
+[I 230506 23:09:37 ZiCutter:32]   ./languages/wuu\HeZi.txt 85116  JiZi:5082 --> loadHeZi 85116  values:5082 slim2Zi:77571 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:37 ZiCutter:66] ./languages/wuu loaded vocab:5082
+[I 230506 23:09:37 glance:35]  cat C:/data/word_frequency\wuu-word_frequency.tsv n_src:96149--> freq:96147 total:6795772.0
+[I 230506 23:09:38 ZiTokenizer:48]  ./languages/xal\vocab.txt load vocab:12490 root:10007 prefix:1157 suffix:1326 
+[I 230506 23:09:38 ZiCutter:58] ./languages/xal\JiZi.txt load  JiZi:547
+[I 230506 23:09:38 ZiCutter:32]   ./languages/xal\HeZi.txt 70142  JiZi:547 --> loadHeZi 70142  values:547 slim2Zi:68910 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:38 ZiCutter:66] ./languages/xal loaded vocab:547
+[I 230506 23:09:38 glance:35]  cat C:/data/word_frequency\xal-word_frequency.tsv n_src:29115--> freq:29115 total:190438.0
+[I 230506 23:09:39 ZiTokenizer:48]  ./languages/xh\vocab.txt load vocab:36295 root:27820 prefix:2505 suffix:5970 
+[I 230506 23:09:39 ZiCutter:58] ./languages/xh\JiZi.txt load  JiZi:538
+[I 230506 23:09:39 ZiCutter:32]   ./languages/xh\HeZi.txt 70077  JiZi:538 --> loadHeZi 70077  values:538 slim2Zi:68849 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:39 ZiCutter:66] ./languages/xh loaded vocab:538
+[I 230506 23:09:39 glance:35]  cat C:/data/word_frequency\xh-word_frequency.tsv n_src:89117--> freq:89117 total:383876.0
+[I 230506 23:09:40 ZiTokenizer:48]  ./languages/xmf\vocab.txt load vocab:50951 root:40763 prefix:4462 suffix:5726 
+[I 230506 23:09:40 ZiCutter:58] ./languages/xmf\JiZi.txt load  JiZi:716
+[I 230506 23:09:41 ZiCutter:32]   ./languages/xmf\HeZi.txt 73297  JiZi:716 --> loadHeZi 73297  values:716 slim2Zi:71743 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:41 ZiCutter:66] ./languages/xmf loaded vocab:716
+[I 230506 23:09:41 glance:35]  cat C:/data/word_frequency\xmf-word_frequency.tsv n_src:272149--> freq:272148 total:2870220.0
+[I 230506 23:09:44 ZiTokenizer:48]  ./languages/yi\vocab.txt load vocab:30037 root:25723 prefix:1986 suffix:2328 
+[I 230506 23:09:44 ZiCutter:58] ./languages/yi\JiZi.txt load  JiZi:546
+[I 230506 23:09:44 ZiCutter:32]   ./languages/yi\HeZi.txt 70157  JiZi:546 --> loadHeZi 70157  values:546 slim2Zi:68910 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:44 ZiCutter:66] ./languages/yi loaded vocab:546
+[I 230506 23:09:45 glance:35]  cat C:/data/word_frequency\yi-word_frequency.tsv n_src:224271--> freq:224269 total:8749779.0
+[I 230506 23:09:47 ZiTokenizer:48]  ./languages/yo\vocab.txt load vocab:37992 root:31099 prefix:3045 suffix:3848 
+[I 230506 23:09:47 ZiCutter:58] ./languages/yo\JiZi.txt load  JiZi:817
+[I 230506 23:09:47 ZiCutter:32]   ./languages/yo\HeZi.txt 73516  JiZi:817 --> loadHeZi 73516  values:817 slim2Zi:71709 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:47 ZiCutter:66] ./languages/yo loaded vocab:817
+[I 230506 23:09:48 glance:35]  cat C:/data/word_frequency\yo-word_frequency.tsv n_src:199922--> freq:199921 total:3415900.0
+[I 230506 23:09:49 ZiTokenizer:48]  ./languages/za\vocab.txt load vocab:13555 root:11936 prefix:497 suffix:1122 
+[I 230506 23:09:49 ZiCutter:58] ./languages/za\JiZi.txt load  JiZi:2437
+[I 230506 23:09:50 ZiCutter:32]   ./languages/za\HeZi.txt 85504  JiZi:2437 --> loadHeZi 85504  values:2437 slim2Zi:81083 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:50 ZiCutter:66] ./languages/za loaded vocab:2437
+[I 230506 23:09:50 glance:35]  cat C:/data/word_frequency\za-word_frequency.tsv n_src:25326--> freq:25326 total:233040.0
+[I 230506 23:09:50 ZiTokenizer:48]  ./languages/zea\vocab.txt load vocab:25811 root:21540 prefix:1541 suffix:2730 
+[I 230506 23:09:50 ZiCutter:58] ./languages/zea\JiZi.txt load  JiZi:537
+[I 230506 23:09:50 ZiCutter:32]   ./languages/zea\HeZi.txt 70075  JiZi:537 --> loadHeZi 70075  values:537 slim2Zi:68856 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:50 ZiCutter:66] ./languages/zea loaded vocab:537
+[I 230506 23:09:51 glance:35]  cat C:/data/word_frequency\zea-word_frequency.tsv n_src:82319--> freq:81042 total:1410350.0
+[I 230506 23:09:51 ZiTokenizer:48]  ./languages/zh\vocab.txt load vocab:14344 root:13341 prefix:418 suffix:585 
+[I 230506 23:09:51 ZiCutter:58] ./languages/zh\JiZi.txt load  JiZi:7065
+[I 230506 23:09:52 ZiCutter:32]   ./languages/zh\HeZi.txt 82601  JiZi:7065 --> loadHeZi 82601  values:7065 slim2Zi:73813 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:09:52 ZiCutter:66] ./languages/zh loaded vocab:7065
+[I 230506 23:09:58 glance:35]  cat C:/data/word_frequency\zh-word_frequency.tsv n_src:3550642--> freq:3550082 total:3995201362.0
+[I 230506 23:11:00 ZiTokenizer:48]  ./languages/zh_classical\vocab.txt load vocab:10821 root:10326 prefix:224 suffix:271 
+[I 230506 23:11:00 ZiCutter:58] ./languages/zh_classical\JiZi.txt load  JiZi:6073
+[I 230506 23:11:00 ZiCutter:32]   ./languages/zh_classical\HeZi.txt 84614  JiZi:6073 --> loadHeZi 84614  values:6073 slim2Zi:76206 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:11:00 ZiCutter:66] ./languages/zh_classical loaded vocab:6073
+[I 230506 23:11:00 glance:35]  cat C:/data/word_frequency\zh_classical-word_frequency.tsv n_src:27134--> freq:27132 total:4583828.0
+[I 230506 23:11:01 ZiTokenizer:48]  ./languages/zh_min_nan\vocab.txt load vocab:15888 root:12885 prefix:1241 suffix:1762 
+[I 230506 23:11:01 ZiCutter:58] ./languages/zh_min_nan\JiZi.txt load  JiZi:1883
+[I 230506 23:11:01 ZiCutter:32]   ./languages/zh_min_nan\HeZi.txt 84395  JiZi:1883 --> loadHeZi 84395  values:1883 slim2Zi:80890 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:11:01 ZiCutter:66] ./languages/zh_min_nan loaded vocab:1883
+[I 230506 23:11:02 glance:35]  cat C:/data/word_frequency\zh_min_nan-word_frequency.tsv n_src:480501--> freq:480498 total:48541091.0
+[I 230506 23:11:07 ZiTokenizer:48]  ./languages/zh_yue\vocab.txt load vocab:15969 root:13593 prefix:1088 suffix:1288 
+[I 230506 23:11:07 ZiCutter:58] ./languages/zh_yue\JiZi.txt load  JiZi:5013
+[I 230506 23:11:07 ZiCutter:32]   ./languages/zh_yue\HeZi.txt 85614  JiZi:5013 --> loadHeZi 85614  values:5013 slim2Zi:78334 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:11:07 ZiCutter:66] ./languages/zh_yue loaded vocab:5013
+[I 230506 23:11:07 glance:35]  cat C:/data/word_frequency\zh_yue-word_frequency.tsv n_src:289207--> freq:289198 total:36878104.0
+[I 230506 23:11:10 ZiTokenizer:48]  ./languages/zu\vocab.txt load vocab:71846 root:57843 prefix:4318 suffix:9685 
+[I 230506 23:11:10 ZiCutter:58] ./languages/zu\JiZi.txt load  JiZi:560
+[I 230506 23:11:11 ZiCutter:32]   ./languages/zu\HeZi.txt 70304  JiZi:560 --> loadHeZi 70304  values:560 slim2Zi:69054 jieGou:⿳⿸⿺⿶⿷⿱⿹⿵⿲⿰〾⿴⿻ max_len:7
+[I 230506 23:11:11 ZiCutter:66] ./languages/zu loaded vocab:560
+[I 230506 23:11:11 glance:35]  cat C:/data/word_frequency\zu-word_frequency.tsv n_src:160341--> freq:160341 total:1252029.0
+[I 230506 23:11:13 build:103] 
+    
+    
+    lang	vocab	total	common	share	cover
+    ab	20228	376284.0	20228	1.0	0.9994897471059093
+    ace	21789	1040751.0	21789	1.0	0.9997665147571321
+    ady	6778	63387.0	6778	1.0	0.997049868269519
+    af	37759	50890548.0	37759	1.0	0.9997714506827476
+    ak	11265	213684.0	11265	1.0	0.99991108365624
+    als	47676	17819808.0	47676	1.0	0.9998390555049751
+    alt	31906	1070448.0	31906	1.0	0.9999514222082717
+    am	61225	2503162.0	61225	1.0	0.9996839996772082
+    ami	25015	810330.0	25015	1.0	0.9994051806054324
+    an	38492	11629142.0	38492	1.0	0.9998332637093948
+    ang	33303	498263.0	33303	1.0	0.9993136155002479
+    ar	48122	693329232.0	48122	1.0	0.9997609202203666
+    arc	7960	82871.0	7960	1.0	0.9970194639861955
+    ary	38878	1478467.0	38878	1.0	0.9997477116499726
+    arz	17999	365750008.0	17999	1.0	0.9999256924144756
+    as	12808	42615348.0	12808	1.0	0.9998659872494764
+    ast	43370	113763950.0	43370	1.0	0.9997716236118735
+    atj	9538	132652.0	9538	1.0	0.9995552272110485
+    av	48369	1115224.0	48369	1.0	0.999735479150377
+    avk	17092	4897867.0	17092	1.0	0.9999750911978622
+    awa	9288	665678.0	9288	1.0	0.9997671546904059
+    ay	28884	739855.0	28884	1.0	0.999710754134256
+    az	48035	94262993.0	48035	1.0	0.9997353786549086
+    azb	28010	25266334.0	28010	1.0	0.9998329001745959
+    ba	40199	40195826.0	40199	1.0	0.9997485311037022
+    ban	34857	8107019.0	34857	1.0	0.9997674854345352
+    bar	45610	8226490.0	45610	1.0	0.9997819240040406
+    bat_smg	57954	1055100.0	57954	1.0	0.9996919723248981
+    bcl	39290	5440189.0	39290	1.0	0.9996770332795423
+    be	50488	95366284.0	50488	1.0	0.9998106039237096
+    be_x_old	50969	30396936.0	50969	1.0	0.9998342596109029
+    bg	46384	151050786.0	46384	1.0	0.9998167967163044
+    bh	15023	3339971.0	15023	1.0	0.9998580826001184
+    bi	4370	54146.0	4370	1.0	0.9982270158460459
+    bjn	52313	1166238.0	52313	1.0	0.9995618390071324
+    blk	9234	3912441.0	9234	1.0	0.9999575712451638
+    bm	6480	87685.0	6480	1.0	0.999327136910532
+    bn	11566	280202775.0	11566	1.0	0.9997146459381068
+    bo	4655	25114485.0	4655	1.0	0.9999115251616746
+    bpy	5104	9931026.0	5104	1.0	0.9999395832817274
+    br	37699	35567011.0	37699	1.0	0.9997899739171222
+    bs	46168	55566078.0	46168	1.0	0.9998717382932804
+    bug	8208	428292.0	8208	1.0	0.9997828584236923
+    bxr	52262	1015214.0	52262	1.0	0.9994621823576113
+    ca	39553	492269088.0	39553	1.0	0.9997689962608418
+    cbk_zam	26359	881995.0	26359	1.0	0.9996043061468602
+    cdo	16067	1205262.0	16067	1.0	0.999745283598089
+    ce	10316	135871018.0	10316	1.0	0.9999561569487909
+    ceb	10211	1904461931.0	10211	1.0	0.9999297392098934
+    ch	3014	33817.0	3014	1.0	0.9932282579767573
+    cho	616	473.0	616	1.0	0.9577167019027484
+    chr	7591	91867.0	7591	1.0	0.998367204763408
+    chy	2011	14345.0	2011	1.0	0.9963053328685954
+    ckb	43962	12749467.0	43962	1.0	0.9997319103614293
+    co	43130	1622981.0	43130	1.0	0.9997979027480913
+    cr	952	3479.0	952	1.0	0.9818913480885312
+    crh	35456	1667148.0	35456	1.0	0.9996766933709544
+    cs	53522	371437914.0	53522	1.0	0.9998050629801889
+    csb	36537	628607.0	36537	1.0	0.9995688880333817
+    cu	8789	125438.0	8789	1.0	0.998533139877868
+    cv	26872	14661273.0	26872	1.0	0.9998910053717709
+    cy	30030	82737778.0	30030	1.0	0.9998280954559838
+    da	44383	131898834.0	44383	1.0	0.9997960027455588
+    dag	34584	1270214.0	34584	1.0	0.9999196985704771
+    de	45120	2344288655.0	45120	1.0	0.9997770065563876
+    din	7822	110096.0	7822	1.0	0.9997002615898852
+    diq	38780	4524712.0	38780	1.0	0.9998278343461419
+    dsb	37903	713100.0	37903	1.0	0.9996059458701444
+    dty	11551	1515506.0	11551	1.0	0.9997591563477809
+    dv	4665	3171247.0	4665	1.0	0.999852739316742
+    dz	5098	1699421.0	5098	1.0	0.9999352720720763
+    ee	8352	140626.0	8352	1.0	0.9992462275823817
+    el	51065	209225506.0	51065	1.0	0.9997755818547286
+    eml	30301	5410367.0	30301	1.0	0.9999177504964081
+    en	38570	7256885603.0	38570	1.0	0.9996700794072032
+    eo	44646	111766940.0	44646	1.0	0.9997442982692377
+    es	40736	1574066563.0	40736	1.0	0.999732300393195
+    et	57127	84982496.0	57127	1.0	0.9998365310428161
+    eu	41117	115999282.0	41117	1.0	0.9997975159880731
+    ext	43484	786826.0	43484	1.0	0.9995564457707294
+    fa	34010	286370683.0	34010	1.0	0.9997257750019055
+    ff	17229	248924.0	17229	1.0	0.9996384438623837
+    fi	56418	241186936.0	56418	1.0	0.9997733086173457
+    fiu_vro	40423	675138.0	40423	1.0	0.999678584230187
+    fj	6002	107243.0	6002	1.0	0.9994964706321159
+    fo	44712	3085017.0	44712	1.0	0.9998350090129163
+    fr	37140	3783475972.0	37140	1.0	0.9997571727673707
+    frp	32459	861026.0	32459	1.0	0.9997874628640715
+    frr	33932	3164581.0	33932	1.0	0.9997535218722479
+    fur	34433	803280.0	34433	1.0	0.9997983268598745
+    fy	39788	22562172.0	39788	1.0	0.9998847628676885
+    ga	40848	11158727.0	40848	1.0	0.9997984537125069
+    gag	29322	378765.0	29322	1.0	0.9993610814093171
+    gan	11017	626991.0	11017	1.0	0.9989138600075599
+    gcr	18705	460179.0	18705	1.0	0.999506713691846
+    gd	30002	3405055.0	30002	1.0	0.9998822339139897
+    gl	43122	111838654.0	43122	1.0	0.9998024475509156
+    glk	37291	891006.0	37291	1.0	0.9998641984453528
+    gn	35476	1383158.0	35476	1.0	0.9997447869296204
+    gom	17454	6430856.0	17454	1.0	0.9999808734638126
+    gor	27045	1068380.0	27045	1.0	0.9998661524925588
+    got	8805	351157.0	8805	1.0	0.9995386678892917
+    gu	10910	50654459.0	10910	1.0	0.9999188028047047
+    guw	15208	325931.0	15208	1.0	0.9997453448736082
+    gv	41613	1321098.0	41613	1.0	0.9997153882603713
+    ha	32133	13310788.0	32133	1.0	0.9997924991367904
+    hak	17015	1039695.0	17015	1.0	0.999537364323191
+    haw	9479	337804.0	9479	1.0	0.9992599258741756
+    he	51859	591149106.0	51859	1.0	0.9998121709076897
+    hi	11379	166654729.0	11379	1.0	0.9997669433070813
+    hif	39376	1017234.0	39376	1.0	0.9996500313595496
+    ho	590	234.0	590	1.0	0.9829059829059829
+    hr	54942	104181622.0	54942	1.0	0.9998116270449312
+    hsb	38029	3797083.0	38029	1.0	0.999899923177871
+    ht	34660	10474099.0	34660	1.0	0.9998768390483993
+    hu	51250	322403328.0	51250	1.0	0.9997712864800204
+    hy	48645	158059465.0	48645	1.0	0.999742963826937
+    hyw	52119	6995216.0	52119	1.0	0.9998520417382394
+    ia	36612	3235661.0	36612	1.0	0.9997966412427013
+    id	42561	270432825.0	42561	1.0	0.9996162041349825
+    ie	14306	6322034.0	14306	1.0	0.9999343565694205
+    ig	30894	10359285.0	30894	1.0	0.9998478659482773
+    ii	572	96.0	572	1.0	0.9791666666666666
+    ik	2626	19984.0	2626	1.0	0.9910428342674139
+    ilo	30758	4682859.0	30758	1.0	0.999808450350523
+    inh	26629	430032.0	26629	1.0	0.9994814339397998
+    io	24602	8854626.0	24602	1.0	0.9998300323469337
+    is	46745	20588323.0	46745	1.0	0.9998308264349651
+    it	43348	1437125130.0	43348	1.0	0.999750068388269
+    iu	3225	25047.0	3225	1.0	0.9960474308300395
+    ja	10038	2783839815.0	10038	1.0	0.9997669370211231
+    jam	14841	242610.0	14841	1.0	0.9993446271794237
+    jbo	14231	779316.0	14231	1.0	0.9998703991705546
+    jv	41145	20831670.0	41145	1.0	0.9997174494411634
+    ka	49459	57772512.0	49459	1.0	0.9997255442172914
+    kaa	47756	791706.0	47756	1.0	0.9997499071625073
+    kab	44156	960058.0	44156	1.0	0.9997500151032542
+    kbd	23612	355478.0	23612	1.0	0.9995442755951142
+    kbp	22957	586590.0	22957	1.0	0.9997732658245112
+    kcg	7667	154866.0	7667	1.0	0.9986633605826973
+    kg	4712	47653.0	4712	1.0	0.9980693765345309
+    ki	6259	56724.0	6259	1.0	0.9989775051124744
+    kj	561	134.0	561	1.0	0.9328358208955224
+    kk	41483	51117688.0	41483	1.0	0.9997657757917376
+    kl	5021	36508.0	5021	1.0	0.9990139147584091
+    km	15814	20058838.0	15814	1.0	0.9997540734911963
+    kn	10499	125640426.0	10499	1.0	0.9998993715605516
+    ko	10406	853576767.0	10406	1.0	0.9996711824749092
+    koi	30126	752093.0	30126	1.0	0.999861719228872
+    krc	31146	466601.0	31146	1.0	0.9993313344806376
+    ks	11107	262321.0	11107	1.0	0.999386248146355
+    ksh	33248	672758.0	33248	1.0	0.9997517680949167
+    ku	42597	8501851.0	42597	1.0	0.9997385275277113
+    kv	31228	1547439.0	31228	1.0	0.9992923792149481
+    kw	37536	938647.0	37536	1.0	0.9995834429769658
+    ky	42841	17251490.0	42841	1.0	0.9998652869983984
+    la	52643	122807560.0	52643	1.0	0.9998340818757412
+    lad	41025	964429.0	41025	1.0	0.9997397423760588
+    lb	41927	16985312.0	41927	1.0	0.9998544624908863
+    lbe	7264	74716.0	7264	1.0	0.9983269982333102
+    lez	48178	1173326.0	48178	1.0	0.9997170436860685
+    lfn	32634	1887725.0	32634	1.0	0.9996826868320333
+    lg	39232	1670945.0	39232	1.0	0.9999754629865136
+    li	41850	6837468.0	41850	1.0	0.9998894327549321
+    lij	47466	5265378.0	47466	1.0	0.9999230824453629
+    lld	13048	7337046.0	13048	1.0	0.9999433014322113
+    lmo	36099	9080245.0	36099	1.0	0.9998258857552852
+    ln	23331	366286.0	23331	1.0	0.999781591434016
+    lo	51859	1594567.0	51859	1.0	0.9996318749854977
+    lt	50327	69148341.0	50327	1.0	0.9997579406858076
+    ltg	13294	148404.0	13294	1.0	0.9993531171666532
+    lv	50443	43499423.0	50443	1.0	0.9997735832036209
+    mad	15789	212913.0	15789	1.0	0.9994645700356484
+    mai	13288	4385136.0	13288	1.0	0.9998615778393191
+    map_bms	37767	886942.0	37767	1.0	0.9998229872979293
+    mdf	35294	983559.0	35294	1.0	0.9997956401191997
+    mg	23024	15175113.0	23024	1.0	0.9998079750707622
+    mh	661	690.0	661	1.0	0.9739130434782609
+    mhr	22785	4981089.0	22785	1.0	0.9999598481376262
+    mi	14223	1120516.0	14223	1.0	0.9997376208818081
+    min	13438	30727400.0	13438	1.0	0.999804897257822
+    mk	45357	82854102.0	45357	1.0	0.9997969080637673
+    ml	13692	152232814.0	13692	1.0	0.9997959178498796
+    mn	48238	9570113.0	48238	1.0	0.9997861049289596
+    mni	6073	2317165.0	6073	1.0	0.999837301184853
+    mnw	14249	6861061.0	14249	1.0	0.9998552701980058
+    mr	11265	82105799.0	11265	1.0	0.9997066955039314
+    mrj	54853	1057776.0	54853	1.0	0.9997655458244468
+    ms	41050	91897433.0	41050	1.0	0.999636768961762
+    mt	37623	6082724.0	37623	1.0	0.9997732923604622
+    mus	562	134.0	562	1.0	0.9253731343283582
+    mwl	40710	4144654.0	40710	1.0	0.9998810515907962
+    my	12749	44618261.0	12749	1.0	0.9997618239760622
+    myv	37854	2545835.0	37854	1.0	0.9998853028574122
+    mzn	28521	2094022.0	28521	1.0	0.9998118453387786
+    na	4656	49842.0	4656	1.0	0.9952650375185587
+    nah	29280	698379.0	29280	1.0	0.9995375004116676
+    nap	36315	3607418.0	36315	1.0	0.9999362424870087
+    nds	34199	22224659.0	34199	1.0	0.9998996160076067
+    nds_nl	52417	2564936.0	52417	1.0	0.9998998025681732
+    ne	12019	24111050.0	12019	1.0	0.9997382113180471
+    new	5632	28267742.0	5632	1.0	0.9999352618967585
+    ng	1052	3168.0	1052	1.0	0.9971590909090909
+    nia	17092	467985.0	17092	1.0	0.9997905915787899
+    nl	41406	524045023.0	41406	1.0	0.9998295203730997
+    nn	40718	51526435.0	40718	1.0	0.9998058278241062
+    no	44820	269376859.0	44820	1.0	0.9997504314206885
+    nov	11624	180178.0	11624	1.0	0.9991952402624071
+    nqo	19955	1152569.0	19955	1.0	0.9998134601919711
+    nrm	24897	682398.0	24897	1.0	0.9998695775778944
+    nso	15656	459565.0	15656	1.0	0.9999260169943316
+    nv	9598	2764913.0	9598	1.0	0.9999761294478343
+    ny	21564	400834.0	21564	1.0	0.9995085247259464
+    oc	41070	26665110.0	41070	1.0	0.9998171768276973
+    olo	33443	540040.0	33443	1.0	0.9996815050736982
+    om	30041	443815.0	30041	1.0	0.9996777936752926
+    or	14111	22199625.0	14111	1.0	0.9998628805666763
+    os	27431	3031116.0	27431	1.0	0.9998136000073901
+    pa	14409	45732678.0	14409	1.0	0.9997959227316625
+    pag	20567	744763.0	20567	1.0	0.9998482738804156
+    pam	36058	2263788.0	36058	1.0	0.9996996185155147
+    pap	25212	706762.0	25212	1.0	0.9997580515081456
+    pcd	51383	1233764.0	51383	1.0	0.9996093256084632
+    pcm	13183	260983.0	13183	1.0	0.9999271983232625
+    pdc	13111	199983.0	13111	1.0	0.9997599795982659
+    pfl	39489	756667.0	39489	1.0	0.99994052866056
+    pi	3255	117088.0	3255	1.0	0.997890475539765
+    pih	4822	68530.0	4822	1.0	0.9987888515978404
+    pl	55592	1111991190.0	55592	1.0	0.9998124760322966
+    pms	29108	4416923.0	29108	1.0	0.99995404040324
+    pnb	35617	51710156.0	35617	1.0	0.999795939505578
+    pnt	6267	73193.0	6267	1.0	0.9981555613241704
+    ps	39069	18242178.0	39069	1.0	0.9998246919857925
+    pt	42322	718604277.0	42322	1.0	0.99970024113842
+    pwn	8883	163715.0	8883	1.0	0.9983996579421556
+    qu	43693	3132033.0	43693	1.0	0.9997343578436115
+    rm	34892	3648381.0	34892	1.0	0.9999396992803109
+    rmy	6355	75859.0	6355	1.0	0.9986026707444073
+    rn	7326	79755.0	7326	1.0	0.9990470816876685
+    ro	44970	230880308.0	44970	1.0	0.9997946425123445
+    roa_rup	24713	305073.0	24713	1.0	0.9996132073307045
+    roa_tara	34676	1953256.0	34676	1.0	0.9998428265419382
+    ru	55962	2669631327.0	55962	1.0	0.9997831202405575
+    rue	58249	1788372.0	58249	1.0	0.9998585305518092
+    rw	41129	1417044.0	41129	1.0	0.9997212507162798
+    sa	12893	191108271.0	12893	1.0	0.9998935106267588
+    sah	51638	5954021.0	51638	1.0	0.9995754129856109
+    sat	36733	3668303.0	36733	1.0	0.9997415698757709
+    sc	43764	2929662.0	43764	1.0	0.9998194330950123
+    scn	48398	3306214.0	48398	1.0	0.9998784107743782
+    sco	37803	11577845.0	37803	1.0	0.9996947618490315
+    sd	33420	6126106.0	33420	1.0	0.9998661466190758
+    se	24532	1433205.0	24532	1.0	0.9998004472493467
+    sg	2111	35650.0	2111	1.0	0.9966900420757363
+    sh	33490	181438340.0	33490	1.0	0.9998544629541914
+    shi	24901	406519.0	24901	1.0	0.999690051387512
+    shn	10391	4100820.0	10391	1.0	0.9999036778010252
+    si	15139	26251228.0	15139	1.0	0.9997418025549129
+    sk	49839	89123759.0	49839	1.0	0.9998357003770454
+    skr	34459	2862993.0	34459	1.0	0.9999249037632995
+    sl	52228	167215758.0	52228	1.0	0.9998275760589501
+    sm	8141	204829.0	8141	1.0	0.9989796366725415
+    smn	49816	1180930.0	49816	1.0	0.9997645923128382
+    sn	54053	1550572.0	54053	1.0	0.9997052700551796
+    so	48148	3317130.0	48148	1.0	0.9997452617172073
+    sq	46367	43274642.0	46367	1.0	0.9997557229936183
+    sr	48445	280925383.0	48445	1.0	0.9998265518071751
+    srn	5037	125431.0	5037	1.0	0.9986765632100517
+    ss	13563	130709.0	13563	1.0	0.9983933776557085
+    st	11198	211940.0	11198	1.0	0.9996508445786544
+    stq	40844	884486.0	40844	1.0	0.9997784023715469
+    su	40652	8894506.0	40652	1.0	0.9997338806674592
+    sv	30434	829376640.0	30434	1.0	0.999851980398194
+    sw	38945	15522352.0	38945	1.0	0.9997797369883121
+    szl	17846	9343888.0	17846	1.0	0.9998769248946477
+    szy	24613	2375872.0	24613	1.0	0.9998661544056245
+    ta	8890	276368111.0	8890	1.0	0.9997623495715104
+    tay	14819	520722.0	14819	1.0	0.9998117997703189
+    tcy	10993	2473645.0	10993	1.0	0.9999373394322952
+    te	11574	192164531.0	11574	1.0	0.9999069547334934
+    ten	11699	160983.0	11699	1.0	0.9978382810607331
+    tet	15703	347924.0	15703	1.0	0.9998792839815592
+    tg	38942	14940818.0	38942	1.0	0.9997805341046253
+    th	50687	121925188.0	50687	1.0	0.9996521719531817
+    ti	6340	58360.0	6340	1.0	0.996949965729952
+    tk	62888	1931804.0	62888	1.0	0.9997660218117366
+    tl	40577	20673277.0	40577	1.0	0.9996122046833698
+    tn	18435	698156.0	18435	1.0	0.9999255180790539
+    to	9143	274152.0	9143	1.0	0.9999489334383845
+    tpi	5930	97617.0	5930	1.0	0.9970906706823607
+    tr	48479	226677913.0	48479	1.0	0.9996681149962767
+    trv	32825	1000358.0	32825	1.0	0.9997051055722052
+    ts	13426	220686.0	13426	1.0	0.9995332735198427
+    tt	13849	188702558.0	13849	1.0	0.9998884540823235
+    tum	7766	1821856.0	7766	1.0	0.9999456598106546
+    tw	35367	1224850.0	35367	1.0	0.9998089561987182
+    ty	2753	31148.0	2753	1.0	0.9940606138435855
+    tyv	51289	1648671.0	51289	1.0	0.9997579868876204
+    udm	41846	863360.0	41846	1.0	0.9997289659006672
+    ug	46386	4071126.0	46386	1.0	0.9998820965010663
+    uk	50846	700425472.0	50846	1.0	0.9997714988868938
+    ur	32359	59795484.0	32359	1.0	0.9997222365488337
+    uz	41945	90204832.0	41945	1.0	0.9997332404543473
+    ve	4017	52239.0	4017	1.0	0.9972817243821666
+    vec	31616	14984384.0	31616	1.0	0.999863524586663
+    vep	41340	2381842.0	41340	1.0	0.9996939343583663
+    vi	25596	450791489.0	25596	1.0	0.9997141893688237
+    vls	42970	2277213.0	42970	1.0	0.9999183212110593
+    vo	19985	4434591.0	19985	1.0	0.9998858970308648
+    wa	33984	4299089.0	33984	1.0	0.9999227743366095
+    war	15663	239308241.0	15663	1.0	0.9999659142536591
+    wo	27695	829875.0	27695	1.0	0.9998132248832655
+    wuu	14295	6795772.0	14295	1.0	0.9996124060665955
+    xal	12490	190438.0	12490	1.0	0.9992333462859303
+    xh	36295	383876.0	36295	1.0	0.9998020194020986
+    xmf	50951	2870220.0	50951	1.0	0.9997174432621889
+    yi	30037	8749779.0	30037	1.0	0.9999204551337811
+    yo	37992	3415900.0	37992	1.0	0.9998202523493076
+    za	13555	233040.0	13555	1.0	0.998811362856162
+    zea	25811	1410350.0	25811	1.0	0.9999347679653987
+    zh	14344	3995201362.0	14344	1.0	0.9997210676261278
+    zh_classical	10821	4583828.0	10821	1.0	0.9998311454967334
+    zh_min_nan	15888	48541091.0	15888	1.0	0.9997312380144072
+    zh_yue	15969	36878104.0	15969	1.0	0.9996970288928085
+    zu	71846	1252029.0	71846	1.0	0.9997763630075661
+    average	28427.163076923076	135394273.5076923	28427.163076923076	1.0	0.998713981227937

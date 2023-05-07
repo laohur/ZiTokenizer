@@ -18,7 +18,7 @@ class ZiSegmenter:
             return [word, None, None]
         length = max(len(x[1]) for x in matchs)
         long_match = [x for x in matchs if len(x[1]) == length]
-        longest_match = long_match[(len(long_match)-1)//2]
+        longest_match = long_match[(len(long_match))//2]
         end,root = longest_match
         prefix = word[:end-len(root)+1]
         suffix = word[end+1:]

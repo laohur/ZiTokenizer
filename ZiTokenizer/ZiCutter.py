@@ -35,12 +35,10 @@ def loadHeZi(path, JiZi, max_len=50):
 
 
 class ZiCutter:
-    def __init__(self, dir=None, do_lower_case=True, max_len=50, k=10):
+    def __init__(self, dir=None, max_len=7):
         """
         """
-        self.do_lower_case = do_lower_case
         self.max_len = max_len
-        self.k = k
         self.here = os.path.dirname(__file__)
         self.HanZiDir = os.path.join(self.here, "HanZi")
         self.dir = dir
@@ -67,7 +65,7 @@ class ZiCutter:
         self.vocab = values
         logger.info(f"{dir} loaded vocab:{len(self.vocab)}")
 
-    def build(self, folder, roots, max_len=10):
+    def build(self, folder, roots, max_len=7):
         logger.warning(f" {folder} building")
         vocab = set(GouJian) | set(x for x in roots)
         JiZi = [x for x in vocab if len(x) == 1]

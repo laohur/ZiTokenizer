@@ -12,17 +12,20 @@ from .ZiSegmenter import ZiSegmenter
 
 
 class ZiTokenizer:
-    def __init__(self, dir=None, do_lower_case=True, max_split=3, unk_k=10, split_digit=False, never_split=[]) -> None:
+    def __init__(self, dir=None, do_lower_case=False, max_split=3, unk_k=10, split_digit=False, strip=False, add_dummy_prefix=True, never_split=[]) -> None:
         self.do_lower_case = do_lower_case
         self.max_split = max_split
         self.split_digit = split_digit
+        self.strip = strip
+        self.add_dummy_prefix = add_dummy_prefix
         self.dir = dir
         self.never_split = set(x for x in never_split)
         self.token2index = collections.OrderedDict()
         self.UNKs = [f"##{x}" for x in range(unk_k)]  # 10
         if dir == None:
             dir = "languages/global"
-        if dir:
+        vocab_path = os.path.join(dir, "vocab.txt")
+        if os.path.exists(vocab_path):
             self.load(dir)
 
     def load(self, folder):
@@ -51,7 +54,7 @@ class ZiTokenizer:
 
         root_words = set(root_words)
         never_split = self.never_split | root_words
-        self.unicodeTokenizer = UnicodeTokenizer(do_lower_case=self.do_lower_case, never_split=never_split, split_digit=self.split_digit)
+        self.unicodeTokenizer = UnicodeTokenizer(do_lower_case=self.do_lower_case, never_split=never_split, split_digit=self.split_digit, strip=self.strip,add_dummy_prefix=self.add_dummy_prefix)
         self.ziCutter = ZiCutter(folder)
         self.ziSegmenter = ZiSegmenter(
             root_words=root_words, prefixs=prefixs, suffixs=suffixs, max_split=self.max_split)
@@ -186,6 +189,10 @@ class ZiTokenizer:
         words = self.ziCutter.combineHanzi(ts)
         return words
 
-    def tokens2line(self, tokens):
+    def detokenize(self, tokens):
         line = self.unicodeTokenizer.detokenize(tokens)
         return line
+
+    def normalize(self, line):
+        tokens = self.unicodeTokenizer.tokenize(line)
+        return ' '.join(tokens)

@@ -6,7 +6,7 @@ import logzero
 from logzero import logger
 
 
-def load_frequency(src, alpha=1, do_lower_case=True, length_hat=50, min_freq=1):
+def load_frequency(src, alpha=1, do_lower_case=False, strip=False, length_hat=50, min_freq=1):
     freq = Counter()
     n_src = 0
     if ' ' not in src:
@@ -14,7 +14,13 @@ def load_frequency(src, alpha=1, do_lower_case=True, length_hat=50, min_freq=1):
     total = 0
     for l in os.popen(src):
         n_src += 1
-        k, v = l.split('\t ')
+        t = l.split('\t ')
+        if len(t) != 2:
+            logger.error((l, t))
+            continue
+        k, v = t
+        if strip:
+            k = k.strip()
         if len(k) > length_hat:
             continue
         if not k or len(k) == 0:
@@ -49,8 +55,10 @@ def describe(doc, total):
 
 if __name__ == "__main__":
 
-    path = f"./demo/word_frequency.tsv"
+    path = f"./demo/zh_classical-word_frequency.tsv"
     word_freq, total = load_frequency(path)
+    word_freq = list(word_freq.items())
+    word_freq.sort(key=lambda x: (-x[1], len(x[0]), x[0]))
     summary = describe(word_freq, total)
 
 """
