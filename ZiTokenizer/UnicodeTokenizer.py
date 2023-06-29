@@ -4,10 +4,9 @@ import unicodedata
 
 
 class UnicodeTokenizer:
-    def __init__(self,  do_lower_case=False, never_split=[], highUnicodePoint=8192, split_digit=False, strip=False, add_dummy_prefix=True):
+    def __init__(self,  do_lower_case=False, never_split=[], highUnicodePoint=8192, strip=False, add_dummy_prefix=False):
         self.do_lower_case = do_lower_case
         self.highUnicodePoint = highUnicodePoint
-        self.split_digit = split_digit
         self.strip = strip
         self.add_dummy_prefix = add_dummy_prefix
         self.never_split = set(x for x in never_split)
